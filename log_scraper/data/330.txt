@@ -1,0 +1,965 @@
+|j|☆RoA CE
+|j|☆MCDTeach
+|player|p1|RoA CE|282
+|player|p2|MCDTeach|167
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Amoonguss, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Keldeo|item
+|poke|p1|Medicham, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Skarmory, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Reuniclus, F|item
+|poke|p2|Latias, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MCDTeach)
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100\/100
+|switch|p2a: Heatran|Heatran, F, shiny|100\/100
+|turn|1
+|inactive|MCDTeach has 135 seconds left.
+|j| Bambby
+|inactive|MCDTeach has 120 seconds left.
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100\/100
+|-mega|p1a: Medicham|Medicham|Medichamite
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|move|p1a: Medicham|Fake Out|p2a: Reuniclus
+|-damage|p2a: Reuniclus|84\/100
+|
+|-heal|p2a: Reuniclus|90\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Jirachi|[miss]
+|-miss|p2a: Reuniclus|p1a: Jirachi
+|
+|-heal|p2a: Reuniclus|96\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Heatran|Heatran, F, shiny|100\/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Heatran
+|-sidestart|p2: MCDTeach|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Heatran|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: RoA CE|move: Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|97\/100
+|l| Bambby
+|
+|switch|p1a: Keldeo|Keldeo|100\/100
+|-damage|p1a: Keldeo|94\/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|100\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Latias|Latias, F|100\/100
+|-damage|p2a: Latias|88\/100|[from] Stealth Rock
+|move|p1a: Keldeo|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|63\/100
+|-status|p2a: Latias|brn
+|
+|-damage|p2a: Latias|50\/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|-damage|p1a: Jirachi|94\/100|[from] Stealth Rock
+|-mega|p2a: Latias|Latias|Latiasite
+|detailschange|p2a: Latias|Latias-Mega, F
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100\/100 brn
+|
+|-heal|p1a: Jirachi|100\/100|[from] item: Leftovers
+|-damage|p2a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|100\/100
+|-damage|p2a: Skarmory|88\/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|86\/100
+|-damage|p1a: Jirachi|84\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Clefable|Clefable, F, shiny|100\/100
+|move|p1a: Tornadus|Heat Wave|p2a: Clefable
+|-damage|p2a: Clefable|80\/100
+|
+|-heal|p2a: Clefable|86\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p1a: Tornadus|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|77\/100
+|-enditem|p2a: Clefable|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|51\/100
+|
+|upkeep
+|turn|10
+|inactive|RoA CE has 135 seconds left.
+|
+|move|p1a: Tornadus|Hurricane|p2a: Clefable
+|-damage|p2a: Clefable|39\/100
+|-start|p2a: Clefable|confusion
+|-activate|p2a: Clefable|confusion
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|89\/100
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|82\/100
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|-activate|p2a: Clefable|confusion
+|move|p2a: Clefable|Moonblast|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|75\/100
+|-unboost|p1a: Amoonguss|spa|1
+|
+|-heal|p1a: Amoonguss|82\/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Latias|Latias-Mega, F|88\/100 brn
+|-damage|p2a: Latias|76\/100 brn|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo|94\/100
+|-damage|p1a: Keldeo|88\/100|[from] Stealth Rock
+|
+|-damage|p2a: Latias|63\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Jirachi|Jirachi|84\/100
+|-damage|p1a: Jirachi|78\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100\/100 brn
+|
+|-heal|p1a: Jirachi|84\/100|[from] item: Leftovers
+|-damage|p2a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|64\/100 brn
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|84\/100
+|-damage|p1a: Tornadus|60\/100|[from] Stealth Rock
+|move|p2a: Latias|Roar|p1a: Tornadus
+|drag|p1a: Keldeo|Keldeo|88\/100
+|-damage|p1a: Keldeo|82\/100|[from] Stealth Rock
+|
+|-damage|p2a: Latias|51\/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|93\/100
+|-damage|p1a: Tornadus|68\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100\/100 brn
+|
+|-damage|p2a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Tornadus|Hurricane|p2a: Latias
+|-damage|p2a: Latias|57\/100 brn
+|move|p2a: Latias|Dragon Pulse|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|20\/100
+|
+|-damage|p2a: Latias|45\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Tornadus|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|23\/100 brn
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|84\/100
+|-damage|p1a: Jirachi|78\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|73\/100 brn
+|
+|-heal|p1a: Jirachi|84\/100|[from] item: Leftovers
+|-damage|p2a: Latias|61\/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|86\/100
+|-damage|p2a: Skarmory|74\/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|71\/100
+|-damage|p1a: Jirachi|67\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|54\/100
+|-damage|p1a: Tornadus|29\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Heatran|Heatran, F, shiny|100\/100
+|-damage|p2a: Heatran|88\/100|[from] Stealth Rock
+|move|p1a: Tornadus|Heat Wave|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|-heal|p2a: Heatran|94\/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91\/100
+|
+|switch|p1a: Keldeo|Keldeo|82\/100
+|-damage|p1a: Keldeo|76\/100|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|45\/100
+|
+|-heal|p2a: Heatran|97\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|MCDTeach has 135 seconds left.
+|
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Chansey|Chansey, F, shiny|100\/100
+|-damage|p2a: Chansey|88\/100|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Chansey
+|-damage|p2a: Chansey|64\/100
+|
+|upkeep
+|turn|22
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100\/100
+|
+|-heal|p1a: Amoonguss|94\/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|inactive|RoA CE has 135 seconds left.
+|
+|move|p2a: Chansey|Wish|p2a: Chansey
+|move|p1a: Amoonguss|Spore|p2a: Chansey
+|-status|p2a: Chansey|slp
+|
+|-heal|p1a: Amoonguss|100\/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|-curestatus|p2a: Chansey|slp|[from] ability: Natural Cure
+|switch|p2a: Latias|Latias-Mega, F|61\/100 brn
+|-damage|p2a: Latias|48\/100 brn|[from] Stealth Rock
+|switch|p1a: Tornadus|Tornadus-Therian, M|62\/100
+|-damage|p1a: Tornadus|37\/100|[from] Stealth Rock
+|
+|-heal|p2a: Latias|100\/100 brn|[from] move: Wish|[wisher] Chansey
+|-damage|p2a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p1a: Tornadus|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|67\/100 brn
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p1a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latias|atk|1
+|move|p2a: Latias|Dragon Pulse|p1a: Landorus
+|-damage|p1a: Landorus|36\/100
+|
+|-damage|p2a: Latias|55\/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|71\/100
+|-damage|p2a: Skarmory|59\/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|55\/100
+|-damage|p1a: Landorus|20\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|inactive|RoA CE has 105 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|70\/100
+|-damage|p1a: Tornadus|45\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|27
+|
+|switch|p2a: Clefable|Clefable, F, shiny|82\/100
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|76\/100
+|
+|switch|p1a: Jirachi|Jirachi|67\/100
+|-damage|p1a: Jirachi|61\/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|67\/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Heatran|Heatran, F, shiny|97\/100
+|-damage|p2a: Heatran|85\/100|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|82\/100
+|
+|switch|p1a: Keldeo|Keldeo|45\/100
+|-damage|p1a: Keldeo|39\/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|88\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p2a: Latias|Latias-Mega, F|55\/100 brn
+|-damage|p2a: Latias|42\/100 brn|[from] Stealth Rock
+|move|p1a: Keldeo|Focus Blast|p2a: Latias|[miss]
+|-miss|p1a: Keldeo|p2a: Latias
+|
+|-damage|p2a: Latias|30\/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|79\/100
+|-damage|p1a: Tornadus|54\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|80\/100 brn
+|
+|-damage|p2a: Latias|68\/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p1a: Tornadus|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|46\/100 brn
+|
+|switch|p1a: Jirachi|Jirachi|67\/100
+|-damage|p1a: Jirachi|61\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|96\/100 brn
+|
+|-heal|p1a: Jirachi|67\/100|[from] item: Leftovers
+|-damage|p2a: Latias|83\/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F, shiny|76\/100
+|move|p1a: Jirachi|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|69\/100
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100\/100
+|-damage|p1a: Medicham|94\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|33
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|96\/100
+|move|p1a: Medicham|Fake Out|p2a: Reuniclus
+|-damage|p2a: Reuniclus|80\/100
+|
+|-heal|p2a: Reuniclus|86\/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|switch|p1a: Jirachi|Jirachi|67\/100
+|-damage|p1a: Jirachi|61\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Jirachi|67\/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|92\/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|55\/100
+|-damage|p2a: Skarmory|43\/100|[from] Stealth Rock
+|move|p1a: Jirachi|Body Slam|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|37\/100
+|-damage|p1a: Jirachi|51\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|-heal|p1a: Jirachi|57\/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|87\/100
+|-damage|p1a: Tornadus|62\/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|87\/100 par
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Clefable|Clefable, F, shiny|69\/100
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|62\/100
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|57\/100
+|-damage|p1a: Jirachi|51\/100|[from] Stealth Rock
+|
+|-heal|p1a: Jirachi|57\/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|87\/100 par
+|-damage|p2a: Skarmory|75\/100 par|[from] Stealth Rock
+|move|p1a: Jirachi|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|72\/100 par
+|-damage|p1a: Jirachi|40\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p1a: Medicham|Medicham-Mega, M|94\/100
+|-damage|p1a: Medicham|88\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|39
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|92\/100
+|move|p1a: Medicham|Fake Out|p2a: Reuniclus
+|-damage|p2a: Reuniclus|75\/100
+|
+|-heal|p2a: Reuniclus|82\/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Focus Blast|p1a: Amoonguss|[miss]
+|-miss|p2a: Reuniclus|p1a: Amoonguss
+|
+|-heal|p2a: Reuniclus|88\/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|94\/100|[from] item: Black Sludge
+|upkeep
+|turn|41
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|72\/100 par
+|-damage|p2a: Skarmory|60\/100 par|[from] Stealth Rock
+|switch|p1a: Tornadus|Tornadus-Therian, M|95\/100
+|-damage|p1a: Tornadus|70\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|42
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p2a: Heatran|Heatran, F, shiny|88\/100
+|-damage|p2a: Heatran|76\/100|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|73\/100
+|
+|switch|p1a: Keldeo|Keldeo|39\/100
+|-damage|p1a: Keldeo|33\/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|79\/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|RoA CE has 135 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p1a: Medicham|Medicham-Mega, M|88\/100
+|-damage|p1a: Medicham|82\/100|[from] Stealth Rock
+|switch|p2a: Latias|Latias-Mega, F|83\/100 brn
+|-damage|p2a: Latias|71\/100 brn|[from] Stealth Rock
+|
+|-damage|p2a: Latias|59\/100 brn|[from] brn
+|upkeep
+|turn|44
+|inactive|RoA CE has 135 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|88\/100
+|move|p1a: Medicham|High Jump Kick|p2a: Reuniclus
+|-resisted|p2a: Reuniclus
+|-damage|p2a: Reuniclus|46\/100
+|
+|-heal|p2a: Reuniclus|53\/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|100\/100
+|
+|upkeep
+|turn|46
+|
+|switch|p2a: Clefable|Clefable, F, shiny|62\/100
+|move|p1a: Tornadus|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|56\/100
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Tornadus|Hurricane|p2a: Clefable
+|-damage|p2a: Clefable|17\/100
+|-start|p2a: Clefable|confusion
+|-activate|p2a: Clefable|confusion
+|-damage|p2a: Clefable|12\/100|[from] confusion
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Tornadus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|6\/100
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|-activate|p2a: Clefable|confusion
+|-damage|p2a: Clefable|1\/100|[from] confusion
+|
+|-heal|p1a: Amoonguss|94\/100|[from] item: Black Sludge
+|upkeep
+|turn|49
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Latias|Latias-Mega, F|59\/100 brn
+|-damage|p2a: Latias|46\/100 brn|[from] Stealth Rock
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Latias
+|-damage|p2a: Latias|29\/100 brn
+|
+|-heal|p1a: Amoonguss|100\/100|[from] item: Black Sludge
+|-damage|p2a: Latias|17\/100 brn|[from] brn
+|upkeep
+|turn|50
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|67\/100 brn
+|
+|-damage|p2a: Latias|55\/100 brn|[from] brn
+|upkeep
+|turn|51
+|j| MetamorphosisTests
+|
+|move|p1a: Tornadus|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|26\/100 brn
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|76\/100 brn
+|
+|-damage|p2a: Latias|63\/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|move|p1a: Tornadus|Hurricane|p2a: Latias
+|-damage|p2a: Latias|34\/100 brn
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|85\/100 brn
+|
+|-damage|p2a: Latias|72\/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|move|p1a: Tornadus|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|50\/100 brn
+|move|p2a: Latias|Dragon Pulse|p1a: Tornadus
+|-damage|p1a: Tornadus|44\/100
+|
+|-damage|p2a: Latias|38\/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|move|p1a: Tornadus|Hurricane|p2a: Latias
+|-damage|p2a: Latias|5\/100 brn
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|55\/100 brn
+|
+|-damage|p2a: Latias|42\/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|move|p1a: Tornadus|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|20\/100 brn
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|70\/100 brn
+|
+|-damage|p2a: Latias|58\/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|move|p1a: Tornadus|Hurricane|p2a: Latias|[miss]
+|-miss|p1a: Tornadus|p2a: Latias
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100\/100 brn
+|
+|-damage|p2a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|move|p1a: Tornadus|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|67\/100 brn
+|
+|switch|p1a: Jirachi|Jirachi|40\/100
+|-damage|p1a: Jirachi|34\/100|[from] Stealth Rock
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|22\/100
+|
+|-heal|p1a: Jirachi|28\/100|[from] item: Leftovers
+|-damage|p2a: Latias|54\/100 brn|[from] brn
+|upkeep
+|turn|58
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|100\/100 brn
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|77\/100 brn
+|
+|switch|p1a: Landorus|Landorus-Therian, M|20\/100
+|-damage|p1a: Landorus|8\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latias|atk|1
+|
+|-damage|p2a: Latias|65\/100 brn|[from] brn
+|upkeep
+|turn|59
+|inactive|MCDTeach has 135 seconds left.
+|
+|switch|p2a: Skarmory|Skarmory, M, shiny|60\/100 par
+|-damage|p2a: Skarmory|48\/100 par|[from] Stealth Rock
+|move|p1a: Landorus|Explosion|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|18\/100 par
+|faint|p1a: Landorus
+|
+|upkeep
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|inactive|RoA CE has 105 seconds left.
+|
+|switch|p1a: Medicham|Medicham-Mega, M|82\/100
+|-damage|p1a: Medicham|76\/100|[from] Stealth Rock
+|turn|60
+|
+|move|p1a: Medicham|Ice Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-damage|p1a: Medicham|60\/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100\/100
+|turn|61
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Calm Mind|p2a: Reuniclus
+|-boost|p2a: Reuniclus|spa|1
+|-boost|p2a: Reuniclus|spd|1
+|
+|-heal|p1a: Amoonguss|94\/100|[from] item: Black Sludge
+|upkeep
+|turn|62
+|
+|switch|p2a: Clefable|Clefable, F, shiny|1\/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-heal|p1a: Amoonguss|95\/100|[from] drain|[of] p2a: Clefable
+|faint|p2a: Clefable
+|
+|-heal|p1a: Amoonguss|100\/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, F, shiny|79\/100
+|-damage|p2a: Heatran|67\/100|[from] Stealth Rock
+|turn|63
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|inactive|RoA CE has 105 seconds left.
+|
+|move|p2a: Heatran|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|-heal|p2a: Heatran|73\/100|[from] item: Leftovers
+|upkeep
+|turn|64
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|77\/100
+|-damage|p1a: Tornadus|52\/100|[from] Stealth Rock
+|move|p2a: Heatran|Lava Plume|p1a: Tornadus
+|-damage|p1a: Tornadus|24\/100
+|
+|-heal|p2a: Heatran|79\/100|[from] item: Leftovers
+|upkeep
+|turn|65
+|
+|move|p1a: Tornadus|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|63\/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Heatran|Lava Plume|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|j| PersephoneXIV
+|l| MetamorphosisTests
+|
+|switch|p1a: Keldeo|Keldeo|33\/100
+|-damage|p1a: Keldeo|27\/100|[from] Stealth Rock
+|turn|66
+|inactive|RoA CE has 135 seconds left.
+|inactive|RoA CE has 120 seconds left.
+|
+|switch|p2a: Latias|Latias-Mega, F|65\/100 brn
+|-damage|p2a: Latias|53\/100 brn|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|29\/100 brn
+|
+|-damage|p2a: Latias|17\/100 brn|[from] brn
+|upkeep
+|turn|67
+|
+|switch|p1a: Medicham|Medicham-Mega, M|60\/100
+|-damage|p1a: Medicham|53\/100|[from] Stealth Rock
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|67\/100 brn
+|
+|-damage|p2a: Latias|54\/100 brn|[from] brn
+|upkeep
+|turn|68
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Jirachi|Jirachi|28\/100
+|-damage|p1a: Jirachi|22\/100|[from] Stealth Rock
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|10\/100
+|
+|-heal|p1a: Jirachi|16\/100|[from] item: Leftovers
+|-damage|p2a: Latias|42\/100 brn|[from] brn
+|upkeep
+|turn|69
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|92\/100 brn
+|move|p1a: Jirachi|Body Slam|p2a: Latias
+|-damage|p2a: Latias|78\/100 brn
+|
+|-heal|p1a: Jirachi|23\/100|[from] item: Leftovers
+|-damage|p2a: Latias|65\/100 brn|[from] brn
+|upkeep
+|turn|70
+|
+|move|p2a: Latias|Dragon Pulse|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|10\/100
+|move|p1a: Jirachi|U-turn|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|42\/100 brn
+|
+|switch|p1a: Medicham|Medicham-Mega, M|53\/100
+|-damage|p1a: Medicham|47\/100|[from] Stealth Rock
+|
+|-damage|p2a: Latias|30\/100 brn|[from] brn
+|upkeep
+|turn|71
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100\/100
+|move|p1a: Medicham|Fake Out|p2a: Reuniclus
+|-damage|p2a: Reuniclus|83\/100
+|
+|-heal|p2a: Reuniclus|89\/100|[from] item: Leftovers
+|upkeep
+|turn|72
+|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psyshock|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|38\/100
+|
+|-heal|p2a: Reuniclus|95\/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|44\/100|[from] item: Black Sludge
+|upkeep
+|turn|73
+|inactive|RoA CE has 135 seconds left.
+|inactive|MCDTeach has 135 seconds left.
+|inactive|MCDTeach has 120 seconds left.
+|
+|switch|p1a: Medicham|Medicham-Mega, M|47\/100
+|-damage|p1a: Medicham|41\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psyshock|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|-heal|p2a: Reuniclus|100\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Amoonguss|Amoonguss, M|78\/100
+|-damage|p1a: Amoonguss|65\/100|[from] Stealth Rock
+|turn|74
+|
+|switch|p2a: Chansey|Chansey, F, shiny|100\/100
+|-damage|p2a: Chansey|88\/100|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo|27\/100
+|-damage|p1a: Keldeo|20\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|75
+|
+|switch|p1a: Amoonguss|Amoonguss, M|98\/100
+|-damage|p1a: Amoonguss|86\/100|[from] Stealth Rock
+|switch|p2a: Latias|Latias-Mega, F|30\/100 brn
+|-damage|p2a: Latias|17\/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Amoonguss|92\/100|[from] item: Black Sludge
+|-damage|p2a: Latias|5\/100 brn|[from] brn
+|upkeep
+|turn|76
+|
+|move|p2a: Latias|Roost|p2a: Latias
+|-heal|p2a: Latias|55\/100 brn
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Latias
+|-damage|p2a: Latias|39\/100 brn
+|
+|-heal|p1a: Amoonguss|98\/100|[from] item: Black Sludge
+|-damage|p2a: Latias|26\/100 brn|[from] brn
+|upkeep
+|turn|77
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p2a: Heatran|Heatran, F, shiny|63\/100
+|-damage|p2a: Heatran|50\/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Heatran
+|-immune|p2a: Heatran|[msg]
+|
+|-heal|p1a: Amoonguss|100\/100|[from] item: Black Sludge
+|upkeep
+|turn|78
+|
+|move|p2a: Heatran|Lava Plume|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|41\/100
+|move|p1a: Amoonguss|Spore|p2a: Heatran
+|-status|p2a: Heatran|slp
+|
+|-heal|p1a: Amoonguss|47\/100|[from] item: Black Sludge
+|upkeep
+|turn|79
+|j| the last pzccz
+|
+|switch|p2a: Latias|Latias-Mega, F|26\/100 brn
+|-damage|p2a: Latias|14\/100 brn|[from] Stealth Rock
+|switch|p1a: Keldeo|Keldeo|20\/100
+|-damage|p1a: Keldeo|14\/100|[from] Stealth Rock
+|
+|-damage|p2a: Latias|1\/100 brn|[from] brn
+|upkeep
+|turn|80
+|l| PersephoneXIV
+|inactive|RoA CE has 135 seconds left.
+|
+|switch|p1a: Amoonguss|Amoonguss, M|80\/100
+|-damage|p1a: Amoonguss|68\/100|[from] Stealth Rock
+|move|p2a: Latias|Dragon Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|36\/100
+|
+|-heal|p1a: Amoonguss|43\/100|[from] item: Black Sludge
+|-damage|p2a: Latias|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Latias
+|
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100\/100
+|turn|81
+|
+|switch|p1a: Jirachi|Jirachi|10\/100
+|-damage|p1a: Jirachi|4\/100|[from] Stealth Rock
+|move|p2a: Reuniclus|Psyshock|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|-message|RoA CE forfeited.
+|
+|win|MCDTeach
+|l|☆RoA CE
+|raw|RoA CE's rating: 1588 &rarr; <strong>1558<\/strong><br \/>(-30 for losing)
+|raw|MCDTeach's rating: 1412 &rarr; <strong>1441<\/strong><br \/>(+29 for winning)

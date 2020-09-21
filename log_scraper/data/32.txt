@@ -1,0 +1,367 @@
+|j|☆Vodk4
+|j|☆goodnewsbears
+|player|p1|Vodk4|157
+|player|p2|goodnewsbears|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pinsir, M|item
+|poke|p1|Raikou|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Mew|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Clefable, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Scizor, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Mew|Mew|100\/100
+|switch|p2a: Tentacruel|Tentacruel, M|100\/100
+|turn|1
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100\/100
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Keldeo
+|-sidestart|p1: Vodk4|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Keldeo|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|82\/100
+|move|p2a: Tentacruel|Scald|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|87\/100
+|
+|-heal|p2a: Tentacruel|88\/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|inactive|Vodk4 has 135 seconds left.
+|
+|move|p1a: Keldeo|Scald|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|68\/100
+|-status|p2a: Tentacruel|brn
+|move|p2a: Tentacruel|Acid Spray|p1a: Keldeo
+|-damage|p1a: Keldeo|73\/100
+|-unboost|p1a: Keldeo|spd|2
+|
+|-heal|p2a: Tentacruel|74\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|61\/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p1a: Mew|Mew|100\/100
+|-status|p1a: Mew|psn
+|move|p2a: Tentacruel|Scald|p1a: Mew
+|-damage|p1a: Mew|86\/100 psn
+|
+|-heal|p1a: Mew|92\/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|68\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mew|80\/100 psn|[from] psn
+|-damage|p2a: Tentacruel|55\/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100\/100 psn
+|move|p2a: Tentacruel|Acid Spray|p1a: Mew
+|-damage|p1a: Mew|93\/100 psn
+|-unboost|p1a: Mew|spd|2
+|
+|-heal|p1a: Mew|99\/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|61\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mew|87\/100 psn|[from] psn
+|-damage|p2a: Tentacruel|49\/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Tentacruel|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|44\/100
+|
+|-heal|p2a: Tentacruel|55\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|43\/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|switch|p1a: Mew|Mew|87\/100 psn
+|move|p2a: Tentacruel|Scald|p1a: Mew
+|-damage|p1a: Mew|72\/100 psn
+|
+|-heal|p1a: Mew|78\/100 psn|[from] item: Leftovers
+|-heal|p2a: Tentacruel|49\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mew|66\/100 psn|[from] psn
+|-damage|p2a: Tentacruel|36\/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|100\/100 psn
+|
+|-damage|p1a: Mew|88\/100 psn|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+|
+|move|p2a: Gliscor|Earthquake|p1a: Mew
+|-damage|p1a: Mew|58\/100 psn
+|move|p1a: Mew|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Mew|64\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|51\/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, M|100\/100
+|turn|10
+|
+|move|p1a: Mew|Fire Blast|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Mew|58\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|45\/100 psn|[from] psn
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|turn|11
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Mew|Soft-Boiled|p1a: Mew
+|-heal|p1a: Mew|95\/100 psn
+|
+|-heal|p1a: Mew|100\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|88\/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Landorus
+|-status|p1a: Landorus|brn
+|
+|-damage|p1a: Landorus|88\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Landorus|Knock Off|p2a: Talonflame
+|-damage|p2a: Talonflame|91\/100
+|-enditem|p2a: Talonflame|Leftovers|[from] move: Knock Off|[of] p1a: Landorus
+|
+|-damage|p1a: Landorus|76\/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Landorus|Stealth Rock|p2a: Talonflame
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|-damage|p1a: Landorus|64\/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|18\/100 brn
+|-damage|p2a: Talonflame|75\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p2a: Talonflame|59\/100|[from] Recoil
+|move|p1a: Landorus|U-turn|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|58\/100
+|
+|switch|p1a: Mew|Mew|88\/100 psn
+|
+|-heal|p1a: Mew|94\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|82\/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|18\/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|
+|-damage|p1a: Landorus|6\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Landorus|Earthquake|p2a: Talonflame
+|-immune|p2a: Talonflame|[msg]
+|
+|-damage|p1a: Landorus|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Landorus
+|
+|switch|p1a: Excadrill|Excadrill, M|44\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p2a: Talonflame|86\/100|[from] Recoil
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Raikou|Raikou, shiny|100\/100
+|-status|p1a: Raikou|psn
+|-ability|p1a: Raikou|Pressure
+|turn|19
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Raikou|Thunderbolt|p2a: Talonflame
+|-damage|p2a: Talonflame|60\/100
+|
+|-damage|p1a: Raikou|88\/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Raikou|Thunderbolt|p2a: Talonflame
+|-damage|p2a: Talonflame|63\/100
+|
+|-damage|p1a: Raikou|76\/100 psn|[from] psn
+|upkeep
+|turn|21
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Raikou|Thunderbolt|p2a: Talonflame
+|-damage|p2a: Talonflame|63\/100
+|
+|-damage|p1a: Raikou|63\/100 psn|[from] psn
+|upkeep
+|turn|22
+|inactive|Vodk4 has 135 seconds left.
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Raikou|Thunderbolt|p2a: Talonflame
+|-damage|p2a: Talonflame|63\/100
+|
+|-damage|p1a: Raikou|51\/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Raikou|Thunderbolt|p2a: Talonflame
+|-damage|p2a: Talonflame|60\/100
+|
+|-damage|p1a: Raikou|38\/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Raikou
+|-resisted|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|-damage|p2a: Talonflame|49\/100|[from] Recoil
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|switch|p1a: Mew|Mew|82\/100 psn
+|turn|25
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Mew
+|-damage|p1a: Mew|25\/100 psn
+|-damage|p2a: Talonflame|28\/100|[from] Recoil
+|move|p1a: Mew|Ice Beam|p2a: Talonflame
+|-damage|p2a: Talonflame|10\/100
+|
+|-heal|p1a: Mew|32\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|19\/100 psn|[from] psn
+|upkeep
+|turn|26
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|60\/100
+|move|p1a: Mew|Ice Beam|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-crit|p2a: Talonflame
+|-damage|p2a: Talonflame|45\/100
+|
+|-heal|p1a: Mew|25\/100 psn|[from] item: Leftovers
+|-damage|p1a: Mew|13\/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-damage|p2a: Talonflame|40\/100|[from] Recoil
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|73\/100
+|-status|p1a: Keldeo|psn
+|turn|28
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-damage|p2a: Talonflame|19\/100|[from] Recoil
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Pinsir|Pinsir, M|100\/100
+|-status|p1a: Pinsir|psn
+|turn|29
+|
+|-mega|p1a: Pinsir|Pinsir|Pinsirite
+|detailschange|p1a: Pinsir|Pinsir-Mega, M
+|move|p1a: Pinsir|Quick Attack|p2a: Talonflame
+|-damage|p2a: Talonflame|4\/100
+|move|p2a: Talonflame|Brave Bird|p1a: Pinsir
+|-supereffective|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p1a: Pinsir
+|faint|p2a: Talonflame
+|
+|win|goodnewsbears
+|raw|Vodk4's rating: 1336 &rarr; <strong>1325<\/strong><br \/>(-11 for losing)
+|raw|goodnewsbears's rating: 1498 &rarr; <strong>1509<\/strong><br \/>(+11 for winning)
+|l|☆Vodk4

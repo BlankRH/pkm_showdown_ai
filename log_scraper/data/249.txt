@@ -1,0 +1,272 @@
+|j|☆Fldandtooton
+|j|☆goodnewsbears
+|player|p1|Fldandtooton|39
+|player|p2|goodnewsbears|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Raikou|item
+|poke|p1|Volcanion|item
+|poke|p1|Metagross|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Chansey, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Scizor, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|inactive|Fldandtooton has 135 seconds left.
+|
+|start
+|switch|p1a: Volcanion|Volcanion|100\/100
+|switch|p2a: Tentacruel|Tentacruel, F|100\/100
+|turn|1
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|74\/100
+|-status|p2a: Tentacruel|brn
+|move|p2a: Tentacruel|Acid Spray|p1a: Volcanion
+|-damage|p1a: Volcanion|87\/100
+|-unboost|p1a: Volcanion|spd|2
+|
+|-heal|p2a: Tentacruel|80\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|68\/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100\/100
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Ferrothorn
+|-sidestart|p1: Fldandtooton|move: Toxic Spikes
+|
+|-heal|p2a: Tentacruel|74\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|61\/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: Clefable
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Stealth Rock|p1a: Ferrothorn
+|-sidestart|p1: Fldandtooton|move: Stealth Rock
+|move|p1a: Ferrothorn|Gyro Ball|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|53\/100
+|
+|-heal|p2a: Clefable|59\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100
+|-damage|p1a: Skarmory|88\/100|[from] Stealth Rock
+|move|p2a: Clefable|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|39\/100
+|-status|p1a: Skarmory|brn
+|
+|-heal|p1a: Skarmory|45\/100 brn|[from] item: Leftovers
+|-heal|p2a: Clefable|65\/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|32\/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|move|p1a: Skarmory|Defog|p2a: Clefable
+|-unboost|p2a: Clefable|evasion|1
+|-sideend|p2: goodnewsbears|Stealth Rock|[from] move: Defog|[of] p2a: Clefable
+|-sideend|p1: Fldandtooton|Toxic Spikes|[from] move: Defog|[of] p1a: Skarmory
+|-sideend|p1: Fldandtooton|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|move|p2a: Clefable|Flamethrower|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Clefable|72\/100|[from] item: Leftovers
+|upkeep
+|c|☆goodnewsbears|Lmao
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p1a: Raikou|Raikou|100\/100
+|-ability|p1a: Raikou|Pressure
+|turn|7
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|
+|move|p1a: Raikou|Substitute|p1a: Raikou
+|-start|p1a: Raikou|Substitute
+|-damage|p1a: Raikou|76\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Raikou
+|-sidestart|p1: Fldandtooton|move: Stealth Rock
+|
+|-heal|p1a: Raikou|82\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Raikou
+|-end|p1a: Raikou|Substitute
+|
+|-heal|p1a: Raikou|88\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|84\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Fldandtooton has 135 seconds left.
+|
+|move|p1a: Raikou|Calm Mind|p1a: Raikou
+|-boost|p1a: Raikou|spa|1
+|-boost|p1a: Raikou|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Raikou
+|-damage|p1a: Raikou|54\/100
+|-unboost|p1a: Raikou|spa|1
+|
+|-heal|p1a: Raikou|60\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|90\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|52\/100
+|move|p2a: Clefable|Moonblast|p1a: Raikou
+|-damage|p1a: Raikou|26\/100
+|
+|-heal|p1a: Raikou|33\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|58\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Fldandtooton|unaware op
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|14\/100
+|move|p2a: Clefable|Moonblast|p1a: Raikou
+|-damage|p1a: Raikou|1\/100
+|
+|-heal|p1a: Raikou|8\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|21\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆goodnewsbears|Your an idiot
+|c|☆goodnewsbears|lmao
+|c|☆Fldandtooton|how
+|
+|move|p1a: Raikou|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Raikou|14\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100\/100
+|turn|13
+|
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, M
+|-ability|p2a: Alakazam|Pressure|[from] ability: Trace|[of] p1a: Raikou
+|-ability|p2a: Alakazam|Pressure
+|move|p2a: Alakazam|Psychic|p1a: Raikou
+|-damage|p1a: Raikou|0 fnt
+|faint|p1a: Raikou
+|
+|upkeep
+|
+|switch|p1a: Metagross|Metagross|100\/100
+|-damage|p1a: Metagross|95\/100|[from] Stealth Rock
+|turn|14
+|
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|detailschange|p1a: Metagross|Metagross-Mega
+|move|p2a: Alakazam|Hidden Power|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|37\/100
+|move|p1a: Metagross|Meteor Mash|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|turn|15
+|inactive|Fldandtooton has 135 seconds left.
+|
+|move|p1a: Metagross|Meteor Mash|p2a: Scizor|[miss]
+|-miss|p1a: Metagross|p2a: Scizor
+|move|p2a: Scizor|U-turn|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|c|☆Fldandtooton|omg
+|
+|switch|p2a: Tentacruel|Tentacruel, F|61\/100 brn
+|
+|-heal|p2a: Tentacruel|67\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|55\/100 brn|[from] brn
+|upkeep
+|j| Greensaur94
+|
+|switch|p1a: Volcanion|Volcanion|87\/100
+|-damage|p1a: Volcanion|62\/100|[from] Stealth Rock
+|turn|16
+|c|☆goodnewsbears|Omg that 20 percent would of mattered hahah
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|25\/100 brn
+|move|p2a: Tentacruel|Acid Spray|p1a: Volcanion
+|-damage|p1a: Volcanion|46\/100
+|-unboost|p1a: Volcanion|spd|2
+|
+|-heal|p2a: Tentacruel|31\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|19\/100 brn|[from] brn
+|upkeep
+|turn|17
+|c|☆Fldandtooton|everything can
+|
+|move|p1a: Volcanion|Steam Eruption|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|c|☆goodnewsbears|No just play better
+|c|☆goodnewsbears|Lol
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100
+|turn|18
+|c|☆Fldandtooton|how am i suppsosed to play better
+|
+|move|p2a: Gliscor|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|c|☆Fldandtooton|for once you beat me :\/
+|c|☆goodnewsbears|Then don’t play at all
+|-message|Fldandtooton forfeited.
+|
+|win|goodnewsbears
+|l|☆Fldandtooton
+|raw|Fldandtooton's rating: 1284 &rarr; <strong>1273<\/strong><br \/>(-11 for losing)
+|raw|goodnewsbears's rating: 1509 &rarr; <strong>1517<\/strong><br \/>(+8 for winning)

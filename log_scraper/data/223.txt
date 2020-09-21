@@ -1,0 +1,463 @@
+|j|☆bradstala7
+|j|☆goodnewsbears
+|player|p1|bradstala7|170
+|player|p2|goodnewsbears|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Slowbro, M|item
+|poke|p1|Bronzong|item
+|poke|p1|Machamp, F|item
+|poke|p1|Donphan, F|item
+|poke|p1|Cloyster, M|item
+|poke|p1|Chandelure, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Scizor, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: LEGIT TANK|Bronzong|100\/100
+|switch|p2a: Clefable|Clefable, M|100\/100
+|turn|1
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|inactive|goodnewsbears has 105 seconds left.
+|inactive|goodnewsbears has 90 seconds left.
+|
+|move|p2a: Clefable|Thunder Wave|p1a: LEGIT TANK
+|-status|p1a: LEGIT TANK|par
+|move|p1a: LEGIT TANK|Stealth Rock|p2a: Clefable
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Clefable|Stealth Rock|p1a: LEGIT TANK
+|-sidestart|p1: bradstala7|move: Stealth Rock
+|move|p1a: LEGIT TANK|Trick Room|p1a: LEGIT TANK
+|-fieldstart|move: Trick Room|[of] p1a: LEGIT TANK
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Autobot|Donphan, F|100\/100
+|-damage|p1a: Autobot|94\/100|[from] Stealth Rock
+|switch|p2a: Scizor|Scizor, M|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|
+|-heal|p1a: Autobot|100\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Autobot|Rapid Spin|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|85\/100
+|-sideend|p1: bradstala7|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Autobot
+|move|p2a: Scizor|U-turn|p1a: Autobot
+|-damage|p1a: Autobot|58\/100
+|inactive|goodnewsbears has 135 seconds left.
+|j| DefinitelyNotPiano
+|j| Splunky
+|
+|switch|p2a: Alakazam|Alakazam, F|100\/100
+|
+|-heal|p1a: Autobot|64\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-ability|p2a: Alakazam|Sturdy|[from] ability: Trace|[of] p1a: Autobot
+|move|p1a: Autobot|Knock Off|p2a: Alakazam
+|-supereffective|p2a: Alakazam
+|-damage|p2a: Alakazam|7\/100
+|move|p2a: Alakazam|Energy Ball|p1a: Autobot
+|-supereffective|p1a: Autobot
+|-damage|p1a: Autobot|0 fnt
+|faint|p1a: Autobot
+|
+|upkeep
+|
+|switch|p1a: Suns out guns out|Machamp, F|100\/100
+|turn|6
+|
+|move|p1a: Suns out guns out|Bullet Punch|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|-fieldend|move: Trick Room
+|-status|p1a: Suns out guns out|brn|[from] item: Flame Orb
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|-damage|p2a: Clefable|88\/100|[from] Stealth Rock
+|turn|7
+|
+|move|p1a: Suns out guns out|Bullet Punch|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|54\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Suns out guns out
+|-sidestart|p1: bradstala7|move: Stealth Rock
+|
+|-heal|p2a: Clefable|60\/100|[from] item: Leftovers
+|-damage|p1a: Suns out guns out|88\/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p1a: Suns out guns out|Bullet Punch|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|27\/100
+|move|p2a: Clefable|Moonblast|p1a: Suns out guns out
+|-supereffective|p1a: Suns out guns out
+|-damage|p1a: Suns out guns out|10\/100 brn
+|-unboost|p1a: Suns out guns out|spa|1
+|
+|-heal|p2a: Clefable|33\/100|[from] item: Leftovers
+|-damage|p1a: Suns out guns out|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Suns out guns out
+|
+|switch|p1a: LEGIT TANK|Bronzong|100\/100 par
+|-damage|p1a: LEGIT TANK|94\/100 par|[from] Stealth Rock
+|turn|9
+|
+|switch|p2a: Scizor|Scizor, M|85\/100
+|-damage|p2a: Scizor|73\/100|[from] Stealth Rock
+|move|p1a: LEGIT TANK|Gyro Ball|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|50\/100
+|
+|-heal|p1a: LEGIT TANK|100\/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Scizor|U-turn|p1a: LEGIT TANK
+|-damage|p1a: LEGIT TANK|51\/100 par
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100
+|-damage|p2a: Gliscor|88\/100|[from] Stealth Rock
+|move|p1a: LEGIT TANK|Trick Room|p1a: LEGIT TANK
+|-fieldstart|move: Trick Room|[of] p1a: LEGIT TANK
+|
+|-heal|p1a: LEGIT TANK|57\/100 par|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|switch|p1a: Badass|Cloyster, M|100\/100
+|-damage|p1a: Badass|75\/100|[from] Stealth Rock
+|switch|p2a: Clefable|Clefable, M|33\/100
+|-damage|p2a: Clefable|20\/100|[from] Stealth Rock
+|
+|-heal|p2a: Clefable|26\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Clefable|Thunder Wave|p1a: Badass
+|-status|p1a: Badass|par
+|move|p1a: Badass|Shell Smash|p1a: Badass
+|-unboost|p1a: Badass|def|1
+|-unboost|p1a: Badass|spd|1
+|-boost|p1a: Badass|atk|2
+|-boost|p1a: Badass|spa|2
+|-boost|p1a: Badass|spe|2
+|
+|-heal|p2a: Clefable|32\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|cant|p1a: Badass|par
+|move|p2a: Clefable|Moonblast|p1a: Badass
+|-damage|p1a: Badass|7\/100 par
+|
+|-heal|p2a: Clefable|39\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|cant|p1a: Badass|par
+|move|p2a: Clefable|Moonblast|p1a: Badass
+|-damage|p1a: Badass|0 fnt
+|faint|p1a: Badass
+|
+|-heal|p2a: Clefable|45\/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|switch|p1a: APC|Chandelure, F|100\/100
+|-damage|p1a: APC|76\/100|[from] Stealth Rock
+|turn|15
+|
+|move|p1a: APC|Substitute|p1a: APC
+|-start|p1a: APC|Substitute
+|-damage|p1a: APC|51\/100
+|move|p2a: Clefable|Thunder Wave|p1a: APC
+|-fail|p1a: APC
+|
+|-heal|p2a: Clefable|51\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: APC|Calm Mind|p1a: APC
+|-boost|p1a: APC|spa|1
+|-boost|p1a: APC|spd|1
+|move|p2a: Clefable|Ice Beam|p1a: APC
+|-resisted|p1a: APC
+|-activate|p1a: APC|move: Substitute|[damage]
+|
+|-heal|p2a: Clefable|57\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: APC|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: APC|41\/100|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100\/100
+|-damage|p2a: Tentacruel|88\/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: APC|Shadow Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|36\/100
+|-unboost|p2a: Tentacruel|spd|1
+|-damage|p1a: APC|31\/100|[from] item: Life Orb
+|move|p2a: Tentacruel|Scald|p1a: APC
+|-supereffective|p1a: APC
+|-end|p1a: APC|Substitute
+|
+|-heal|p2a: Tentacruel|43\/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p1a: APC|Shadow Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|-damage|p1a: APC|21\/100|[from] item: Life Orb
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, F|100\/100
+|-damage|p2a: Talonflame|51\/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Smoke weed Everyda|Slowbro, M|100\/100
+|-damage|p1a: Smoke weed Everyda|88\/100|[from] Stealth Rock
+|move|p2a: Talonflame|Brave Bird|p1a: Smoke weed Everyda
+|-damage|p1a: Smoke weed Everyda|66\/100
+|-damage|p2a: Talonflame|43\/100|[from] Recoil
+|
+|-heal|p2a: Talonflame|49\/100|[from] item: Leftovers
+|-heal|p1a: Smoke weed Everyda|73\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Smoke weed Everyda
+|-status|p1a: Smoke weed Everyda|brn
+|move|p1a: Smoke weed Everyda|Trick Room|p1a: Smoke weed Everyda
+|-fieldstart|move: Trick Room|[of] p1a: Smoke weed Everyda
+|
+|-heal|p1a: Smoke weed Everyda|79\/100 brn|[from] item: Leftovers
+|-heal|p2a: Talonflame|55\/100|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|66\/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Smoke weed Everyda|Surf|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|45\/100
+|
+|-heal|p1a: Smoke weed Everyda|72\/100 brn|[from] item: Leftovers
+|-heal|p2a: Talonflame|51\/100|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|60\/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Smoke weed Everyda|Surf|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|45\/100
+|
+|-heal|p1a: Smoke weed Everyda|66\/100 brn|[from] item: Leftovers
+|-heal|p2a: Talonflame|51\/100|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|54\/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Smoke weed Everyda|Yawn|p2a: Talonflame
+|-start|p2a: Talonflame|move: Yawn|[of] p1a: Smoke weed Everyda
+|
+|-heal|p1a: Smoke weed Everyda|60\/100 brn|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|47\/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Smoke weed Everyda
+|-damage|p1a: Smoke weed Everyda|25\/100 brn
+|-damage|p2a: Talonflame|92\/100|[from] Recoil
+|move|p1a: Smoke weed Everyda|Surf|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|38\/100
+|
+|-end|p2a: Talonflame|move: Yawn|[silent]
+|-status|p2a: Talonflame|slp
+|-heal|p1a: Smoke weed Everyda|31\/100 brn|[from] item: Leftovers
+|-heal|p2a: Talonflame|45\/100 slp|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|19\/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|26
+|
+|switch|p2a: Scizor|Scizor, M|50\/100
+|-damage|p2a: Scizor|38\/100|[from] Stealth Rock
+|move|p1a: Smoke weed Everyda|Surf|p2a: Scizor
+|-damage|p2a: Scizor|3\/100
+|
+|-heal|p1a: Smoke weed Everyda|25\/100 brn|[from] item: Leftovers
+|-damage|p1a: Smoke weed Everyda|12\/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: LEGIT TANK|Bronzong|57\/100 par
+|-damage|p1a: LEGIT TANK|51\/100 par|[from] Stealth Rock
+|move|p2a: Scizor|U-turn|p1a: LEGIT TANK
+|-damage|p1a: LEGIT TANK|1\/100 par
+|
+|switch|p2a: Gliscor|Gliscor, M|88\/100 tox
+|-damage|p2a: Gliscor|76\/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: LEGIT TANK|7\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|63\/100 tox
+|move|p1a: LEGIT TANK|Trick Room|p1a: LEGIT TANK
+|-fieldstart|move: Trick Room|[of] p1a: LEGIT TANK
+|
+|-heal|p1a: LEGIT TANK|14\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|move|p1a: LEGIT TANK|Gyro Ball|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|51\/100 tox
+|
+|-heal|p1a: LEGIT TANK|20\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|63\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|move|p1a: LEGIT TANK|Gyro Ball|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|39\/100 tox
+|
+|-heal|p1a: LEGIT TANK|26\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|51\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|cant|p1a: LEGIT TANK|par
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-fail|p2a: Gliscor|move: Substitute
+|
+|-heal|p1a: LEGIT TANK|32\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|63\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|cant|p1a: LEGIT TANK|par
+|move|p2a: Gliscor|Facade|p1a: LEGIT TANK
+|-resisted|p1a: LEGIT TANK
+|-damage|p1a: LEGIT TANK|15\/100 par
+|
+|-heal|p1a: LEGIT TANK|21\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|33
+|
+|move|p2a: Gliscor|Facade|p1a: LEGIT TANK
+|-resisted|p1a: LEGIT TANK
+|-damage|p1a: LEGIT TANK|3\/100 par
+|move|p1a: LEGIT TANK|Gyro Ball|p2a: Gliscor
+|-end|p2a: Gliscor|Substitute
+|
+|-heal|p1a: LEGIT TANK|10\/100 par|[from] item: Leftovers
+|-heal|p2a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|move|p2a: Gliscor|Facade|p1a: LEGIT TANK
+|-resisted|p1a: LEGIT TANK
+|-damage|p1a: LEGIT TANK|0 fnt
+|faint|p1a: LEGIT TANK
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Smoke weed Everyda|Slowbro, M|46\/100 brn
+|-damage|p1a: Smoke weed Everyda|33\/100 brn|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Gliscor|Earthquake|p1a: Smoke weed Everyda
+|-damage|p1a: Smoke weed Everyda|9\/100 brn
+|move|p1a: Smoke weed Everyda|Fire Blast|p2a: Gliscor
+|-damage|p2a: Gliscor|62\/100 tox
+|
+|-heal|p1a: Smoke weed Everyda|15\/100 brn|[from] item: Leftovers
+|-heal|p2a: Gliscor|75\/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Smoke weed Everyda|3\/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|50\/100 tox
+|move|p1a: Smoke weed Everyda|Yawn|p2a: Gliscor
+|-fail|p2a: Gliscor
+|
+|-heal|p1a: Smoke weed Everyda|9\/100 brn|[from] item: Leftovers
+|-heal|p2a: Gliscor|62\/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Smoke weed Everyda|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Smoke weed Everyda
+|
+|switch|p1a: APC|Chandelure, F|21\/100
+|-damage|p1a: APC|0 fnt|[from] Stealth Rock
+|faint|p1a: APC
+|
+|win|goodnewsbears
+|raw|bradstala7's rating: 1102 &rarr; <strong>1092<\/strong><br \/>(-10 for losing)
+|raw|goodnewsbears's rating: 1344 &rarr; <strong>1351<\/strong><br \/>(+7 for winning)

@@ -1,0 +1,909 @@
+|j|☆Unamed
+|j|☆Zycross
+|player|p1|Unamed|72
+|player|p2|Zycross|66
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Altaria, M|item
+|poke|p2|Terrakion|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Alomomola, F|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Heatran, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| Zephyyyr
+|j| Uxali (
+|j| Misunot
+|j| ekoi
+|j| RV Kim Ye-Rim
+|c| ekoi|in
+|j|+Cdumas
+|j|+raspberry
+|j| gloomy clock
+|c| RV Kim Ye-Rim|in
+|j| Royal1604
+|j| Arctriix
+|j| McAaron.641
+|j| aurore boreale
+|j| pam poudre
+|j| Williopfg
+|j| Mindnight
+|j| iKiQ
+|j| Feuillajaguar
+|j| Wolfein
+|j| Frrf
+|j| carkoala
+|j| 000s †
+|j| Misi
+|j| El Tiburon Azul
+|j| aldey99
+|c|☆Unamed|bismillah
+|j| Slyol ♪♫
+|j| GoldCAM
+|j| Tankoura
+|j| Fairy Peak!
+|j| thomas888
+|c|+Cdumas|THE MED
+|j| rhnrynjrynjrynre
+|j| Weedlebong
+|j| kAbIlA
+|j| Skilpad
+|j| Black Thunderbolt
+|j| SaltyFrenchGuy
+|j| Eternal Spirit
+|j| Vulcanien
+|j| Kickasser
+|j| flo03041992
+|j| jayef
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!<\/strong><br \/>Only users of rank + and higher can talk.<\/div>
+|j| Lionyx
+|j| Janemba
+|j|‽Oro e Diamanti
+|j| AlgeriaForEver ♪
+|j| tias72
+|c|☆Zycross|hf
+|j| Tous avec Ungo !
+|j| Kory2600¨¨
+|j| Pierrick22
+|j| Kiiroi_Senko77
+|l| tias72
+|j| Rokhan
+|j| Ungo > Kf4
+|j| Tangent²Phi³
+|j| rherpin
+|j| Didas
+|j|‽Nephtyrix
+|j| Corazan
+|j| Spikesz
+|j| DaRkReD30
+|j| Bdlc コック
+|j| tias72
+|l| Black Thunderbolt
+|
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|100\/100
+|turn|1
+|j| the ad
+|j| sanjiaxx
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zycross)
+|inactive|Unamed has 285 seconds left.
+|inactive|Zycross has 285 seconds left.
+|inactive|Unamed has 270 seconds left.
+|l| rherpin
+|inactive|Unamed has 255 seconds left.
+|j| Panur
+|j| Carmin06
+|j| Sacatop
+|l| Kickasser
+|inactive|Unamed has 240 seconds left.
+|j| Le Sabreur
+|j| Kickasser
+|inactive|Unamed has 225 seconds left.
+|j| TogliBabineBoeuf
+|inactive|Unamed has 210 seconds left.
+|
+|move|p2a: y'avait la sun ?|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|93\/100
+|inactive|Zycross has 285 seconds left.
+|
+|switch|p2a: go Skelderex !|Terrakion|100\/100
+|move|p1a: Tornadus|Knock Off|p2a: go Skelderex !
+|-resisted|p2a: go Skelderex !
+|-damage|p2a: go Skelderex !|88\/100
+|-ability|p2a: go Skelderex !|Justified|boost
+|-boost|p2a: go Skelderex !|atk|1
+|-enditem|p2a: go Skelderex !|Choice Band|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|2
+|inactive|Unamed has 225 seconds left.
+|inactive|Zycross has 285 seconds left.
+|inactive|Unamed has 210 seconds left.
+|j| Emmie Toali
+|inactive|Zycross has 270 seconds left.
+|j| Black Thunderbolt
+|inactive|Unamed has 195 seconds left.
+|j| Alkione
+|
+|move|p1a: Tornadus|U-turn|p2a: go Skelderex !
+|-resisted|p2a: go Skelderex !
+|-damage|p2a: go Skelderex !|80\/100
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100\/100
+|move|p2a: go Skelderex !|Stone Edge|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|52\/100
+|
+|upkeep
+|turn|3
+|j| by Sakito
+|inactive|Zycross has 285 seconds left.
+|l| Black Thunderbolt
+|j| Tikau
+|j| Adri989898
+|inactive|Zycross has 270 seconds left.
+|
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|100\/100
+|move|p1a: Keldeo|Scald|p2a: y'avait la sun ?
+|-damage|p2a: y'avait la sun ?|55\/100
+|
+|upkeep
+|turn|4
+|inactive|Unamed has 210 seconds left.
+|j| owar1da.
+|inactive|Zycross has 270 seconds left.
+|j| Gelbel3c
+|j| Renaissance Player
+|inactive|Unamed has 195 seconds left.
+|
+|switch|p1a: Altaria|Altaria, M|100\/100
+|move|p2a: y'avait la sun ?|U-turn|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|95\/100
+|l| Renaissance Player
+|inactive|Zycross has 270 seconds left.
+|l| McAaron.641
+|n| yedla|aldey99
+|j| redmaxx
+|j| kolokorito
+|inactive|Zycross has 255 seconds left.
+|j| k3nan
+|inactive|Zycross has 240 seconds left.
+|
+|switch|p2a: adri du conseil4|Gliscor, M|100\/100
+|
+|-status|p2a: adri du conseil4|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|inactive|Unamed has 210 seconds left.
+|inactive|Zycross has 240 seconds left.
+|j| Xizaaa
+|inactive|Unamed has 195 seconds left.
+|l| Kickasser
+|inactive|Unamed has 180 seconds left.
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100\/100
+|move|p2a: adri du conseil4|Swords Dance|p2a: adri du conseil4
+|-boost|p2a: adri du conseil4|atk|2
+|
+|upkeep
+|turn|6
+|inactive|Unamed has 180 seconds left.
+|l| AlgeriaForEver ♪
+|j| Kickasser
+|j| Korby
+|inactive|Zycross has 225 seconds left.
+|j| AlgeriaForEver ♪
+|inactive|Unamed has 165 seconds left.
+|inactive|Zycross has 210 seconds left.
+|l| redmaxx
+|inactive|Unamed has 150 seconds left.
+|inactive|Zycross has 195 seconds left.
+|j| KyogreF4N
+|inactive|Unamed has 135 seconds left.
+|j| Spoire ^.^
+|j| Givrix
+|inactive|Zycross has 180 seconds left.
+|
+|move|p2a: adri du conseil4|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|58\/100
+|move|p1a: Ferrothorn|Stealth Rock|p2a: adri du conseil4
+|-sidestart|p2: Zycross|move: Stealth Rock
+|
+|-heal|p1a: Ferrothorn|64\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|l| flo03041992
+|inactive|Zycross has 180 seconds left.
+|l| Kickasser
+|
+|move|p2a: adri du conseil4|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|20\/100
+|move|p1a: Ferrothorn|Spikes|p2a: adri du conseil4
+|-sidestart|p2: Zycross|Spikes
+|
+|-heal|p1a: Ferrothorn|26\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Zycross has 180 seconds left.
+|l| TogliBabineBoeuf
+|j| Lucix
+|l| Spoire ^.^
+|l| tias72
+|inactive|Unamed has 135 seconds left.
+|j| Kickasser
+|
+|move|p2a: adri du conseil4|Earthquake|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|52\/100
+|turn|9
+|j| Jaajgko
+|inactive|Zycross has 180 seconds left.
+|l| Ungo > Kf4
+|inactive|Zycross has 165 seconds left.
+|j| Spoire ^.^
+|l| Kiiroi_Senko77
+|inactive|Zycross has 150 seconds left.
+|inactive|Zycross has 135 seconds left.
+|inactive|Unamed has 150 seconds left.
+|inactive|Zycross has 120 seconds left.
+|
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|88\/100
+|-damage|p2a: y'avait la sun ?|63\/100|[from] Stealth Rock
+|move|p1a: Keldeo|Scald|p2a: y'avait la sun ?
+|-damage|p2a: y'avait la sun ?|15\/100
+|
+|upkeep
+|turn|10
+|inactive|Unamed has 150 seconds left.
+|inactive|Zycross has 105 seconds left.
+|inactive|Unamed has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: y'avait la sun ?|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|74\/100
+|j| tias72
+|inactive|Zycross has 105 seconds left.
+|j| clofar
+|inactive|Zycross has 90 seconds left.
+|l| Kickasser
+|inactive|Zycross has 75 seconds left.
+|
+|switch|p2a: adri du conseil4|Gliscor, M|100\/100 tox
+|-damage|p2a: adri du conseil4|88\/100 tox|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: adri du conseil4|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|j| Kickasser
+|inactive|Zycross has 75 seconds left.
+|l| clofar
+|j| TheShadow78
+|inactive|Unamed has 135 seconds left.
+|l| AlgeriaForEver ♪
+|inactive|Zycross has 60 seconds left.
+|inactive|Unamed has 120 seconds left.
+|j| asmr fourmi
+|l| Kickasser
+|j| AlgeriaForEver ♪
+|inactive|Unamed has 105 seconds left.
+|inactive|Zycross has 45 seconds left.
+|inactive|Unamed has 90 seconds left.
+|j| Kickasser
+|j| redmaxx
+|
+|switch|p1a: Gliscor|Gliscor, M|100\/100
+|move|p2a: adri du conseil4|Swords Dance|p2a: adri du conseil4
+|-boost|p2a: adri du conseil4|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|j| Ungo > Kf4
+|inactive|Zycross has 45 seconds left.
+|inactive|Unamed has 75 seconds left.
+|j| pagesy
+|l| Kickasser
+|inactive|Unamed has 60 seconds left.
+|l| TheShadow78
+|inactive|Unamed has 45 seconds left.
+|j| Kickasser
+|
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: adri du conseil4|Facade|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|26\/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|39\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|inactive|Unamed has 45 seconds left.
+|
+|move|p1a: Gliscor|Ice Fang|p2a: adri du conseil4
+|-supereffective|p2a: adri du conseil4
+|-crit|p2a: adri du conseil4
+|-damage|p2a: adri du conseil4|0 fnt
+|faint|p2a: adri du conseil4
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|51\/100 tox|[from] ability: Poison Heal
+|upkeep
+|j| King Wynaut
+|inactive|Zycross has 45 seconds left.
+|j| breakwaller
+|
+|switch|p2a: go Skelderex !|Terrakion|80\/100
+|-damage|p2a: go Skelderex !|68\/100|[from] Spikes
+|-damage|p2a: go Skelderex !|62\/100|[from] Stealth Rock
+|turn|14
+|j| EmolgAn
+|inactive|Unamed has 60 seconds left.
+|inactive|Zycross has 45 seconds left.
+|l| King Wynaut
+|l| Kickasser
+|inactive|Unamed has 45 seconds left.
+|l| Didas
+|
+|move|p2a: go Skelderex !|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: Unamed|move: Stealth Rock
+|move|p1a: Gliscor|Roost|p1a: Gliscor
+|-heal|p1a: Gliscor|100\/100 tox
+|
+|-weather|none
+|upkeep
+|turn|15
+|j| patoche the best
+|inactive|Zycross has 45 seconds left.
+|j| Kickasser
+|j| Gazate
+|
+|move|p2a: go Skelderex !|Stone Edge|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|42\/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: go Skelderex !
+|-supereffective|p2a: go Skelderex !
+|-damage|p2a: go Skelderex !|0 fnt
+|faint|p2a: go Skelderex !
+|
+|-heal|p1a: Gliscor|54\/100 tox|[from] ability: Poison Heal
+|upkeep
+|l| pagesy
+|
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|48\/100
+|-damage|p2a: y'avait la sun ?|23\/100|[from] Stealth Rock
+|turn|16
+|inactive|Unamed has 60 seconds left.
+|inactive|Unamed has 45 seconds left.
+|l|spikesz
+|inactive|Unamed has 30 seconds left.
+|
+|move|p2a: y'avait la sun ?|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|inactive|Unamed has 30 seconds left.
+|inactive|Unamed has 20 seconds left.
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|turn|17
+|inactive|Zycross has 45 seconds left.
+|j| iBartho
+|inactive|Zycross has 30 seconds left.
+|
+|switch|p2a: cora: Sudbest|Heatran, M|100\/100
+|-damage|p2a: cora: Sudbest|88\/100|[from] Spikes
+|-damage|p2a: cora: Sudbest|76\/100|[from] Stealth Rock
+|move|p1a: Tornadus|Knock Off|p2a: cora: Sudbest
+|-damage|p2a: cora: Sudbest|59\/100
+|-enditem|p2a: cora: Sudbest|Leftovers|[from] move: Knock Off|[of] p1a: Tornadus
+|
+|upkeep
+|turn|18
+|l| EmolgAn
+|inactive|Zycross has 30 seconds left.
+|j| top album
+|inactive|Unamed has 30 seconds left.
+|
+|move|p1a: Tornadus|U-turn|p2a: cora: Sudbest
+|-resisted|p2a: cora: Sudbest
+|-crit|p2a: cora: Sudbest
+|-damage|p2a: cora: Sudbest|54\/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|74\/100
+|-damage|p1a: Tyranitar|62\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: cora: Sudbest|Toxic|p1a: Tyranitar
+|-status|p1a: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|56\/100 tox|[from] psn
+|upkeep
+|turn|19
+|inactive|Unamed has 45 seconds left.
+|inactive|Zycross has 45 seconds left.
+|inactive|Unamed has 30 seconds left.
+|l| top album
+|j| Didas
+|
+|move|p2a: cora: Sudbest|Protect|p2a: cora: Sudbest
+|-singleturn|p2a: cora: Sudbest|Protect
+|move|p1a: Tyranitar|Superpower|p2a: cora: Sudbest
+|-activate|p2a: cora: Sudbest|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|43\/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Unamed has 30 seconds left.
+|inactive|Zycross has 45 seconds left.
+|j|‽grffcvdrebhtvgf
+|l| Kickasser
+|inactive|Zycross has 30 seconds left.
+|inactive|Zycross has 20 seconds left.
+|
+|move|p2a: cora: Sudbest|Protect|p2a: cora: Sudbest
+|-fail|p2a: cora: Sudbest
+|move|p1a: Tyranitar|Superpower|p2a: cora: Sudbest
+|-supereffective|p2a: cora: Sudbest
+|-damage|p2a: cora: Sudbest|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: cora: Sudbest
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|25\/100 tox|[from] psn
+|upkeep
+|j| Kickasser
+|c|☆Unamed|:messi:
+|l| kAbIlA
+|inactive|Zycross has 20 seconds left.
+|
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|56\/100
+|-damage|p2a: y'avait la sun ?|31\/100|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: y'avait la sun ?|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|l| Didas
+|inactive|Zycross has 30 seconds left.
+|j| Quartos
+|
+|switch|p2a: no hit no win|Alakazam, M|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|turn|22
+|c|☆Zycross|on stop le timer pour faire ça propre ?
+|j| Didas
+|inactive|Unamed has 45 seconds left.
+|inactive|Zycross has 30 seconds left.
+|inactive|Zycross has 20 seconds left.
+|c|+raspberry|non ça joue
+|j| top album
+|j| Black Thunderbolt
+|inactive|Zycross has 15 seconds left.
+|
+|switch|p2a: hop S poire ^|Alomomola, F|100\/100
+|-damage|p2a: hop S poire ^|88\/100|[from] Spikes
+|-damage|p2a: hop S poire ^|76\/100|[from] Stealth Rock
+|move|p1a: Tornadus|U-turn|p2a: hop S poire ^
+|-damage|p2a: hop S poire ^|66\/100
+|-damage|p1a: Tornadus|59\/100|[from] item: Rocky Helmet|[of] p2a: hop S poire ^
+|l| Black Thunderbolt
+|inactive|Unamed has 30 seconds left.
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|52\/100
+|-damage|p1a: Keldeo|46\/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|23
+|j| Rock on the river
+|inactive|Zycross has 30 seconds left.
+|c|☆Unamed|j'arruve pas
+|inactive|Unamed has 30 seconds left.
+|inactive|Zycross has 20 seconds left.
+|c|+raspberry|arruve y plus fort frr
+|inactive|Unamed has 20 seconds left.
+|inactiveoff|Battle timer is now OFF.
+|l| Tous avec Ungo !
+|
+|move|p2a: hop S poire ^|Protect|p2a: hop S poire ^
+|-singleturn|p2a: hop S poire ^|Protect
+|move|p1a: Keldeo|Focus Blast|p2a: hop S poire ^
+|-activate|p2a: hop S poire ^|move: Protect
+|
+|upkeep
+|turn|24
+|c|☆Unamed|j'arrive pas
+|c|☆Unamed|wtf
+|c|+raspberry|qui a stop timer
+|c|☆Unamed|c'est toi connard
+|c|☆Unamed|qui a mis le timer
+|c|☆Zycross|y je sais
+|n|+Koishi Komeiji|misi
+|c|☆Unamed|ah
+|c|☆Unamed|j'ai stressé
+|c|+Koishi Komeiji|ouais rasp connard pourquoi t'as mis le timer
+|c|☆Zycross|mais j'vois pas de connard ici
+|l| top album
+|j| top album
+|l| GoldCAM
+|j| GoldCAM
+|l| Didas
+|l| top album
+|c|☆Unamed|franchement j'ai perdu trop de temps à stop le calc
+|j| Didas
+|c|☆Unamed|ça fait grave chier
+|c|+raspberry|vous etes chiants à jouer sans timer
+|l| Didas
+|j| Tous avec Ungo !
+|
+|switch|p2a: y'avait la sun ?|Tornadus-Therian, M|65\/100
+|-damage|p2a: y'avait la sun ?|40\/100|[from] Stealth Rock
+|move|p1a: Keldeo|Focus Blast|p2a: y'avait la sun ?
+|-resisted|p2a: y'avait la sun ?
+|-damage|p2a: y'avait la sun ?|3\/100
+|
+|upkeep
+|turn|25
+|l| redmaxx
+|
+|move|p2a: y'avait la sun ?|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|36\/100
+|move|p1a: Keldeo|Focus Blast|p2a: y'avait la sun ?|[miss]
+|-miss|p1a: Keldeo|p2a: y'avait la sun ?
+|
+|upkeep
+|turn|26
+|j| NewPro16
+|
+|move|p2a: y'avait la sun ?|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|25\/100
+|move|p1a: Keldeo|Focus Blast|p2a: y'avait la sun ?
+|-resisted|p2a: y'avait la sun ?
+|-damage|p2a: y'avait la sun ?|0 fnt
+|faint|p2a: y'avait la sun ?
+|
+|upkeep
+|
+|switch|p2a: no hit no win|Alakazam, M|100\/100
+|turn|27
+|
+|detailschange|p2a: no hit no win|Alakazam-Mega, M
+|-mega|p2a: no hit no win|Alakazam|Alakazite
+|-ability|p2a: no hit no win|Justified|[from] ability: Trace|[of] p1a: Keldeo
+|move|p2a: no hit no win|Psychic|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|j| redmaxx
+|j| Didas
+|l| Spoire ^.^
+|l| Didas
+|l| Kickasser
+|j| Spoire ^.^
+|l| NewPro16
+|j| guezinho
+|j| Kickasser
+|l| Spoire ^.^
+|l| AlgeriaForEver ♪
+|j| top album
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|92\/100
+|-damage|p1a: Tornadus|67\/100|[from] Stealth Rock
+|turn|28
+|j| Spoire ^.^
+|j| Didas
+|
+|move|p2a: no hit no win|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|26\/100
+|move|p1a: Tornadus|Knock Off|p2a: no hit no win
+|-supereffective|p2a: no hit no win
+|-damage|p2a: no hit no win|50\/100
+|-ability|p2a: no hit no win|Justified|boost
+|-boost|p2a: no hit no win|atk|1
+|
+|upkeep
+|turn|29
+|c|☆Unamed|j'espère t'es pas physical
+|
+|move|p2a: no hit no win|Psychic|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|switch|p1a: Altaria|Altaria, M|95\/100
+|-damage|p1a: Altaria|70\/100|[from] Stealth Rock
+|turn|30
+|j| AlgeriaForEver ♪
+|j|+Simia
+|l| GoldCAM
+|
+|detailschange|p1a: Altaria|Altaria-Mega, M
+|-mega|p1a: Altaria|Altaria|Altarianite
+|move|p2a: no hit no win|Psychic|p1a: Altaria
+|-damage|p1a: Altaria|24\/100
+|move|p1a: Altaria|Facade|p2a: no hit no win
+|-damage|p2a: no hit no win|0 fnt
+|faint|p2a: no hit no win
+|
+|upkeep
+|
+|switch|p2a: hop S poire ^|Alomomola, F|99\/100
+|-damage|p2a: hop S poire ^|87\/100|[from] Stealth Rock
+|-damage|p2a: hop S poire ^|75\/100|[from] Spikes
+|turn|31
+|l| Kickasser
+|
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|74\/100
+|move|p2a: hop S poire ^|Toxic|p1a: Altaria
+|-status|p1a: Altaria|tox
+|
+|-damage|p1a: Altaria|68\/100 tox|[from] psn
+|upkeep
+|turn|32
+|j| Kickasser
+|j| Vulra
+|l| redmaxx
+|j| rherpin
+|j| clofar
+|j| redmaxx
+|l| Kickasser
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: hop S poire ^|Wish|p2a: hop S poire ^
+|
+|-damage|p1a: Altaria|55\/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: hop S poire ^|Scald|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|50\/100 tox
+|
+|-heal|p2a: hop S poire ^|100\/100|[from] move: Wish|[wisher] hop S poire ^
+|-damage|p1a: Altaria|31\/100 tox|[from] psn
+|upkeep
+|turn|34
+|j| Kickasser
+|j| Azalarian
+|j| Elias PSY
+|l| redmaxx
+|j| Agarica
+|l| Kickasser
+|j| redmaxx
+|l|+Simia
+|c|☆Zycross|je remercie tous les membres de ma team
+|j|+Simia
+|
+|move|p2a: hop S poire ^|Protect|p2a: hop S poire ^
+|-singleturn|p2a: hop S poire ^|Protect
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|81\/100 tox
+|
+|-damage|p1a: Altaria|56\/100 tox|[from] psn
+|upkeep
+|turn|35
+|j| Kickasser
+|
+|move|p1a: Altaria|Dragon Dance|p1a: Altaria
+|-boost|p1a: Altaria|atk|1
+|-boost|p1a: Altaria|spe|1
+|move|p2a: hop S poire ^|Scald|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|51\/100 tox
+|
+|-damage|p1a: Altaria|19\/100 tox|[from] psn
+|upkeep
+|turn|36
+|l| AlgeriaForEver ♪
+|l|+Simia
+|l| top album
+|j| AlgeriaForEver ♪
+|l| iBartho
+|j|+Simia
+|j| top album
+|l| Kickasser
+|l| Lucix
+|c|☆Unamed|c'est quoi ta repart
+|j| Kickasser
+|c|+raspberry|TIMER
+|c|+raspberry|ON
+|c|☆Zycross|attends
+|l| by Sakito
+|
+|move|p2a: hop S poire ^|Protect|p2a: hop S poire ^
+|-singleturn|p2a: hop S poire ^|Protect
+|move|p1a: Altaria|Roost|p1a: Altaria
+|-heal|p1a: Altaria|70\/100 tox
+|
+|-damage|p1a: Altaria|32\/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|move|p2a: hop S poire ^|Protect|p2a: hop S poire ^
+|-fail|p2a: hop S poire ^
+|move|p1a: Altaria|Facade|p2a: hop S poire ^
+|-crit|p2a: hop S poire ^
+|-damage|p2a: hop S poire ^|0 fnt
+|-damage|p1a: Altaria|16\/100 tox|[from] item: Rocky Helmet|[of] p2a: hop S poire ^
+|faint|p2a: hop S poire ^
+|
+|win|Unamed
+|l|+Simia
+|c|☆Unamed|gg
+|l| Adri989898
+|c|+raspberry|KARMA STRIKES
+|c|☆Zycross|lol
+|c|☆Unamed|\/log Unamed made this room hidden.
+|l| clofar
+|l| the ad
+|l| Elias PSY
+|l| Mindnight
+|l| Azalarian
+|l| Le Sabreur
+|l| breakwaller
+|l| Xizaaa
+|c|☆Unamed|c'est quoi ta repart ?
+|l| Kickasser
+|l| Spoire ^.^
+|l| Lionyx
+|l|+raspberry
+|l| Uxali (
+|j| Evuelf
+|l| carkoala
+|l| Vulcanien
+|l|☆Zycross
+|l| SaltyFrenchGuy
+|l| pam poudre
+|l| Vulra
+|l| Pierrick22
+|l| yedla
+|j| Le Sabreur
+|l| tias72
+|l| aurore boreale
+|l| Gazate
+|l| owar1da.
+|l| Rokhan
+|l| redmaxx
+|l|‽Oro e Diamanti
+|l| asmr fourmi
+|l| AlgeriaForEver ♪
+|l| top album
+|l| rhnrynjrynjrynre
+|l| gloomy clock
+|l| Misunot
+|l| Feuillajaguar
+|j| Exiline •••
+|l| sanjiaxx
+|l|‽grffcvdrebhtvgf
+|l| Slyol ♪♫
+|l| Gelbel3c
+|l| thomas888
+|l| Sacatop
+|l|‽Nephtyrix
+|l| Zephyyyr
+|l| Tankoura
+|l|+Cdumas
+|l| guezinho
+|l| Le Sabreur
+|l| kolokorito
+|l| rherpin
+|l| Tikau
+|l| Ungo > Kf4
+|l| Jaajgko
+|l| Korby
+|l| patoche the best
+|l| Skilpad
+|l| 000s †
+|l| Fairy Peak!
+|l| Eternal Spirit
+|l| Quartos
+|l|+Koishi Komeiji
+|l| Exiline •••
+|l| Kory2600¨¨
+|j| Jaajgko
+|l| Corazan
+|l| RV Kim Ye-Rim
+|l| Frrf
+|l| Rock on the river
+|l| Tous avec Ungo !
+|l| Alkione
+|l|☆Unamed
+|l| El Tiburon Azul
+|l| ekoi
+|l| Wolfein
+|j| Adri989898
+|l| Evuelf
+|j|☆Unamed
+|l| Adri989898
+|l| Panur
+|j| Exiline •••
+|j| Adri989898
+|l| Adri989898
+|l| Exiline •••
+|l| Jaajgko
+|l| Janemba
+|l| Weedlebong
+|l| Carmin06
+|l| iKiQ
+|l| DaRkReD30
+|l| Agarica
+|l| k3nan
+|l| Williopfg
+|l|☆Unamed
+|j|☆Unamed
+|j| Wabane ♛
+|l|☆Unamed
+|j|☆Unamed
+|l| KyogreF4N
+|l| Royal1604
+|l|☆Unamed
+|j| Misunot
+|l| Misunot
+|l| Emmie Toali
+|l| Wabane ♛
+|j| SchizoGuyZ
+|j| KyogreF4N
+|l| KyogreF4N
+|j| KyogreF4N
+|l| Bdlc コック
+|l| KyogreF4N
+|l| jayef
+|l| Arctriix
+|j| Mounts
+|l| Mounts
+|j| Elias PSY
+|l| Elias PSY
+|j| Elias PSY
+|l| Elias PSY

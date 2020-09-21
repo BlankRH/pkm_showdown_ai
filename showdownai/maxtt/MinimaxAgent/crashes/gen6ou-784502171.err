@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "showdown.py", line 325, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 283, in play_game
+    gamestate = self.update_latest_turn(gamestate)
+  File "showdown.py", line 182, in update_latest_turn
+    my_poke_name = self.selenium.get_my_primary()
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/browser.py", line 232, in get_my_primary
+    if i > len(elf.driver.find_elements_by_css_selector(".innerbattle img")):
+NameError: name 'elf' is not defined

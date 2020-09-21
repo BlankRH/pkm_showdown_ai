@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 289, in play_game
+    self.selenium.move(move.move_index, move.backup_switch, mega=move.mega, volt_turn=move.volt_turn)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/browser.py", line 245, in move
+    mega_button.click()
+  File "/Users/blankr/Anaconda3/lib/python3.6/site-packages/selenium-2.47.1-py3.6.egg/selenium/webdriver/remote/webelement.py", line 69, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Users/blankr/Anaconda3/lib/python3.6/site-packages/selenium-2.47.1-py3.6.egg/selenium/webdriver/remote/webelement.py", line 448, in _execute
+    return self._parent.execute(command, params)
+  File "/Users/blankr/Anaconda3/lib/python3.6/site-packages/selenium-2.47.1-py3.6.egg/selenium/webdriver/remote/webdriver.py", line 196, in execute
+    self.error_handler.check_response(response)
+  File "/Users/blankr/Anaconda3/lib/python3.6/site-packages/selenium-2.47.1-py3.6.egg/selenium/webdriver/remote/errorhandler.py", line 181, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.4 x86_64)
+

@@ -1,0 +1,4 @@
+pokemonitor
+server
+showdownai
+smogon

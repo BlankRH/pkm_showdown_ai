@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 282, in play_game
+    move = self.agent.get_action(gamestate, 0)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 172, in get_action
+    new_state = self.simulator.simulate(state, actions, who)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 259, in simulate
+    self.make_move(gamestate, moves, actions, first, who, log=log)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 290, in make_move
+    print("current primary: %d, volt_turn to index %d " % (my_team.primary(), action.volt_turn))
+TypeError: %d format: a number is required, not Pokemon

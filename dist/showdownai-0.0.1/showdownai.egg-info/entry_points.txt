@@ -1,0 +1,7 @@
+[console_scripts]
+multitest = showdownai.multitest:run
+showdownai = showdownai.showdown:main
+showdownmonitor = pokemonitor.__init__:main
+showdownserver = server.server:main
+simulator = showdownai.game:main
+

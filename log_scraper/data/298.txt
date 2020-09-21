@@ -1,0 +1,335 @@
+|j|☆JonnyShuckle
+|j|☆Greensaur94
+|player|p1|JonnyShuckle|162
+|teamsize|p1|6
+|player|p2|Greensaur94|151
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Scizor, M|item
+|poke|p1|Infernape, M|item
+|poke|p1|Conkeldurr, M|item
+|poke|p1|Heracross, M|item
+|poke|p1|Snorlax, M|item
+|poke|p1|Beedrill, M|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Porygon2|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Mew|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Greensaur94)|
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, M|100\/100
+|switch|p2a: Klefki|Klefki, M|100\/100
+|turn|1|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Greensaur94|Reflect
+|move|p1a: Conkeldurr|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|92\/100
+|-enditem|p2a: Klefki|Light Clay|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|upkeep
+|turn|2|
+|move|p2a: Klefki|Thunder Wave|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|par
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|3
+|inactive|Greensaur94 has 135 seconds left.|
+|move|p2a: Klefki|Foul Play|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|83\/100 par
+|move|p1a: Conkeldurr|Knock Off|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|84\/100
+|
+|upkeep
+|turn|4|
+|move|p2a: Klefki|Foul Play|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|63\/100 par
+|cant|p1a: Conkeldurr|par
+|
+|upkeep
+|turn|5|
+|move|p2a: Klefki|Foul Play|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|45\/100 par
+|move|p1a: Conkeldurr|Drain Punch|p2a: Klefki
+|-damage|p2a: Klefki|55\/100
+|-heal|p1a: Conkeldurr|59\/100 par|[from] drain|[of] p2a: Klefki
+|
+|upkeep
+|turn|6
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p2a: Mew|Mew|100\/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|90\/100
+|-heal|p1a: Conkeldurr|65\/100 par|[from] drain|[of] p2a: Mew
+|
+|upkeep
+|turn|7|
+|move|p2a: Mew|Trick|p1a: Conkeldurr
+|-activate|p2a: Mew|move: Trick|[of] p1a: Conkeldurr
+|-item|p1a: Conkeldurr|Choice Scarf|[from] move: Trick
+|-item|p2a: Mew|Assault Vest|[from] move: Trick
+|move|p1a: Conkeldurr|Knock Off|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|54\/100
+|-enditem|p2a: Mew|Assault Vest|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|upkeep
+|turn|8
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p2a: Klefki|Klefki, M|55\/100
+|switch|p1a: Scizor|Scizor, M|100\/100
+|
+|-sideend|p2: Greensaur94|Reflect
+|upkeep
+|turn|9|
+|move|p1a: Scizor|Bullet Punch|p2a: Klefki
+|-damage|p2a: Klefki|12\/100
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Greensaur94|Reflect
+|
+|upkeep
+|turn|10|
+|switch|p2a: Volcarona|Volcarona, M|100\/100
+|move|p1a: Scizor|Bullet Punch|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|79\/100
+|
+|upkeep
+|turn|11|
+|switch|p1a: Snorlax|Snorlax, M|100\/100
+|move|p2a: Volcarona|Fiery Dance|p1a: Snorlax
+|-damage|p1a: Snorlax|87\/100
+|
+|-heal|p1a: Snorlax|93\/100|[from] item: Leftovers
+|upkeep
+|turn|12|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|99\/100|[from] item: Leftovers
+|upkeep
+|turn|13|
+|move|p2a: Volcarona|Giga Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|75\/100
+|-heal|p2a: Volcarona|99\/100|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|
+|-heal|p1a: Snorlax|81\/100|[from] item: Leftovers
+|-sideend|p2: Greensaur94|Reflect
+|upkeep
+|turn|14|
+|move|p2a: Volcarona|Giga Drain|p1a: Snorlax
+|-damage|p1a: Snorlax|70\/100
+|-heal|p2a: Volcarona|100\/100|[from] drain|[of] p1a: Snorlax
+|move|p1a: Snorlax|Body Slam|p2a: Volcarona
+|-damage|p2a: Volcarona|23\/100
+|
+|-heal|p1a: Snorlax|76\/100|[from] item: Leftovers
+|upkeep
+|turn|15|
+|move|p2a: Volcarona|Fiery Dance|p1a: Snorlax
+|-damage|p1a: Snorlax|67\/100
+|-boost|p2a: Volcarona|spa|1
+|move|p1a: Snorlax|Body Slam|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-heal|p1a: Snorlax|73\/100|[from] item: Leftovers
+|upkeep|
+|switch|p2a: Mew|Mew|54\/100
+|turn|16
+|inactive|JonnyShuckle has 135 seconds left.|
+|move|p2a: Mew|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Body Slam|p2a: Mew
+|-damage|p2a: Mew|40\/100
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p1a: Snorlax
+|
+|-heal|p1a: Snorlax|79\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|67\/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p2a: Porygon2|Porygon2|100\/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|73\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|60\/100 brn|[from] brn
+|upkeep
+|turn|18|
+|move|p2a: Porygon2|Tri Attack|p1a: Snorlax
+|-damage|p1a: Snorlax|48\/100 brn
+|move|p1a: Snorlax|Amnesia|p1a: Snorlax
+|-boost|p1a: Snorlax|spd|2
+|
+|-heal|p1a: Snorlax|54\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|42\/100 brn|[from] brn
+|upkeep
+|turn|19|
+|move|p2a: Porygon2|Tri Attack|p1a: Snorlax
+|-damage|p1a: Snorlax|34\/100 brn
+|move|p1a: Snorlax|Body Slam|p2a: Porygon2
+|-damage|p2a: Porygon2|79\/100
+|-status|p2a: Porygon2|par
+|
+|-heal|p1a: Snorlax|40\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|27\/100 brn|[from] brn
+|upkeep
+|turn|20|
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|100\/100 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|move|p2a: Porygon2|Hidden Power|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|93\/100 slp
+|
+|-heal|p1a: Snorlax|99\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21|
+|switch|p2a: Klefki|Klefki, M|12\/100
+|cant|p1a: Snorlax|slp
+|
+|-heal|p1a: Snorlax|100\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|22|
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Greensaur94|Reflect
+|cant|p1a: Snorlax|slp
+|
+|upkeep
+|turn|23|
+|move|p2a: Klefki|Foul Play|p1a: Snorlax
+|-damage|p1a: Snorlax|85\/100 slp
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-heal|p1a: Snorlax|91\/100|[from] item: Leftovers
+|upkeep|
+|switch|p2a: Mew|Mew|40\/100 par
+|turn|24|
+|move|p2a: Mew|Will-O-Wisp|p1a: Snorlax
+|-status|p1a: Snorlax|brn
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|97\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|85\/100 brn|[from] brn
+|upkeep
+|turn|25
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|91\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|79\/100 brn|[from] brn
+|upkeep
+|turn|26|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|88\/100
+|
+|-heal|p1a: Snorlax|85\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|72\/100 brn|[from] brn
+|-sideend|p2: Greensaur94|Reflect
+|upkeep
+|turn|27|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-heal|p1a: Snorlax|78\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|66\/100 brn|[from] brn
+|upkeep
+|turn|28|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|31\/100
+|
+|-heal|p1a: Snorlax|72\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|60\/100 brn|[from] brn
+|upkeep
+|turn|29|
+|move|p2a: Dragonite|Earthquake|p1a: Snorlax
+|-damage|p1a: Snorlax|43\/100 brn
+|move|p1a: Snorlax|Body Slam|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Snorlax|50\/100 brn|[from] item: Leftovers
+|-damage|p1a: Snorlax|37\/100 brn|[from] brn
+|upkeep
+|c|☆JonnyShuckle|Dehe
+|c|☆JonnyShuckle|I guess gg|
+|switch|p2a: Venusaur|Venusaur, F|100\/100
+|turn|30
+|c|☆JonnyShuckle|Well played|
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|detailschange|p2a: Venusaur|Venusaur-Mega, F
+|move|p2a: Venusaur|Sludge Bomb|p1a: Snorlax
+|-damage|p1a: Snorlax|30\/100 brn
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp
+|-heal|p1a: Snorlax|100\/100 slp|[silent]
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|
+|upkeep
+|turn|31
+|-message|Greensaur94 forfeited.
+|
+|win|JonnyShuckle
+|l|☆Greensaur94
+|raw|JonnyShuckle's rating: 1371 &rarr; <strong>1396<\/strong><br \/>(+25 for winning)
+|raw|Greensaur94's rating: 1459 &rarr; <strong>1434<\/strong><br \/>(-25 for losing)
+|l|☆JonnyShuckle

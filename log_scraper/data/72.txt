@@ -1,0 +1,69 @@
+|j|goodnewsbears
+|j|RNG can't stop me
+|player|p1|goodnewsbears|264
+|teamsize|p1|6
+|player|p2|RNG can't stop me|209
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated
+|seed|25611,45705,4750,33361
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Clefable, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Diancie, shiny|item
+|poke|p2|Starmie, shiny|item
+|poke|p2|Talonflame, M, shiny|item
+|poke|p2|Ferrothorn, F, shiny|item
+|poke|p2|Latios, M|item
+|poke|p2|Hippowdon, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|choice|team 5, team 2, team 3, team 4, team 1, team 6|team 3, team 2, team 1, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Gliscor|Gliscor, M|322\/322
+|switch|p2a: kamikaze|Talonflame, M, shiny|359\/359
+|turn|1
+|choice|move substitute|move willowisp
+|
+|move|p2a: kamikaze|Will-O-Wisp|p1a: Gliscor
+|-status|p1a: Gliscor|brn
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|242\/322 brn
+|
+|-damage|p1a: Gliscor|202\/322 brn|[from] brn
+|upkeep
+|turn|2
+|choice|move facade|switch 6
+|
+|switch|p2a: Jairo|Hippowdon, M|420\/420
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Jairo
+|move|p1a: Gliscor|Facade|p2a: Jairo
+|-damage|p2a: Jairo|339\/420
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jairo|365\/420|[from] item: Leftovers
+|-damage|p1a: Gliscor|162\/322 brn|[from] brn
+|upkeep
+|turn|3
+|-message|goodnewsbears forfeited.
+|
+|win|RNG can't stop me
+|l|goodnewsbears
+|raw|goodnewsbears's rating: 1303 &rarr; <strong>1274<\/strong><br \/>(-29 for losing)
+|raw|RNG can&apos;t stop me's rating: 1124 &rarr; <strong>1161<\/strong><br \/>(+37 for winning)

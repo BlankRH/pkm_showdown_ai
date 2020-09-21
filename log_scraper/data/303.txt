@@ -1,0 +1,381 @@
+|j|☆Kylo doogs
+|j|☆Raissa's Getaway
+|player|p1|Kylo doogs|1
+|player|p2|Raissa's Getaway|146
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Manectric, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Heatran, F|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Trevenant, M|item
+|poke|p2|Scizor, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Dragalge, M|item
+|poke|p2|Klefki, F|item
+|poke|p2|Weavile, M|item
+|poke|p2|Suicune|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Raissa's Getaway)
+|inactive|Raissa's Getaway has 135 seconds left.
+|
+|start
+|switch|p1a: Manectric|Manectric, M|100\/100
+|switch|p2a: Jytcampbell|Garchomp, M|100\/100
+|turn|1
+|inactive|Raissa's Getaway has 135 seconds left.
+|
+|switch|p1a: Trevenant|Trevenant, M|100\/100
+|move|p2a: Jytcampbell|Earthquake|p1a: Trevenant
+|-resisted|p1a: Trevenant
+|-damage|p1a: Trevenant|68\/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Metamonogatari|Dragalge, M|100\/100
+|move|p1a: Trevenant|Will-O-Wisp|p2a: Metamonogatari
+|-status|p2a: Metamonogatari|brn
+|
+|-damage|p2a: Metamonogatari|88\/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p2a: Metamonogatari|Toxic Spikes|p1a: Trevenant
+|-sidestart|p1: Kylo doogs|move: Toxic Spikes
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-start|p1a: Trevenant|Substitute
+|-damage|p1a: Trevenant|43\/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|68\/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Metamonogatari|94\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Metamonogatari|82\/100 brn|[from] brn
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|4
+|inactive|Raissa's Getaway has 135 seconds left.
+|
+|switch|p2a: Jytcampbell|Garchomp, M|100\/100
+|move|p1a: Trevenant|Leech Seed|p2a: Jytcampbell
+|-start|p2a: Jytcampbell|move: Leech Seed
+|
+|-damage|p2a: Jytcampbell|88\/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|80\/100|[silent]
+|upkeep
+|turn|5
+|
+|move|p2a: Jytcampbell|Stealth Rock|p1a: Trevenant
+|-sidestart|p1: Kylo doogs|move: Stealth Rock
+|move|p1a: Trevenant|Will-O-Wisp|p2a: Jytcampbell
+|-status|p2a: Jytcampbell|brn
+|
+|-damage|p2a: Jytcampbell|76\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|92\/100|[silent]
+|-damage|p2a: Jytcampbell|64\/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|switch|p2a: Fated Keys|Klefki, F|100\/100
+|move|p1a: Trevenant|Leech Seed|p2a: Fated Keys
+|-start|p2a: Fated Keys|move: Leech Seed
+|
+|-damage|p2a: Fated Keys|88\/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|100\/100|[silent]
+|upkeep
+|turn|7
+|
+|move|p2a: Fated Keys|Spikes|p1a: Trevenant
+|-sidestart|p1: Kylo doogs|Spikes
+|move|p1a: Trevenant|Will-O-Wisp|p2a: Fated Keys
+|-status|p2a: Fated Keys|brn
+|
+|-heal|p2a: Fated Keys|94\/100 brn|[from] item: Leftovers
+|-damage|p2a: Fated Keys|82\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-damage|p2a: Fated Keys|70\/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|move|p2a: Fated Keys|Spikes|p1a: Trevenant
+|-sidestart|p1: Kylo doogs|Spikes
+|move|p1a: Trevenant|Horn Leech|p2a: Fated Keys
+|-resisted|p2a: Fated Keys
+|-damage|p2a: Fated Keys|54\/100 brn
+|
+|-heal|p2a: Fated Keys|60\/100 brn|[from] item: Leftovers
+|-damage|p2a: Fated Keys|48\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-damage|p2a: Fated Keys|36\/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|move|p2a: Fated Keys|Spikes|p1a: Trevenant
+|-sidestart|p1: Kylo doogs|Spikes
+|move|p1a: Trevenant|Horn Leech|p2a: Fated Keys
+|-resisted|p2a: Fated Keys
+|-crit|p2a: Fated Keys
+|-damage|p2a: Fated Keys|10\/100 brn
+|
+|-heal|p2a: Fated Keys|16\/100 brn|[from] item: Leftovers
+|-damage|p2a: Fated Keys|3\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-damage|p2a: Fated Keys|0 fnt|[from] brn
+|upkeep
+|faint|p2a: Fated Keys
+|
+|switch|p2a: Metamonogatari|Dragalge, M|82\/100 brn
+|turn|10
+|
+|move|p2a: Metamonogatari|Sludge Wave|p1a: Trevenant
+|-end|p1a: Trevenant|Substitute
+|move|p1a: Trevenant|Leech Seed|p2a: Metamonogatari
+|-start|p2a: Metamonogatari|move: Leech Seed
+|
+|-heal|p2a: Metamonogatari|88\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Metamonogatari|76\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-damage|p2a: Metamonogatari|63\/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Metamonogatari|Sludge Wave|p1a: Trevenant
+|-damage|p1a: Trevenant|70\/100
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-start|p1a: Trevenant|Substitute
+|-damage|p1a: Trevenant|45\/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|70\/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Metamonogatari|69\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Metamonogatari|57\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|81\/100|[silent]
+|-damage|p2a: Metamonogatari|45\/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p2a: Metamonogatari|Sludge Wave|p1a: Trevenant
+|-end|p1a: Trevenant|Substitute
+|move|p1a: Trevenant|Horn Leech|p2a: Metamonogatari
+|-resisted|p2a: Metamonogatari
+|-damage|p2a: Metamonogatari|37\/100 brn
+|-heal|p1a: Trevenant|84\/100|[from] drain|[of] p2a: Metamonogatari
+|
+|-heal|p2a: Metamonogatari|43\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Metamonogatari|31\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|95\/100|[silent]
+|-damage|p2a: Metamonogatari|19\/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Raissa's Getaway has 135 seconds left.
+|
+|move|p2a: Metamonogatari|Sludge Wave|p1a: Trevenant
+|-damage|p1a: Trevenant|64\/100
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-start|p1a: Trevenant|Substitute
+|-damage|p1a: Trevenant|39\/100
+|
+|-heal|p2a: Metamonogatari|25\/100 brn|[from] item: Black Sludge
+|-damage|p2a: Metamonogatari|13\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|50\/100|[silent]
+|-damage|p2a: Metamonogatari|0 fnt|[from] brn
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|faint|p2a: Metamonogatari
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|75\/100|[from] item: Sitrus Berry
+|c|☆Kylo doogs|getting beat by trevenant
+|
+|switch|p2a: UnlmtdBladeworks|Scizor, M|100\/100
+|turn|14
+|
+|-mega|p2a: UnlmtdBladeworks|Scizor|Scizorite
+|detailschange|p2a: UnlmtdBladeworks|Scizor-Mega, M
+|move|p2a: UnlmtdBladeworks|U-turn|p1a: Trevenant
+|-end|p1a: Trevenant|Substitute
+|
+|switch|p2a: Jytcampbell|Garchomp, M|64\/100 brn
+|move|p1a: Trevenant|Will-O-Wisp|p2a: Jytcampbell|[miss]
+|-miss|p1a: Trevenant|p2a: Jytcampbell
+|
+|-damage|p2a: Jytcampbell|51\/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p2a: Jytcampbell|Fire Blast|p1a: Trevenant
+|-supereffective|p1a: Trevenant
+|-damage|p1a: Trevenant|43\/100
+|move|p1a: Trevenant|Substitute|p1a: Trevenant
+|-start|p1a: Trevenant|Substitute
+|-damage|p1a: Trevenant|18\/100
+|
+|-damage|p2a: Jytcampbell|39\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p2a: Jytcampbell|Fire Blast|p1a: Trevenant
+|-supereffective|p1a: Trevenant
+|-end|p1a: Trevenant|Substitute
+|move|p1a: Trevenant|Leech Seed|p2a: Jytcampbell
+|-start|p2a: Jytcampbell|move: Leech Seed
+|
+|-damage|p2a: Jytcampbell|27\/100 brn|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|30\/100|[silent]
+|-damage|p2a: Jytcampbell|14\/100 brn|[from] brn
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|55\/100|[from] item: Sitrus Berry
+|turn|17
+|inactive|Kylo doogs has 135 seconds left.
+|
+|switch|p2a: UnlmtdBladeworks|Scizor-Mega, M|100\/100
+|move|p1a: Trevenant|Leech Seed|p2a: UnlmtdBladeworks
+|-start|p2a: UnlmtdBladeworks|move: Leech Seed
+|
+|-damage|p2a: UnlmtdBladeworks|88\/100|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|66\/100|[silent]
+|upkeep
+|turn|18
+|
+|move|p2a: UnlmtdBladeworks|U-turn|p1a: Trevenant
+|-damage|p1a: Trevenant|27\/100
+|
+|switch|p2a: Jytcampbell|Garchomp, M|14\/100 brn
+|move|p1a: Trevenant|Will-O-Wisp|p2a: Jytcampbell
+|-fail|p2a: Jytcampbell|brn
+|
+|-damage|p2a: Jytcampbell|2\/100 brn|[from] brn
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|52\/100|[from] item: Sitrus Berry
+|turn|19
+|
+|move|p2a: Jytcampbell|Outrage|p1a: Trevenant
+|-damage|p1a: Trevenant|13\/100
+|move|p1a: Trevenant|Leech Seed|p2a: Jytcampbell
+|-start|p2a: Jytcampbell|move: Leech Seed
+|
+|-damage|p2a: Jytcampbell|0 fnt|[from] Leech Seed|[of] p1a: Trevenant
+|-heal|p1a: Trevenant|15\/100|[silent]
+|upkeep
+|faint|p2a: Jytcampbell
+|
+|switch|p2a: WRLD-ChaseIt|Weavile, M|100\/100
+|turn|20
+|
+|move|p2a: WRLD-ChaseIt|Knock Off|p1a: Trevenant
+|-supereffective|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|faint|p1a: Trevenant
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|-damage|p1a: Jirachi|94\/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|69\/100|[from] Spikes
+|turn|21
+|
+|move|p1a: Jirachi|U-turn|p2a: WRLD-ChaseIt
+|-supereffective|p2a: WRLD-ChaseIt
+|-damage|p2a: WRLD-ChaseIt|34\/100
+|j| budadeathas
+|
+|switch|p1a: Kyurem|Kyurem-Black|100\/100
+|-damage|p1a: Kyurem|76\/100|[from] Stealth Rock
+|-status|p1a: Kyurem|psn
+|-damage|p1a: Kyurem|51\/100 psn|[from] Spikes
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: WRLD-ChaseIt|Knock Off|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-enditem|p1a: Kyurem|Life Orb|[from] move: Knock Off|[of] p2a: WRLD-ChaseIt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|69\/100
+|-damage|p1a: Jirachi|63\/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|38\/100|[from] Spikes
+|turn|22
+|
+|switch|p2a: LionsInTheWind|Suicune|100\/100
+|-ability|p2a: LionsInTheWind|Pressure
+|move|p1a: Jirachi|U-turn|p2a: LionsInTheWind
+|-damage|p2a: LionsInTheWind|84\/100
+|
+|switch|p1a: Manectric|Manectric, M|100\/100
+|-damage|p1a: Manectric|76\/100|[from] Spikes
+|-damage|p1a: Manectric|63\/100|[from] Stealth Rock
+|-status|p1a: Manectric|psn
+|
+|-heal|p2a: LionsInTheWind|90\/100|[from] item: Leftovers
+|-damage|p1a: Manectric|51\/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|-mega|p1a: Manectric|Manectric|Manectite
+|detailschange|p1a: Manectric|Manectric-Mega, M
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: LionsInTheWind|atk|1
+|move|p2a: LionsInTheWind|Protect|p2a: LionsInTheWind
+|-singleturn|p2a: LionsInTheWind|Protect
+|move|p1a: Manectric|Thunderbolt|p2a: LionsInTheWind
+|-activate|p2a: LionsInTheWind|move: Protect
+|
+|-heal|p2a: LionsInTheWind|96\/100|[from] item: Leftovers
+|-damage|p1a: Manectric|38\/100 psn|[from] psn
+|upkeep
+|turn|24
+|l| budadeathas
+|
+|switch|p2a: UnlmtdBladeworks|Scizor-Mega, M|88\/100
+|move|p1a: Manectric|Volt Switch|p2a: UnlmtdBladeworks
+|-damage|p2a: UnlmtdBladeworks|55\/100
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|move|p2a: UnlmtdBladeworks|Bullet Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|38\/100
+|move|p1a: Tornadus|Heat Wave|p2a: UnlmtdBladeworks|[miss]
+|-miss|p1a: Tornadus|p2a: UnlmtdBladeworks
+|
+|upkeep
+|turn|26
+|
+|move|p2a: UnlmtdBladeworks|Bullet Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|inactive|Kylo doogs has 135 seconds left.
+|l|☆Kylo doogs
+|inactive|Kylo doogs disconnected and has a minute to reconnect!
+|player|p1|
+|c|☆Raissa's Getaway|GG
+|c|☆Raissa's Getaway|never talk shit to me again.
+|inactive|Kylo doogs has 20 seconds to reconnect!
+|inactive|Kylo doogs has 15 seconds to reconnect!
+|inactive|Kylo doogs has 10 seconds to reconnect!
+|inactive|Kylo doogs has 5 seconds to reconnect!
+|-message|Kylo doogs lost due to inactivity.
+|
+|win|Raissa's Getaway
+|raw|Kylo doogs's rating: 1421 &rarr; <strong>1404<\/strong><br \/>(-17 for losing)
+|raw|Raissa&apos;s Getaway's rating: 1469 &rarr; <strong>1486<\/strong><br \/>(+17 for winning)

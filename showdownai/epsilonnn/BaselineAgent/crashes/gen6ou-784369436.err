@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "showdown.py", line 325, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 293, in play_game
+    move = self.agent.get_action(gamestate, 0)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 201, in get_action
+    my_move_name, state.get_team(who)[best_action.backup_switch], best_action.mega, best_action.volt_turn,
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/team.py", line 256, in __getitem__
+    return self.poke_list.__getitem__(index)
+TypeError: list indices must be integers or slices, not NoneType

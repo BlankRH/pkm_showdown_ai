@@ -1,0 +1,389 @@
+|j|☆Gvazq27
+|j|☆goodnewsbears
+|player|p1|Gvazq27|162
+|player|p2|goodnewsbears|169
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Blastoise, F|item
+|poke|p1|Nidoking, M|item
+|poke|p1|Salamence, M|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Shuckle, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Tentacruel, M|item
+|poke|p2|Scizor, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Nidoking|Nidoking, M|100\/100
+|switch|p2a: Gliscor|Gliscor, F|100\/100
+|turn|1
+|
+|move|p2a: Gliscor|Earthquake|p1a: Nidoking
+|-supereffective|p1a: Nidoking
+|-damage|p1a: Nidoking|0 fnt
+|faint|p1a: Nidoking
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|switch|p1a: Shuckle|Shuckle, M|100\/100
+|turn|2
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Shuckle|Sticky Web|p2a: Clefable
+|-sidestart|p2: goodnewsbears|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Clefable|Stealth Rock|p1a: Shuckle
+|-sidestart|p1: Gvazq27|move: Stealth Rock
+|move|p1a: Shuckle|Encore|p2a: Clefable
+|-start|p2a: Clefable|Encore
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100 tox
+|move|p1a: Shuckle|Infestation|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|99\/100 tox
+|-activate|p2a: Gliscor|move: Infestation|[of] p1a: Shuckle
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|88\/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|move|p2a: Gliscor|Earthquake|p1a: Shuckle
+|-damage|p1a: Shuckle|80\/100
+|move|p1a: Shuckle|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|88\/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|move|p2a: Gliscor|Earthquake|p1a: Shuckle
+|-damage|p1a: Shuckle|56\/100
+|move|p1a: Shuckle|Encore|p2a: Gliscor
+|-start|p2a: Gliscor|Encore
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|88\/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|switch|p1a: Staraptor|Staraptor, M|100\/100
+|-damage|p1a: Staraptor|76\/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Staraptor
+|-immune|p1a: Staraptor|[msg]
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|switch|p2a: Scizor|Scizor, M|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|-activate|p2a: Scizor|move: Sticky Web
+|-unboost|p2a: Scizor|spe|1
+|move|p1a: Staraptor|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|75\/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|switch|p1a: Blastoise|Blastoise, F|100\/100
+|-damage|p1a: Blastoise|88\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100\/100
+|-activate|p2a: Tentacruel|move: Sticky Web
+|-unboost|p2a: Tentacruel|spe|1
+|-damage|p2a: Tentacruel|88\/100|[from] Stealth Rock
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|detailschange|p1a: Blastoise|Blastoise-Mega, F
+|move|p1a: Blastoise|Water Spout|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|66\/100
+|
+|-heal|p2a: Tentacruel|72\/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p1a: Blastoise|Dark Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|42\/100
+|cant|p2a: Tentacruel|flinch
+|
+|-heal|p2a: Tentacruel|48\/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Blastoise|Dark Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|22\/100
+|cant|p2a: Tentacruel|flinch
+|
+|-heal|p2a: Tentacruel|28\/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|-damage|p2a: Clefable|88\/100|[from] Stealth Rock
+|move|p1a: Blastoise|Dark Pulse|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|64\/100
+|
+|-heal|p2a: Clefable|70\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Blastoise|Water Spout|p2a: Clefable
+|-damage|p2a: Clefable|2\/100
+|move|p2a: Clefable|Thunder Wave|p1a: Blastoise
+|-status|p1a: Blastoise|par
+|
+|-heal|p2a: Clefable|8\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p2a: Clefable|Moonblast|p1a: Blastoise
+|-damage|p1a: Blastoise|57\/100 par
+|cant|p1a: Blastoise|par
+|
+|-heal|p2a: Clefable|14\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Moonblast|p1a: Blastoise
+|-damage|p1a: Blastoise|27\/100 par
+|cant|p1a: Blastoise|par
+|
+|-heal|p2a: Clefable|20\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Clefable|Moonblast|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-heal|p2a: Clefable|26\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|100\/100
+|-damage|p1a: Salamence|75\/100|[from] Stealth Rock
+|turn|17
+|
+|move|p1a: Salamence|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100 tox
+|-damage|p2a: Gliscor|88\/100 tox|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Salamence|Outrage|p2a: Gliscor
+|-damage|p2a: Gliscor|1\/100 tox
+|move|p2a: Gliscor|Facade|p1a: Salamence
+|-damage|p1a: Salamence|33\/100
+|
+|-heal|p2a: Gliscor|13\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p1a: Salamence|Outrage|p2a: Gliscor|[from]lockedmove
+|-damage|p2a: Gliscor|0 fnt
+|-start|p1a: Salamence|confusion|[fatigue]
+|faint|p2a: Gliscor
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-enditem|p1a: Salamence|Lum Berry|[eat]
+|-end|p1a: Salamence|confusion
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|-damage|p2a: Talonflame|51\/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Shuckle|Shuckle, M|56\/100
+|-damage|p1a: Shuckle|31\/100|[from] Stealth Rock
+|-enditem|p1a: Shuckle|Sitrus Berry|[eat]
+|-heal|p1a: Shuckle|56\/100|[from] item: Sitrus Berry
+|move|p2a: Talonflame|Brave Bird|p1a: Shuckle
+|-damage|p1a: Shuckle|35\/100
+|-damage|p2a: Talonflame|46\/100|[from] Recoil
+|
+|-heal|p2a: Talonflame|52\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p2a: Scizor|Scizor, M|75\/100
+|-damage|p2a: Scizor|63\/100|[from] Stealth Rock
+|-activate|p2a: Scizor|move: Sticky Web
+|-unboost|p2a: Scizor|spe|1
+|move|p1a: Shuckle|Infestation|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|62\/100
+|-activate|p2a: Scizor|move: Infestation|[of] p1a: Shuckle
+|
+|-damage|p2a: Scizor|49\/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|move|p2a: Scizor|U-turn|p1a: Shuckle
+|-damage|p1a: Shuckle|1\/100
+|
+|switch|p2a: Tentacruel|Tentacruel, M|28\/100
+|-damage|p2a: Tentacruel|16\/100|[from] Stealth Rock
+|-activate|p2a: Tentacruel|move: Sticky Web
+|-unboost|p2a: Tentacruel|spe|1
+|move|p1a: Shuckle|Encore|p2a: Tentacruel
+|-fail|p1a: Shuckle
+|
+|-heal|p2a: Tentacruel|22\/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Shuckle
+|-resisted|p1a: Shuckle
+|-damage|p1a: Shuckle|0 fnt
+|-sideend|p2: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: goodnewsbears|Sticky Web|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|faint|p1a: Shuckle
+|
+|-heal|p2a: Tentacruel|28\/100|[from] item: Black Sludge
+|upkeep
+|
+|switch|p1a: Salamence|Salamence, M|33\/100
+|-damage|p1a: Salamence|8\/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Salamence|Outrage|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100\/100
+|turn|25
+|
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-ability|p2a: Alakazam|Moxie|[from] ability: Trace|[of] p1a: Salamence
+|move|p2a: Alakazam|Psychic|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|-ability|p2a: Alakazam|Moxie|boost
+|-boost|p2a: Alakazam|atk|1
+|
+|upkeep
+|
+|switch|p1a: Staraptor|Staraptor, M|76\/100
+|-damage|p1a: Staraptor|51\/100|[from] Stealth Rock
+|turn|26
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p1a: Staraptor|24\/100|[from] Recoil
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|52\/100
+|turn|27
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-damage|p2a: Talonflame|45\/100|[from] Recoil
+|faint|p1a: Staraptor
+|
+|-heal|p2a: Talonflame|51\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Chansey|Chansey, F|100\/100
+|-damage|p1a: Chansey|88\/100|[from] Stealth Rock
+|turn|28
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-heal|p2a: Talonflame|58\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Chansey
+|-status|p1a: Chansey|brn
+|move|p1a: Chansey|Counter|p2a: Talonflame
+|-fail|p2a: Talonflame
+|
+|-heal|p1a: Chansey|100\/100 brn|[from] move: Wish|[wisher] Chansey
+|-heal|p2a: Talonflame|64\/100|[from] item: Leftovers
+|-damage|p1a: Chansey|88\/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|move|p1a: Chansey|Toxic|p2a: Talonflame
+|-status|p2a: Talonflame|tox
+|
+|-heal|p2a: Talonflame|70\/100 tox|[from] item: Leftovers
+|-damage|p2a: Talonflame|64\/100 tox|[from] psn
+|-damage|p1a: Chansey|75\/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|34\/100 brn
+|-damage|p2a: Talonflame|37\/100 tox|[from] Recoil
+|move|p1a: Chansey|Wish|p1a: Chansey
+|
+|-heal|p2a: Talonflame|43\/100 tox|[from] item: Leftovers
+|-damage|p2a: Talonflame|31\/100 tox|[from] psn
+|-damage|p1a: Chansey|22\/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|-damage|p2a: Talonflame|17\/100 tox|[from] Recoil
+|faint|p1a: Chansey
+|
+|win|goodnewsbears
+|l|☆Gvazq27
+|raw|Gvazq27's rating: 1367 &rarr; <strong>1356<\/strong><br \/>(-11 for losing)
+|raw|goodnewsbears's rating: 1524 &rarr; <strong>1536<\/strong><br \/>(+12 for winning)

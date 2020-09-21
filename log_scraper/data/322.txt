@@ -1,0 +1,199 @@
+|j|☆garbordis
+|j|☆Kobemax51
+|player|p1|garbordis|29
+|player|p2|Kobemax51|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Raikou|item
+|poke|p1|Manaphy|item
+|poke|p1|Charizard, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Amoonguss, M|item
+|poke|p2|Arcanine, M|item
+|poke|p2|Gyarados, F|item
+|poke|p2|Togekiss, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kobemax51)
+|inactive|garbordis has 135 seconds left.
+|inactive|garbordis has 120 seconds left.
+|inactive|garbordis has 105 seconds left.
+|
+|start
+|switch|p1a: Raikou|Raikou|100\/100
+|switch|p2a: Clefable|Clefable, F|100\/100
+|-ability|p1a: Raikou|Pressure
+|turn|1
+|
+|move|p1a: Raikou|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|55\/100
+|
+|switch|p1a: Charizard|Charizard, F|100\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Charizard
+|-sidestart|p1: garbordis|move: Stealth Rock
+|
+|-heal|p2a: Clefable|61\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|detailschange|p1a: Charizard|Charizard-Mega-X, F
+|-mega|p1a: Charizard|Charizard|Charizardite X
+|move|p1a: Charizard|Flare Blitz|p2a: Clefable
+|-damage|p2a: Clefable|2\/100
+|-damage|p1a: Charizard|75\/100|[from] Recoil
+|move|p2a: Clefable|Thunder Wave|p1a: Charizard
+|-status|p1a: Charizard|par
+|
+|-heal|p2a: Clefable|8\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Arcanine|Arcanine, M|100\/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|move|p1a: Charizard|Flare Blitz|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|81\/100
+|-damage|p1a: Charizard|66\/100 par|[from] Recoil
+|
+|-heal|p2a: Arcanine|87\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Manaphy|Manaphy|100\/100
+|-damage|p1a: Manaphy|88\/100|[from] Stealth Rock
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Manaphy|[miss]
+|-miss|p2a: Arcanine|p1a: Manaphy
+|
+|-heal|p1a: Manaphy|94\/100|[from] item: Leftovers
+|-heal|p2a: Arcanine|93\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Amoonguss|Amoonguss, M|100\/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p1a: Manaphy|100\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Manaphy|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|20\/100
+|move|p2a: Amoonguss|Spore|p1a: Manaphy
+|-status|p1a: Manaphy|slp
+|
+|-heal|p2a: Amoonguss|26\/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|switch|p2a: Gyarados|Gyarados, F|100\/100
+|cant|p1a: Manaphy|slp
+|
+|upkeep
+|turn|8
+|
+|cant|p1a: Manaphy|slp
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Gyarados|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|53\/100 slp
+|cant|p1a: Manaphy|slp
+|
+|-heal|p1a: Manaphy|59\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p1a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|move|p2a: Gyarados|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Landorus|Stone Edge|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|23\/100
+|
+|-heal|p2a: Gyarados|29\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Gyarados|13\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|19\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|13
+|
+|move|p2a: Gyarados|Waterfall|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|25\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|turn|14
+|
+|move|p2a: Gyarados|Ice Fang|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|-heal|p2a: Gyarados|31\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Raikou|Raikou|100\/100
+|-damage|p1a: Raikou|88\/100|[from] Stealth Rock
+|-ability|p1a: Raikou|Pressure
+|turn|15
+|-message|garbordis forfeited.
+|
+|win|Kobemax51
+|l|☆garbordis
+|c|☆Kobemax51|Ggg

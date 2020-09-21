@@ -1,0 +1,7 @@
+('server/templates/',
+ 'templates',
+ [],
+ 'DATA',
+ [('templates/bots.html', 'server/templates/bots.html', 'DATA'),
+  ('templates/index.html', 'server/templates/index.html', 'DATA'),
+  ('templates/layout.html', 'server/templates/layout.html', 'DATA')])

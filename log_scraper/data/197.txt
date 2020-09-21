@@ -1,0 +1,502 @@
+|j|☆Greensaur94
+|j|☆Fldandtooton
+|player|p1|Greensaur94|151
+|player|p2|Fldandtooton|39
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Klefki, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Raikou|item
+|poke|p2|Volcanion|item
+|poke|p2|Metagross|item
+|poke|p2|Mew|item
+|poke|p2|Chansey, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fldandtooton)
+|inactive|Greensaur94 has 135 seconds left.
+|inactive|Greensaur94 has 120 seconds left.
+|inactive|Greensaur94 has 105 seconds left.
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100\/100
+|switch|p2a: Volcanion|Volcanion|100\/100
+|turn|1
+|inactive|Fldandtooton has 135 seconds left.
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|move|p2a: Volcanion|Steam Eruption|p1a: Klefki
+|-damage|p1a: Klefki|44\/100
+|
+|upkeep
+|turn|2
+|inactive|Greensaur94 has 135 seconds left.
+|inactive|Greensaur94 has 120 seconds left.
+|
+|switch|p2a: Mew|Mew|100\/100
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|
+|upkeep
+|turn|3
+|inactive|Greensaur94 has 135 seconds left.
+|
+|move|p1a: Klefki|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Klefki|par
+|move|p2a: Mew|Defog|p1a: Klefki
+|-unboost|p1a: Klefki|evasion|1
+|-sideend|p1: Greensaur94|Reflect
+|-sideend|p1: Greensaur94|move: Light Screen
+|-fail|p2a: Mew
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|move|p2a: Mew|Psychic|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|34\/100 par
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Manaphy|Manaphy|100\/100
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|6
+|c|☆Fldandtooton|omg
+|c|☆Fldandtooton|ur so lucky
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100\/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|7
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Ferrothorn|Power Whip|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|50\/100
+|
+|-heal|p1a: Manaphy|56\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|move|p1a: Manaphy|Ice Beam|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|32\/100
+|move|p2a: Ferrothorn|Power Whip|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|-heal|p2a: Ferrothorn|38\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Klefki|Klefki, M|34\/100 par
+|turn|9
+|
+|switch|p2a: Mew|Mew|100\/100 par
+|cant|p1a: Klefki|par
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|11
+|c|☆Fldandtooton|holy crap
+|
+|switch|p1a: Volcarona|Volcarona, F|100\/100
+|move|p2a: Mew|Defog|p1a: Volcarona
+|-unboost|p1a: Volcarona|evasion|1
+|-sideend|p1: Greensaur94|Reflect
+|-sideend|p1: Greensaur94|move: Light Screen
+|-fail|p2a: Mew
+|
+|upkeep
+|turn|12
+|
+|switch|p2a: Volcanion|Volcanion|100\/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Volcanion
+|-damage|p2a: Volcanion|52\/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Klefki|Klefki, M|34\/100 par
+|turn|14
+|
+|switch|p2a: Mew|Mew|100\/100 par
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|
+|upkeep
+|turn|15
+|
+|cant|p2a: Mew|par
+|cant|p1a: Klefki|par
+|
+|upkeep
+|turn|16
+|
+|switch|p1a: Dragonite|Dragonite, M|100\/100
+|move|p2a: Mew|Defog|p1a: Dragonite
+|-unboost|p1a: Dragonite|evasion|1
+|-sideend|p1: Greensaur94|move: Light Screen
+|-fail|p2a: Mew
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Metagross|Metagross|100\/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|18
+|
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|detailschange|p2a: Metagross|Metagross-Mega
+|move|p1a: Dragonite|Fire Punch|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|32\/100
+|move|p2a: Metagross|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|14\/100
+|
+|upkeep
+|turn|19
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p2a: Chansey|Chansey, F|100\/100
+|move|p1a: Dragonite|Fire Punch|p2a: Chansey
+|-crit|p2a: Chansey
+|-damage|p2a: Chansey|51\/100
+|
+|upkeep
+|turn|20
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|upkeep
+|c|☆Greensaur94|Scum
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p2a: Raikou|Raikou|100\/100
+|-ability|p2a: Raikou|Pressure
+|turn|21
+|
+|move|p1a: Dragonite|Dragon Claw|p2a: Raikou
+|-damage|p2a: Raikou|10\/100
+|move|p2a: Raikou|Hidden Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Raikou|17\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|22
+|
+|move|p1a: Excadrill|Earthquake|p2a: Raikou
+|-supereffective|p2a: Raikou
+|-damage|p2a: Raikou|0 fnt
+|faint|p2a: Raikou
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|100\/100 par
+|turn|23
+|
+|switch|p1a: Klefki|Klefki, M|34\/100 par
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|24
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|move|p2a: Mew|Psychic|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|26\/100 par
+|
+|upkeep
+|turn|25
+|
+|cant|p2a: Mew|par
+|cant|p1a: Klefki|par
+|
+|upkeep
+|turn|26
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Mew|Defog|p1a: Klefki
+|-unboost|p1a: Klefki|evasion|1
+|-sideend|p1: Greensaur94|Reflect
+|-sideend|p1: Greensaur94|move: Light Screen
+|-fail|p2a: Mew
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|move|p2a: Mew|Psychic|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|17\/100 par
+|
+|upkeep
+|turn|28
+|inactive|Greensaur94 has 135 seconds left.
+|
+|switch|p1a: Venusaur|Venusaur, M|100\/100
+|cant|p2a: Mew|par
+|
+|upkeep
+|turn|29
+|
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|detailschange|p1a: Venusaur|Venusaur-Mega, M
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|80\/100 par
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|86\/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|c|☆Fldandtooton|:\/
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|66\/100 par
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|73\/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|52\/100 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100 par
+|
+|upkeep
+|turn|32
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|83\/100 par
+|move|p2a: Mew|Will-O-Wisp|p1a: Venusaur
+|-status|p1a: Venusaur|brn
+|
+|-heal|p2a: Mew|89\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|88\/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|70\/100 par
+|-heal|p1a: Venusaur|99\/100 brn|[from] drain|[of] p2a: Mew
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|76\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|86\/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|56\/100 par
+|-heal|p1a: Venusaur|98\/100 brn|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100 par
+|
+|-damage|p1a: Venusaur|85\/100 brn|[from] brn
+|-sideend|p1: Greensaur94|move: Light Screen
+|upkeep
+|turn|35
+|
+|switch|p1a: Klefki|Klefki, M|17\/100 par
+|move|p2a: Mew|Psychic|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur-Mega, M|85\/100 brn
+|turn|36
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|83\/100 par
+|-heal|p1a: Venusaur|95\/100 brn|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|44\/100 brn
+|
+|-heal|p2a: Mew|89\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|32\/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|82\/100 brn
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|95\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|69\/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|76\/100 par
+|-heal|p1a: Venusaur|80\/100 brn|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|34\/100 brn
+|
+|-heal|p2a: Mew|82\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|21\/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|71\/100 brn
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|89\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|59\/100 brn|[from] brn
+|upkeep
+|turn|40
+|c|☆Fldandtooton|i outstall
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-crit|p2a: Mew
+|-damage|p2a: Mew|62\/100 par
+|-heal|p1a: Venusaur|74\/100 brn|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|21\/100 brn
+|-unboost|p1a: Venusaur|spd|1
+|
+|-heal|p2a: Mew|68\/100 par|[from] item: Leftovers
+|-damage|p1a: Venusaur|9\/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|move|p1a: Venusaur|Giga Drain|p2a: Mew
+|-damage|p2a: Mew|48\/100 par
+|-heal|p1a: Venusaur|20\/100 brn|[from] drain|[of] p2a: Mew
+|move|p2a: Mew|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Mew|54\/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|100\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|42
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|7\/100 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|57\/100 par
+|
+|-heal|p2a: Mew|63\/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|17\/100 par
+|move|p2a: Mew|Will-O-Wisp|p1a: Excadrill
+|-status|p1a: Excadrill|brn
+|
+|-heal|p2a: Mew|23\/100 par|[from] item: Leftovers
+|-damage|p1a: Excadrill|88\/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|1\/100 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|51\/100 par
+|
+|-heal|p2a: Mew|57\/100 par|[from] item: Leftovers
+|-damage|p1a: Excadrill|76\/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|33\/100 par
+|cant|p2a: Mew|par
+|
+|-heal|p2a: Mew|39\/100 par|[from] item: Leftovers
+|-damage|p1a: Excadrill|63\/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|17\/100 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|67\/100 par
+|
+|-heal|p2a: Mew|73\/100 par|[from] item: Leftovers
+|-damage|p1a: Excadrill|51\/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|move|p1a: Excadrill|Earthquake|p2a: Mew
+|-damage|p2a: Mew|50\/100 par
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100 par
+|
+|-damage|p1a: Excadrill|38\/100 brn|[from] brn
+|upkeep
+|turn|48
+|-message|Greensaur94 forfeited.
+|
+|win|Fldandtooton
+|l|☆Greensaur94

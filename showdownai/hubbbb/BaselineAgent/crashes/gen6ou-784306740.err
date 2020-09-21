@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "showdown.py", line 314, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 289, in play_game
+    gamestate = self.update_latest_turn(gamestate)
+  File "showdown.py", line 185, in update_latest_turn
+    self.simulator.append_log(gamestate, turns[-1], my_poke=my_poke_name, opp_poke=opp_poke_name)
+IndexError: list index out of range

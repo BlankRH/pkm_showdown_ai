@@ -1,0 +1,411 @@
+|j|☆goodnewsbears
+|j|☆Trainerbeat
+|player|p1|goodnewsbears|266
+|player|p2|Trainerbeat|163
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Gardevoir, F|item
+|poke|p2|Ferrothorn, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Bisharp, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Scizor|Scizor, F|100\/100
+|switch|p2a: Kyurem|Kyurem-Black|100\/100
+|-ability|p2a: Kyurem|Teravolt
+|turn|1
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|78\/100
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|57\/100
+|move|p1a: Clefable|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Trainerbeat|move: Stealth Rock
+|
+|-heal|p1a: Clefable|63\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Ferrothorn|Ferrothorn, F|100\/100
+|-damage|p2a: Ferrothorn|94\/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonblast|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80\/100
+|-unboost|p2a: Ferrothorn|spa|1
+|
+|-heal|p1a: Clefable|69\/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|87\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Clefable|Flamethrower|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|18\/100
+|move|p2a: Ferrothorn|Stealth Rock|p1a: Clefable
+|-sidestart|p1: goodnewsbears|move: Stealth Rock
+|
+|-heal|p1a: Clefable|75\/100|[from] item: Leftovers
+|-heal|p2a: Ferrothorn|25\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Gliscor|Gliscor, F|100\/100
+|-damage|p1a: Gliscor|88\/100|[from] Stealth Rock
+|switch|p2a: Gardevoir|Gardevoir, F|100\/100
+|-damage|p2a: Gardevoir|88\/100|[from] Stealth Rock
+|-ability|p2a: Gardevoir|Poison Heal|[from] ability: Trace|[of] p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|-damage|p1a: Talonflame|51\/100|[from] Stealth Rock
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, F
+|move|p2a: Gardevoir|Hyper Voice|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|16\/100
+|
+|-heal|p1a: Talonflame|23\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Gardevoir
+|-damage|p2a: Gardevoir|26\/100
+|-damage|p1a: Talonflame|7\/100|[from] Recoil
+|move|p2a: Gardevoir|Psyshock|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|turn|8
+|
+|switch|p2a: Bisharp|Bisharp, F|100\/100
+|-damage|p2a: Bisharp|95\/100|[from] Stealth Rock
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-ability|p1a: Alakazam|Defiant|[from] ability: Trace|[of] p2a: Bisharp
+|move|p1a: Alakazam|Psychic|p2a: Bisharp
+|-immune|p2a: Bisharp|[msg]
+|
+|upkeep
+|turn|9
+|
+|switch|p1a: Gliscor|Gliscor, F|88\/100 tox
+|-damage|p1a: Gliscor|76\/100 tox|[from] Stealth Rock
+|move|p2a: Bisharp|Sucker Punch|p1a: Gliscor|[still]
+|-fail|p2a: Bisharp
+|
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Wash|100\/100
+|-damage|p2a: Rotom|88\/100|[from] Stealth Rock
+|move|p1a: Gliscor|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[msg]|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|94\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p2a: Rotom|100\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|63\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100\/100
+|-damage|p1a: Tentacruel|88\/100|[from] Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|76\/100
+|
+|-heal|p1a: Tentacruel|82\/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|j| Fated Keys ✞
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|98\/100
+|-sideend|p1: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Rotom|Volt Switch|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|51\/100
+|
+|switch|p2a: Bisharp|Bisharp, F|95\/100
+|-damage|p2a: Bisharp|89\/100|[from] Stealth Rock
+|
+|-heal|p1a: Tentacruel|57\/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|switch|p1a: Gliscor|Gliscor, F|76\/100 tox
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|c| Fated Keys ✞|oh hey guys
+|
+|move|p1a: Gliscor|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-heal|p1a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Kyurem|Kyurem-Black|100\/100
+|-damage|p2a: Kyurem|76\/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Teravolt
+|turn|17
+|
+|switch|p1a: Tentacruel|Tentacruel, F|57\/100
+|move|p2a: Kyurem|Ice Beam|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|43\/100
+|-damage|p2a: Kyurem|66\/100|[from] item: Life Orb
+|
+|-heal|p1a: Tentacruel|49\/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|move|p2a: Kyurem|Dragon Claw|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-damage|p2a: Kyurem|56\/100|[from] item: Life Orb
+|faint|p1a: Tentacruel
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|75\/100
+|turn|19
+|
+|move|p2a: Kyurem|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Kyurem|46\/100|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|upkeep
+|c| Fated Keys ✞|i think you 2 use to face eachother years ago as well as now lol
+|
+|switch|p1a: Alakazam|Alakazam-Mega, M|100\/100
+|-ability|p1a: Alakazam|Teravolt|[from] ability: Trace|[of] p2a: Kyurem
+|-ability|p1a: Alakazam|Teravolt
+|turn|20
+|j| Littlelucario
+|inactive|Trainerbeat has 135 seconds left.
+|
+|move|p1a: Alakazam|Psychic|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|78\/100
+|-damage|p2a: Landorus|66\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Alakazam|atk|1
+|turn|21
+|c| Fated Keys ✞|hey LL
+|
+|switch|p1a: Scizor|Scizor, F|100\/100
+|move|p2a: Landorus|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|85\/100
+|c| Littlelucario|hey keys
+|
+|switch|p2a: Rotom|Rotom-Wash|98\/100
+|-damage|p2a: Rotom|85\/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|92\/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c| Littlelucario|do u know the ppl playing
+|
+|switch|p1a: Gliscor|Gliscor, F|100\/100 tox
+|move|p2a: Rotom|Will-O-Wisp|p1a: Gliscor
+|-fail|p1a: Gliscor
+|
+|-heal|p2a: Rotom|98\/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|c| Fated Keys ✞|yeah a bit
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p2a: Rotom|100\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|63\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|c| Littlelucario|cool
+|c| Fated Keys ✞|they use to play oras alot more back in the day
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|51\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|63\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|38\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|51\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|c| Fated Keys ✞|goodnews always used this team but
+|
+|switch|p2a: Gardevoir|Gardevoir-Mega, F|26\/100
+|-damage|p2a: Gardevoir|14\/100|[from] Stealth Rock
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|26\/100 tox
+|
+|-heal|p1a: Gliscor|38\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|c| Fated Keys ✞|he would always get high on the ladder with it
+|
+|switch|p1a: Scizor|Scizor, F|85\/100
+|move|p2a: Gardevoir|Hyper Voice|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|46\/100
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Rotom|Rotom-Wash|100\/100
+|-damage|p2a: Rotom|88\/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74\/100
+|
+|-heal|p2a: Rotom|80\/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|switch|p1a: Gliscor|Gliscor, F|38\/100 tox
+|move|p2a: Rotom|Hydro Pump|p1a: Gliscor|[miss]
+|-miss|p2a: Rotom|p1a: Gliscor
+|
+|-heal|p2a: Rotom|86\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|51\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|c| Fated Keys ✞|and trainer beat has a few accounts which he would climb well with
+|c| Littlelucario|who bps
+|c| Fated Keys ✞|i think
+|c| Littlelucario|uturn every time
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|Trainerbeat has 135 seconds left.
+|inactive|Trainerbeat has 120 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|66\/100
+|-damage|p2a: Landorus|54\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|-heal|p1a: Gliscor|63\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|switch|p2a: Gardevoir|Gardevoir-Mega, F|14\/100
+|-damage|p2a: Gardevoir|2\/100|[from] Stealth Rock
+|move|p1a: Gliscor|Earthquake|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|Trainerbeat has 135 seconds left.
+|-message|Trainerbeat forfeited.
+|
+|win|goodnewsbears
+|l|☆Trainerbeat
+|raw|goodnewsbears's rating: 1535 &rarr; <strong>1553<\/strong><br \/>(+18 for winning)
+|raw|Trainerbeat's rating: 1515 &rarr; <strong>1497<\/strong><br \/>(-18 for losing)

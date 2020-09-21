@@ -1,0 +1,329 @@
+|j|☆Back At Square One
+|j|☆Uncommon Megas
+|player|p1|Back At Square One|98
+|teamsize|p1|6
+|player|p2|Uncommon Megas|50
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Serperior, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p2|Aggron, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Alomomola, M|item
+|poke|p2|Weezing, F|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Klefki, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|c|☆Back At Square One|man
+|c|☆Back At Square One|u never bring the right mons
+|c|☆Back At Square One|:\/
+|c|☆Back At Square One|babiri clef
+|c|☆Uncommon Megas|hahahaha sorry
+|c|☆Back At Square One|no steel type
+|c|☆Back At Square One|iron tail torn
+|c|☆Uncommon Megas|babiri clef was cool though
+|c|☆Back At Square One|no diancie
+|c|☆Uncommon Megas|xD|
+|start
+|switch|p1a: Charizard|Charizard, F|100\/100
+|switch|p2a: Klefki|Klefki, F|100\/100
+|turn|1|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|move|p2a: Klefki|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-damage|p1a: Landorus|94\/100 tox|[from] psn
+|upkeep
+|turn|2|
+|move|p2a: Klefki|Spikes|p1a: Landorus
+|-sidestart|p1: Back At Square One|Spikes
+|move|p1a: Landorus|Earthquake|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Landorus|82\/100 tox|[from] psn
+|upkeep|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100\/100
+|turn|3|
+|move|p2a: Tornadus|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|25\/100 tox
+|-damage|p2a: Tornadus|91\/100|[from] item: Life Orb
+|move|p1a: Landorus|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|78\/100|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|
+|upkeep
+|turn|4|
+|move|p1a: Tornadus|Knock Off|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|45\/100
+|-enditem|p2a: Tornadus|Life Orb|[from] move: Knock Off|[of] p1a: Tornadus
+|move|p2a: Tornadus|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|76\/100
+|-enditem|p1a: Tornadus|Assault Vest|[from] move: Knock Off|[of] p2a: Tornadus
+|
+|upkeep
+|turn|5|
+|switch|p2a: Aggron|Aggron, M|100\/100
+|move|p1a: Tornadus|Hurricane|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|85\/100
+|
+|upkeep
+|turn|6|
+|-mega|p2a: Aggron|Aggron|Aggronite
+|detailschange|p2a: Aggron|Aggron-Mega, M
+|move|p1a: Tornadus|U-turn|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|81\/100|
+|switch|p1a: Latios|Latios, M|100\/100
+|move|p2a: Aggron|Stealth Rock|p1a: Latios
+|-sidestart|p1: Back At Square One|move: Stealth Rock
+|
+|upkeep
+|turn|7|
+|move|p1a: Latios|Defog|p2a: Aggron
+|-unboost|p2a: Aggron|evasion|1
+|-sideend|p1: Back At Square One|Spikes|[from] move: Defog|[of] p1a: Latios
+|-sideend|p1: Back At Square One|Stealth Rock|[from] move: Defog|[of] p1a: Latios
+|move|p2a: Aggron|Heavy Slam|p1a: Latios
+|-damage|p1a: Latios|11\/100
+|
+|upkeep
+|turn|8|
+|move|p1a: Latios|Draco Meteor|p2a: Aggron
+|-resisted|p2a: Aggron
+|-damage|p2a: Aggron|29\/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|1\/100|[from] item: Life Orb
+|move|p2a: Aggron|Stealth Rock|p1a: Latios
+|-sidestart|p1: Back At Square One|move: Stealth Rock
+|
+|upkeep
+|turn|9|
+|switch|p2a: Tornadus|Tornadus-Therian, M|78\/100
+|move|p1a: Latios|Defog|p2a: Tornadus
+|-unboost|p2a: Tornadus|evasion|1
+|-sideend|p1: Back At Square One|Stealth Rock|[from] move: Defog|[of] p1a: Latios
+|
+|upkeep
+|turn|10|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|move|p2a: Tornadus|Knock Off|p1a: Tornadus
+|-damage|p1a: Tornadus|85\/100
+|
+|upkeep
+|turn|11|
+|move|p1a: Tornadus|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|70\/100|
+|switch|p1a: Tyranitar|Tyranitar, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88\/100
+|-start|p1a: Tyranitar|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|64\/100|[from] sandstorm
+|upkeep
+|turn|12|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|move|p2a: Tornadus|Superpower|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-damage|p1a: Tornadus|85\/100
+|-unboost|p2a: Tornadus|atk|1
+|-unboost|p2a: Tornadus|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tornadus|79\/100|[from] sandstorm
+|-damage|p2a: Tornadus|58\/100|[from] sandstorm
+|upkeep
+|turn|13|
+|switch|p2a: Weezing|Weezing, F|100\/100
+|move|p1a: Tornadus|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|96\/100|
+|switch|p1a: Charizard|Charizard, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94\/100|[from] sandstorm
+|-damage|p2a: Weezing|90\/100|[from] sandstorm
+|-heal|p2a: Weezing|96\/100|[from] item: Black Sludge
+|upkeep
+|turn|14|
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|detailschange|p1a: Charizard|Charizard-Mega-Y, F
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Fire Blast|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep|
+|switch|p2a: Alomomola|Alomomola, M|100\/100
+|turn|15|
+|switch|p1a: Tyranitar|Tyranitar, F|88\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Alomomola|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|70\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|94\/100|[from] sandstorm
+|-heal|p2a: Alomomola|100\/100|[from] item: Leftovers
+|upkeep
+|turn|16|
+|move|p1a: Tyranitar|Crunch|p2a: Alomomola
+|-damage|p2a: Alomomola|52\/100
+|move|p2a: Alomomola|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|53\/100
+|-status|p1a: Tyranitar|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|46\/100|[from] sandstorm
+|-heal|p2a: Alomomola|52\/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|41\/100 brn|[from] brn
+|upkeep
+|turn|17|
+|switch|p1a: Serperior|Serperior, M|100\/100
+|switch|p2a: Garchomp|Garchomp, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Serperior|94\/100|[from] sandstorm
+|-heal|p1a: Serperior|100\/100|[from] item: Leftovers
+|upkeep
+|turn|18|
+|move|p2a: Garchomp|Stealth Rock|p1a: Serperior
+|-sidestart|p1: Back At Square One|move: Stealth Rock
+|move|p1a: Serperior|Leaf Storm|p2a: Garchomp
+|-damage|p2a: Garchomp|54\/100
+|-boost|p1a: Serperior|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Serperior|94\/100|[from] sandstorm
+|-heal|p1a: Serperior|100\/100|[from] item: Leftovers
+|upkeep
+|turn|19|
+|switch|p2a: Aggron|Aggron-Mega, M|29\/100
+|move|p1a: Serperior|Glare|p2a: Aggron
+|-status|p2a: Aggron|par
+|
+|-weather|none
+|upkeep
+|turn|20|
+|move|p1a: Serperior|Hidden Power|p2a: Aggron
+|-supereffective|p2a: Aggron
+|-damage|p2a: Aggron|0 fnt
+|faint|p2a: Aggron
+|
+|upkeep|
+|switch|p2a: Tornadus|Tornadus-Therian, M|91\/100
+|turn|21|
+|move|p2a: Tornadus|Hurricane|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|c|☆Back At Square One|oh
+|c|☆Back At Square One|it killd
+|c|☆Back At Square One|wait
+|c|☆Back At Square One|dude
+|c|☆Back At Square One|double rocks
+|c|☆Back At Square One|seriously
+|c|☆Uncommon Megas|yeah lol
+|c|☆Back At Square One|...|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|-damage|p1a: Tornadus|76\/100|[from] Stealth Rock
+|turn|22|
+|move|p2a: Tornadus|Hurricane|p1a: Tornadus
+|-damage|p1a: Tornadus|33\/100
+|-start|p1a: Tornadus|confusion
+|-activate|p1a: Tornadus|confusion
+|move|p1a: Tornadus|Hurricane|p2a: Tornadus|[miss]
+|-miss|p1a: Tornadus|p2a: Tornadus
+|
+|upkeep
+|turn|23|
+|switch|p1a: Tyranitar|Tyranitar, F|41\/100 brn
+|-damage|p1a: Tyranitar|29\/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Tornadus|Hurricane|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|16\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tornadus|85\/100|[from] sandstorm
+|-damage|p1a: Tyranitar|4\/100 brn|[from] brn
+|upkeep
+|turn|24|
+|-activate|p2a: Tornadus|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Tornadus|[from]Pursuit
+|-damage|p2a: Tornadus|47\/100
+|switch|p2a: Alomomola|Alomomola, M|86\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|79\/100|[from] sandstorm
+|-heal|p2a: Alomomola|86\/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Tyranitar|
+|switch|p1a: Landorus|Landorus-Therian, M|25\/100 tox
+|-damage|p1a: Landorus|12\/100 tox|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Alomomola|atk|1
+|turn|25|
+|move|p1a: Landorus|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: Uncommon Megas|move: Stealth Rock
+|move|p2a: Alomomola|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|79\/100|[from] sandstorm
+|-heal|p2a: Alomomola|86\/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Charizard|Charizard-Mega-Y, F|94\/100
+|-damage|p1a: Charizard|45\/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|turn|26|
+|move|p1a: Charizard|Solar Beam|p2a: Alomomola|[still]
+|-prepare|p1a: Charizard|Solar Beam|p2a: Alomomola
+|-anim|p1a: Charizard|Solar Beam|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep|
+|switch|p2a: Garchomp|Garchomp, F|54\/100
+|-damage|p2a: Garchomp|48\/100|[from] Stealth Rock
+|turn|27
+|c|☆Back At Square One|that gg
+|-message|Back At Square One forfeited.
+|
+|win|Uncommon Megas
+|l|☆Back At Square One

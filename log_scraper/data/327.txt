@@ -1,0 +1,357 @@
+|j|☆gurkensalat
+|j|☆randomsmogonplayer
+|player|p1|gurkensalat|29
+|teamsize|p1|6
+|player|p2|randomsmogonplayer|167
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gyarados, F|item
+|poke|p1|Sylveon, F|item
+|poke|p1|Jirachi|item
+|poke|p1|Tornadus-Therian, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Latios, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Clefable, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview|
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|turn|1|
+|move|p1a: Tornadus|Hurricane|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-damage|p1a: Tornadus|91\/100|[from] item: Life Orb
+|faint|p2a: Keldeo
+|
+|upkeep|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|2|
+|switch|p1a: Garchomp|Garchomp, F|100\/100
+|move|p2a: Landorus|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|64\/100
+|
+|upkeep
+|turn|3|
+|switch|p1a: Tornadus|Tornadus-Therian, M|100\/100
+|move|p2a: Landorus|Earthquake|p1a: Tornadus
+|-immune|p1a: Tornadus|[msg]
+|
+|upkeep
+|turn|4|
+|switch|p2a: Heatran|Heatran, M|100\/100
+|move|p1a: Tornadus|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Tornadus|p2a: Heatran
+|
+|upkeep
+|turn|5|
+|move|p1a: Tornadus|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|40\/100
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|91\/100|[from] item: Life Orb
+|move|p2a: Heatran|Stealth Rock|p1a: Tornadus
+|-sidestart|p1: gurkensalat|move: Stealth Rock
+|
+|-heal|p2a: Heatran|47\/100|[from] item: Leftovers
+|upkeep
+|turn|6|
+|move|p1a: Tornadus|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|1\/100
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|81\/100|[from] item: Life Orb
+|move|p2a: Heatran|Lava Plume|p1a: Tornadus
+|-damage|p1a: Tornadus|37\/100
+|
+|-heal|p2a: Heatran|7\/100|[from] item: Leftovers
+|upkeep
+|turn|7|
+|move|p1a: Tornadus|Superpower|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Tornadus|atk|1
+|-unboost|p1a: Tornadus|def|1
+|-damage|p1a: Tornadus|27\/100|[from] item: Life Orb
+|faint|p2a: Heatran
+|
+|upkeep|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|turn|8|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|-damage|p1a: Jirachi|94\/100|[from] Stealth Rock
+|move|p2a: Clefable|Thunder Wave|p1a: Jirachi
+|-status|p1a: Jirachi|par
+|
+|upkeep
+|turn|9|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|cant|p1a: Jirachi|par
+|
+|upkeep
+|turn|10|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|50\/100
+|
+|-heal|p2a: Clefable|56\/100|[from] item: Leftovers
+|upkeep
+|turn|11|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|cant|p1a: Jirachi|par
+|
+|upkeep
+|turn|12|
+|move|p2a: Clefable|Moonblast|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|61\/100 par
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|50\/100
+|
+|-heal|p2a: Clefable|56\/100|[from] item: Leftovers
+|upkeep
+|turn|13|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|50\/100
+|
+|-heal|p2a: Clefable|56\/100|[from] item: Leftovers
+|upkeep
+|turn|14|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|cant|p1a: Jirachi|par
+|
+|upkeep
+|turn|15|
+|move|p2a: Clefable|Moonblast|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|32\/100 par
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|44\/100
+|
+|-heal|p2a: Clefable|50\/100|[from] item: Leftovers
+|upkeep
+|turn|16|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|44\/100
+|
+|-heal|p2a: Clefable|50\/100|[from] item: Leftovers
+|upkeep
+|turn|17|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|44\/100
+|
+|-heal|p2a: Clefable|50\/100|[from] item: Leftovers
+|upkeep
+|turn|18|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99\/100
+|cant|p1a: Jirachi|par
+|
+|-heal|p2a: Clefable|100\/100|[from] item: Leftovers
+|upkeep
+|turn|19|
+|move|p2a: Clefable|Moonblast|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|3\/100 par
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|47\/100
+|
+|-heal|p2a: Clefable|53\/100|[from] item: Leftovers
+|upkeep
+|turn|20|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|43\/100
+|
+|-heal|p2a: Clefable|49\/100|[from] item: Leftovers
+|upkeep
+|turn|21|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|99\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|40\/100
+|
+|-heal|p2a: Clefable|46\/100|[from] item: Leftovers
+|upkeep
+|turn|22|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|96\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|46\/100
+|
+|-heal|p2a: Clefable|52\/100|[from] item: Leftovers
+|upkeep
+|turn|23|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|move|p1a: Jirachi|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|47\/100
+|
+|-heal|p2a: Clefable|53\/100|[from] item: Leftovers
+|upkeep
+|turn|24|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|cant|p1a: Jirachi|par
+|
+|upkeep
+|turn|25|
+|move|p2a: Clefable|Moonblast|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep|
+|switch|p1a: Latios|Latios, M|100\/100
+|-damage|p1a: Latios|88\/100|[from] Stealth Rock
+|turn|26|
+|move|p1a: Latios|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|58\/100
+|-damage|p1a: Latios|78\/100|[from] item: Life Orb
+|move|p2a: Clefable|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-heal|p2a: Clefable|64\/100|[from] item: Leftovers
+|upkeep
+|turn|27|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Latios|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|20\/100
+|-damage|p1a: Latios|68\/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|26\/100|[from] item: Leftovers
+|upkeep
+|turn|28|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|76\/100
+|move|p1a: Latios|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|35\/100
+|-damage|p1a: Latios|58\/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|41\/100|[from] item: Leftovers
+|upkeep
+|turn|29|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|91\/100
+|move|p1a: Latios|Psyshock|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|27\/100
+|-damage|p1a: Latios|48\/100 par|[from] item: Life Orb
+|
+|-heal|p2a: Clefable|33\/100|[from] item: Leftovers
+|upkeep
+|turn|30|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|83\/100
+|cant|p1a: Latios|par
+|
+|-heal|p2a: Clefable|89\/100|[from] item: Leftovers
+|upkeep
+|turn|31|
+|move|p2a: Clefable|Moonblast|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Clefable|95\/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Tornadus|Tornadus-Therian, M|60\/100
+|-damage|p1a: Tornadus|36\/100|[from] Stealth Rock
+|turn|32|
+|move|p1a: Tornadus|Hurricane|p2a: Clefable|[miss]
+|-miss|p1a: Tornadus|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|-heal|p2a: Clefable|100\/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Sylveon|Sylveon, F|100\/100
+|-damage|p1a: Sylveon|88\/100|[from] Stealth Rock
+|turn|33|
+|move|p1a: Sylveon|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|69\/100
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|29\/100
+|
+|-heal|p2a: Clefable|75\/100|[from] item: Leftovers
+|upkeep
+|turn|34|
+|move|p1a: Sylveon|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|42\/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|92\/100
+|
+|-heal|p2a: Clefable|98\/100|[from] item: Leftovers
+|upkeep
+|turn|35|
+|move|p1a: Sylveon|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|70\/100
+|move|p2a: Clefable|Moonblast|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-heal|p2a: Clefable|76\/100|[from] item: Leftovers
+|upkeep|
+|switch|p1a: Garchomp|Garchomp, F|64\/100
+|-damage|p1a: Garchomp|58\/100|[from] Stealth Rock
+|turn|36|
+|move|p1a: Garchomp|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|41\/100
+|move|p2a: Clefable|Moonblast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Clefable|47\/100|[from] item: Leftovers
+|upkeep
+|-message|gurkensalat forfeited.
+|
+|win|randomsmogonplayer
+|l|☆gurkensalat

@@ -1,0 +1,314 @@
+|j|☆Hguybn
+|j|☆alfredo duroo
+|player|p1|Hguybn|1
+|teamsize|p1|6
+|player|p2|alfredo duroo|167
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Tyranitar, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Breloom, F|item
+|poke|p2|Politoed, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Terrakion|item
+|poke|p2|Scizor, F|item
+|poke|p2|Kingdra, F|item
+|poke|p2|Kabutops, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hguybn)
+|
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100\/100
+|switch|p2a: Terrakion|Terrakion|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p1a: Garchomp|Garchomp, M|100\/100
+|move|p2a: Terrakion|Stealth Rock|p1a: Garchomp
+|-sidestart|p1: Hguybn|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|switch|p2a: Politoed|Politoed, M|100\/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Garchomp|Stealth Rock|p2a: Politoed
+|-sidestart|p2: alfredo duroo|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100\/100
+|-damage|p1a: Tyranitar|88\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Politoed|Hypnosis|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp
+|-enditem|p1a: Tyranitar|Lum Berry|[eat]
+|-curestatus|p1a: Tyranitar|slp|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|94\/100|[from] sandstorm
+|upkeep
+|turn|4
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p2a: Terrakion|Terrakion|100\/100
+|-damage|p2a: Terrakion|94\/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|59\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Garchomp|Garchomp, M|100\/100
+|-damage|p1a: Garchomp|94\/100|[from] Stealth Rock
+|move|p2a: Terrakion|Swords Dance|p2a: Terrakion
+|-boost|p2a: Terrakion|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|move|p2a: Terrakion|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Terrakion|47\/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|-damage|p2a: Terrakion|37\/100|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|7
+|
+|switch|p2a: Politoed|Politoed, M|94\/100
+|-damage|p2a: Politoed|82\/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|60\/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p2a: Kingdra|Kingdra, F|100\/100
+|-damage|p2a: Kingdra|88\/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Kingdra
+|-damage|p2a: Kingdra|21\/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|alfredo duroo has 135 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, M|88\/100
+|-damage|p1a: Tyranitar|76\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kingdra|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kingdra|15\/100|[from] sandstorm
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|97\/100
+|-damage|p1a: Excadrill|94\/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|10
+|inactive|alfredo duroo has 135 seconds left.
+|inactive|alfredo duroo has 120 seconds left.
+|
+|switch|p2a: Terrakion|Terrakion|37\/100
+|-damage|p2a: Terrakion|31\/100|[from] Stealth Rock
+|move|p1a: Excadrill|Rapid Spin|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|26\/100
+|-sideend|p1: Hguybn|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Latias|Latias, F|100\/100
+|-damage|p2a: Latias|88\/100|[from] Stealth Rock
+|move|p1a: Excadrill|Iron Head|p2a: Latias
+|-damage|p2a: Latias|29\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latias|23\/100|[from] sandstorm
+|upkeep
+|turn|12
+|inactive|alfredo duroo has 135 seconds left.
+|
+|move|p1a: Excadrill|Iron Head|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|turn|13
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100\/100
+|-mega|p2a: Scizor|Scizor|Scizorite
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|move|p2a: Scizor|Superpower|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|69\/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|
+|-weather|none
+|-heal|p1a: Tentacruel|75\/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|inactive|Hguybn has 135 seconds left.
+|inactive|alfredo duroo has 135 seconds left.
+|
+|switch|p2a: Politoed|Politoed, M|60\/100
+|-damage|p2a: Politoed|48\/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Politoed
+|-sidestart|p2: alfredo duroo|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|82\/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Politoed
+|-sidestart|p2: alfredo duroo|move: Toxic Spikes
+|move|p2a: Politoed|Encore|p1a: Tentacruel
+|-start|p1a: Tentacruel|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Tentacruel|88\/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|switch|p1a: Breloom|Breloom, F|100\/100
+|move|p2a: Politoed|Hypnosis|p1a: Breloom|[miss]
+|-miss|p2a: Politoed|p1a: Breloom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p2a: Scizor|Scizor-Mega, F|88\/100
+|-damage|p2a: Scizor|76\/100|[from] Stealth Rock
+|move|p1a: Breloom|Bullet Seed|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|71\/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|67\/100
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|62\/100
+|-hitcount|p2a: Scizor|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|Hguybn has 135 seconds left.
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Breloom
+|-damage|p1a: Breloom|36\/100
+|move|p1a: Breloom|Spore|p2a: Scizor
+|-status|p2a: Scizor|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|inactive|Hguybn has 135 seconds left.
+|
+|switch|p1a: Charizard|Charizard, M|100\/100
+|cant|p2a: Scizor|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|switch|p2a: Terrakion|Terrakion|26\/100
+|-status|p2a: Terrakion|tox
+|-damage|p2a: Terrakion|20\/100 tox|[from] Stealth Rock
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Flamethrower|p2a: Terrakion
+|-resisted|p2a: Terrakion
+|-damage|p2a: Terrakion|0 fnt
+|faint|p2a: Terrakion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Politoed|Politoed, M|48\/100
+|-damage|p2a: Politoed|36\/100|[from] Stealth Rock
+|-status|p2a: Politoed|tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|21
+|
+|switch|p1a: Breloom|Breloom, F|36\/100
+|switch|p2a: Kabutops|Kabutops, M|100\/100
+|-damage|p2a: Kabutops|88\/100|[from] Stealth Rock
+|-status|p2a: Kabutops|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kabutops|82\/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|move|p2a: Kabutops|Aqua Jet|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|2\/100
+|-damage|p2a: Kabutops|72\/100 tox|[from] item: Life Orb
+|move|p1a: Breloom|Mach Punch|p2a: Kabutops
+|-supereffective|p2a: Kabutops
+|-crit|p2a: Kabutops
+|-damage|p2a: Kabutops|0 fnt
+|faint|p2a: Kabutops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|alfredo duroo has 135 seconds left.
+|inactive|alfredo duroo has 120 seconds left.
+|inactive|alfredo duroo has 105 seconds left.
+|inactive|alfredo duroo has 90 seconds left.
+|-message|alfredo duroo forfeited.
+|
+|win|Hguybn
+|l|☆alfredo duroo
+|raw|Hguybn's rating: 1315 &rarr; <strong>1340<\/strong><br \/>(+25 for winning)
+|raw|alfredo duroo's rating: 1417 &rarr; <strong>1391<\/strong><br \/>(-26 for losing)

@@ -1,0 +1,170 @@
+|j|Son of Gyarados
+|j|bududi
+|player|p1|Son of Gyarados|1
+|teamsize|p1|6
+|player|p2|bududi|237
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Heatran, M|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Chansey, F|item
+|poke|p1|Gyarados, F|item
+|poke|p1|Azumarill, F|item
+|poke|p2|Metagross|item
+|poke|p2|Thundurus-Therian, M|item
+|poke|p2|Empoleon, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Swampert, M|item
+|poke|p2|Keldeo|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Son of Gyarados)
+|inactive|bududi has 135 seconds left.
+|inactive|bududi has 120 seconds left.|
+|start
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|switch|p2a: Moutardus|Landorus-Therian, M|100\/100
+|-ability|p2a: Moutardus|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|turn|1
+|inactive|bududi has 135 seconds left.|
+|move|p2a: Moutardus|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: Son of Gyarados|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Moutardus
+|-status|p2a: Moutardus|slp
+|
+|upkeep
+|turn|2
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Probotector|Metagross|100\/100
+|switch|p1a: Heatran|Heatran, M|100\/100
+|-damage|p1a: Heatran|88\/100|[from] Stealth Rock
+|
+|-heal|p1a: Heatran|94\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Swampert|Swampert, M|100\/100
+|move|p1a: Heatran|Stealth Rock|p2a: Swampert
+|-sidestart|p2: bududi|move: Stealth Rock
+|
+|-heal|p1a: Heatran|100\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|bududi has 135 seconds left.|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100
+|-damage|p1a: Amoonguss|88\/100|[from] Stealth Rock
+|move|p2a: Swampert|Scald|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|78\/100
+|-status|p1a: Amoonguss|brn
+|
+|-heal|p1a: Amoonguss|84\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|71\/100 brn|[from] brn
+|upkeep
+|turn|5
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Gros bidon|Empoleon, F|100\/100
+|-damage|p2a: Gros bidon|94\/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Gros bidon
+|-damage|p2a: Gros bidon|74\/100
+|-heal|p1a: Amoonguss|80\/100 brn|[from] drain|[of] p2a: Gros bidon
+|
+|-heal|p2a: Gros bidon|80\/100|[from] item: Leftovers
+|-heal|p1a: Amoonguss|86\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|74\/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Probotector|Metagross|100\/100
+|-damage|p2a: Probotector|95\/100|[from] Stealth Rock
+|switch|p1a: Chansey|Chansey, F|100\/100
+|-damage|p1a: Chansey|88\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Swampert|Swampert, M|100\/100
+|-damage|p2a: Swampert|94\/100|[from] Stealth Rock
+|move|p1a: Chansey|Thunder Wave|p2a: Swampert
+|-immune|p2a: Swampert|[msg]
+|
+|-heal|p2a: Swampert|100\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|bududi has 135 seconds left.|
+|switch|p1a: Amoonguss|Amoonguss, M|100\/100 brn
+|-damage|p1a: Amoonguss|88\/100 brn|[from] Stealth Rock
+|move|p2a: Swampert|Ice Beam|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|56\/100 brn
+|
+|-heal|p1a: Amoonguss|62\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|50\/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|bududi has 135 seconds left.|
+|switch|p2a: Probotector|Metagross|95\/100
+|-damage|p2a: Probotector|89\/100|[from] Stealth Rock
+|move|p1a: Amoonguss|Giga Drain|p2a: Probotector
+|-resisted|p2a: Probotector
+|-damage|p2a: Probotector|75\/100
+|-heal|p1a: Amoonguss|55\/100 brn|[from] drain|[of] p2a: Probotector
+|
+|-heal|p1a: Amoonguss|61\/100 brn|[from] item: Black Sludge
+|-damage|p1a: Amoonguss|49\/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|bududi has 135 seconds left.
+|inactive|Son of Gyarados has 135 seconds left.|
+|switch|p1a: Heatran|Heatran, M|100\/100
+|-damage|p1a: Heatran|88\/100|[from] Stealth Rock
+|-mega|p2a: Probotector|Metagross|Metagrossite
+|detailschange|p2a: Probotector|Metagross-Mega
+|move|p2a: Probotector|Zen Headbutt|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|64\/100
+|
+|-heal|p1a: Heatran|70\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|bududi has 135 seconds left.|
+|move|p2a: Probotector|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep|
+|switch|p1a: Gyarados|Gyarados, F|100\/100
+|-damage|p1a: Gyarados|76\/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Probotector|atk|1
+|turn|12|
+|-mega|p1a: Gyarados|Gyarados|Gyaradosite
+|detailschange|p1a: Gyarados|Gyarados-Mega, F
+|-ability|p1a: Gyarados|Mold Breaker
+|move|p2a: Probotector|Thunder Punch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|28\/100
+|-status|p1a: Gyarados|par
+|cant|p1a: Gyarados|par
+|
+|upkeep
+|turn|13
+|-message|Son of Gyarados forfeited.
+|
+|win|bududi
+|l|Son of Gyarados
+|c|☆bududi|ez

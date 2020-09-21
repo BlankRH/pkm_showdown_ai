@@ -1,0 +1,342 @@
+|j|☆stiftebox
+|j|☆EduardoElric
+|player|p1|stiftebox|29
+|player|p2|EduardoElric|224
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Scizor, F|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Starmie|item
+|poke|p1|Tyranitar, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Mandibuzz, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Cofagrigus, F|item
+|poke|p2|Charizard, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|j| theoreve
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|switch|p2a: Draco|Charizard, M, shiny|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Draco|atk|1
+|turn|1
+|raw|<div class="broadcast-red"><strong>Moderated chat was set to +!<\/strong><br \/>Only users of rank + and higher can talk.<\/div>
+|
+|-mega|p2a: Draco|Charizard|Charizardite Y
+|detailschange|p2a: Draco|Charizard-Mega-Y, M, shiny
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Draco
+|move|p2a: Draco|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|2\/100
+|move|p1a: Landorus|Stone Edge|p2a: Draco
+|-supereffective|p2a: Draco
+|-damage|p2a: Draco|0 fnt
+|faint|p2a: Draco
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p2a: Fungiraptor|Breloom, F|100\/100
+|turn|2
+|
+|move|p2a: Fungiraptor|Mach Punch|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Fungiraptor|84\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|turn|3
+|
+|switch|p2a: Chloe|Chansey, F|100\/100
+|move|p1a: Alakazam|Psychic|p2a: Chloe
+|-damage|p2a: Chloe|81\/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Chloe|Thunder Wave|p1a: Tyranitar
+|-status|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Chloe|75\/100|[from] sandstorm
+|upkeep
+|turn|5
+|
+|-activate|p2a: Chloe|move: Pursuit
+|move|p1a: Tyranitar|Pursuit|p2a: Chloe|[from]Pursuit
+|-damage|p2a: Chloe|30\/100
+|switch|p2a: Condorita|Mandibuzz, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|switch|p1a: Dragalge|Dragalge, M|100\/100
+|move|p2a: Condorita|Foul Play|p1a: Dragalge
+|-crit|p1a: Dragalge
+|-damage|p1a: Dragalge|69\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragalge|63\/100|[from] sandstorm
+|-heal|p1a: Dragalge|69\/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|move|p2a: Condorita|Foul Play|p1a: Dragalge
+|-damage|p1a: Dragalge|47\/100
+|move|p1a: Dragalge|Toxic Spikes|p2a: Condorita
+|-sidestart|p2: EduardoElric|move: Toxic Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragalge|41\/100|[from] sandstorm
+|-heal|p1a: Dragalge|47\/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|move|p2a: Condorita|Taunt|p1a: Dragalge
+|-start|p1a: Dragalge|move: Taunt
+|move|p1a: Dragalge|Sludge Bomb|p2a: Condorita
+|-damage|p2a: Condorita|69\/100
+|
+|-weather|none
+|-heal|p2a: Condorita|75\/100|[from] item: Leftovers
+|-heal|p1a: Dragalge|53\/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|move|p2a: Condorita|Foul Play|p1a: Dragalge
+|-damage|p1a: Dragalge|29\/100
+|move|p1a: Dragalge|Sludge Bomb|p2a: Condorita
+|-damage|p2a: Condorita|42\/100
+|
+|-heal|p2a: Condorita|49\/100|[from] item: Leftovers
+|-heal|p1a: Dragalge|35\/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|move|p2a: Condorita|Foul Play|p1a: Dragalge
+|-crit|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|-heal|p2a: Condorita|55\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, F|100\/100
+|turn|11
+|
+|-mega|p1a: Scizor|Scizor|Scizorite
+|detailschange|p1a: Scizor|Scizor-Mega, F
+|move|p2a: Condorita|Roost|p2a: Condorita
+|-heal|p2a: Condorita|100\/100
+|move|p1a: Scizor|U-turn|p2a: Condorita
+|-supereffective|p2a: Condorita
+|-crit|p2a: Condorita
+|-damage|p2a: Condorita|35\/100
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|
+|-heal|p2a: Condorita|42\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Starmie|Scald|p2a: Condorita
+|-damage|p2a: Condorita|20\/100
+|move|p2a: Condorita|Roost|p2a: Condorita
+|-heal|p2a: Condorita|70\/100
+|
+|-heal|p2a: Condorita|76\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Scald|p2a: Condorita
+|-damage|p2a: Condorita|53\/100
+|move|p2a: Condorita|Foul Play|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|56\/100
+|
+|-heal|p1a: Starmie|62\/100|[from] item: Leftovers
+|-heal|p2a: Condorita|59\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|j| Prince DEv!T
+|
+|move|p1a: Starmie|Scald|p2a: Condorita
+|-damage|p2a: Condorita|35\/100
+|move|p2a: Condorita|Roost|p2a: Condorita
+|-heal|p2a: Condorita|85\/100
+|
+|-heal|p1a: Starmie|68\/100|[from] item: Leftovers
+|-heal|p2a: Condorita|92\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Starmie|Scald|p2a: Condorita
+|-damage|p2a: Condorita|70\/100
+|move|p2a: Condorita|Foul Play|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|18\/100
+|
+|-heal|p1a: Starmie|24\/100|[from] item: Leftovers
+|-heal|p2a: Condorita|76\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|74\/100
+|move|p2a: Condorita|Foul Play|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-heal|p2a: Condorita|83\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100\/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|17
+|
+|move|p2a: Condorita|Foul Play|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|75\/100 par
+|cant|p1a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Condorita|89\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p2a: Condorita|Foul Play|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|50\/100 par
+|move|p1a: Tyranitar|Stone Edge|p2a: Condorita
+|-supereffective|p2a: Condorita
+|-damage|p2a: Condorita|0 fnt
+|faint|p2a: Condorita
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Koa|Landorus-Therian, M|100\/100
+|-ability|p2a: Koa|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|19
+|
+|move|p2a: Koa|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|turn|20
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Koa
+|-supereffective|p2a: Koa
+|-damage|p2a: Koa|26\/100
+|move|p2a: Koa|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Scizor|Scizor-Mega, F|100\/100
+|turn|21
+|
+|move|p2a: Koa|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|56\/100
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Koa
+|-damage|p2a: Koa|0 fnt
+|faint|p2a: Koa
+|
+|upkeep
+|
+|switch|p2a: Imhotep|Cofagrigus, F|100\/100
+|-status|p2a: Imhotep|psn
+|turn|23
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Imhotep
+|-damage|p2a: Imhotep|59\/100 psn
+|-activate|p2a: Imhotep|ability: Mummy|Technician|[of] p1a: Scizor
+|move|p2a: Imhotep|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|
+|-damage|p1a: Scizor|44\/100 brn|[from] brn
+|-damage|p2a: Imhotep|47\/100 psn|[from] psn
+|upkeep
+|-enditem|p2a: Imhotep|Sitrus Berry|[eat]
+|-heal|p2a: Imhotep|72\/100 psn|[from] item: Sitrus Berry
+|turn|24
+|
+|move|p1a: Scizor|Roost|p1a: Scizor
+|-heal|p1a: Scizor|94\/100 brn
+|move|p2a: Imhotep|Curse|p1a: Scizor
+|-start|p1a: Scizor|Curse|[of] p2a: Imhotep
+|-damage|p2a: Imhotep|22\/100 psn
+|
+|-damage|p1a: Scizor|82\/100 brn|[from] brn
+|-damage|p2a: Imhotep|10\/100 psn|[from] psn
+|-damage|p1a: Scizor|57\/100 brn|[from] Curse
+|upkeep
+|turn|25
+|
+|move|p2a: Imhotep|Protect|p2a: Imhotep
+|-singleturn|p2a: Imhotep|Protect
+|move|p1a: Scizor|Bullet Punch|p2a: Imhotep
+|-activate|p2a: Imhotep|move: Protect
+|
+|-damage|p1a: Scizor|45\/100 brn|[from] brn
+|-damage|p2a: Imhotep|0 fnt|[from] psn
+|-damage|p1a: Scizor|20\/100 brn|[from] Curse
+|upkeep
+|faint|p2a: Imhotep
+|
+|switch|p2a: Fungiraptor|Breloom, F|84\/100
+|-status|p2a: Fungiraptor|psn
+|turn|26
+|
+|move|p2a: Fungiraptor|Mach Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-activate|p1a: Scizor|ability: Mummy|Technician|[of] p2a: Fungiraptor
+|faint|p1a: Scizor
+|
+|win|EduardoElric
+|l|☆stiftebox
+|raw|stiftebox's rating: 1429 &rarr; <strong>1405<\/strong><br \/>(-24 for losing)
+|raw|EduardoElric's rating: 1365 &rarr; <strong>1388<\/strong><br \/>(+23 for winning)

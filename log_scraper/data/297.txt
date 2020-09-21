@@ -1,0 +1,167 @@
+|j|☆Greensaur94
+|j|☆lockeeed
+|player|p1|Greensaur94|151
+|player|p2|lockeeed|2
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, F|item
+|poke|p1|Manaphy|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Mew|item
+|poke|p2|Medicham, M|item
+|poke|p2|Clefable, M|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Rotom-Wash|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|
+|start
+|switch|p1a: Mew|Mew|100\/100
+|switch|p2a: Medicham|Medicham, M|100\/100
+|turn|1
+|
+|-mega|p2a: Medicham|Medicham|Medichamite
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|move|p2a: Medicham|Fake Out|p1a: Mew
+|-damage|p1a: Mew|87\/100
+|cant|p1a: Mew|flinch
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Greensaur94)
+|inactive|lockeeed has 135 seconds left.
+|inactive|lockeeed has 120 seconds left.
+|inactive|lockeeed has 105 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|move|p1a: Mew|Iron Defense|p1a: Mew
+|-boost|p1a: Mew|def|2
+|
+|upkeep
+|turn|3
+|inactive|Greensaur94 has 135 seconds left.
+|inactive|lockeeed has 135 seconds left.
+|inactive|Greensaur94 has 120 seconds left.
+|
+|switch|p2a: Hippowdon|Hippowdon, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Mew|Magic Coat|p1a: Mew
+|-singleturn|p1a: Mew|move: Magic Coat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|81\/100|[from] sandstorm
+|upkeep
+|turn|4
+|
+|move|p1a: Mew|Magic Coat|p1a: Mew
+|-singleturn|p1a: Mew|move: Magic Coat
+|move|p2a: Hippowdon|Earthquake|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|47\/100
+|-enditem|p1a: Mew|Sitrus Berry|[eat]
+|-heal|p1a: Mew|72\/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|66\/100|[from] sandstorm
+|upkeep
+|turn|5
+|
+|switch|p2a: Weavile|Weavile, F|100\/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Mew|Magic Coat|p1a: Mew
+|-singleturn|p1a: Mew|move: Magic Coat
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|94\/100|[from] sandstorm
+|-damage|p1a: Mew|60\/100|[from] sandstorm
+|upkeep
+|turn|6
+|
+|move|p2a: Weavile|Pursuit|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|44\/100
+|-damage|p2a: Weavile|84\/100|[from] item: Life Orb
+|move|p1a: Mew|Baton Pass|p1a: Mew
+|
+|switch|p1a: Volcarona|Volcarona, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weavile|78\/100|[from] sandstorm
+|-damage|p1a: Volcarona|94\/100|[from] sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100\/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Tornadus|Hurricane|p1a: Volcarona|[miss]
+|-miss|p2a: Tornadus|p1a: Volcarona
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Tornadus
+|-damage|p2a: Tornadus|42\/100
+|move|p2a: Tornadus|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|49\/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Rotom|Rotom-Wash|100\/100
+|move|p1a: Volcarona|Fiery Dance|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|53\/100
+|-boost|p1a: Volcarona|spa|1
+|
+|-heal|p2a: Rotom|59\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Volcarona|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-heal|p1a: Volcarona|78\/100|[from] drain|[of] p2a: Rotom
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|78\/100
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|c|☆Greensaur94|GG
+|inactive|lockeeed has 135 seconds left.
+|-message|lockeeed forfeited.
+|
+|win|Greensaur94
+|raw|Greensaur94's rating: 1403 &rarr; <strong>1416<\/strong><br \/>(+13 for winning)
+|raw|lockeeed's rating: 1270 &rarr; <strong>1254<\/strong><br \/>(-16 for losing)

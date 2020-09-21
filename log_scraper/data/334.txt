@@ -1,0 +1,469 @@
+|j|Fated Keys
+|j|biou
+|player|p1|Fated Keys|50
+|teamsize|p1|6
+|player|p2|biou|223
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated
+|seed|55044,63687,23080,60909
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Latias, F|item
+|poke|p1|Politoed, F|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Klefki, F|item
+|poke|p1|Kingdra, M|item
+|poke|p1|Clefable, F|item
+|poke|p2|Kyurem-Black|item
+|poke|p2|Scizor, M|item
+|poke|p2|Mew|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|j|wah.mp3
+|j|PersephoneXIV
+|choice|team 4, team 2, team 3, team 1, team 5, team 6|team 5, team 2, team 3, team 4, team 1, team 6
+|
+|start
+|switch|p1a: Fated Keys|Klefki, F|317\/317
+|switch|p2a: Hackerman|Rotom-Wash|303\/303
+|turn|1
+|choice|move spikes|move voltswitch
+|
+|move|p1a: Fated Keys|Spikes|p2a: Hackerman
+|-sidestart|p2: biou|Spikes
+|move|p2a: Hackerman|Volt Switch|p1a: Fated Keys
+|-damage|p1a: Fated Keys|253\/317
+|choice||switch 6
+|
+|switch|p2a: RunninInThe90s|Landorus-Therian, M|319\/319
+|-ability|p2a: RunninInThe90s|Intimidate|boost
+|-unboost|p1a: Fated Keys|atk|1
+|
+|-heal|p1a: Fated Keys|272\/317|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Persephone|Garchomp, F|419\/419
+|move|p2a: RunninInThe90s|Knock Off|p1a: Persephone
+|-damage|p1a: Persephone|323\/419
+|-damage|p2a: RunninInThe90s|280\/319|[from] ability: Rough Skin|[of] p1a: Persephone
+|-damage|p2a: RunninInThe90s|227\/319|[from] item: Rocky Helmet|[of] p1a: Persephone
+|-enditem|p1a: Persephone|Rocky Helmet|[from] move: Knock Off|[of] p2a: RunninInThe90s
+|
+|upkeep
+|turn|3
+|choice|move stealthrock|switch 2
+|
+|switch|p2a: Kung Fury|Scizor, M|343\/343
+|-damage|p2a: Kung Fury|301\/343|[from] Spikes
+|move|p1a: Persephone|Stealth Rock|p2a: Kung Fury
+|-sidestart|p2: biou|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|choice|move dragontail|move defog mega
+|
+|detailschange|p2a: Kung Fury|Scizor-Mega, M
+|-mega|p2a: Kung Fury|Scizor|Scizorite
+|move|p2a: Kung Fury|Defog|p1a: Persephone
+|-unboost|p1a: Persephone|evasion|1
+|-sideend|p2: biou|Spikes|[from] move: Defog|[of] p2a: Kung Fury
+|-sideend|p2: biou|Stealth Rock|[from] move: Defog|[of] p2a: Kung Fury
+|move|p1a: Persephone|Dragon Tail|p2a: Kung Fury
+|-resisted|p2a: Kung Fury
+|-damage|p2a: Kung Fury|271\/343
+|drag|p2a: Burdo|Talonflame, F|359\/359
+|
+|upkeep
+|turn|5
+|choice|switch 2|switch 4
+|
+|switch|p2a: Kung Fury|Scizor-Mega, M|271\/343
+|switch|p1a: Metamorph|Politoed, F|383\/383
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Metamorph
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|choice|move toxic|move uturn
+|
+|move|p2a: Kung Fury|U-turn|p1a: Metamorph
+|-damage|p1a: Metamorph|236\/383
+|choice||switch 3
+|
+|switch|p2a: V A P O R W A V E|Mew|403\/403
+|move|p1a: Metamorph|Toxic|p2a: V A P O R W A V E
+|-status|p2a: V A P O R W A V E|tox
+|-activate|p2a: V A P O R W A V E|ability: Synchronize
+|-status|p1a: Metamorph|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: V A P O R W A V E|378\/403 tox|[from] psn
+|-damage|p1a: Metamorph|213\/383 tox|[from] psn
+|upkeep
+|turn|7
+|choice|move toxic|move willowisp
+|
+|move|p2a: V A P O R W A V E|Will-O-Wisp|p1a: Metamorph
+|-fail|p1a: Metamorph
+|move|p1a: Metamorph|Toxic|p2a: V A P O R W A V E
+|-fail|p2a: V A P O R W A V E|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: V A P O R W A V E|403\/403 tox|[from] item: Leftovers
+|-damage|p2a: V A P O R W A V E|353\/403 tox|[from] psn
+|-damage|p1a: Metamorph|167\/383 tox|[from] psn
+|upkeep
+|turn|8
+|choice|move rest|move stealthrock
+|
+|move|p2a: V A P O R W A V E|Stealth Rock|p1a: Metamorph
+|-sidestart|p1: Fated Keys|move: Stealth Rock
+|move|p1a: Metamorph|Rest|p1a: Metamorph
+|-status|p1a: Metamorph|slp
+|-heal|p1a: Metamorph|383\/383 slp|[silent]
+|-status|p1a: Metamorph|slp|[from] move: Rest
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: V A P O R W A V E|378\/403 tox|[from] item: Leftovers
+|-damage|p2a: V A P O R W A V E|303\/403 tox|[from] psn
+|upkeep
+|turn|9
+|choice|switch 3|switch 5
+|
+|switch|p2a: True Survivor|Kyurem-Black|391\/391
+|-ability|p2a: True Survivor|Teravolt
+|switch|p1a: Fated Keys|Klefki, F|272\/317
+|-damage|p1a: Fated Keys|253\/317|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Fated Keys|272\/317|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move foulplay|switch 2
+|
+|switch|p2a: RunninInThe90s|Landorus-Therian, M|227\/319
+|-ability|p2a: RunninInThe90s|Intimidate|boost
+|-unboost|p1a: Fated Keys|atk|1
+|move|p1a: Fated Keys|Foul Play|p2a: RunninInThe90s
+|-damage|p2a: RunninInThe90s|103\/319
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Fated Keys|291\/317|[from] item: Leftovers
+|upkeep
+|turn|11
+|choice|switch 2|move earthquake
+|
+|switch|p1a: Persephone|Garchomp, F|323\/419
+|-damage|p1a: Persephone|297\/419|[from] Stealth Rock
+|move|p2a: RunninInThe90s|Earthquake|p1a: Persephone
+|-damage|p1a: Persephone|149\/419
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|choice|switch 4|move earthquake
+|
+|switch|p1a: Fuck Gravity|Latias, F|363\/363
+|-damage|p1a: Fuck Gravity|318\/363|[from] Stealth Rock
+|move|p2a: RunninInThe90s|Earthquake|p1a: Fuck Gravity
+|-immune|p1a: Fuck Gravity|[msg]|[from] ability: Levitate
+|
+|-weather|none
+|upkeep
+|turn|13
+|choice|switch 2|switch 3
+|
+|switch|p2a: Kung Fury|Scizor-Mega, M|271\/343
+|switch|p1a: Fated Keys|Klefki, F|291\/317
+|-damage|p1a: Fated Keys|272\/317|[from] Stealth Rock
+|
+|-heal|p1a: Fated Keys|291\/317|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move spikes|move uturn
+|
+|move|p1a: Fated Keys|Spikes|p2a: Kung Fury
+|-sidestart|p2: biou|Spikes
+|move|p2a: Kung Fury|U-turn|p1a: Fated Keys
+|-resisted|p1a: Fated Keys
+|-damage|p1a: Fated Keys|262\/317
+|choice||switch 3
+|
+|switch|p2a: RunninInThe90s|Landorus-Therian, M|103\/319
+|-ability|p2a: RunninInThe90s|Intimidate|boost
+|-unboost|p1a: Fated Keys|atk|1
+|
+|-heal|p1a: Fated Keys|281\/317|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move foulplay|move earthquake
+|
+|move|p2a: RunninInThe90s|Earthquake|p1a: Fated Keys
+|-supereffective|p1a: Fated Keys
+|-damage|p1a: Fated Keys|0 fnt
+|faint|p1a: Fated Keys
+|
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Fuck Gravity|Latias, F|318\/363
+|-damage|p1a: Fuck Gravity|273\/363|[from] Stealth Rock
+|turn|16
+|choice|switch 3|switch 3
+|
+|switch|p2a: Kung Fury|Scizor-Mega, M|271\/343
+|-damage|p2a: Kung Fury|229\/343|[from] Spikes
+|switch|p1a: Metamorph|Politoed, F|383\/383 slp
+|-damage|p1a: Metamorph|336\/383 slp|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Metamorph
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|choice|move scald|move roost
+|
+|move|p2a: Kung Fury|Roost|p2a: Kung Fury
+|-heal|p2a: Kung Fury|343\/343
+|cant|p1a: Metamorph|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|choice|move scald|move uturn
+|
+|move|p2a: Kung Fury|U-turn|p1a: Metamorph
+|-damage|p1a: Metamorph|186\/383 slp
+|choice||switch 5
+|
+|switch|p2a: V A P O R W A V E|Mew|303\/403 tox
+|-damage|p2a: V A P O R W A V E|253\/403 tox|[from] Spikes
+|cant|p1a: Metamorph|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: V A P O R W A V E|278\/403 tox|[from] item: Leftovers
+|-damage|p2a: V A P O R W A V E|253\/403 tox|[from] psn
+|upkeep
+|turn|19
+|choice|switch 5|move roost
+|
+|switch|p1a: Bloodflash|Kingdra, M|297\/297
+|-damage|p1a: Bloodflash|260\/297|[from] Stealth Rock
+|move|p2a: V A P O R W A V E|Roost|p2a: V A P O R W A V E
+|-heal|p2a: V A P O R W A V E|403\/403 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: V A P O R W A V E|353\/403 tox|[from] psn
+|upkeep
+|turn|20
+|choice|move dracometeor|move willowisp
+|
+|move|p1a: Bloodflash|Draco Meteor|p2a: V A P O R W A V E
+|-damage|p2a: V A P O R W A V E|62\/403 tox
+|-unboost|p1a: Bloodflash|spa|2
+|move|p2a: V A P O R W A V E|Will-O-Wisp|p1a: Bloodflash
+|-status|p1a: Bloodflash|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: V A P O R W A V E|87\/403 tox|[from] item: Leftovers
+|-damage|p1a: Bloodflash|223\/297 brn|[from] brn
+|-damage|p2a: V A P O R W A V E|12\/403 tox|[from] psn
+|upkeep
+|turn|21
+|choice|move dracometeor|switch 5
+|
+|switch|p2a: Kung Fury|Scizor-Mega, M|343\/343
+|-damage|p2a: Kung Fury|301\/343|[from] Spikes
+|move|p1a: Bloodflash|Draco Meteor|p2a: Kung Fury
+|-resisted|p2a: Kung Fury
+|-damage|p2a: Kung Fury|235\/343
+|-unboost|p1a: Bloodflash|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Bloodflash|186\/297 brn|[from] brn
+|upkeep
+|turn|22
+|choice|switch 4|move roost
+|
+|switch|p1a: Persephone|Garchomp, F|149\/419
+|-damage|p1a: Persephone|123\/419|[from] Stealth Rock
+|move|p2a: Kung Fury|Roost|p2a: Kung Fury
+|-heal|p2a: Kung Fury|343\/343
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|choice|move dragontail|move toxic
+|
+|move|p2a: Kung Fury|Toxic|p1a: Persephone
+|-status|p1a: Persephone|tox
+|move|p1a: Persephone|Dragon Tail|p2a: Kung Fury
+|-resisted|p2a: Kung Fury
+|-damage|p2a: Kung Fury|313\/343
+|drag|p2a: V A P O R W A V E|Mew|12\/403 tox
+|-damage|p2a: V A P O R W A V E|0 fnt|[from] Spikes
+|faint|p2a: V A P O R W A V E
+|
+|-weather|none
+|-damage|p1a: Persephone|97\/419 tox|[from] psn
+|upkeep
+|choice||switch 3
+|
+|switch|p2a: RunninInThe90s|Landorus-Therian, M|103\/319
+|-ability|p2a: RunninInThe90s|Intimidate|boost
+|-unboost|p1a: Persephone|atk|1
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fated Keys)
+|choice|switch 3|move knockoff
+|
+|switch|p1a: Fuck Gravity|Latias, F|273\/363
+|-damage|p1a: Fuck Gravity|228\/363|[from] Stealth Rock
+|move|p2a: RunninInThe90s|Knock Off|p1a: Fuck Gravity
+|-supereffective|p1a: Fuck Gravity
+|-damage|p1a: Fuck Gravity|60\/363
+|
+|upkeep
+|turn|25
+|choice|move recover mega|move knockoff
+|
+|detailschange|p1a: Fuck Gravity|Latias-Mega, F
+|-mega|p1a: Fuck Gravity|Latias|Latiasite
+|move|p2a: RunninInThe90s|Knock Off|p1a: Fuck Gravity
+|-supereffective|p1a: Fuck Gravity
+|-damage|p1a: Fuck Gravity|0 fnt
+|faint|p1a: Fuck Gravity
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Metamorph|Politoed, F|186\/383 slp
+|-damage|p1a: Metamorph|139\/383 slp|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Metamorph
+|turn|26
+|choice|switch 6|move knockoff
+|
+|switch|p1a: BelowCityLights|Clefable, F|394\/394
+|move|p2a: RunninInThe90s|Knock Off|p1a: BelowCityLights
+|-resisted|p1a: BelowCityLights
+|-damage|p1a: BelowCityLights|314\/394
+|-enditem|p1a: BelowCityLights|Life Orb|[from] move: Knock Off|[of] p2a: RunninInThe90s
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|c| PersephoneXIV|so
+|c| PersephoneXIV|lati sac
+|c| PersephoneXIV|for nothing
+|c|☆Fated Keys|yeah
+|c|☆Fated Keys|im too tired lol
+|c| PersephoneXIV|when this got knocked anyway
+|c| PersephoneXIV|im
+|c| PersephoneXIV|too
+|c| PersephoneXIV|ö
+|c|☆Fated Keys|xD
+|inactive|biou has 120 seconds left.
+|choice|move focusblast|switch 5
+|
+|switch|p2a: Kung Fury|Scizor-Mega, M|313\/343
+|-damage|p2a: Kung Fury|271\/343|[from] Spikes
+|move|p1a: BelowCityLights|Focus Blast|p2a: Kung Fury|[miss]
+|-miss|p1a: BelowCityLights|p2a: Kung Fury
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|c|☆biou|jerk my cock
+|j|valentineisme
+|l|valentineisme
+|inactive|biou has 120 seconds left.
+|c|☆Fated Keys|nty
+|inactive|biou has 90 seconds left.
+|c| PersephoneXIV|yes why not !!?!?!?!?!?
+|inactive|biou has 60 seconds left.
+|choice|move softboiled|move uturn
+|
+|move|p2a: Kung Fury|U-turn|p1a: BelowCityLights
+|-resisted|p1a: BelowCityLights
+|-damage|p1a: BelowCityLights|242\/394
+|choice||switch 5
+|
+|switch|p2a: RunninInThe90s|Landorus-Therian, M|103\/319
+|-ability|p2a: RunninInThe90s|Intimidate|boost
+|-unboost|p1a: BelowCityLights|atk|1
+|move|p1a: BelowCityLights|Soft-Boiled|p1a: BelowCityLights
+|-heal|p1a: BelowCityLights|394\/394
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|c| BelowTheCityLights|when your scizor is walled by clef
+|choice|move moonblast|move earthquake
+|
+|move|p2a: RunninInThe90s|Earthquake|p1a: BelowCityLights
+|-damage|p1a: BelowCityLights|123\/394
+|move|p1a: BelowCityLights|Moonblast|p2a: RunninInThe90s
+|-damage|p2a: RunninInThe90s|0 fnt
+|faint|p2a: RunninInThe90s
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: True Survivor|Kyurem-Black|391\/391
+|-damage|p2a: True Survivor|343\/391|[from] Spikes
+|-ability|p2a: True Survivor|Teravolt
+|turn|30
+|choice|switch 3|move icebeam
+|
+|switch|p1a: Persephone|Garchomp, F|97\/419 tox
+|-damage|p1a: Persephone|71\/419 tox|[from] Stealth Rock
+|move|p2a: True Survivor|Ice Beam|p1a: Persephone
+|-supereffective|p1a: Persephone
+|-damage|p1a: Persephone|0 fnt
+|-damage|p2a: True Survivor|304\/391|[from] item: Life Orb
+|faint|p1a: Persephone
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Bloodflash|Kingdra, M|186\/297 brn
+|-damage|p1a: Bloodflash|149\/297 brn|[from] Stealth Rock
+|turn|31
+|choice|move dracometeor|move icebeam
+|
+|move|p1a: Bloodflash|Draco Meteor|p2a: True Survivor
+|-supereffective|p2a: True Survivor
+|-damage|p2a: True Survivor|0 fnt
+|-unboost|p1a: Bloodflash|spa|2
+|faint|p2a: True Survivor
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Bloodflash|112\/297 brn|[from] brn
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Burdo|Talonflame, F|359\/359
+|turn|32
+|l|BelowTheCityLights
+|c|☆Fated Keys|gg
+|-message|Fated Keys forfeited.
+|
+|win|biou
+|l|Fated Keys
+|raw|Fated Keys's rating: 1449 &rarr; <strong>1435<\/strong><br \/>(-14 for losing)
+|raw|biou's rating: 1556 &rarr; <strong>1570<\/strong><br \/>(+14 for winning)

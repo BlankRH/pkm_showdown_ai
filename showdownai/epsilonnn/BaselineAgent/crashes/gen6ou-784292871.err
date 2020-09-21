@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 271, in play_game
+    gamestate = self.create_initial_gamestate()
+  File "showdown.py", line 128, in create_initial_gamestate
+    moves = [x[0] for x in poke.predict_moves([])]
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/team.py", line 200, in predict_moves
+    return self.predictor(known_moves)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/move_predict.py", line 14, in __call__
+    return self.get_moves(*args)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/move_predict.py", line 145, in get_moves
+    probs = self.get_freqs(self.freq)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/move_predict.py", line 135, in get_freqs
+    for move in freq[poke]:
+KeyError: 'Meowstic-M'

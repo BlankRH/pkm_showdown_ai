@@ -1,0 +1,286 @@
+|j|☆CK James
+|j|☆fake suspect
+|player|p1|CK James|101
+|player|p2|fake suspect|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Espeon, F|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Tangrowth, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Terrakion|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| S.Charriot+
+|
+|start
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|switch|p2a: sex machine|Ferrothorn, M|100\/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CK James)
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|100\/100
+|move|p1a: Talonflame|Taunt|p2a: TomBusReturnPls
+|-start|p2a: TomBusReturnPls|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: TomBusReturnPls|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|76\/100
+|-enditem|p1a: Talonflame|Leftovers|[from] move: Knock Off|[of] p2a: TomBusReturnPls
+|move|p1a: Talonflame|Will-O-Wisp|p2a: TomBusReturnPls
+|-status|p2a: TomBusReturnPls|brn
+|
+|-damage|p2a: TomBusReturnPls|88\/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|100\/100
+|move|p2a: TomBusReturnPls|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|92\/100
+|
+|-damage|p2a: TomBusReturnPls|76\/100 brn|[from] brn
+|-end|p2a: TomBusReturnPls|move: Taunt
+|upkeep
+|turn|4
+|
+|move|p1a: Talonflame|Brave Bird|p2a: TomBusReturnPls
+|-damage|p2a: TomBusReturnPls|34\/100 brn
+|-damage|p1a: Talonflame|79\/100|[from] Recoil
+|move|p2a: TomBusReturnPls|U-turn|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|77\/100
+|
+|switch|p2a: Tele post ban|Terrakion|100\/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Tangrowth|Tangrowth, M|100\/100
+|move|p2a: Tele post ban|Toxic|p1a: Tangrowth
+|-status|p1a: Tangrowth|tox
+|
+|-damage|p1a: Tangrowth|94\/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|67\/100 brn
+|move|p1a: Tangrowth|Knock Off|p2a: TomBusReturnPls
+|-damage|p2a: TomBusReturnPls|41\/100 brn
+|-enditem|p2a: TomBusReturnPls|Assault Vest|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-damage|p2a: TomBusReturnPls|28\/100 brn|[from] brn
+|-damage|p1a: Tangrowth|82\/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|move|p2a: TomBusReturnPls|U-turn|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|72\/100 tox
+|
+|switch|p2a: sex machine|Ferrothorn, M|100\/100
+|move|p1a: Tangrowth|Knock Off|p2a: sex machine
+|-damage|p2a: sex machine|83\/100
+|-damage|p1a: Tangrowth|60\/100 tox|[from] ability: Iron Barbs|[of] p2a: sex machine
+|-enditem|p2a: sex machine|Leftovers|[from] move: Knock Off|[of] p1a: Tangrowth
+|
+|-damage|p1a: Tangrowth|41\/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Espeon|Espeon, F|100\/100
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|61\/100 brn
+|
+|-damage|p2a: TomBusReturnPls|49\/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|switch|p1a: Talonflame|Talonflame, F|77\/100
+|move|p2a: TomBusReturnPls|U-turn|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|75\/100
+|
+|switch|p2a: bluri's girlfriend|Gliscor, F|100\/100
+|
+|-status|p2a: bluri's girlfriend|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|switch|p1a: Quagsire|Quagsire, M|100\/100
+|switch|p2a: sex machine|Ferrothorn, M|83\/100
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Espeon|Espeon, F|100\/100
+|move|p2a: sex machine|Power Whip|p1a: Espeon
+|-damage|p1a: Espeon|61\/100
+|
+|-heal|p1a: Espeon|67\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|82\/100 brn
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|100\/100
+|
+|-damage|p2a: TomBusReturnPls|70\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Talonflame|Talonflame, F|75\/100
+|move|p2a: TomBusReturnPls|U-turn|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|73\/100
+|
+|switch|p2a: Tele post ban|Terrakion|100\/100
+|
+|upkeep
+|turn|14
+|
+|switch|p1a: Quagsire|Quagsire, M|100\/100
+|move|p2a: Tele post ban|Rock Slide|p1a: Quagsire
+|-resisted|p1a: Quagsire
+|-damage|p1a: Quagsire|87\/100
+|
+|-heal|p1a: Quagsire|93\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|100\/100 brn
+|move|p1a: Quagsire|Scald|p2a: TomBusReturnPls
+|-damage|p2a: TomBusReturnPls|81\/100 brn
+|
+|-heal|p1a: Quagsire|99\/100|[from] item: Leftovers
+|-damage|p2a: TomBusReturnPls|68\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Talonflame|Talonflame, F|73\/100
+|move|p2a: TomBusReturnPls|U-turn|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|70\/100
+|
+|switch|p2a: Tele post ban|Terrakion|100\/100
+|
+|upkeep
+|turn|17
+|
+|switch|p1a: Espeon|Espeon, F|100\/100
+|move|p2a: Tele post ban|Close Combat|p1a: Espeon
+|-resisted|p1a: Espeon
+|-damage|p1a: Espeon|71\/100
+|-unboost|p2a: Tele post ban|def|1
+|-unboost|p2a: Tele post ban|spd|1
+|
+|-heal|p1a: Espeon|77\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|100\/100 brn
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-heal|p1a: Espeon|83\/100|[from] item: Leftovers
+|-damage|p2a: TomBusReturnPls|88\/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|move|p2a: TomBusReturnPls|Knock Off|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|64\/100
+|-enditem|p1a: Espeon|Leftovers|[from] move: Knock Off|[of] p2a: TomBusReturnPls
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|
+|-damage|p2a: TomBusReturnPls|76\/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|move|p2a: TomBusReturnPls|U-turn|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|49\/100
+|
+|switch|p2a: Tele post ban|Terrakion|100\/100
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|99\/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Tele post ban|Stone Edge|p1a: Espeon
+|-damage|p1a: Espeon|42\/100
+|move|p1a: Espeon|Stored Power|p2a: Tele post ban
+|-supereffective|p2a: Tele post ban
+|-damage|p2a: Tele post ban|0 fnt
+|faint|p2a: Tele post ban
+|
+|upkeep
+|
+|switch|p2a: bluri's girlfriend|Gliscor, F|100\/100 tox
+|turn|22
+|
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|92\/100
+|move|p2a: bluri's girlfriend|Swords Dance|p2a: bluri's girlfriend
+|-boost|p2a: bluri's girlfriend|atk|2
+|
+|upkeep
+|turn|23
+|
+|move|p1a: Espeon|Stored Power|p2a: bluri's girlfriend
+|-damage|p2a: bluri's girlfriend|32\/100 tox
+|move|p2a: bluri's girlfriend|Facade|p1a: Espeon
+|-damage|p1a: Espeon|25\/100
+|
+|-heal|p2a: bluri's girlfriend|45\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|inactive|fake suspect has 135 seconds left.
+|
+|move|p1a: Espeon|Stored Power|p2a: bluri's girlfriend
+|-damage|p2a: bluri's girlfriend|0 fnt
+|faint|p2a: bluri's girlfriend
+|
+|upkeep
+|
+|switch|p2a: TomBusReturnPls|Tornadus-Therian, M|100\/100 brn
+|turn|25
+|
+|move|p2a: TomBusReturnPls|Hurricane|p1a: Espeon
+|-damage|p1a: Espeon|1\/100
+|move|p1a: Espeon|Morning Sun|p1a: Espeon
+|-heal|p1a: Espeon|51\/100
+|
+|-damage|p2a: TomBusReturnPls|88\/100 brn|[from] brn
+|upkeep
+|turn|26
+|-message|fake suspect forfeited.
+|
+|win|CK James
+|l|☆fake suspect
+|raw|CK James's rating: 1700 &rarr; <strong>1713<\/strong><br \/>(+13 for winning)
+|raw|fake suspect's rating: 1588 &rarr; <strong>1574<\/strong><br \/>(-14 for losing)

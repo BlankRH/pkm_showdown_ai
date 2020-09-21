@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "showdown.py", line 320, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 295, in play_game
+    gamestate = self.update_latest_turn(gamestate)
+  File "showdown.py", line 191, in update_latest_turn
+    self.simulator.append_log(gamestate, turns[-1], my_poke=my_poke_name, opp_poke=opp_poke_name)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 21, in append_log
+    event = self.log.add_event(line, my_poke=my_poke, opp_poke=opp_poke)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/log.py", line 586, in add_event
+    event = self.handle_line(line, my_poke=my_poke, opp_poke=opp_poke)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/log.py", line 538, in handle_line
+    poke = self.nicknames[player][poke]
+KeyError: 'Charizard'

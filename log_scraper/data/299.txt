@@ -1,0 +1,415 @@
+|j|☆Greensaur94
+|j|☆tigetron
+|player|p1|Greensaur94|151
+|teamsize|p1|6
+|player|p2|tigetron|179
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated||rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, F|item
+|poke|p1|Porygon2|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, M|item
+|poke|p1|Klefki, M|item
+|poke|p1|Mew|item
+|poke|p2|Charizard, M|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Slowbro, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tigetron)|
+|start
+|switch|p1a: Porygon2|Porygon2|100\/100
+|switch|p2a: Charizard|Charizard, M|100\/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1|
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|move|p2a: Charizard|Will-O-Wisp|p1a: Porygon2
+|-status|p1a: Porygon2|brn
+|move|p1a: Porygon2|Tri Attack|p2a: Charizard
+|-damage|p2a: Charizard|60\/100
+|-status|p2a: Charizard|par
+|
+|-damage|p1a: Porygon2|88\/100 brn|[from] brn
+|upkeep
+|turn|2|
+|switch|p2a: Slowbro|Slowbro, F|100\/100
+|move|p1a: Porygon2|Tri Attack|p2a: Slowbro
+|-damage|p2a: Slowbro|66\/100
+|
+|-heal|p2a: Slowbro|72\/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|76\/100 brn|[from] brn
+|upkeep
+|turn|3|
+|switch|p2a: Tyranitar|Tyranitar, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Porygon2|Tri Attack|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|88\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|70\/100 brn|[from] sandstorm
+|-damage|p1a: Porygon2|57\/100 brn|[from] brn
+|upkeep
+|turn|4|
+|move|p2a: Tyranitar|Superpower|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|def|1
+|faint|p1a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep|
+|switch|p1a: Klefki|Klefki, M|100\/100
+|turn|5|
+|switch|p2a: Skarmory|Skarmory, F|100\/100
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|j| LarvitarFan|
+|switch|p1a: Volcarona|Volcarona, M|100\/100
+|move|p2a: Skarmory|Spikes|p1a: Volcarona
+|-sidestart|p1: Greensaur94|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Volcarona|94\/100|[from] sandstorm
+|upkeep
+|turn|7|
+|switch|p2a: Charizard|Charizard-Mega-X, M|60\/100 par
+|move|p1a: Volcarona|Giga Drain|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|54\/100 par
+|-heal|p1a: Volcarona|98\/100|[from] drain|[of] p2a: Charizard
+|
+|-weather|none
+|upkeep
+|turn|8|
+|switch|p1a: Mew|Mew|100\/100
+|-damage|p1a: Mew|88\/100|[from] Spikes
+|move|p2a: Charizard|Roost|p2a: Charizard
+|-heal|p2a: Charizard|100\/100 par
+|
+|upkeep
+|turn|9|
+|move|p1a: Mew|Defog|p2a: Charizard
+|-unboost|p2a: Charizard|evasion|1
+|-sideend|p1: Greensaur94|Spikes|[from] move: Defog|[of] p1a: Mew
+|move|p2a: Charizard|Will-O-Wisp|p1a: Mew
+|-status|p1a: Mew|brn
+|-activate|p1a: Mew|ability: Synchronize
+|-fail|p2a: Charizard
+|
+|-damage|p1a: Mew|76\/100 brn|[from] brn
+|upkeep
+|turn|10|
+|switch|p1a: Dragonite|Dragonite, F|100\/100
+|switch|p2a: Skarmory|Skarmory, F|100\/100
+|
+|upkeep
+|turn|11|
+|switch|p2a: Slowbro|Slowbro, F|100\/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|12|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowbro|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94\/100
+|
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|13|
+|move|p1a: Dragonite|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|51\/100
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|-heal|p2a: Slowbro|57\/100|[from] item: Leftovers
+|upkeep
+|turn|14|
+|switch|p2a: Skarmory|Skarmory, F|100\/100
+|move|p1a: Dragonite|Earthquake|p2a: Skarmory
+|-immune|p2a: Skarmory|[msg]
+|
+|upkeep
+|turn|15|
+|move|p1a: Dragonite|Fire Punch|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|12\/100
+|move|p2a: Skarmory|Whirlwind|p1a: Dragonite
+|drag|p1a: Volcarona|Volcarona, M|98\/100
+|
+|-heal|p2a: Skarmory|18\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|j| chivos
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p1a: Dragonite|Dragonite, F|94\/100
+|switch|p2a: Charizard|Charizard-Mega-X, M|100\/100 par
+|
+|upkeep
+|turn|17
+|j| theoreve|
+|switch|p2a: Tyranitar|Tyranitar, M|88\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|20\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|87\/100|[from] sandstorm
+|upkeep
+|turn|18|
+|switch|p1a: Klefki|Klefki, M|100\/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Klefki|[miss]
+|-miss|p2a: Tyranitar|p1a: Klefki
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19|
+|switch|p2a: Excadrill|Excadrill, M|100\/100
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|20|
+|switch|p1a: Mew|Mew|76\/100 brn
+|move|p2a: Excadrill|Stealth Rock|p1a: Mew
+|-sidestart|p1: Greensaur94|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|70\/100 brn|[from] sandstorm
+|-damage|p1a: Mew|57\/100 brn|[from] brn
+|upkeep
+|turn|21|
+|move|p2a: Excadrill|Iron Head|p1a: Mew
+|-crit|p1a: Mew
+|-damage|p1a: Mew|16\/100 brn
+|-enditem|p1a: Mew|Sitrus Berry|[eat]
+|-heal|p1a: Mew|41\/100 brn|[from] item: Sitrus Berry
+|move|p1a: Mew|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: Greensaur94|Stealth Rock|[from] move: Defog|[of] p1a: Mew
+|
+|-weather|none
+|-damage|p1a: Mew|29\/100 brn|[from] brn
+|upkeep
+|turn|22|
+|move|p2a: Excadrill|Stealth Rock|p1a: Mew
+|-sidestart|p1: Greensaur94|move: Stealth Rock
+|move|p1a: Mew|Iron Defense|p1a: Mew
+|-boost|p1a: Mew|def|2
+|
+|-damage|p1a: Mew|17\/100 brn|[from] brn
+|upkeep
+|turn|23|
+|move|p2a: Excadrill|Iron Head|p1a: Mew
+|-damage|p1a: Mew|10\/100 brn
+|move|p1a: Mew|Defog|p2a: Excadrill
+|-unboost|p2a: Excadrill|evasion|1
+|-sideend|p1: Greensaur94|Stealth Rock|[from] move: Defog|[of] p1a: Mew
+|
+|-damage|p1a: Mew|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Mew|
+|switch|p1a: Dragonite|Dragonite, F|87\/100
+|turn|24|
+|switch|p2a: Thundurus|Thundurus, M|100\/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|25|
+|move|p2a: Thundurus|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|-enditem|p1a: Dragonite|Lum Berry|[eat]
+|-curestatus|p1a: Dragonite|par|[msg]
+|move|p1a: Dragonite|Ice Punch|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep|
+|switch|p2a: Slowbro|Slowbro, F|90\/100
+|turn|26
+|inactive|Greensaur94 has 135 seconds left.
+|inactive|Greensaur94 has 120 seconds left.|
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowbro|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|73\/100
+|
+|-heal|p2a: Slowbro|96\/100|[from] item: Leftovers
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|27|
+|move|p1a: Dragonite|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|47\/100
+|move|p2a: Slowbro|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|59\/100
+|
+|-heal|p2a: Slowbro|53\/100|[from] item: Leftovers
+|upkeep
+|turn|28|
+|move|p1a: Dragonite|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|3\/100
+|move|p2a: Slowbro|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|46\/100
+|
+|-heal|p2a: Slowbro|9\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|Greensaur94 has 135 seconds left.|
+|switch|p2a: Tyranitar|Tyranitar, M|20\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Dragonite|Fire Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|40\/100|[from] sandstorm
+|upkeep|
+|switch|p2a: Excadrill|Excadrill, M|100\/100
+|turn|30|
+|move|p2a: Excadrill|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep|
+|switch|p1a: Klefki|Klefki, M|100\/100
+|turn|31|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Excadrill|Stealth Rock|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32|
+|switch|p2a: Skarmory|Skarmory, F|18\/100
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|24\/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|j|‽RafaNadalElCampeon|
+|switch|p1a: Volcarona|Volcarona, M|98\/100
+|-damage|p1a: Volcarona|48\/100|[from] Stealth Rock
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|74\/100
+|
+|-weather|none
+|-heal|p2a: Skarmory|80\/100|[from] item: Leftovers
+|upkeep
+|turn|34|
+|switch|p2a: Charizard|Charizard-Mega-X, M|100\/100 par
+|move|p1a: Volcarona|Fiery Dance|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|90\/100 par
+|-boost|p1a: Volcarona|spa|1
+|
+|upkeep
+|turn|35|
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|cant|p2a: Charizard|par
+|
+|upkeep
+|turn|36|
+|move|p1a: Volcarona|Hidden Power|p2a: Charizard
+|-damage|p2a: Charizard|51\/100 par
+|move|p2a: Charizard|Flare Blitz|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p2a: Charizard|38\/100 par|[from] Recoil|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|
+|upkeep|
+|switch|p1a: Venusaur|Venusaur, F|100\/100
+|-damage|p1a: Venusaur|88\/100|[from] Stealth Rock
+|turn|37|
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|detailschange|p1a: Venusaur|Venusaur-Mega, F
+|move|p1a: Venusaur|Hidden Power|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|9\/100 par
+|move|p2a: Charizard|Will-O-Wisp|p1a: Venusaur
+|-status|p1a: Venusaur|brn
+|
+|-damage|p1a: Venusaur|76\/100 brn|[from] brn
+|upkeep
+|turn|38|
+|switch|p2a: Skarmory|Skarmory, F|80\/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Skarmory
+|-immune|p2a: Skarmory|[msg]
+|
+|-heal|p2a: Skarmory|86\/100|[from] item: Leftovers
+|-damage|p1a: Venusaur|63\/100 brn|[from] brn
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|39|
+|move|p1a: Venusaur|Giga Drain|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|80\/100
+|-heal|p1a: Venusaur|66\/100 brn|[from] drain|[of] p2a: Skarmory
+|move|p2a: Skarmory|Spikes|p1a: Venusaur
+|-sidestart|p1: Greensaur94|Spikes
+|
+|-heal|p2a: Skarmory|86\/100|[from] item: Leftovers
+|-damage|p1a: Venusaur|54\/100 brn|[from] brn
+|-sideend|p1: Greensaur94|move: Light Screen
+|upkeep
+|turn|40
+|c|☆tigetron|Ok well that's my #1 game.|
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|100\/100 brn
+|move|p2a: Skarmory|Spikes|p1a: Venusaur
+|-sidestart|p1: Greensaur94|Spikes
+|
+|-heal|p2a: Skarmory|92\/100|[from] item: Leftovers
+|-damage|p1a: Venusaur|88\/100 brn|[from] brn
+|upkeep
+|turn|41
+|inactive|Greensaur94 has 135 seconds left.
+|-message|Greensaur94 forfeited.
+|
+|win|tigetron
+|l|☆Greensaur94
+|raw|Greensaur94's rating: 1508 &rarr; <strong>1496<\/strong><br \/>(-12 for losing)
+|raw|tigetron's rating: 1657 &rarr; <strong>1669<\/strong><br \/>(+12 for winning)

@@ -1,0 +1,416 @@
+|j|ShocK Waves 7
+|j|GR0oVeS
+|player|p1|ShocK Waves 7|247
+|teamsize|p1|6
+|player|p2|GR0oVeS|99
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated
+|seed|55702,40796,51354,46084
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lopunny, M, shiny|item
+|poke|p1|Clefable, F, shiny|item
+|poke|p1|Amoonguss, M|item
+|poke|p1|Excadrill, M, shiny|item
+|poke|p1|Skarmory, M, shiny|item
+|poke|p1|Tyranitar, M, shiny|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Gengar, M, shiny|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Mew, shiny|item
+|poke|p2|Charizard, M|item
+|poke|p2|Bisharp, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShocK Waves 7)
+|c|☆GR0oVeS|lets play queer
+|c|☆GR0oVeS|gl hf
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 4, team 2, team 3, team 1, team 5, team 6
+|
+|start
+|switch|p1a: Amoonguss|Amoonguss, M|432\/432
+|switch|p2a: Mew|Mew, shiny|404\/404
+|turn|1
+|c|☆ShocK Waves 7|Lez go poopy
+|choice|move spore|move stealthrock
+|
+|move|p2a: Mew|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: ShocK Waves 7|move: Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Mew
+|-status|p2a: Mew|slp
+|
+|upkeep
+|turn|2
+|choice|move stunspore|move transform
+|
+|cant|p2a: Mew|slp
+|move|p1a: Amoonguss|Stun Spore|p2a: Mew
+|-fail|p2a: Mew
+|
+|upkeep
+|turn|3
+|choice|switch 6|move transform
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|401\/401
+|-damage|p1a: Tyranitar|351\/401|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-curestatus|p2a: Mew|slp|[msg]
+|move|p2a: Mew|Transform|p1a: Tyranitar
+|-transform|p2a: Mew|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|choice|switch 5|switch 4
+|
+|switch|p2a: Garchomp|Garchomp, M|357\/357
+|switch|p1a: Skarmory|Skarmory, M, shiny|331\/331
+|-damage|p1a: Skarmory|290\/331|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|choice|move spikes|move fireblast
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|35\/331
+|-damage|p2a: Garchomp|322\/357|[from] item: Life Orb
+|move|p1a: Skarmory|Spikes|p2a: Garchomp
+|-sidestart|p2: GR0oVeS|Spikes
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|choice|move spikes|move fireblast
+|
+|move|p2a: Garchomp|Fire Blast|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Garchomp|287\/357|[from] item: Life Orb
+|faint|p1a: Skarmory
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Clefable|Clefable, F, shiny|393\/393
+|turn|7
+|choice|move stealthrock|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|186\/393
+|-damage|p2a: Garchomp|252\/357|[from] item: Life Orb
+|move|p1a: Clefable|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: GR0oVeS|move: Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Clefable|210\/393|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move moonblast|move earthquake
+|
+|move|p2a: Garchomp|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-damage|p2a: Garchomp|217\/357|[from] item: Life Orb
+|faint|p1a: Clefable
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Lopunny|Lopunny, M, shiny|271\/271
+|-damage|p1a: Lopunny|238\/271|[from] Stealth Rock
+|turn|9
+|choice|move fakeout mega|move earthquake
+|
+|detailschange|p1a: Lopunny|Lopunny-Mega, M, shiny
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p1a: Lopunny|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|139\/357
+|-damage|p1a: Lopunny|205\/271|[from] ability: Rough Skin|[of] p2a: Garchomp
+|cant|p2a: Garchomp|flinch
+|
+|upkeep
+|turn|10
+|c|☆ShocK Waves 7|Wow u did your home work
+|choice|move icepunch|move earthquake
+|
+|move|p1a: Lopunny|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Lopunny|172\/271|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|c|☆GR0oVeS|yes sir thanks
+|choice||switch 3
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|323\/323
+|-damage|p2a: Keldeo|303\/323|[from] Stealth Rock
+|-damage|p2a: Keldeo|263\/323|[from] Spikes
+|turn|11
+|choice|switch 6|move secretsword
+|
+|switch|p1a: Amoonguss|Amoonguss, M|432\/432
+|-damage|p1a: Amoonguss|378\/432|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|285\/432
+|
+|-heal|p1a: Amoonguss|312\/432|[from] item: Black Sludge
+|upkeep
+|turn|12
+|choice|move spore|switch 4
+|
+|switch|p2a: Mew|Mew, shiny|404\/404
+|-damage|p2a: Mew|354\/404|[from] Spikes
+|-damage|p2a: Mew|304\/404|[from] Stealth Rock
+|move|p1a: Amoonguss|Spore|p2a: Mew
+|-status|p2a: Mew|slp
+|
+|-heal|p2a: Mew|329\/404 slp|[from] item: Leftovers
+|-heal|p1a: Amoonguss|339\/432|[from] item: Black Sludge
+|upkeep
+|turn|13
+|choice|switch 5|switch 6
+|
+|switch|p2a: Bisharp|Bisharp, M|271\/271
+|-damage|p2a: Bisharp|238\/271|[from] Spikes
+|-damage|p2a: Bisharp|222\/271|[from] Stealth Rock
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|351\/401
+|-damage|p1a: Tyranitar|301\/401|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|choice|move superpower|move lowkick
+|
+|move|p2a: Bisharp|Low Kick|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p2a: Bisharp|195\/271|[from] item: Life Orb
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Lopunny|Lopunny-Mega, M, shiny|172\/271
+|-damage|p1a: Lopunny|156\/271|[from] Stealth Rock
+|turn|15
+|choice|move highjumpkick|switch 6
+|
+|switch|p2a: Mew|Mew, shiny|329\/404 slp
+|-damage|p2a: Mew|279\/404 slp|[from] Stealth Rock
+|-damage|p2a: Mew|229\/404 slp|[from] Spikes
+|move|p1a: Lopunny|High Jump Kick|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|118\/404 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|140\/271|[from] sandstorm
+|-damage|p2a: Mew|93\/404 slp|[from] sandstorm
+|-heal|p2a: Mew|118\/404 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move return|move defog
+|
+|move|p1a: Lopunny|Return|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lopunny|124\/271|[from] sandstorm
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|263\/323
+|-damage|p2a: Keldeo|243\/323|[from] Stealth Rock
+|-damage|p2a: Keldeo|203\/323|[from] Spikes
+|turn|17
+|choice|switch 5|switch 2
+|
+|switch|p2a: Gengar|Gengar, M, shiny|261\/261
+|-damage|p2a: Gengar|229\/261|[from] Stealth Rock
+|switch|p1a: Amoonguss|Amoonguss, M|432\/432
+|-damage|p1a: Amoonguss|378\/432|[from] Stealth Rock
+|
+|-weather|none
+|-heal|p1a: Amoonguss|405\/432|[from] item: Black Sludge
+|upkeep
+|turn|18
+|choice|move stunspore|move sludgewave
+|
+|move|p2a: Gengar|Sludge Wave|p1a: Amoonguss
+|-damage|p1a: Amoonguss|163\/432
+|-damage|p2a: Gengar|203\/261|[from] item: Life Orb
+|move|p1a: Amoonguss|Stun Spore|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|-heal|p1a: Amoonguss|190\/432|[from] item: Black Sludge
+|upkeep
+|turn|19
+|choice|switch 4|move sludgewave
+|
+|switch|p1a: Excadrill|Excadrill, M, shiny|421\/421
+|-damage|p1a: Excadrill|408\/421|[from] Stealth Rock
+|move|p2a: Gengar|Sludge Wave|p1a: Excadrill
+|-immune|p1a: Excadrill|[msg]
+|
+|-heal|p1a: Excadrill|421\/421|[from] item: Leftovers
+|upkeep
+|turn|20
+|choice|move ironhead|move focusblast
+|
+|move|p1a: Excadrill|Iron Head|p2a: Gengar
+|-damage|p2a: Gengar|22\/261 par
+|move|p2a: Gengar|Focus Blast|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|86\/421
+|-unboost|p1a: Excadrill|spd|1
+|-damage|p2a: Gengar|0 fnt|[from] item: Life Orb
+|faint|p2a: Gengar
+|
+|-heal|p1a: Excadrill|112\/421|[from] item: Leftovers
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Charizard|Charizard, M|297\/297
+|-damage|p2a: Charizard|149\/297|[from] Stealth Rock
+|turn|21
+|c|☆ShocK Waves 7|Lol
+|choice|move rapidspin|move dragonclaw mega
+|
+|detailschange|p2a: Charizard|Charizard-Mega-X, M
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|move|p2a: Charizard|Dragon Claw|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Lopunny|Lopunny-Mega, M, shiny|124\/271
+|-damage|p1a: Lopunny|108\/271|[from] Stealth Rock
+|turn|22
+|choice|move fakeout|switch 6
+|
+|switch|p2a: Bisharp|Bisharp, M|195\/271
+|-damage|p2a: Bisharp|179\/271|[from] Stealth Rock
+|-damage|p2a: Bisharp|146\/271|[from] Spikes
+|move|p1a: Lopunny|Fake Out|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|109\/271
+|
+|upkeep
+|turn|23
+|choice|switch 4|move suckerpunch
+|
+|switch|p1a: Amoonguss|Amoonguss, M|334\/432
+|-damage|p1a: Amoonguss|280\/432|[from] Stealth Rock
+|move|p2a: Bisharp|Sucker Punch|p1a: Amoonguss|[still]
+|-fail|p2a: Bisharp
+|
+|-heal|p1a: Amoonguss|307\/432|[from] item: Black Sludge
+|upkeep
+|turn|24
+|choice|move spore|move knockoff
+|
+|move|p2a: Bisharp|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|25\/432
+|-enditem|p1a: Amoonguss|Black Sludge|[from] move: Knock Off|[of] p2a: Bisharp
+|-damage|p2a: Bisharp|82\/271|[from] item: Life Orb
+|move|p1a: Amoonguss|Spore|p2a: Bisharp
+|-status|p2a: Bisharp|slp
+|
+|upkeep
+|turn|25
+|c|☆ShocK Waves 7|Gg nice try though
+|choice|move gigadrain|move suckerpunch
+|
+|cant|p2a: Bisharp|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|4\/271 slp
+|-heal|p1a: Amoonguss|64\/432|[from] drain|[of] p2a: Bisharp
+|
+|upkeep
+|turn|26
+|choice|move gigadrain|move suckerpunch
+|
+|cant|p2a: Bisharp|slp
+|move|p1a: Amoonguss|Giga Drain|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-heal|p1a: Amoonguss|66\/432|[from] drain|[of] p2a: Bisharp
+|faint|p2a: Bisharp
+|
+|upkeep
+|c|☆ShocK Waves 7|Lmao
+|choice||switch 6
+|
+|switch|p2a: Charizard|Charizard-Mega-X, M|149\/297
+|-damage|p2a: Charizard|75\/297|[from] Stealth Rock
+|-damage|p2a: Charizard|38\/297|[from] Spikes
+|turn|27
+|c|☆GR0oVeS|how do you win?
+|choice|move spore|move flareblitz
+|
+|move|p2a: Charizard|Flare Blitz|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Charizard|16\/297|[from] Recoil|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|
+|upkeep
+|c|☆GR0oVeS|thanks for the game
+|c|☆ShocK Waves 7|Oh u welcome
+|c|☆ShocK Waves 7|Let me guess scarf keldeo
+|inactive|ShocK Waves 7 has 120 seconds left.
+|c|☆GR0oVeS|yep
+|choice|switch 4|
+|
+|switch|p1a: Lopunny|Lopunny-Mega, M, shiny|108\/271
+|-damage|p1a: Lopunny|92\/271|[from] Stealth Rock
+|turn|28
+|choice|move highjumpkick|move flareblitz
+|
+|move|p1a: Lopunny|High Jump Kick|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|c|☆GR0oVeS|you saw life orb garchomp thought you knew that
+|choice||switch 2
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|203\/323
+|-damage|p2a: Keldeo|163\/323|[from] Spikes
+|-damage|p2a: Keldeo|143\/323|[from] Stealth Rock
+|turn|29
+|c|☆ShocK Waves 7|Wasn't paying much attention
+|choice|move return|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Lopunny
+|-supereffective|p1a: Lopunny
+|-damage|p1a: Lopunny|0 fnt
+|faint|p1a: Lopunny
+|
+|win|GR0oVeS
+|raw|ShocK Waves 7's rating: 1441 &rarr; <strong>1416<\/strong><br \/>(-25 for losing)
+|raw|GR0oVeS's rating: 1337 &rarr; <strong>1363<\/strong><br \/>(+26 for winning)
+|c|☆ShocK Waves 7|Gg
+|l|GR0oVeS

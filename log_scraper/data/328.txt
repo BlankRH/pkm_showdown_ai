@@ -1,0 +1,321 @@
+|j|MLC General
+|j|haxrme
+|player|p1|MLC General|285
+|teamsize|p1|6
+|player|p2|haxrme|189
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated
+|seed|1165,22158,44437,27191
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hydreigon, M|item
+|poke|p1|Medicham, F|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Clefable, M|item
+|poke|p2|Seismitoad, M, shiny|item
+|poke|p2|Chansey, F|item
+|poke|p2|Zapdos, shiny|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Clefable, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by haxrme)
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 1, team 2, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Talonflame|Talonflame, M|359\/359
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|414\/414
+|turn|1
+|choice|move taunt|move knockoff
+|
+|move|p1a: Talonflame|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|move|p2a: Seismitoad|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|270\/359
+|-enditem|p1a: Talonflame|Leftovers|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|upkeep
+|turn|2
+|j|sfssd
+|choice|switch 5|move scald
+|
+|switch|p1a: Rotom|Rotom-Wash|304\/304
+|move|p2a: Seismitoad|Scald|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|267\/304
+|
+|-heal|p1a: Rotom|286\/304|[from] item: Leftovers
+|upkeep
+|turn|3
+|choice|switch 6|move knockoff
+|
+|switch|p1a: Clefable|Clefable, M|394\/394
+|move|p2a: Seismitoad|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|365\/394
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|-end|p2a: Seismitoad|move: Taunt
+|upkeep
+|turn|4
+|choice|move stealthrock|switch 3
+|
+|switch|p2a: Zapdos|Zapdos, shiny|384\/384
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Clefable|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: haxrme|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|choice|move moonblast|move defog
+|
+|move|p2a: Zapdos|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: haxrme|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|move|p1a: Clefable|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|272\/384
+|-unboost|p2a: Zapdos|spa|1
+|
+|-heal|p2a: Zapdos|296\/384|[from] item: Leftovers
+|upkeep
+|turn|6
+|j|picitogamer
+|choice|move stealthrock|move discharge
+|
+|move|p2a: Zapdos|Discharge|p1a: Clefable
+|-damage|p1a: Clefable|289\/394
+|move|p1a: Clefable|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: haxrme|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|320\/384|[from] item: Leftovers
+|upkeep
+|turn|7
+|choice|switch 2|move defog
+|
+|switch|p1a: Medicham|Medicham, F|261\/261
+|move|p2a: Zapdos|Defog|p1a: Medicham
+|-unboost|p1a: Medicham|evasion|1
+|-sideend|p2: haxrme|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|
+|-heal|p2a: Zapdos|344\/384|[from] item: Leftovers
+|upkeep
+|turn|8
+|choice|move fakeout mega|switch 4
+|
+|switch|p2a: Slowbro|Slowbro, M|394\/394
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Slowbro
+|-damage|p2a: Slowbro|340\/394
+|
+|-heal|p2a: Slowbro|364\/394|[from] item: Leftovers
+|upkeep
+|turn|9
+|choice|switch 6|move thunderwave
+|
+|switch|p1a: Rotom|Rotom-Wash|286\/304
+|move|p2a: Slowbro|Thunder Wave|p1a: Rotom
+|-immune|p1a: Rotom|[msg]
+|
+|-heal|p1a: Rotom|304\/304|[from] item: Leftovers
+|-heal|p2a: Slowbro|388\/394|[from] item: Leftovers
+|upkeep
+|turn|10
+|choice|move voltswitch|switch 3
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|414\/414
+|move|p1a: Rotom|Volt Switch|p2a: Seismitoad
+|-immune|p2a: Seismitoad|[msg]
+|
+|upkeep
+|turn|11
+|choice|move willowisp|move knockoff
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Seismitoad
+|-status|p2a: Seismitoad|brn
+|move|p2a: Seismitoad|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|279\/304
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Seismitoad
+|
+|-damage|p2a: Seismitoad|363\/414 brn|[from] brn
+|upkeep
+|turn|12
+|choice|switch 2|move stealthrock
+|
+|switch|p1a: Clefable|Clefable, M|289\/394
+|move|p2a: Seismitoad|Stealth Rock|p1a: Clefable
+|-sidestart|p1: MLC General|move: Stealth Rock
+|
+|-heal|p2a: Seismitoad|388\/414 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|337\/414 brn|[from] brn
+|upkeep
+|turn|13
+|choice|move stealthrock|switch 4
+|
+|switch|p2a: Zapdos|Zapdos, shiny|344\/384
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Clefable|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: haxrme|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|368\/384|[from] item: Leftovers
+|upkeep
+|turn|14
+|choice|move moonblast|move defog
+|
+|move|p2a: Zapdos|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p1: MLC General|Stealth Rock|[from] move: Defog|[of] p1a: Clefable
+|-sideend|p2: haxrme|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|move|p1a: Clefable|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|244\/384
+|
+|-heal|p2a: Zapdos|268\/384|[from] item: Leftovers
+|upkeep
+|turn|15
+|choice|move stealthrock|move discharge
+|
+|move|p2a: Zapdos|Discharge|p1a: Clefable
+|-damage|p1a: Clefable|178\/394
+|-status|p1a: Clefable|par
+|move|p1a: Clefable|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: haxrme|move: Stealth Rock
+|
+|-heal|p2a: Zapdos|292\/384|[from] item: Leftovers
+|upkeep
+|turn|16
+|choice|move softboiled|move defog
+|
+|move|p2a: Zapdos|Defog|p1a: Clefable
+|-unboost|p1a: Clefable|evasion|1
+|-sideend|p2: haxrme|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|375\/394 par
+|
+|-heal|p2a: Zapdos|316\/384|[from] item: Leftovers
+|upkeep
+|turn|17
+|choice|move stealthrock|move discharge
+|
+|move|p2a: Zapdos|Discharge|p1a: Clefable
+|-damage|p1a: Clefable|260\/394 par
+|cant|p1a: Clefable|par
+|
+|-heal|p2a: Zapdos|340\/384|[from] item: Leftovers
+|upkeep
+|turn|18
+|choice|move softboiled|move discharge
+|
+|move|p2a: Zapdos|Discharge|p1a: Clefable
+|-damage|p1a: Clefable|133\/394 par
+|cant|p1a: Clefable|par
+|
+|-heal|p2a: Zapdos|364\/384|[from] item: Leftovers
+|upkeep
+|turn|19
+|choice|move softboiled|move discharge
+|
+|move|p2a: Zapdos|Discharge|p1a: Clefable
+|-damage|p1a: Clefable|10\/394 par
+|cant|p1a: Clefable|par
+|
+|-heal|p2a: Zapdos|384\/384|[from] item: Leftovers
+|upkeep
+|turn|20
+|c|☆MLC General|lol
+|choice|move softboiled|move heatwave
+|
+|move|p2a: Zapdos|Heat Wave|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Hydreigon|Hydreigon, M|325\/325
+|turn|21
+|choice|switch 5|switch 2
+|
+|switch|p1a: Talonflame|Talonflame, M|270\/359
+|switch|p2a: Chansey|Chansey, F|703\/703
+|
+|upkeep
+|turn|22
+|choice|move taunt|switch 4
+|
+|switch|p2a: Seismitoad|Seismitoad, M, shiny|337\/414 brn
+|move|p1a: Talonflame|Taunt|p2a: Seismitoad
+|-start|p2a: Seismitoad|move: Taunt
+|
+|-heal|p2a: Seismitoad|362\/414 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|311\/414 brn|[from] brn
+|upkeep
+|turn|23
+|choice|move bravebird|move scald
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Seismitoad
+|-damage|p2a: Seismitoad|208\/414 brn
+|-damage|p1a: Talonflame|236\/359|[from] Recoil|[of] p2a: Seismitoad
+|move|p2a: Seismitoad|Scald|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|72\/359
+|
+|-heal|p2a: Seismitoad|233\/414 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|182\/414 brn|[from] brn
+|upkeep
+|turn|24
+|choice|move roost|move scald
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|252\/359
+|move|p2a: Seismitoad|Scald|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|90\/359
+|
+|-heal|p2a: Seismitoad|207\/414 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|156\/414 brn|[from] brn
+|-end|p2a: Seismitoad|move: Taunt
+|upkeep
+|turn|25
+|choice|move roost|move scald
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|270\/359
+|move|p2a: Seismitoad|Scald|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|130\/359
+|
+|-heal|p2a: Seismitoad|181\/414 brn|[from] item: Leftovers
+|-damage|p2a: Seismitoad|130\/414 brn|[from] brn
+|upkeep
+|turn|26
+|choice|move roost|move rest
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|310\/359
+|move|p2a: Seismitoad|Rest|p2a: Seismitoad
+|-status|p2a: Seismitoad|slp
+|-heal|p2a: Seismitoad|414\/414 slp|[silent]
+|-status|p2a: Seismitoad|slp|[from] move: Rest
+|
+|upkeep
+|turn|27
+|-message|MLC General forfeited.
+|
+|win|haxrme
+|l|MLC General
+|raw|MLC General's rating: 1651 &rarr; <strong>1627<\/strong><br \/>(-24 for losing)
+|raw|haxrme's rating: 1585 &rarr; <strong>1609<\/strong><br \/>(+24 for winning)
+|c| sfssd|careful talon?

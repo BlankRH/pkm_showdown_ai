@@ -1,0 +1,498 @@
+|j|☆CK James
+|j|☆MehCs
+|player|p1|CK James|101
+|player|p2|MehCs|137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Espeon, M|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Chansey, F|item
+|poke|p1|Quagsire, M|item
+|poke|p1|Tangrowth, F|item
+|poke|p2|Rotom-Wash|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Chandelure, M|item
+|poke|p2|Pidgeot, M|item
+|poke|p2|Breloom, F|item
+|poke|p2|Weavile, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| S.Charriot+
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MehCs)
+|
+|start
+|switch|p1a: Chansey|Chansey, F|100\/100
+|switch|p2a: Pidgeot|Pidgeot, M|100\/100
+|turn|1
+|
+|detailschange|p2a: Pidgeot|Pidgeot-Mega, M
+|-mega|p2a: Pidgeot|Pidgeot|Pidgeotite
+|move|p2a: Pidgeot|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|92\/100
+|
+|switch|p2a: Excadrill|Excadrill, F|100\/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Chansey|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: MehCs|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: CK James|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|98\/100
+|-damage|p2a: Excadrill|84\/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-sideend|p2: MehCs|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|74\/100|[from] item: Life Orb
+|move|p1a: Skarmory|Spikes|p2a: Excadrill
+|-sidestart|p2: MehCs|Spikes
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Pidgeot|Pidgeot-Mega, M|100\/100
+|move|p1a: Skarmory|Defog|p2a: Pidgeot
+|-unboost|p2a: Pidgeot|evasion|1
+|-sideend|p2: MehCs|Spikes|[from] move: Defog|[of] p2a: Pidgeot
+|-sideend|p1: CK James|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Chansey|Chansey, F|92\/100
+|move|p2a: Pidgeot|Heat Wave|p1a: Chansey
+|-damage|p1a: Chansey|83\/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|66\/100
+|move|p1a: Chansey|Stealth Rock|p2a: Pidgeot
+|-sidestart|p2: MehCs|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Pidgeot|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|59\/100
+|
+|switch|p2a: Excadrill|Excadrill, F|74\/100
+|-damage|p2a: Excadrill|71\/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Skarmory|Skarmory, F|98\/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|95\/100
+|-damage|p2a: Excadrill|54\/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-sideend|p2: MehCs|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|44\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Weavile|Weavile, F|100\/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Skarmory|Brave Bird|p2a: Weavile
+|-damage|p2a: Weavile|38\/100
+|-damage|p1a: Skarmory|78\/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Weavile|Icicle Crash|p1a: Skarmory
+|-damage|p1a: Skarmory|46\/100
+|-damage|p2a: Weavile|29\/100|[from] item: Life Orb
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|96\/100
+|
+|upkeep
+|turn|11
+|
+|switch|p2a: Rotom|Rotom-Wash|100\/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100\/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100\/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tangrowth
+|-status|p1a: Tangrowth|brn
+|
+|-damage|p1a: Tangrowth|88\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|move|p2a: Rotom|Volt Switch|p1a: Tangrowth
+|-resisted|p1a: Tangrowth
+|-damage|p1a: Tangrowth|80\/100 brn
+|
+|switch|p2a: Pidgeot|Pidgeot-Mega, M|100\/100
+|move|p1a: Tangrowth|Hidden Power|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot
+|-damage|p2a: Pidgeot|63\/100
+|
+|-damage|p1a: Tangrowth|68\/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|switch|p1a: Chansey|Chansey, F|100\/100
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|85\/100
+|
+|upkeep
+|turn|15
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|68\/100
+|move|p1a: Chansey|Stealth Rock|p2a: Pidgeot
+|-sidestart|p2: MehCs|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|53\/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Pidgeot|U-turn|p1a: Chansey
+|-damage|p1a: Chansey|92\/100
+|
+|switch|p2a: Excadrill|Excadrill, F|44\/100
+|-damage|p2a: Excadrill|41\/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Chansey|Seismic Toss|p2a: Excadrill
+|-damage|p2a: Excadrill|14\/100
+|
+|upkeep
+|turn|18
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: CK James|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|96\/100
+|-damage|p2a: Excadrill|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Excadrill
+|-formechange|p2a: Excadrill|Excadrill|
+|move|p1a: Skarmory|Spikes|p2: Excadrill
+|-sidestart|p2: MehCs|Spikes
+|
+|upkeep
+|c|☆CK James|noob
+|
+|switch|p2a: Pidgeot|Pidgeot-Mega, M|63\/100
+|-damage|p2a: Pidgeot|38\/100|[from] Stealth Rock
+|turn|20
+|
+|switch|p1a: Chansey|Chansey, F|92\/100
+|-damage|p1a: Chansey|80\/100|[from] Stealth Rock
+|move|p2a: Pidgeot|Heat Wave|p1a: Chansey
+|-damage|p1a: Chansey|71\/100
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|54\/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|83\/100
+|-start|p1a: Chansey|confusion
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Seismic Toss|p2a: Pidgeot
+|-damage|p2a: Pidgeot|5\/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|66\/100
+|-activate|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|84\/100
+|-activate|p1a: Chansey|confusion
+|-damage|p1a: Chansey|84\/100|[from] confusion
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|67\/100
+|-end|p1a: Chansey|confusion
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|26
+|
+|move|p2a: Pidgeot|Hurricane|p1a: Chansey
+|-damage|p1a: Chansey|84\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Pidgeot
+|-damage|p2a: Pidgeot|0 fnt
+|faint|p2a: Pidgeot
+|
+|upkeep
+|
+|switch|p2a: Weavile|Weavile, F|29\/100
+|-damage|p2a: Weavile|16\/100|[from] Spikes
+|-damage|p2a: Weavile|0 fnt|[from] Stealth Rock
+|faint|p2a: Weavile
+|
+|switch|p2a: Breloom|Breloom, F|100\/100
+|-damage|p2a: Breloom|94\/100|[from] Stealth Rock
+|-damage|p2a: Breloom|82\/100|[from] Spikes
+|turn|27
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100\/100 brn
+|-damage|p1a: Tangrowth|88\/100 brn|[from] Stealth Rock
+|move|p2a: Breloom|Mach Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|66\/100 brn
+|
+|-damage|p1a: Tangrowth|53\/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|move|p2a: Breloom|Mach Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|29\/100 brn
+|move|p1a: Tangrowth|Hidden Power|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|24\/100
+|
+|-damage|p1a: Tangrowth|16\/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|switch|p1a: Skarmory|Skarmory, F|96\/100
+|-damage|p1a: Skarmory|84\/100|[from] Stealth Rock
+|move|p2a: Breloom|Mach Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|63\/100
+|-damage|p2a: Breloom|8\/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|upkeep
+|turn|30
+|
+|switch|p1a: Tangrowth|Tangrowth, F|49\/100 brn
+|-damage|p1a: Tangrowth|37\/100 brn|[from] Stealth Rock
+|move|p2a: Breloom|Mach Punch|p1a: Tangrowth
+|-damage|p1a: Tangrowth|12\/100 brn
+|
+|-damage|p1a: Tangrowth|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Tangrowth
+|
+|switch|p1a: Skarmory|Skarmory, F|63\/100
+|-damage|p1a: Skarmory|51\/100|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Breloom|Mach Punch|p1a: Skarmory
+|-damage|p1a: Skarmory|29\/100
+|-damage|p2a: Breloom|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Breloom
+|-formechange|p2a: Breloom|Breloom|
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|79\/100
+|
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|100\/100
+|-damage|p2a: Rotom|88\/100|[from] Stealth Rock
+|turn|32
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Skarmory
+|-status|p1a: Skarmory|brn
+|move|p1a: Skarmory|Spikes|p2a: Rotom
+|-sidestart|p2: MehCs|Spikes
+|
+|-heal|p2a: Rotom|94\/100|[from] item: Leftovers
+|-damage|p1a: Skarmory|67\/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|move|p2a: Rotom|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|switch|p2a: Chandelure|Chandelure, M|100\/100
+|-damage|p2a: Chandelure|76\/100|[from] Stealth Rock
+|-damage|p2a: Chandelure|59\/100|[from] Spikes
+|
+|upkeep
+|
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|-damage|p1a: Talonflame|51\/100|[from] Stealth Rock
+|turn|34
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Chandelure
+|-damage|p2a: Chandelure|13\/100
+|-damage|p1a: Talonflame|39\/100|[from] Recoil
+|move|p2a: Chandelure|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|switch|p1a: Quagsire|Quagsire, M|100\/100
+|-damage|p1a: Quagsire|94\/100|[from] Stealth Rock
+|turn|35
+|
+|move|p2a: Chandelure|Shadow Ball|p1a: Quagsire
+|-damage|p1a: Quagsire|34\/100
+|move|p1a: Quagsire|Scald|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|-heal|p1a: Quagsire|40\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Rotom|Rotom-Wash|94\/100
+|-damage|p2a: Rotom|82\/100|[from] Stealth Rock
+|turn|36
+|
+|move|p2a: Rotom|Will-O-Wisp|p1a: Quagsire
+|-status|p1a: Quagsire|brn
+|move|p1a: Quagsire|Toxic|p2a: Rotom|[miss]
+|-miss|p1a: Quagsire|p2a: Rotom
+|
+|-heal|p2a: Rotom|88\/100|[from] item: Leftovers
+|-heal|p1a: Quagsire|46\/100 brn|[from] item: Leftovers
+|-damage|p1a: Quagsire|34\/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p2a: Rotom|Hydro Pump|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-heal|p2a: Rotom|94\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Espeon|Espeon, M|100\/100
+|-damage|p1a: Espeon|88\/100|[from] Stealth Rock
+|turn|38
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Pain Split|p1a: Espeon
+|-sethp|p1a: Espeon|87\/100|p2a: Rotom|95\/100|[from] move: Pain Split
+|
+|-heal|p1a: Espeon|93\/100|[from] item: Leftovers
+|-heal|p2a: Rotom|100\/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon
+|-damage|p1a: Espeon|70\/100
+|
+|-heal|p1a: Espeon|76\/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon|[miss]
+|-miss|p2a: Rotom|p1a: Espeon
+|
+|-heal|p1a: Espeon|82\/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon
+|-damage|p1a: Espeon|68\/100
+|
+|-heal|p1a: Espeon|74\/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon
+|-damage|p1a: Espeon|62\/100
+|
+|-heal|p1a: Espeon|68\/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon
+|-damage|p1a: Espeon|58\/100
+|
+|-heal|p1a: Espeon|64\/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|c|☆CK James|GG
+|
+|move|p1a: Espeon|Stored Power|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|CK James
+|raw|CK James's rating: 1713 &rarr; <strong>1717<\/strong><br \/>(+4 for winning)
+|raw|MehCs's rating: 1318 &rarr; <strong>1314<\/strong><br \/>(-4 for losing)
+|l|☆MehCs
+|l| S.Charriot+
+|j| fake suspect
+|l| fake suspect
+|c|☆CK James|https:\/\/imgur.com\/xB5q1PM
+|c|☆CK James|Rank 1 as usual

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 282, in play_game
+    move = self.agent.get_action(gamestate, 0)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 166, in get_action
+    new_state = self.simulator.simulate(state, action, who)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 237, in simulate
+    my_action = actions[who]
+TypeError: 'Action' object does not support indexing

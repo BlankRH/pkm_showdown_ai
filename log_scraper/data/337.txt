@@ -1,0 +1,447 @@
+|j|☆Skarmx2
+|j|☆DrDrunkenStine
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|player|p1|Skarmx2|43
+|player|p2|DrDrunkenStine|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Combusken, F|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Weavile, F|item
+|poke|p1|Hippowdon, M|item
+|poke|p1|Latias, F|item
+|poke|p1|Excadrill, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Gastrodon-East, F|item
+|poke|p2|Venusaur, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j|+ShinyUnown
+|j|+laser火circus
+|j| Cgbchgfjhjkh
+|inactive|Skarmx2 has 135 seconds left.
+|j| Future2019
+|inactive|Skarmx2 has 120 seconds left.
+|c| Future2019|is this the finale?
+|c|☆DrDrunkenStine|fuck i feel bad for bringing this vs combusken
+|c|☆Skarmx2|oh i thought it was finals
+|inactive|Skarmx2 has 105 seconds left.
+|c|☆Skarmx2|thought we were meming
+|j| Caladrius21
+|
+|start
+|switch|p1a: Hippowdon|Hippowdon, M|100\/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|c|☆DrDrunkenStine|yeah sorry about that
+|c|☆DrDrunkenStine|i dont have memes
+|
+|switch|p1a: Latias|Latias, F|100\/100
+|move|p2a: Keldeo|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|84\/100
+|-status|p1a: Latias|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|78\/100 brn|[from] Sandstorm
+|-damage|p2a: Keldeo|94\/100|[from] Sandstorm
+|-heal|p2a: Keldeo|100\/100|[from] item: Leftovers
+|-damage|p1a: Latias|66\/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100\/100
+|-mega|p1a: Latias|Latias|Latiasite
+|detailschange|p1a: Latias|Latias-Mega, F
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|94\/100 brn|[from] Sandstorm
+|-damage|p1a: Latias|82\/100 brn|[from] brn
+|upkeep
+|turn|3
+|j| Emporio Ivankov
+|c|☆Skarmx2|isnt this oxs team
+|c|☆Skarmx2|from olt 200 years ago
+|c|☆DrDrunkenStine|yeah
+|j| Aqua23
+|inactive|DrDrunkenStine has 135 seconds left.
+|
+|move|p2a: Tyranitar|Pursuit|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|46\/100 brn
+|move|p1a: Latias|Reflect Type|p2a: Tyranitar
+|-start|p1a: Latias|typechange|[from] move: Reflect Type|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|34\/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|switch|p2a: Clefable|Clefable, M, shiny|100\/100
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|84\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|72\/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: Skarmx2|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|move|p1a: Hippowdon|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: DrDrunkenStine|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Latias|Latias-Mega, F|72\/100 brn
+|-damage|p1a: Latias|59\/100 brn|[from] Stealth Rock
+|move|p2a: Keldeo|Scald|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|44\/100 brn
+|
+|-damage|p1a: Latias|32\/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Skarmx2 has 135 seconds left.
+|
+|switch|p1a: Combusken|Combusken, F|100\/100
+|-damage|p1a: Combusken|88\/100|[from] Stealth Rock
+|switch|p2a: Tyranitar|Tyranitar, F|100\/100
+|-damage|p2a: Tyranitar|88\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Combusken|82\/100|[from] Sandstorm
+|upkeep
+|turn|9
+|j| Juligut
+|j| Serged
+|inactive|DrDrunkenStine has 135 seconds left.
+|inactive|DrDrunkenStine has 120 seconds left.
+|inactive|DrDrunkenStine has 105 seconds left.
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Combusken
+|-damage|p1a: Combusken|0 fnt
+|faint|p1a: Combusken
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|10
+|c| Cgbchgfjhjkh|Huh
+|
+|switch|p2a: Skarmory|Skarmory, F, shiny|100\/100
+|-damage|p2a: Skarmory|88\/100|[from] Stealth Rock
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Skarmory|94\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|move|p1a: Excadrill|Iron Head|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|66\/100
+|move|p2a: Skarmory|Whirlwind|p1a: Excadrill
+|drag|p1a: Weavile|Weavile, F|100\/100
+|-damage|p1a: Weavile|76\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|70\/100|[from] Sandstorm
+|-heal|p2a: Skarmory|72\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|34\/100
+|cant|p2a: Skarmory|flinch
+|
+|-weather|none
+|-heal|p2a: Skarmory|40\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|-damage|p2a: Keldeo|94\/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100
+|-damage|p1a: Skarmory|88\/100|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Skarmory
+|-damage|p1a: Skarmory|55\/100
+|
+|-heal|p2a: Keldeo|100\/100|[from] item: Leftovers
+|-heal|p1a: Skarmory|61\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Keldeo|Scald|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|8\/100
+|move|p1a: Skarmory|Spikes|p2a: Keldeo
+|-sidestart|p2: DrDrunkenStine|Spikes
+|
+|-heal|p1a: Skarmory|14\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Keldeo|Scald|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Latias|Latias-Mega, F|32\/100 brn
+|-damage|p1a: Latias|19\/100 brn|[from] Stealth Rock
+|turn|17
+|
+|switch|p2a: Gastrodon|Gastrodon-East, F|100\/100
+|-damage|p2a: Gastrodon|88\/100|[from] Spikes
+|-damage|p2a: Gastrodon|82\/100|[from] Stealth Rock
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|69\/100 brn
+|
+|-heal|p2a: Gastrodon|88\/100|[from] item: Leftovers
+|-damage|p1a: Latias|57\/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|move|p1a: Latias|Recover|p1a: Latias
+|-heal|p1a: Latias|100\/100 brn
+|move|p2a: Gastrodon|Curse|p2a: Gastrodon
+|-unboost|p2a: Gastrodon|spe|1
+|-boost|p2a: Gastrodon|atk|1
+|-boost|p2a: Gastrodon|def|1
+|
+|-heal|p2a: Gastrodon|94\/100|[from] item: Leftovers
+|-damage|p1a: Latias|88\/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|Skarmx2 has 135 seconds left.
+|c|☆Skarmx2|lmao gg
+|
+|switch|p1a: Hippowdon|Hippowdon, M|100\/100
+|-damage|p1a: Hippowdon|94\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Gastrodon|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|47\/100
+|-status|p1a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|53\/100 brn|[from] item: Leftovers
+|-heal|p2a: Gastrodon|99\/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|41\/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|DrDrunkenStine has 135 seconds left.
+|l|+laser火circus
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|91\/100 brn
+|move|p2a: Gastrodon|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|40\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|47\/100 brn|[from] item: Leftovers
+|-heal|p2a: Gastrodon|100\/100|[from] item: Leftovers
+|-damage|p1a: Hippowdon|34\/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|84\/100 brn
+|move|p2a: Gastrodon|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|41\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|47\/100 brn|[from] item: Leftovers
+|-damage|p1a: Hippowdon|35\/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|Skarmx2 has 135 seconds left.
+|
+|move|p1a: Hippowdon|Earthquake|p2a: Gastrodon
+|-damage|p2a: Gastrodon|89\/100
+|move|p2a: Gastrodon|Scald|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gastrodon|95\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|97\/100
+|-damage|p1a: Excadrill|94\/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|turn|23
+|
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Gastrodon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|31\/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-weather|none
+|-heal|p2a: Gastrodon|100\/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p1a: Excadrill|Earthquake|p2a: Gastrodon
+|-damage|p2a: Gastrodon|31\/100
+|move|p2a: Gastrodon|Scald|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-heal|p2a: Gastrodon|37\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|70\/100
+|-damage|p1a: Weavile|45\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|25
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|-damage|p2a: Keldeo|88\/100|[from] Spikes
+|-damage|p2a: Keldeo|82\/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Latias|Latias-Mega, F|88\/100 brn
+|-damage|p1a: Latias|76\/100 brn|[from] Stealth Rock
+|move|p2a: Keldeo|Secret Sword|p1a: Latias
+|-resisted|p1a: Latias
+|-crit|p1a: Latias
+|-damage|p1a: Latias|48\/100 brn
+|
+|-heal|p2a: Keldeo|88\/100|[from] item: Leftovers
+|-damage|p1a: Latias|36\/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Weavile|Weavile, F|45\/100
+|-damage|p1a: Weavile|20\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|switch|p2a: Tyranitar|Tyranitar, F|88\/100
+|-damage|p2a: Tyranitar|76\/100|[from] Spikes
+|-damage|p2a: Tyranitar|64\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|14\/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|88\/100
+|-damage|p2a: Keldeo|82\/100|[from] Stealth Rock
+|-damage|p2a: Keldeo|70\/100|[from] Spikes
+|move|p1a: Weavile|Icicle Crash|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|36\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|8\/100|[from] Sandstorm
+|-damage|p2a: Keldeo|30\/100|[from] Sandstorm
+|-heal|p2a: Keldeo|36\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|2\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Venusaur|Venusaur, M, shiny|100\/100
+|-damage|p2a: Venusaur|88\/100|[from] Stealth Rock
+|-damage|p2a: Venusaur|76\/100|[from] Spikes
+|turn|30
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|0 fnt|[from] Sandstorm
+|upkeep
+|faint|p1a: Weavile
+|c| Future2019|comeback..?
+|
+|switch|p1a: Latias|Latias-Mega, F|36\/100 brn
+|switch|p2a: Tyranitar|Tyranitar, F|64\/100
+|-damage|p2a: Tyranitar|51\/100|[from] Stealth Rock
+|-damage|p2a: Tyranitar|39\/100|[from] Spikes
+|-damage|p1a: Latias|23\/100 brn|[from] Stealth Rock
+|turn|31
+|
+|move|p2a: Tyranitar|Crunch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|win|DrDrunkenStine
+|c|☆Skarmx2|gg
+|l|☆Skarmx2
+|l|☆DrDrunkenStine
+|l| Serged
+|c| Future2019|Nice game
+|l| ShinyUnown
+|l| Future2019
+|l| Cgbchgfjhjkh
+|l| Juligut
+|l| Aqua23
+|l| Emporio Ivankov
+|j| laser火circus
+|l| laser火circus
+|j|☆DrDrunkenStine

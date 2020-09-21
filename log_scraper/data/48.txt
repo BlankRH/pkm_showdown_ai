@@ -1,0 +1,391 @@
+|j|☆goodnewsbears
+|j|☆berjuf
+|player|p1|goodnewsbears|169
+|player|p2|berjuf|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Medicham, F|item
+|poke|p2|Swampert, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Vaporeon, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Tyranitar, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100\/100
+|switch|p2a: Medicham|Medicham, F|100\/100
+|turn|1
+|
+|-mega|p2a: Medicham|Medicham|Medichamite
+|detailschange|p2a: Medicham|Medicham-Mega, F
+|move|p2a: Medicham|Fake Out|p1a: Clefable
+|-damage|p1a: Clefable|82\/100
+|cant|p1a: Clefable|flinch
+|
+|-heal|p1a: Clefable|88\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Medicham|Zen Headbutt|p1a: Clefable
+|-damage|p1a: Clefable|31\/100
+|cant|p1a: Clefable|flinch
+|
+|-heal|p1a: Clefable|38\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|move|p2a: Medicham|High Jump Kick|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|28\/100
+|
+|-heal|p1a: Talonflame|34\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p2a: Swampert|Swampert, F|100\/100
+|switch|p1a: Clefable|Clefable, M|38\/100
+|
+|-heal|p1a: Clefable|44\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Swampert
+|-sidestart|p2: berjuf|move: Stealth Rock
+|move|p2a: Swampert|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|15\/100
+|
+|-heal|p1a: Clefable|21\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|move|p2a: Swampert|Earthquake|p1a: Alakazam
+|-damage|p1a: Alakazam|6\/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Medicham|Medicham-Mega, F|100\/100
+|-damage|p2a: Medicham|94\/100|[from] Stealth Rock
+|move|p1a: Alakazam|Energy Ball|p2a: Medicham
+|-damage|p2a: Medicham|43\/100
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, M|21\/100
+|move|p2a: Medicham|Fake Out|p1a: Clefable
+|-damage|p1a: Clefable|3\/100
+|
+|-heal|p1a: Clefable|9\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Medicham|Ice Punch|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Scizor|Scizor, M|100\/100
+|turn|10
+|
+|move|p1a: Scizor|Bullet Punch|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|upkeep
+|
+|switch|p2a: Swampert|Swampert, F|100\/100
+|-damage|p2a: Swampert|94\/100|[from] Stealth Rock
+|turn|11
+|
+|switch|p1a: Talonflame|Talonflame, F|34\/100
+|move|p2a: Swampert|Earthquake|p1a: Talonflame
+|-immune|p1a: Talonflame|[msg]
+|
+|-heal|p1a: Talonflame|40\/100|[from] item: Leftovers
+|-heal|p2a: Swampert|100\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100\/100
+|-ability|p2a: Tyranitar|Unnerve|p1: goodnewsbears
+|-damage|p2a: Tyranitar|88\/100|[from] Stealth Rock
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|
+|-heal|p1a: Talonflame|46\/100|[from] item: Leftovers
+|-damage|p2a: Tyranitar|76\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Scizor|Scizor, M|100\/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Scizor
+|-damage|p1a: Scizor|54\/100
+|
+|-damage|p2a: Tyranitar|63\/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|move|p2a: Tyranitar|Stone Edge|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-damage|p2a: Tyranitar|51\/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100\/100
+|turn|15
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Tyranitar
+|-sidestart|p2: berjuf|move: Toxic Spikes
+|move|p2a: Tyranitar|Stone Edge|p1a: Tentacruel
+|-damage|p1a: Tentacruel|43\/100
+|
+|-heal|p1a: Tentacruel|49\/100|[from] item: Black Sludge
+|-damage|p2a: Tyranitar|38\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Gliscor|Gliscor, M|100\/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Gliscor|[miss]
+|-miss|p2a: Tyranitar|p1a: Gliscor
+|
+|-damage|p2a: Tyranitar|26\/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|
+|move|p1a: Gliscor|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100\/100
+|-damage|p2a: Gengar|88\/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p1a: Tentacruel|Tentacruel, M|49\/100
+|move|p2a: Gengar|Hex|p1a: Tentacruel
+|-damage|p1a: Tentacruel|33\/100
+|
+|-heal|p2a: Gengar|94\/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|39\/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Tentacruel|Scald|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-heal|p2a: Gengar|100\/100|[from] item: Leftovers
+|-heal|p1a: Tentacruel|45\/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|switch|p2a: Vaporeon|Vaporeon, M|100\/100
+|-status|p2a: Vaporeon|psn
+|-damage|p2a: Vaporeon|88\/100 psn|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Vaporeon
+|-heal|p2a: Vaporeon|100\/100 psn|[from] ability: Water Absorb|[of] p1a: Tentacruel
+|
+|-heal|p1a: Tentacruel|51\/100|[from] item: Black Sludge
+|-damage|p2a: Vaporeon|88\/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Swampert|Swampert, F|100\/100
+|-status|p2a: Swampert|psn
+|-damage|p2a: Swampert|94\/100 psn|[from] Stealth Rock
+|move|p1a: Tentacruel|Acid Spray|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|89\/100 psn
+|-unboost|p2a: Swampert|spd|2
+|
+|-heal|p1a: Tentacruel|57\/100|[from] item: Black Sludge
+|-heal|p2a: Swampert|95\/100 psn|[from] item: Leftovers
+|-damage|p2a: Swampert|83\/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|move|p1a: Tentacruel|Scald|p2a: Swampert
+|-damage|p2a: Swampert|37\/100 psn
+|move|p2a: Swampert|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Swampert|43\/100 psn|[from] item: Leftovers
+|-damage|p2a: Swampert|30\/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|6\/100
+|turn|23
+|
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-ability|p1a: Alakazam|Damp|[from] ability: Trace|[of] p2a: Swampert
+|move|p1a: Alakazam|Psychic|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|-damage|p2a: Dragonite|75\/100|[from] Stealth Rock
+|turn|24
+|
+|switch|p1a: Gliscor|Gliscor, M|100\/100 tox
+|move|p2a: Dragonite|Extreme Speed|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|60\/100 tox
+|
+|-heal|p2a: Dragonite|82\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|72\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|move|p1a: Gliscor|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|44\/100
+|move|p2a: Dragonite|Outrage|p1a: Gliscor
+|-damage|p1a: Gliscor|13\/100 tox
+|
+|-heal|p2a: Dragonite|50\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|25\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|move|p1a: Gliscor|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|10\/100
+|move|p2a: Dragonite|Outrage|p1a: Gliscor|[from]lockedmove
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Dragonite|16\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Talonflame|Talonflame, F|46\/100
+|turn|27
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p1a: Talonflame|41\/100|[from] Recoil
+|faint|p2a: Dragonite
+|
+|-heal|p1a: Talonflame|48\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gengar|Gengar, M|100\/100
+|-damage|p2a: Gengar|88\/100|[from] Stealth Rock
+|turn|28
+|c|☆goodnewsbears|You play like shit, hax the hell
+|c|☆goodnewsbears|out of me and srill
+|c|☆goodnewsbears|still lose lol
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|98\/100
+|
+|-heal|p2a: Gengar|94\/100|[from] item: Leftovers
+|-heal|p1a: Talonflame|100\/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Gengar
+|-damage|p2a: Gengar|38\/100
+|-damage|p1a: Talonflame|84\/100|[from] Recoil
+|move|p2a: Gengar|Destiny Bond|p2a: Gengar
+|-singlemove|p2a: Gengar|Destiny Bond
+|
+|-heal|p2a: Gengar|44\/100|[from] item: Leftovers
+|-heal|p1a: Talonflame|90\/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p2a: Gengar|Hex|p1a: Talonflame
+|-damage|p1a: Talonflame|65\/100
+|move|p1a: Talonflame|Bulk Up|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|1
+|-boost|p1a: Talonflame|def|1
+|
+|-heal|p2a: Gengar|50\/100|[from] item: Leftovers
+|-heal|p1a: Talonflame|71\/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Talonflame|Brave Bird|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|
+|-heal|p2a: Gengar|56\/100|[from] item: Leftovers
+|-heal|p1a: Talonflame|77\/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆goodnewsbears|You’re fn bad
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-damage|p1a: Talonflame|60\/100|[from] Recoil
+|faint|p2a: Gengar
+|
+|-heal|p1a: Talonflame|67\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Vaporeon|Vaporeon, M|88\/100 psn
+|-damage|p2a: Vaporeon|76\/100 psn|[from] Stealth Rock
+|turn|33
+|
+|move|p1a: Talonflame|Brave Bird|p2a: Vaporeon
+|-damage|p2a: Vaporeon|13\/100 psn
+|-damage|p1a: Talonflame|40\/100|[from] Recoil
+|move|p2a: Vaporeon|Scald|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-heal|p2a: Vaporeon|19\/100 psn|[from] item: Leftovers
+|-damage|p2a: Vaporeon|7\/100 psn|[from] psn
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam-Mega, M|6\/100
+|-ability|p1a: Alakazam|Water Absorb|[from] ability: Trace|[of] p2a: Vaporeon
+|turn|34
+|
+|move|p1a: Alakazam|Energy Ball|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|win|goodnewsbears
+|raw|goodnewsbears's rating: 1488 &rarr; <strong>1496<\/strong><br \/>(+8 for winning)
+|raw|berjuf's rating: 1252 &rarr; <strong>1241<\/strong><br \/>(-11 for losing)

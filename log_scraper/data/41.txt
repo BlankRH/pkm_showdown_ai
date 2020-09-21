@@ -1,0 +1,333 @@
+|j|☆goodnewsbears
+|j|☆RobinDB
+|player|p1|goodnewsbears|101
+|player|p2|RobinDB|59
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, F|item
+|poke|p1|Clefable, F|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Tentacruel, M|item
+|poke|p1|Scizor, M|item
+|poke|p2|Hippowdon, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Cradily, F|item
+|poke|p2|Krookodile, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Aerodactyl, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Clefable|Clefable, F|100\/100
+|switch|p2a: Gloria|Hippowdon, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gloria
+|turn|1
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Gloria
+|-sidestart|p2: RobinDB|move: Stealth Rock
+|move|p2a: Gloria|Stealth Rock|p1a: Clefable
+|-sidestart|p1: goodnewsbears|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clefable|94\/100|[from] Sandstorm
+|-heal|p1a: Clefable|100\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p1a: Clefable|Flamethrower|p2a: Gloria
+|-damage|p2a: Gloria|78\/100
+|move|p2a: Gloria|Toxic|p1a: Clefable
+|-status|p1a: Clefable|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Clefable|94\/100 tox|[from] Sandstorm
+|-heal|p1a: Clefable|100\/100 tox|[from] item: Leftovers
+|-damage|p1a: Clefable|94\/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|switch|p1a: Gliscor|Gliscor, F|100\/100
+|-damage|p1a: Gliscor|88\/100|[from] Stealth Rock
+|move|p2a: Gloria|Slack Off|p2a: Gloria
+|-heal|p2a: Gloria|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|inactive|RobinDB has 135 seconds left.
+|
+|switch|p2a: Canc'fer|Ferrothorn, M|100\/100
+|-damage|p2a: Canc'fer|94\/100|[from] Stealth Rock
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Canc'fer|100\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76\/100 tox
+|move|p2a: Canc'fer|Gyro Ball|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p1a: Gliscor|Earthquake|p2a: Canc'fer
+|-damage|p2a: Canc'fer|56\/100
+|move|p2a: Canc'fer|Gyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|37\/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Canc'fer|62\/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|49\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|move|p1a: Gliscor|Earthquake|p2a: Canc'fer
+|-damage|p2a: Canc'fer|17\/100
+|move|p2a: Canc'fer|Gyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Canc'fer|23\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, F|100\/100
+|turn|8
+|
+|move|p1a: Alakazam|Hidden Power|p2a: Canc'fer
+|-supereffective|p2a: Canc'fer
+|-damage|p2a: Canc'fer|0 fnt
+|faint|p2a: Canc'fer
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Gloria|Hippowdon, F|100\/100
+|-damage|p2a: Gloria|94\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Gloria
+|turn|9
+|
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|detailschange|p1a: Alakazam|Alakazam-Mega, F
+|-ability|p1a: Alakazam|Sand Stream|[from] ability: Trace|[of] p2a: Gloria
+|move|p1a: Alakazam|Energy Ball|p2a: Gloria
+|-supereffective|p2a: Gloria
+|-damage|p2a: Gloria|0 fnt
+|faint|p2a: Gloria
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alakazam|95\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: René|Excadrill, M|100\/100
+|-damage|p2a: René|97\/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Scizor|Scizor, M|100\/100
+|-damage|p1a: Scizor|88\/100|[from] Stealth Rock
+|move|p2a: René|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|12\/100
+|-damage|p2a: René|88\/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|move|p1a: Scizor|Bullet Punch|p2a: René
+|-resisted|p2a: René
+|-damage|p2a: René|51\/100
+|move|p2a: René|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: René|41\/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam-Mega, F|95\/100
+|-damage|p1a: Alakazam|82\/100|[from] Stealth Rock
+|-ability|p1a: Alakazam|Sand Rush|[from] ability: Trace|[of] p2a: René
+|turn|12
+|
+|move|p1a: Alakazam|Hidden Power|p2a: René
+|-supereffective|p2a: René
+|-damage|p2a: René|0 fnt
+|faint|p2a: René
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Canc'herbe|Cradily, F|100\/100
+|-damage|p2a: Canc'herbe|88\/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: Tentacruel|Tentacruel, M|100\/100
+|-damage|p1a: Tentacruel|88\/100|[from] Stealth Rock
+|move|p2a: Canc'herbe|Recover|p2a: Canc'herbe
+|-heal|p2a: Canc'herbe|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|82\/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|88\/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|move|p1a: Tentacruel|Rapid Spin|p2a: Canc'herbe
+|-resisted|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|99\/100
+|-sideend|p1: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tentacruel
+|move|p2a: Canc'herbe|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|65\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|58\/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|65\/100|[from] item: Black Sludge
+|-heal|p2a: Canc'herbe|100\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Canc'herbe
+|-sidestart|p2: RobinDB|move: Toxic Spikes
+|move|p2a: Canc'herbe|Sludge Bomb|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|59\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tentacruel|53\/100|[from] Sandstorm
+|-heal|p1a: Tentacruel|59\/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|move|p1a: Tentacruel|Acid Spray|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|94\/100
+|-unboost|p2a: Canc'herbe|spd|2
+|move|p2a: Canc'herbe|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|22\/100
+|
+|-weather|none
+|-heal|p1a: Tentacruel|28\/100|[from] item: Black Sludge
+|-heal|p2a: Canc'herbe|100\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Tentacruel|Acid Spray|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|86\/100
+|-unboost|p2a: Canc'herbe|spd|2
+|move|p2a: Canc'herbe|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|5\/100
+|
+|-heal|p1a: Tentacruel|11\/100|[from] item: Black Sludge
+|-heal|p2a: Canc'herbe|92\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Tentacruel|Acid Spray|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|67\/100
+|-unboost|p2a: Canc'herbe|spd|2
+|move|p2a: Canc'herbe|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|-heal|p2a: Canc'herbe|73\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam-Mega, F|82\/100
+|-ability|p1a: Alakazam|Storm Drain|[from] ability: Trace|[of] p2a: Canc'herbe
+|turn|19
+|
+|switch|p2a: Croc|Krookodile, M|100\/100
+|-damage|p2a: Croc|94\/100|[from] Stealth Rock
+|-status|p2a: Croc|psn
+|move|p1a: Alakazam|Energy Ball|p2a: Croc
+|-supereffective|p2a: Croc
+|-damage|p2a: Croc|0 fnt
+|faint|p2a: Croc
+|
+|upkeep
+|
+|switch|p2a: Canc'herbe|Cradily, F|73\/100
+|-damage|p2a: Canc'herbe|61\/100|[from] Stealth Rock
+|-status|p2a: Canc'herbe|psn
+|turn|20
+|
+|move|p1a: Alakazam|Psychic|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|19\/100 psn
+|move|p2a: Canc'herbe|Giga Drain|p1a: Alakazam
+|-damage|p1a: Alakazam|46\/100
+|-heal|p2a: Canc'herbe|32\/100 psn|[from] drain|[of] p1a: Alakazam
+|
+|-heal|p2a: Canc'herbe|38\/100 psn|[from] item: Leftovers
+|-damage|p2a: Canc'herbe|25\/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|move|p1a: Alakazam|Psychic|p2a: Canc'herbe
+|-damage|p2a: Canc'herbe|0 fnt
+|faint|p2a: Canc'herbe
+|
+|upkeep
+|
+|switch|p2a: Pétri|Aerodactyl, M|100\/100
+|-damage|p2a: Pétri|76\/100|[from] Stealth Rock
+|turn|22
+|
+|-mega|p2a: Pétri|Aerodactyl|Aerodactylite
+|detailschange|p2a: Pétri|Aerodactyl-Mega, M
+|move|p1a: Alakazam|Psychic|p2a: Pétri
+|-damage|p2a: Pétri|5\/100
+|-unboost|p2a: Pétri|spd|1
+|move|p2a: Pétri|Aerial Ace|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|94\/100 tox
+|turn|23
+|inactive|RobinDB has 135 seconds left.
+|l|☆RobinDB
+|inactive|RobinDB disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆RobinDB
+|inactive|RobinDB reconnected and has 125 seconds left.
+|player|p2|RobinDB|59
+|inactive|RobinDB has 120 seconds left.
+|
+|move|p2a: Pétri|Stone Edge|p1a: Clefable|[miss]
+|-miss|p2a: Pétri|p1a: Clefable
+|move|p1a: Clefable|Moonblast|p2a: Pétri
+|-damage|p2a: Pétri|0 fnt
+|faint|p2a: Pétri
+|
+|win|goodnewsbears
+|raw|goodnewsbears's rating: 1509 &rarr; <strong>1516<\/strong><br \/>(+7 for winning)
+|raw|RobinDB's rating: 1250 &rarr; <strong>1241<\/strong><br \/>(-9 for losing)

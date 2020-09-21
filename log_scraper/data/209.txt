@@ -1,0 +1,246 @@
+|j|☆alfredo duroo
+|j|☆Deckline
+|player|p1|alfredo duroo|167
+|player|p2|Deckline|223
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Hippowdon, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Charizard, M|item
+|poke|p1|Ferrothorn, F|item
+|poke|p1|Weavile, M|item
+|poke|p2|Metagross|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Azumarill, M|item
+|poke|p2|Hydreigon, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|
+|start
+|switch|p1a: Charizard|Charizard, M|100\/100
+|switch|p2a: Hydreigon|Hydreigon, F|100\/100
+|turn|1
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|100\/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Ferrothorn
+|-resisted|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|75\/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-heal|p1a: Ferrothorn|81\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ferrothorn|atk|1
+|switch|p1a: Hippowdon|Hippowdon, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Hippowdon
+|-sidestart|p1: alfredo duroo|move: Stealth Rock
+|move|p1a: Hippowdon|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Deckline|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|move|p2a: Landorus|Swords Dance|p2a: Landorus
+|-boost|p2a: Landorus|atk|2
+|move|p1a: Hippowdon|Whirlwind|p2a: Landorus
+|drag|p2a: Metagross|Metagross|100\/100
+|-damage|p2a: Metagross|94\/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|-damage|p2a: Latios|88\/100|[from] Stealth Rock
+|move|p1a: Hippowdon|Earthquake|p2a: Latios
+|-immune|p2a: Latios|[msg]|[from] ability: Levitate
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|82\/100|[from] sandstorm
+|upkeep
+|turn|6
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|81\/100
+|-damage|p1a: Ferrothorn|75\/100|[from] Stealth Rock
+|move|p2a: Latios|Draco Meteor|p1a: Ferrothorn|[miss]
+|-miss|p2a: Latios|p1a: Ferrothorn
+|
+|-weather|none
+|-heal|p1a: Ferrothorn|81\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100\/100
+|-damage|p1a: Hippowdon|94\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Latios|Draco Meteor|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|76\/100|[from] sandstorm
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100\/100
+|-damage|p1a: Weavile|76\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|8
+|
+|move|p1a: Weavile|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|5\/100
+|-damage|p1a: Weavile|66\/100|[from] item: Life Orb
+|move|p2a: Latios|Draco Meteor|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Weavile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|0 fnt|[from] sandstorm
+|upkeep
+|faint|p2a: Latios
+|
+|switch|p1a: Charizard|Charizard, M|100\/100
+|switch|p2a: Hydreigon|Hydreigon, F|100\/100
+|-damage|p2a: Hydreigon|88\/100|[from] Stealth Rock
+|-damage|p1a: Charizard|51\/100|[from] Stealth Rock
+|turn|9
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|81\/100
+|-damage|p1a: Ferrothorn|75\/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|44\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hydreigon|82\/100|[from] sandstorm
+|-heal|p1a: Ferrothorn|50\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p2a: Magnezone|Magnezone|100\/100
+|-damage|p2a: Magnezone|94\/100|[from] Stealth Rock
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p2a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|80\/100
+|-sideend|p1: alfredo duroo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|-damage|p1a: Excadrill|87\/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|switch|p1a: Charizard|Charizard, M|51\/100
+|move|p2a: Landorus|Stealth Rock|p1a: Charizard
+|-sidestart|p1: alfredo duroo|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|switch|p2a: Hydreigon|Hydreigon, F|82\/100
+|-damage|p2a: Hydreigon|70\/100|[from] Stealth Rock
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1a: Charizard|Fire Blast|p2a: Hydreigon|[miss]
+|-miss|p1a: Charizard|p2a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|switch|p1a: Ferrothorn|Ferrothorn, F|50\/100
+|-damage|p1a: Ferrothorn|44\/100|[from] Stealth Rock
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|14\/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ferrothorn|20\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ferrothorn
+|-damage|p1a: Ferrothorn|0 fnt
+|faint|p1a: Ferrothorn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|87\/100
+|-damage|p1a: Excadrill|84\/100|[from] Stealth Rock
+|turn|16
+|
+|switch|p2a: Landorus|Landorus-Therian, M|80\/100
+|-damage|p2a: Landorus|68\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|23\/100
+|-damage|p1a: Excadrill|74\/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|move|p2a: Landorus|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|8\/100
+|-enditem|p1a: Excadrill|Life Orb|[from] move: Knock Off|[of] p2a: Landorus
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Hydreigon|Hydreigon, F|70\/100
+|-damage|p2a: Hydreigon|57\/100|[from] Stealth Rock
+|turn|18
+|
+|move|p2a: Hydreigon|Dark Pulse|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|-message|alfredo duroo forfeited.
+|
+|win|Deckline
+|l|☆alfredo duroo
+|raw|alfredo duroo's rating: 1468 &rarr; <strong>1445<\/strong><br \/>(-23 for losing)
+|raw|Deckline's rating: 1427 &rarr; <strong>1450<\/strong><br \/>(+23 for winning)

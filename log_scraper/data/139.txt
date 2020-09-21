@@ -1,0 +1,249 @@
+|j|☆nastybat
+|j|☆goodnewsbears
+|player|p1|nastybat|192
+|player|p2|goodnewsbears|264
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Rotom-Wash|item
+|poke|p1|Staraptor, M|item
+|poke|p1|Sceptile, M|item
+|poke|p1|Crobat, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Infernape, M|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Scizor, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|inactive|nastybat has 135 seconds left.
+|inactive|nastybat has 120 seconds left.
+|inactive|nastybat has 105 seconds left.
+|
+|start
+|switch|p1a: Crobat|Crobat, M|100\/100
+|switch|p2a: Clefable|Clefable, M|100\/100
+|turn|1
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100
+|move|p1a: Crobat|Nasty Plot|p1a: Crobat
+|-boost|p1a: Crobat|spa|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|inactive|nastybat has 135 seconds left.
+|inactive|nastybat has 120 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|move|p1a: Crobat|Nasty Plot|p1a: Crobat
+|-boost|p1a: Crobat|spa|2
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Crobat|Sludge Bomb|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|19\/100
+|-status|p2a: Clefable|psn
+|-damage|p1a: Crobat|91\/100|[from] item: Life Orb
+|move|p2a: Clefable|Thunder Wave|p1a: Crobat
+|-status|p1a: Crobat|par
+|
+|-heal|p2a: Clefable|25\/100 psn|[from] item: Leftovers
+|-damage|p2a: Clefable|12\/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|move|p2a: Clefable|Stealth Rock|p1a: Crobat
+|-sidestart|p1: nastybat|move: Stealth Rock
+|move|p1a: Crobat|Sludge Bomb|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-damage|p1a: Crobat|81\/100 par|[from] item: Life Orb
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, F|100\/100
+|turn|5
+|
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-ability|p2a: Alakazam|Infiltrator|[from] ability: Trace|[of] p1a: Crobat
+|move|p2a: Alakazam|Psychic|p1a: Crobat
+|-supereffective|p1a: Crobat
+|-damage|p1a: Crobat|0 fnt
+|faint|p1a: Crobat
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|6
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|60\/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Alakazam
+|-damage|p2a: Alakazam|89\/100
+|-sideend|p1: nastybat|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|
+|-heal|p1a: Excadrill|66\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|move|p2a: Alakazam|Focus Blast|p1a: Excadrill|[miss]
+|-miss|p2a: Alakazam|p1a: Excadrill
+|move|p1a: Excadrill|Stealth Rock|p2a: Alakazam
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|72\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|nastybat has 135 seconds left.
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|move|p1a: Excadrill|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|42\/100
+|
+|-heal|p1a: Excadrill|78\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|45\/100
+|move|p1a: Excadrill|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Excadrill|52\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100 tox
+|-damage|p2a: Gliscor|88\/100 tox|[from] Stealth Rock
+|turn|10
+|inactive|nastybat has 135 seconds left.
+|inactive|nastybat has 120 seconds left.
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p1a: Sceptile|Sceptile, M|100\/100
+|move|p2a: Gliscor|Earthquake|p1a: Sceptile
+|-resisted|p1a: Sceptile
+|-damage|p1a: Sceptile|66\/100
+|
+|-heal|p2a: Gliscor|100\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100\/100
+|-damage|p2a: Tentacruel|88\/100|[from] Stealth Rock
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|detailschange|p1a: Sceptile|Sceptile-Mega, M
+|move|p1a: Sceptile|Dragon Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|62\/100
+|
+|-heal|p2a: Tentacruel|68\/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|move|p1a: Sceptile|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|5\/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Sceptile
+|-damage|p1a: Sceptile|62\/100
+|-sideend|p2: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|11\/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|
+|move|p1a: Sceptile|Dragon Pulse|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam-Mega, F|89\/100
+|-ability|p2a: Alakazam|Lightning Rod|[from] ability: Trace|[of] p1a: Sceptile
+|turn|14
+|inactive|nastybat has 135 seconds left.
+|inactive|nastybat has 120 seconds left.
+|inactive|nastybat has 105 seconds left.
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Sceptile
+|-damage|p1a: Sceptile|21\/100
+|move|p1a: Sceptile|Leaf Storm|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-unboost|p1a: Sceptile|spa|2
+|faint|p2a: Alakazam
+|
+|upkeep
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100 tox
+|turn|15
+|inactive|nastybat has 135 seconds left.
+|inactive|nastybat has 120 seconds left.
+|
+|switch|p1a: Infernape|Infernape, M|100\/100
+|move|p2a: Gliscor|Facade|p1a: Infernape
+|-damage|p1a: Infernape|43\/100
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Infernape|Hidden Power|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|27\/100 tox
+|move|p2a: Gliscor|Facade|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|-heal|p2a: Gliscor|39\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Staraptor|Staraptor, M, shiny|100\/100
+|turn|17
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-damage|p1a: Staraptor|88\/100|[from] Recoil
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|turn|18
+|
+|move|p1a: Staraptor|Double-Edge|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p1a: Staraptor|50\/100|[from] Recoil
+|faint|p2a: Talonflame
+|
+|win|nastybat
+|raw|nastybat's rating: 1447 &rarr; <strong>1463<\/strong><br \/>(+16 for winning)
+|raw|goodnewsbears's rating: 1383 &rarr; <strong>1367<\/strong><br \/>(-16 for losing)
+|c|☆nastybat|gg
+|l|☆goodnewsbears

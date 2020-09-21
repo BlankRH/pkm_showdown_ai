@@ -1,0 +1,513 @@
+|j|☆Fldandtooton
+|j|☆Go Big
+|player|p1|Fldandtooton|39
+|player|p2|Go Big|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Chansey, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Tangrowth, F|item
+|poke|p1|Metagross|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Scizor, F|item
+|poke|p2|Excadrill, M|item
+|poke|p2|Talonflame, M|
+|poke|p2|Togekiss, F|item
+|poke|p2|Dragonite, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fldandtooton)
+|c|☆Go Big|hf
+|
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|switch|p2a: Dragonite|Dragonite, M|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|1
+|
+|move|p1a: Landorus|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|60\/100
+|-enditem|p2a: Dragonite|Weakness Policy
+|-boost|p2a: Dragonite|atk|2
+|-boost|p2a: Dragonite|spa|2
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Garchomp|Garchomp, M|100\/100
+|switch|p1a: Tangrowth|Tangrowth, F|100\/100
+|
+|upkeep
+|turn|3
+|c|☆Fldandtooton|what
+|c|☆Go Big|u were faster
+|c|☆Go Big|arent u scarf
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Fldandtooton|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Garchomp
+|-sidestart|p2: Go Big|move: Stealth Rock
+|move|p2a: Garchomp|Fire Blast|p1a: Landorus
+|-damage|p1a: Landorus|78\/100
+|
+|upkeep
+|turn|5
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100\/100
+|-damage|p1a: Mandibuzz|76\/100|[from] Stealth Rock
+|move|p2a: Garchomp|Dragon Tail|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66\/100
+|drag|p1a: Metagross|Metagross|100\/100
+|-damage|p1a: Metagross|95\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|detailschange|p1a: Metagross|Metagross-Mega
+|move|p1a: Metagross|Ice Punch|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|70\/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100\/100
+|-damage|p1a: Keldeo|94\/100|[from] Stealth Rock
+|-mega|p2a: Scizor|Scizor|Scizorite
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|8
+|inactive|Fldandtooton has 135 seconds left.
+|
+|move|p1a: Keldeo|Scald|p2a: Scizor
+|-damage|p2a: Scizor|14\/100
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Bug Bite|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|66\/100
+|
+|-damage|p2a: Scizor|1\/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Fldandtooton has 135 seconds left.
+|
+|move|p1a: Keldeo|Scald|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, M|100\/100
+|-damage|p2a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|10
+|
+|move|p2a: Excadrill|Rapid Spin|p1a: Keldeo
+|-damage|p1a: Keldeo|56\/100
+|-sideend|p2: Go Big|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Keldeo|Scald|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|turn|11
+|
+|switch|p1a: Landorus|Landorus-Therian, M|78\/100
+|-damage|p1a: Landorus|66\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|33\/100
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Chansey|Chansey, F|100\/100
+|-damage|p1a: Chansey|88\/100|[from] Stealth Rock
+|turn|13
+|
+|move|p2a: Talonflame|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|cant|p1a: Chansey|move: Taunt|Toxic
+|
+|upkeep
+|turn|14
+|
+|switch|p2a: Togekiss|Togekiss, F|100\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|68\/100
+|
+|-heal|p2a: Togekiss|74\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|79\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|42\/100
+|
+|-heal|p2a: Togekiss|48\/100|[from] item: Leftovers
+|-end|p1a: Chansey|move: Taunt
+|upkeep
+|turn|16
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|99\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|66\/100
+|
+|-heal|p2a: Togekiss|73\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Chansey|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-heal|p2a: Togekiss|79\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|73\/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Togekiss|Heal Bell|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Heal Bell
+|-curestatus|p2a: Togekiss|tox|[msg]
+|move|p1a: Chansey|Toxic|p2a: Togekiss|[miss]
+|-miss|p1a: Chansey|p2a: Togekiss
+|
+|-heal|p2a: Togekiss|79\/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c|☆Fldandtooton|rip
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|58\/100
+|move|p1a: Chansey|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-heal|p2a: Togekiss|85\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|79\/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|36\/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|86\/100
+|
+|-heal|p2a: Togekiss|85\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|73\/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Talonflame
+|-damage|p2a: Talonflame|73\/100
+|
+|upkeep
+|turn|22
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Chansey
+|-damage|p1a: Chansey|51\/100
+|move|p1a: Chansey|Seismic Toss|p2a: Talonflame
+|-damage|p2a: Talonflame|45\/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|95\/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|100\/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Talonflame|Taunt|p1a: Chansey
+|-start|p1a: Chansey|move: Taunt
+|move|p1a: Chansey|Seismic Toss|p2a: Talonflame
+|-damage|p2a: Talonflame|67\/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Talonflame|Swords Dance|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|2
+|move|p1a: Chansey|Seismic Toss|p2a: Talonflame
+|-damage|p2a: Talonflame|39\/100
+|
+|upkeep
+|turn|26
+|inactive|Fldandtooton has 135 seconds left.
+|
+|switch|p1a: Tangrowth|Tangrowth, F|100\/100
+|-damage|p1a: Tangrowth|88\/100|[from] Stealth Rock
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|89\/100
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Tangrowth
+|-supereffective|p1a: Tangrowth
+|-damage|p1a: Tangrowth|0 fnt
+|-damage|p2a: Talonflame|73\/100|[from] item: Rocky Helmet|[of] p1a: Tangrowth
+|faint|p1a: Tangrowth
+|
+|upkeep
+|
+|switch|p1a: Metagross|Metagross-Mega|95\/100
+|-damage|p1a: Metagross|89\/100|[from] Stealth Rock
+|turn|28
+|
+|switch|p2a: Garchomp|Garchomp, M|100\/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Garchomp
+|-damage|p2a: Garchomp|61\/100
+|-damage|p1a: Metagross|76\/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Metagross|60\/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|upkeep
+|turn|29
+|
+|switch|p2a: Dragonite|Dragonite, M|60\/100
+|move|p1a: Metagross|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|73\/100
+|turn|30
+|
+|switch|p2a: Garchomp|Garchomp, M|61\/100
+|move|p1a: Metagross|Zen Headbutt|p2a: Garchomp
+|-damage|p2a: Garchomp|20\/100
+|-damage|p1a: Metagross|47\/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Metagross|31\/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|upkeep
+|turn|31
+|
+|move|p1a: Metagross|Ice Punch|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Metagross|18\/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Metagross|2\/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, M|73\/100
+|turn|32
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|56\/100
+|-damage|p1a: Keldeo|50\/100|[from] Stealth Rock
+|turn|33
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|c|☆Fldandtooton|nerf talonflame :\/
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|66\/100
+|-damage|p1a: Mandibuzz|41\/100|[from] Stealth Rock
+|turn|34
+|
+|switch|p2a: Togekiss|Togekiss, F|73\/100 tox
+|move|p1a: Mandibuzz|Toxic|p2a: Togekiss
+|-fail|p2a: Togekiss|tox
+|
+|-heal|p2a: Togekiss|79\/100 tox|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|47\/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|73\/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|move|p2a: Togekiss|Air Slash|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|18\/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|69\/100
+|
+|-heal|p2a: Togekiss|79\/100 tox|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|75\/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|66\/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|move|p2a: Togekiss|Roost|p2a: Togekiss
+|-heal|p2a: Togekiss|100\/100 tox
+|move|p1a: Mandibuzz|Toxic|p2a: Togekiss
+|-fail|p2a: Togekiss|tox
+|
+|-heal|p1a: Mandibuzz|81\/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|82\/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|switch|p2a: Talonflame|Talonflame, M|73\/100
+|move|p1a: Mandibuzz|Toxic|p2a: Talonflame
+|-status|p2a: Talonflame|tox
+|
+|-heal|p1a: Mandibuzz|87\/100|[from] item: Leftovers
+|-damage|p2a: Talonflame|67\/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|move|p2a: Talonflame|Taunt|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Taunt
+|move|p1a: Mandibuzz|Foul Play|p2a: Talonflame
+|-damage|p2a: Talonflame|18\/100 tox
+|
+|-heal|p1a: Mandibuzz|93\/100|[from] item: Leftovers
+|-damage|p2a: Talonflame|6\/100 tox|[from] psn
+|upkeep
+|turn|39
+|c|☆Fldandtooton|u would have won if u just attacked
+|
+|switch|p2a: Togekiss|Togekiss, F|82\/100 tox
+|move|p1a: Mandibuzz|Foul Play|p2a: Togekiss
+|-resisted|p2a: Togekiss
+|-damage|p2a: Togekiss|75\/100 tox
+|
+|-heal|p2a: Togekiss|81\/100 tox|[from] item: Leftovers
+|-heal|p1a: Mandibuzz|99\/100|[from] item: Leftovers
+|-damage|p2a: Togekiss|75\/100 tox|[from] psn
+|upkeep
+|turn|40
+|c|☆Go Big|just shut up
+|
+|switch|p1a: Chansey|Chansey, F|100\/100
+|-damage|p1a: Chansey|88\/100|[from] Stealth Rock
+|move|p2a: Togekiss|Heal Bell|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Heal Bell
+|-curestatus|p2a: Togekiss|tox|[msg]
+|-curestatus|p2: Talonflame|tox|[msg]
+|
+|-heal|p2a: Togekiss|81\/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|inactive|Go Big has 135 seconds left.
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Chansey|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-heal|p2a: Togekiss|87\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|81\/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|move|p2a: Togekiss|Nasty Plot|p2a: Togekiss
+|-boost|p2a: Togekiss|spa|2
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|49\/100 tox
+|
+|-heal|p2a: Togekiss|55\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|43\/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|move|p2a: Togekiss|Heal Bell|p2a: Togekiss
+|-activate|p2a: Togekiss|move: Heal Bell
+|-curestatus|p2a: Togekiss|tox|[msg]
+|move|p1a: Chansey|Seismic Toss|p2a: Togekiss
+|-damage|p2a: Togekiss|11\/100
+|
+|-heal|p2a: Togekiss|17\/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|60\/100
+|move|p1a: Chansey|Toxic|p2a: Togekiss
+|-status|p2a: Togekiss|tox
+|
+|-heal|p2a: Togekiss|23\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|17\/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|29\/100
+|cant|p1a: Chansey|flinch
+|
+|-heal|p2a: Togekiss|23\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|11\/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|move|p2a: Togekiss|Air Slash|p1a: Chansey
+|-damage|p1a: Chansey|0 fnt
+|faint|p1a: Chansey
+|
+|-heal|p2a: Togekiss|17\/100 tox|[from] item: Leftovers
+|-damage|p2a: Togekiss|0 fnt|[from] psn
+|upkeep
+|faint|p2a: Togekiss
+|
+|switch|p2a: Talonflame|Talonflame, M|6\/100
+|switch|p1a: Mandibuzz|Mandibuzz, F|99\/100
+|-damage|p1a: Mandibuzz|74\/100|[from] Stealth Rock
+|turn|47
+|-message|Go Big forfeited.
+|
+|win|Fldandtooton
+|l|☆Go Big
+|raw|Fldandtooton's rating: 1352 &rarr; <strong>1381<\/strong><br \/>(+29 for winning)
+|raw|Go Big's rating: 1523 &rarr; <strong>1494<\/strong><br \/>(-29 for losing)

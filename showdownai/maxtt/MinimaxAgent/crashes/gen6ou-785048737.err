@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "showdown.py", line 325, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 283, in play_game
+    gamestate = self.update_latest_turn(gamestate)
+  File "showdown.py", line 183, in update_latest_turn
+    opp_poke_name = self.selenium.get_opp_primary()
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/browser.py", line 238, in get_opp_primary
+    for x in imgs:
+NameError: name 'imgs' is not defined

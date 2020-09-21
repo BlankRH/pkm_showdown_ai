@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 291, in play_game
+    gamestate = self.correct_gamestate(gamestate)
+  File "showdown.py", line 157, in correct_gamestate
+    my_poke_health = self.selenium.get_my_primary_health()
+  File "/Users/labuser/pokemon_ai/showdownai/browser.py", line 429, in get_my_primary_health
+    hp = int(hp)
+ValueError: invalid literal for int() with base 10: ''

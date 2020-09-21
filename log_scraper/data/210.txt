@@ -1,0 +1,220 @@
+|j|☆alfredo duroo
+|j|☆JLW
+|player|p1|alfredo duroo|167
+|player|p2|JLW|292
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gardevoir, M|item
+|poke|p1|Gourgeist-*, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Heatran, M|item
+|poke|p1|Raikou|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Magnezone|item
+|poke|p2|Clefable, F|item
+|poke|p2|Latias, F|item
+|poke|p2|Weavile, M|item
+|poke|p2|Tentacruel, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|c|☆JLW|hf
+|c|☆alfredo duroo|u2
+|
+|start
+|switch|p1a: Gardevoir|Gardevoir, M, shiny|100\/100
+|switch|p2a: Tentacruel|Tentacruel, M|100\/100
+|-ability|p1a: Gardevoir|Liquid Ooze|[from] ability: Trace|[of] p2a: Tentacruel
+|turn|1
+|
+|switch|p2a: Magnezone|Magnezone|100\/100
+|switch|p1a: Gourgeist|Gourgeist-Large, F|100\/100
+|-item|p2a: Magnezone|Choice Scarf|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Magnezone|Volt Switch|p1a: Gourgeist
+|-resisted|p1a: Gourgeist
+|-damage|p1a: Gourgeist|79\/100
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Gourgeist|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|
+|-heal|p1a: Gourgeist|85\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100
+|move|p2a: Clefable|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-sidestart|p2: JLW|Spikes
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|switch|p1a: Keldeo|Keldeo|100\/100
+|move|p2a: Gliscor|Taunt|p1a: Keldeo
+|-start|p1a: Keldeo|move: Taunt
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Latias|Latias, F|100\/100
+|move|p1a: Keldeo|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|85\/100
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, M|100\/100
+|-damage|p2a: Tentacruel|88\/100|[from] Spikes
+|switch|p1a: Gardevoir|Gardevoir, M, shiny|100\/100
+|-ability|p1a: Gardevoir|Liquid Ooze|[from] ability: Trace|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|94\/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|switch|p1a: Gourgeist|Gourgeist-Large, F|85\/100
+|-item|p2a: Tentacruel|Black Sludge|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Gourgeist
+|-sidestart|p1: alfredo duroo|move: Toxic Spikes
+|
+|-heal|p2a: Tentacruel|99\/100|[from] item: Black Sludge
+|-heal|p1a: Gourgeist|91\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|j| theoreve
+|
+|switch|p2a: Clefable|Clefable, F|100\/100 brn
+|move|p1a: Gourgeist|Seed Bomb|p2a: Clefable
+|-damage|p2a: Clefable|75\/100 brn
+|
+|-heal|p1a: Gourgeist|98\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|81\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Skarmory|Skarmory, F|100\/100 par
+|move|p2a: Clefable|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: alfredo duroo|move: Stealth Rock
+|
+|-heal|p2a: Clefable|88\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Magnezone|Magnezone|100\/100
+|-damage|p2a: Magnezone|88\/100|[from] Spikes
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: JLW|Spikes
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-ability|p1a: Skarmory|Sturdy
+|-damage|p1a: Skarmory|1\/100 par
+|move|p1a: Skarmory|Spikes|p2a: Magnezone
+|-sidestart|p2: JLW|Spikes
+|
+|-heal|p1a: Skarmory|7\/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Magnezone|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|switch|p1a: Heatran|Heatran, M|100\/100
+|-damage|p1a: Heatran|88\/100|[from] Stealth Rock
+|turn|14
+|
+|switch|p2a: Gliscor|Gliscor, M|100\/100 tox
+|move|p1a: Heatran|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: JLW|move: Stealth Rock
+|
+|-heal|p1a: Heatran|94\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Keldeo|Keldeo|100\/100
+|-damage|p1a: Keldeo|94\/100|[from] Stealth Rock
+|-status|p1a: Keldeo|psn
+|move|p2a: Gliscor|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|53\/100 psn
+|
+|-heal|p1a: Keldeo|60\/100 psn|[from] item: Leftovers
+|-damage|p1a: Keldeo|47\/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|switch|p1a: Gardevoir|Gardevoir, M, shiny|100\/100
+|-damage|p1a: Gardevoir|88\/100|[from] Stealth Rock
+|-status|p1a: Gardevoir|psn
+|-ability|p1a: Gardevoir|Poison Heal|[from] ability: Trace|[of] p2a: Gliscor
+|switch|p2a: Tentacruel|Tentacruel, M|99\/100
+|-damage|p2a: Tentacruel|88\/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|63\/100|[from] Spikes
+|
+|-heal|p2a: Tentacruel|69\/100|[from] item: Black Sludge
+|-heal|p1a: Gardevoir|100\/100 psn|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|switch|p2a: Weavile|Weavile, M|100\/100
+|-damage|p2a: Weavile|76\/100|[from] Stealth Rock
+|-damage|p2a: Weavile|51\/100|[from] Spikes
+|-ability|p2a: Weavile|Pressure
+|switch|p1a: Gourgeist|Gourgeist-Large, F|98\/100
+|-damage|p1a: Gourgeist|85\/100|[from] Stealth Rock
+|-status|p1a: Gourgeist|psn
+|-item|p2a: Weavile|Choice Band|[from] ability: Frisk|[of] p1a: Gourgeist|[identify]
+|
+|-heal|p1a: Gourgeist|91\/100 psn|[from] item: Leftovers
+|-damage|p1a: Gourgeist|79\/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|-activate|p1a: Gourgeist|move: Pursuit
+|move|p2a: Weavile|Pursuit|p1a: Gourgeist|[from]Pursuit
+|-supereffective|p1a: Gourgeist
+|-crit|p1a: Gourgeist
+|-damage|p1a: Gourgeist|0 fnt
+|faint|p1a: Gourgeist
+|
+|upkeep
+|-message|alfredo duroo forfeited.
+|
+|win|JLW
+|l|☆alfredo duroo
+|raw|alfredo duroo's rating: 1417 &rarr; <strong>1390<\/strong><br \/>(-27 for losing)
+|raw|JLW's rating: 1290 &rarr; <strong>1324<\/strong><br \/>(+34 for winning)

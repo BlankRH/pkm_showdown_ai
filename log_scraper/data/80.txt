@@ -1,0 +1,306 @@
+|j|☆shiftteam
+|j|☆Bratt Pid
+|player|p1|shiftteam|28
+|player|p2|Bratt Pid|137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Magnezone|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Mew|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Medicham, F|item
+|poke|p2|Clefable, M|item
+|poke|p2|Starmie|item
+|poke|p2|Pinsir, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Bisharp, M|item
+|poke|p2|Landorus-Therian, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bratt Pid)
+|
+|start
+|switch|p1a: Medicham|Medicham, F|100\/100
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Medicham|atk|1
+|turn|1
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Clefable
+|-damage|p2a: Clefable|86\/100
+|
+|-heal|p2a: Clefable|92\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Magnezone|Magnezone|100\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: shiftteam|move: Stealth Rock
+|
+|-heal|p2a: Clefable|98\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Landorus|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|89\/100
+|
+|switch|p2a: Starmie|Starmie|100\/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Starmie
+|-resisted|p2a: Starmie
+|-damage|p2a: Starmie|67\/100
+|-damage|p1a: Magnezone|79\/100|[from] item: Life Orb
+|
+|-heal|p2a: Starmie|74\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|move|p2a: Starmie|Scald|p1a: Magnezone
+|-damage|p1a: Magnezone|47\/100
+|move|p1a: Magnezone|Volt Switch|p2a: Starmie
+|-supereffective|p2a: Starmie
+|-damage|p2a: Starmie|0 fnt
+|-damage|p1a: Magnezone|37\/100|[from] item: Life Orb
+|faint|p2a: Starmie
+|inactive|shiftteam has 135 seconds left.
+|
+|switch|p1a: Mew|Mew|100\/100
+|-damage|p1a: Mew|88\/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|98\/100
+|turn|6
+|
+|switch|p1a: Magnezone|Magnezone|37\/100
+|-damage|p1a: Magnezone|31\/100|[from] Stealth Rock
+|move|p2a: Clefable|Toxic|p1a: Magnezone
+|-immune|p1a: Magnezone|[msg]
+|
+|-heal|p2a: Clefable|100\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Magnezone|Magnezone|100\/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|80\/100
+|-damage|p1a: Magnezone|21\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Magnezone|Hidden Power|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|j| Prince DEv!T
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100\/100
+|-damage|p1a: Keldeo|94\/100|[from] Stealth Rock
+|turn|9
+|j| theoreve
+|inactive|Bratt Pid has 135 seconds left.
+|inactive|Bratt Pid has 120 seconds left.
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Magnezone|[miss]
+|-miss|p1a: Keldeo|p2a: Magnezone
+|move|p2a: Magnezone|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|77\/100
+|
+|upkeep
+|turn|10
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|turn|11
+|
+|move|p1a: Keldeo|Hydro Pump|p2a: Clefable|[miss]
+|-miss|p1a: Keldeo|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-crit|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|inactive|shiftteam has 135 seconds left.
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p1a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|turn|12
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Clefable
+|-sidestart|p2: Bratt Pid|move: Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|55\/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|55\/100
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|23\/100
+|-unboost|p1a: Landorus|spa|1
+|
+|-heal|p2a: Clefable|61\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Landorus|Stone Edge|p2a: Clefable|[miss]
+|-miss|p1a: Landorus|p2a: Clefable
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Landorus|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|91\/100
+|
+|switch|p1a: Mew|Mew|88\/100
+|-damage|p1a: Mew|76\/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Mew
+|-damage|p1a: Mew|57\/100
+|-unboost|p1a: Mew|spa|1
+|
+|-heal|p2a: Clefable|97\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Landorus|Landorus-Therian, M|23\/100
+|-damage|p1a: Landorus|10\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|move|p2a: Clefable|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-heal|p2a: Clefable|100\/100|[from] item: Leftovers
+|-damage|p1a: Landorus|4\/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|55\/100
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100
+|
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Landorus
+|inactive|shiftteam has 135 seconds left.
+|inactive|shiftteam has 120 seconds left.
+|
+|switch|p1a: Azumarill|Azumarill, F|100\/100
+|-damage|p1a: Azumarill|88\/100|[from] Stealth Rock
+|turn|18
+|
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|38\/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Azumarill|Sitrus Berry|[eat]
+|-heal|p1a: Azumarill|63\/100|[from] item: Sitrus Berry
+|move|p2a: Clefable|Moonblast|p1a: Azumarill
+|-damage|p1a: Azumarill|24\/100
+|
+|upkeep
+|turn|19
+|inactive|Bratt Pid has 135 seconds left.
+|
+|switch|p2a: Bisharp|Bisharp, M|100\/100
+|-damage|p2a: Bisharp|95\/100|[from] Stealth Rock
+|move|p1a: Azumarill|Play Rough|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|switch|p2a: Pinsir|Pinsir, F|100\/100
+|-damage|p2a: Pinsir|76\/100|[from] Stealth Rock
+|turn|20
+|inactive|shiftteam has 135 seconds left.
+|
+|detailschange|p2a: Pinsir|Pinsir-Mega, F
+|-mega|p2a: Pinsir|Pinsir|Pinsirite
+|move|p2a: Pinsir|Quick Attack|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, F|100\/100
+|-damage|p1a: Medicham|94\/100|[from] Stealth Rock
+|turn|21
+|
+|move|p1a: Medicham|Fake Out|p2a: Pinsir
+|-damage|p2a: Pinsir|50\/100
+|cant|p2a: Pinsir|flinch
+|
+|upkeep
+|turn|22
+|inactive|shiftteam has 135 seconds left.
+|
+|switch|p1a: Mew|Mew|57\/100
+|-damage|p1a: Mew|45\/100|[from] Stealth Rock
+|move|p2a: Pinsir|Quick Attack|p1a: Mew
+|-damage|p1a: Mew|18\/100
+|
+|upkeep
+|turn|23
+|inactive|Bratt Pid has 135 seconds left.
+|
+|move|p2a: Pinsir|Quick Attack|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, F|94\/100
+|-damage|p1a: Medicham|88\/100|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Pinsir|Quick Attack|p1a: Medicham
+|-supereffective|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|win|Bratt Pid
+|raw|shiftteam's rating: 1399 &rarr; <strong>1383<\/strong><br \/>(-16 for losing)
+|raw|Bratt Pid's rating: 1466 &rarr; <strong>1483<\/strong><br \/>(+17 for winning)

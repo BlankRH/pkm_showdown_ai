@@ -1,0 +1,450 @@
+|j|☆Bratt Pid
+|j|☆alfredo duroo
+|player|p1|Bratt Pid|171
+|teamsize|p1|6
+|player|p2|alfredo duroo|167
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Amoonguss, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Zapdos|item
+|poke|p1|Garchomp, M|item
+|poke|p1|Keldeo-Resolute|item
+|poke|p1|Metagross|item
+|poke|p2|Terrakion|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Thundurus, M|item
+|poke|p2|Heatran, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Slowbro, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bratt Pid)
+|
+|start
+|switch|p1a: Garchomp|Garchomp, M|100\/100
+|switch|p2a: Thundurus|Thundurus, M|100\/100
+|turn|1
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Thundurus|Hidden Power|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94\/100|[from] sandstorm
+|-heal|p2a: Thundurus|100\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p2a: Garchomp|Garchomp, M|100\/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|72\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|100\/100
+|switch|p2a: Thundurus|Thundurus, M|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94\/100|[from] sandstorm
+|-damage|p1a: Keldeo|94\/100|[from] sandstorm
+|-heal|p2a: Thundurus|100\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|switch|p1a: Amoonguss|Amoonguss, F|100\/100
+|move|p2a: Thundurus|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|60\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94\/100|[from] sandstorm
+|-damage|p1a: Amoonguss|54\/100|[from] sandstorm
+|-heal|p2a: Thundurus|100\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|j| miven
+|
+|switch|p2a: Heatran|Heatran, M|100\/100
+|move|p1a: Amoonguss|Spore|p2a: Heatran
+|-status|p2a: Heatran|slp
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Thundurus|Thundurus, M|100\/100
+|switch|p1a: Metagross|Metagross|100\/100
+|
+|upkeep
+|turn|7
+|
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|detailschange|p1a: Metagross|Metagross-Mega
+|move|p2a: Thundurus|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|cant|p1a: Metagross|par
+|
+|upkeep
+|turn|8
+|c|☆Bratt Pid|garbage players
+|
+|switch|p2a: Slowbro|Slowbro, F|100\/100
+|cant|p1a: Metagross|par
+|
+|upkeep
+|turn|9
+|c|☆alfredo duroo|yeah
+|
+|switch|p2a: Terrakion|Terrakion|100\/100
+|switch|p1a: Garchomp|Garchomp, M|100\/100
+|
+|upkeep
+|turn|10
+|
+|switch|p2a: Thundurus|Thundurus, M|100\/100
+|move|p1a: Garchomp|Stealth Rock|p2a: Thundurus
+|-sidestart|p2: alfredo duroo|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|switch|p1a: Amoonguss|Amoonguss, F|87\/100
+|move|p2a: Thundurus|Hidden Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50\/100
+|
+|upkeep
+|turn|12
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|94\/100
+|move|p2a: Thundurus|Hidden Power|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|82\/100
+|
+|upkeep
+|turn|13
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|88\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Thundurus|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|58\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Thundurus|94\/100|[from] sandstorm
+|-heal|p2a: Thundurus|100\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tyranitar|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Garchomp|Garchomp, M|72\/100
+|-damage|p2a: Garchomp|66\/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100\/100
+|-ability|p1a: Zapdos|Pressure
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94\/100|[from] sandstorm
+|-heal|p1a: Zapdos|100\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Amoonguss|Amoonguss, F|83\/100
+|move|p2a: Garchomp|Outrage|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Garchomp|49\/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|-damage|p2a: Garchomp|39\/100|[from] item: Life Orb
+|faint|p1a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|82\/100
+|turn|17
+|
+|move|p1a: Keldeo|Scald|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|turn|18
+|
+|switch|p1a: Metagross|Metagross-Mega|100\/100 par
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Slowbro|Slowbro, F|100\/100
+|-damage|p2a: Slowbro|88\/100|[from] Stealth Rock
+|move|p1a: Metagross|Meteor Mash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|67\/100
+|
+|upkeep
+|turn|20
+|
+|switch|p1a: Garchomp|Garchomp, M|100\/100
+|move|p2a: Slowbro|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|77\/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Garchomp|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|upkeep
+|turn|22
+|
+|switch|p1a: Metagross|Metagross-Mega|100\/100 par
+|move|p2a: Clefable|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|74\/100 par
+|
+|upkeep
+|turn|23
+|
+|switch|p2a: Slowbro|Slowbro, F|99\/100
+|-damage|p2a: Slowbro|88\/100|[from] Stealth Rock
+|move|p1a: Metagross|Meteor Mash|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|66\/100
+|-boost|p1a: Metagross|atk|1
+|
+|upkeep
+|turn|24
+|
+|switch|p1a: Garchomp|Garchomp, M|77\/100
+|move|p2a: Slowbro|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|49\/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Clefable|Clefable, F|100\/100 tox
+|move|p1a: Garchomp|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|64\/100 tox
+|
+|-heal|p2a: Clefable|70\/100 tox|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p1a: Garchomp|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|34\/100 tox
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|84\/100 tox
+|
+|-heal|p2a: Clefable|90\/100 tox|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p1a: Garchomp|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|52\/100 tox
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100 tox
+|
+|upkeep
+|turn|28
+|
+|switch|p1a: Metagross|Metagross-Mega|74\/100 par
+|move|p2a: Clefable|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|58\/100 par
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Clefable|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|41\/100 par
+|move|p1a: Metagross|Meteor Mash|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|100\/100
+|-damage|p2a: Terrakion|94\/100|[from] Stealth Rock
+|turn|30
+|
+|move|p2a: Terrakion|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100\/100
+|-ability|p1a: Zapdos|Pressure
+|turn|31
+|
+|switch|p2a: Heatran|Heatran, M|100\/100 slp
+|-damage|p2a: Heatran|88\/100 slp|[from] Stealth Rock
+|switch|p1a: Garchomp|Garchomp, M|49\/100
+|
+|-heal|p2a: Heatran|94\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|cant|p2a: Heatran|slp
+|move|p1a: Garchomp|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Terrakion|Terrakion|94\/100
+|-damage|p2a: Terrakion|88\/100|[from] Stealth Rock
+|turn|33
+|
+|switch|p1a: Keldeo|Keldeo-Resolute|82\/100
+|move|p2a: Terrakion|Close Combat|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100\/100
+|-ability|p1a: Zapdos|Pressure
+|turn|34
+|
+|move|p2a: Terrakion|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|65\/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Zapdos|Discharge|p2a: Terrakion
+|-damage|p2a: Terrakion|10\/100
+|
+|-heal|p1a: Zapdos|71\/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Terrakion|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|33\/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|83\/100
+|
+|-heal|p1a: Zapdos|89\/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Terrakion|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|50\/100
+|-unboost|p2a: Terrakion|def|1
+|-unboost|p2a: Terrakion|spd|1
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|99\/100
+|
+|-heal|p1a: Zapdos|100\/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|-activate|p2a: Terrakion|move: Struggle
+|move|p2a: Terrakion|Struggle|p1a: Zapdos
+|-damage|p1a: Zapdos|81\/100
+|-damage|p2a: Terrakion|0 fnt|[from] recoil
+|faint|p2a: Terrakion
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|100\/100
+|
+|upkeep
+|
+|switch|p2a: Slowbro|Slowbro, F|99\/100
+|-damage|p2a: Slowbro|87\/100|[from] Stealth Rock
+|turn|38
+|
+|switch|p1a: Garchomp|Garchomp, M|49\/100
+|-mega|p2a: Slowbro|Slowbro|Slowbronite
+|detailschange|p2a: Slowbro|Slowbro-Mega, F
+|move|p2a: Slowbro|Calm Mind|p2a: Slowbro
+|-boost|p2a: Slowbro|spa|1
+|-boost|p2a: Slowbro|spd|1
+|
+|upkeep
+|turn|39
+|
+|move|p1a: Garchomp|Toxic|p2a: Slowbro
+|-status|p2a: Slowbro|tox
+|move|p2a: Slowbro|Scald|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-damage|p2a: Slowbro|81\/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, M, shiny|58\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|40
+|
+|move|p1a: Tyranitar|Crunch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|44\/100 tox
+|-unboost|p2a: Slowbro|def|1
+|move|p2a: Slowbro|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowbro|38\/100 tox|[from] sandstorm
+|-damage|p2a: Slowbro|26\/100 tox|[from] psn
+|upkeep
+|
+|switch|p1a: Zapdos|Zapdos, shiny|100\/100
+|-ability|p1a: Zapdos|Pressure
+|turn|41
+|
+|move|p1a: Zapdos|Discharge|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|win|Bratt Pid
+|raw|Bratt Pid's rating: 1590 &rarr; <strong>1606<\/strong><br \/>(+16 for winning)
+|raw|alfredo duroo's rating: 1526 &rarr; <strong>1510<\/strong><br \/>(-16 for losing)
+|l|☆alfredo duroo

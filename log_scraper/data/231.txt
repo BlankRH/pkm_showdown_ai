@@ -1,0 +1,376 @@
+|j|☆xhaxrmex
+|j|☆goodnewsbears
+|player|p1|xhaxrmex|169
+|player|p2|goodnewsbears|102
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Medicham, F|item
+|poke|p1|Dragalge, M|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Suicune|item
+|poke|p1|Skarmory, F|item
+|poke|p1|Excadrill, F|item
+|poke|p2|Alakazam, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Scizor, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Excadrill|Excadrill, F, shiny|100\/100
+|switch|p2a: Clefable|Clefable, F|100\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|switch|p2a: Scizor|Scizor, M|100\/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Scizor
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|-activate|p1a: Excadrill|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Excadrill|[from]Pursuit
+|-damage|p1a: Excadrill|49\/100
+|switch|p1a: Skarmory|Skarmory, F, shiny|100\/100
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Medicham|Medicham, F|100\/100
+|switch|p2a: Clefable|Clefable, F|100\/100
+|-damage|p2a: Clefable|88\/100|[from] Stealth Rock
+|
+|-heal|p2a: Clefable|94\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|-mega|p1a: Medicham|Medicham|Medichamite
+|detailschange|p1a: Medicham|Medicham-Mega, F
+|move|p1a: Medicham|Zen Headbutt|p2a: Clefable
+|-damage|p2a: Clefable|35\/100
+|move|p2a: Clefable|Thunder Wave|p1a: Medicham
+|-status|p1a: Medicham|par
+|
+|-heal|p2a: Clefable|41\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|49\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|36\/100
+|
+|-heal|p1a: Excadrill|42\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|47\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Excadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-heal|p1a: Excadrill|48\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100
+|-damage|p2a: Gliscor|88\/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Skarmory|Skarmory, F, shiny|100\/100
+|move|p2a: Gliscor|Substitute|p2a: Gliscor
+|-start|p2a: Gliscor|Substitute
+|-damage|p2a: Gliscor|64\/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Skarmory|Spikes|p2a: Gliscor
+|-sidestart|p2: goodnewsbears|Spikes
+|
+|-heal|p2a: Gliscor|76\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Skarmory|Whirlwind|p2a: Gliscor
+|drag|p2a: Talonflame|Talonflame, F|100\/100
+|-damage|p2a: Talonflame|51\/100|[from] Stealth Rock
+|
+|-heal|p2a: Talonflame|57\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Suicune|Suicune, shiny|100\/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Suicune
+|-status|p1a: Suicune|brn
+|
+|-heal|p2a: Talonflame|63\/100|[from] item: Leftovers
+|-damage|p1a: Suicune|88\/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100\/100
+|move|p1a: Suicune|Scald|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|55\/100
+|
+|-heal|p2a: Talonflame|61\/100|[from] item: Leftovers
+|-heal|p1a: Suicune|94\/100 brn|[from] item: Leftovers
+|-damage|p1a: Suicune|82\/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100\/100
+|-damage|p2a: Tentacruel|88\/100|[from] Stealth Rock
+|-damage|p2a: Tentacruel|76\/100|[from] Spikes
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Tentacruel|82\/100|[from] item: Black Sludge
+|-heal|p1a: Suicune|88\/100 brn|[from] item: Leftovers
+|-damage|p1a: Suicune|76\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p1a: Excadrill|Excadrill, F, shiny|48\/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Tentacruel|Rapid Spin|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|47\/100
+|-sideend|p2: goodnewsbears|Spikes|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|-sideend|p2: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|88\/100|[from] item: Black Sludge
+|-heal|p1a: Excadrill|53\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Scizor|Scizor, M|100\/100
+|move|p1a: Excadrill|Stealth Rock|p2a: Scizor
+|-sidestart|p2: goodnewsbears|move: Stealth Rock
+|
+|-heal|p1a: Excadrill|59\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p1a: Excadrill|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|53\/100
+|move|p2a: Scizor|Superpower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus, M, shiny|100\/100
+|turn|16
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Scizor
+|-damage|p2a: Scizor|2\/100
+|move|p2a: Scizor|Superpower|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|68\/100
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|def|1
+|
+|-heal|p1a: Thundurus|74\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p1a: Thundurus|Hidden Power|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Thundurus|80\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam, M|100\/100
+|turn|18
+|
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, M
+|-ability|p2a: Alakazam|Prankster|[from] ability: Trace|[of] p1a: Thundurus
+|move|p2a: Alakazam|Psychic|p1a: Thundurus
+|-damage|p1a: Thundurus|3\/100
+|move|p1a: Thundurus|Thunderbolt|p2a: Alakazam
+|-damage|p2a: Alakazam|34\/100
+|
+|-heal|p1a: Thundurus|9\/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Dragalge|Dragalge, M|100\/100
+|move|p2a: Alakazam|Psychic|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, F|100\/100 par
+|turn|20
+|
+|switch|p2a: Tentacruel|Tentacruel, F|88\/100
+|-damage|p2a: Tentacruel|75\/100|[from] Stealth Rock
+|move|p1a: Medicham|Fake Out|p2a: Tentacruel
+|-damage|p2a: Tentacruel|42\/100
+|
+|-heal|p2a: Tentacruel|48\/100|[from] item: Black Sludge
+|upkeep
+|turn|21
+|
+|move|p2a: Tentacruel|Rapid Spin|p1a: Medicham
+|-damage|p1a: Medicham|96\/100 par
+|-sideend|p2: goodnewsbears|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|cant|p1a: Medicham|par
+|
+|-heal|p2a: Tentacruel|54\/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|
+|move|p2a: Tentacruel|Scald|p1a: Medicham
+|-damage|p1a: Medicham|61\/100 par
+|move|p1a: Medicham|Zen Headbutt|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam-Mega, M|34\/100
+|-ability|p2a: Alakazam|Pure Power|[from] ability: Trace|[of] p1a: Medicham
+|turn|23
+|inactive|xhaxrmex has 135 seconds left.
+|
+|move|p2a: Alakazam|Psychic|p1a: Medicham
+|-crit|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+|
+|switch|p1a: Skarmory|Skarmory, F, shiny|100\/100
+|turn|24
+|
+|move|p2a: Alakazam|Hidden Power|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|30\/100
+|move|p1a: Skarmory|Brave Bird|p2a: Alakazam
+|-damage|p2a: Alakazam|0 fnt
+|-damage|p1a: Skarmory|22\/100|[from] Recoil
+|faint|p2a: Alakazam
+|
+|upkeep
+|
+|switch|p2a: Talonflame|Talonflame, F|61\/100
+|turn|25
+|
+|switch|p1a: Suicune|Suicune, shiny|76\/100 brn
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|
+|-heal|p2a: Talonflame|67\/100|[from] item: Leftovers
+|-heal|p1a: Suicune|82\/100 brn|[from] item: Leftovers
+|-damage|p1a: Suicune|70\/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|xhaxrmex has 135 seconds left.
+|inactive|goodnewsbears has 135 seconds left.
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|25\/100 brn
+|-damage|p2a: Talonflame|51\/100|[from] Recoil
+|move|p1a: Suicune|Rest|p1a: Suicune
+|-status|p1a: Suicune|slp
+|-heal|p1a: Suicune|100\/100 slp|[silent]
+|-status|p1a: Suicune|slp|[from] move: Rest
+|
+|-heal|p2a: Talonflame|57\/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Talonflame|Bulk Up|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|1
+|-boost|p2a: Talonflame|def|1
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Rest|p1a: Suicune|[from]Sleep Talk
+|-fail|p1a: Suicune
+|
+|-heal|p2a: Talonflame|63\/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Suicune
+|-damage|p1a: Suicune|62\/100 slp
+|-damage|p2a: Talonflame|48\/100|[from] Recoil
+|cant|p1a: Suicune|slp
+|move|p1a: Suicune|Sleep Talk|p1a: Suicune
+|move|p1a: Suicune|Calm Mind|p1a: Suicune|[from]Sleep Talk
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|-heal|p2a: Talonflame|55\/100|[from] item: Leftovers
+|-heal|p1a: Suicune|68\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Suicune
+|-damage|p1a: Suicune|27\/100 slp
+|-damage|p2a: Talonflame|39\/100|[from] Recoil
+|-curestatus|p1a: Suicune|slp|[msg]
+|move|p1a: Suicune|Scald|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-heal|p1a: Suicune|33\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Gliscor|Gliscor, F|76\/100 tox
+|turn|30
+|
+|move|p2a: Gliscor|Earthquake|p1a: Suicune
+|-damage|p1a: Suicune|11\/100
+|move|p1a: Suicune|Scald|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|win|xhaxrmex
+|raw|xhaxrmex's rating: 1513 &rarr; <strong>1533<\/strong><br \/>(+20 for winning)
+|raw|goodnewsbears's rating: 1516 &rarr; <strong>1496<\/strong><br \/>(-20 for losing)
+|l|☆goodnewsbears

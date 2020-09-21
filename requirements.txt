@@ -1,0 +1,11 @@
+beautifulsoup4
+Flask
+itsdangerous
+Jinja2
+MarkupSafe
+path.py
+PyInstaller
+requests
+selenium
+webargs
+Werkzeug

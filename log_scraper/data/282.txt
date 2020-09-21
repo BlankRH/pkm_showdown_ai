@@ -1,0 +1,230 @@
+|j|☆shiftteam
+|j|☆ghcvbcbv
+|player|p1|shiftteam|28
+|player|p2|ghcvbcbv|290
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Volcanion|item
+|poke|p1|Weavile, M|item
+|poke|p1|Garchomp, F|item
+|poke|p1|Manectric, F|item
+|poke|p1|Latios, M|item
+|poke|p1|Breloom, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Magnezone|item
+|poke|p2|Venusaur, F|item
+|poke|p2|Togekiss, M|item
+|poke|p2|Weavile, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Manectric|Manectric, F|100\/100
+|switch|p2a: Venusaur|Venusaur, F, shiny|100\/100
+|turn|1
+|
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|detailschange|p2a: Venusaur|Venusaur-Mega, F, shiny
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p1a: Manectric|Volt Switch|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|85\/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ghcvbcbv)
+|
+|switch|p1a: Volcanion|Volcanion|100\/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Volcanion
+|-damage|p1a: Volcanion|45\/100
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Volcanion|Fire Blast|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|10\/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|100\/100
+|-ability|p1a: Weavile|Pressure
+|turn|3
+|
+|move|p1a: Weavile|Pursuit|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|
+|switch|p2a: Togekiss|Togekiss, M|100\/100
+|turn|4
+|
+|switch|p1a: Manectric|Manectric-Mega, F|100\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Togekiss|atk|1
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Manectric
+|-damage|p1a: Manectric|49\/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Manectric|Volt Switch|p2a: Togekiss
+|-supereffective|p2a: Togekiss
+|-damage|p2a: Togekiss|41\/100
+|inactive|shiftteam has 135 seconds left.
+|
+|switch|p1a: Latios|Latios, M|100\/100
+|move|p2a: Togekiss|Dazzling Gleam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|32\/100
+|
+|-heal|p2a: Togekiss|47\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|switch|p2a: Weavile|Weavile, F|100\/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|82\/100
+|
+|upkeep
+|turn|7
+|
+|switch|p1a: Manectric|Manectric-Mega, F|49\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|move|p2a: Weavile|Knock Off|p1a: Manectric
+|-damage|p1a: Manectric|4\/100
+|-damage|p2a: Weavile|91\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Weavile|Weavile, M|100\/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Weavile|Ice Shard|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|87\/100
+|-damage|p2a: Weavile|81\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|move|p1a: Weavile|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|46\/100
+|-damage|p1a: Weavile|70\/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|82\/100
+|move|p2a: Landorus|Stealth Rock|p1a: Latios
+|-sidestart|p1: shiftteam|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Latios|Defog|p2a: Landorus
+|-unboost|p2a: Landorus|evasion|1
+|-sideend|p1: shiftteam|Stealth Rock|[from] move: Defog|[of] p1a: Latios
+|move|p2a: Landorus|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-enditem|p1a: Latios|Life Orb|[from] move: Knock Off|[of] p2a: Landorus
+|faint|p1a: Latios
+|
+|upkeep
+|inactive|shiftteam has 135 seconds left.
+|inactive|shiftteam has 120 seconds left.
+|
+|switch|p1a: Manectric|Manectric-Mega, F|4\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|12
+|
+|move|p1a: Manectric|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|9\/100
+|move|p2a: Landorus|Stealth Rock|p1a: Manectric
+|-sidestart|p1: shiftteam|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Manectric|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|turn|14
+|
+|switch|p1a: Garchomp|Garchomp, F|100\/100
+|-damage|p1a: Garchomp|94\/100|[from] Stealth Rock
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|15
+|
+|switch|p1a: Manectric|Manectric-Mega, F|4\/100
+|-damage|p1a: Manectric|0 fnt|[from] Stealth Rock
+|faint|p1a: Manectric
+|move|p2a: Dragonite|Dragon Claw|p1: Manectric|[notarget]
+|-notarget
+|
+|upkeep
+|
+|switch|p1a: Breloom|Breloom, M|100\/100
+|-damage|p1a: Breloom|94\/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Breloom|Mach Punch|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|88\/100
+|-damage|p1a: Breloom|84\/100|[from] item: Life Orb
+|move|p2a: Dragonite|Fire Punch|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, M|70\/100
+|-damage|p1a: Weavile|45\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|move|p2a: Dragonite|Extreme Speed|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|-message|shiftteam forfeited.
+|
+|win|ghcvbcbv
+|l|☆shiftteam
+|raw|shiftteam's rating: 1275 &rarr; <strong>1252<\/strong><br \/>(-23 for losing)
+|raw|ghcvbcbv's rating: 1302 &rarr; <strong>1320<\/strong><br \/>(+18 for winning)

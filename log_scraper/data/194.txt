@@ -1,0 +1,589 @@
+|j|☆Lukob96
+|j|☆greensaur94
+|player|p1|Lukob96|1
+|player|p2|greensaur94|161
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Jirachi|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Mandibuzz, F|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Sableye, F|item
+|poke|p2|Venusaur, M|item
+|poke|p2|Klefki, M|item
+|poke|p2|Manaphy|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Volcarona, M|item
+|poke|p2|Dragonite, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lukob96)
+|inactive|Lukob96 has 135 seconds left.
+|inactive|greensaur94 has 135 seconds left.
+|
+|start
+|switch|p1a: Thundurus|Thundurus, M, shiny|100\/100
+|switch|p2a: Volcarona|Volcarona, M|100\/100
+|turn|1
+|inactive|greensaur94 has 135 seconds left.
+|
+|switch|p2a: Klefki|Klefki, M|100\/100
+|move|p1a: Thundurus|Thunder Wave|p2a: Klefki
+|-status|p2a: Klefki|par
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: greensaur94|move: Light Screen
+|move|p1a: Thundurus|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|65\/100 par
+|-damage|p1a: Thundurus|91\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Excadrill|Excadrill, F|100\/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Thundurus|Thunderbolt|p2a: Excadrill
+|-immune|p2a: Excadrill|[msg]
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Volcarona|Volcarona, M|100\/100
+|switch|p1a: Jirachi|Jirachi, shiny|100\/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Jirachi|U-turn|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|80\/100
+|-status|p1a: Jirachi|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|
+|switch|p1a: Thundurus|Thundurus, M, shiny|91\/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Thundurus|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|-enditem|p2a: Volcarona|Lum Berry|[eat]
+|-curestatus|p2a: Volcarona|par|[msg]
+|move|p2a: Volcarona|Fiery Dance|p1a: Thundurus
+|-damage|p1a: Thundurus|6\/100
+|-boost|p2a: Volcarona|spa|1
+|
+|upkeep
+|turn|7
+|inactive|greensaur94 has 135 seconds left.
+|
+|move|p1a: Thundurus|Thunder Wave|p2a: Volcarona
+|-status|p2a: Volcarona|par
+|cant|p2a: Volcarona|par
+|
+|upkeep
+|turn|8
+|inactive|Lukob96 has 135 seconds left.
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Volcarona
+|-damage|p2a: Volcarona|59\/100 par
+|-damage|p1a: Thundurus|0 fnt|[from] item: Life Orb
+|faint|p1a: Thundurus
+|move|p2a: Volcarona|Giga Drain|p1: Thundurus|[notarget]
+|-notarget
+|
+|upkeep
+|inactive|Lukob96 has 135 seconds left.
+|
+|switch|p1a: Bisharp|Bisharp, F, shiny|100\/100
+|turn|9
+|
+|move|p1a: Bisharp|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-status|p1a: Bisharp|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|faint|p2a: Volcarona
+|
+|-damage|p1a: Bisharp|88\/100 brn|[from] brn
+|-sideend|p2: greensaur94|move: Light Screen
+|upkeep
+|inactive|greensaur94 has 135 seconds left.
+|inactive|greensaur94 has 120 seconds left.
+|inactive|greensaur94 has 105 seconds left.
+|
+|switch|p2a: Manaphy|Manaphy|100\/100
+|turn|10
+|inactive|Lukob96 has 135 seconds left.
+|
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Bisharp|Knock Off|p2a: Manaphy
+|-damage|p2a: Manaphy|77\/100
+|-enditem|p2a: Manaphy|Leftovers|[from] move: Knock Off|[of] p1a: Bisharp
+|
+|-damage|p1a: Bisharp|76\/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p2a: Manaphy|Scald|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100\/100
+|-ability|p1a: Gardevoir|Hydration|[from] ability: Trace|[of] p2a: Manaphy
+|turn|12
+|
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, F, shiny
+|move|p1a: Gardevoir|Hyper Voice|p2a: Manaphy
+|-damage|p2a: Manaphy|21\/100
+|move|p2a: Manaphy|Scald|p1a: Gardevoir
+|-damage|p1a: Gardevoir|30\/100
+|
+|upkeep
+|turn|13
+|
+|move|p1a: Gardevoir|Hyper Voice|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+|
+|switch|p2a: Klefki|Klefki, M|65\/100 par
+|turn|14
+|
+|switch|p1a: Sableye|Sableye, F|100\/100
+|cant|p2a: Klefki|par
+|
+|upkeep
+|turn|15
+|
+|move|p1a: Sableye|Taunt|p2a: Klefki
+|-start|p2a: Klefki|move: Taunt
+|cant|p2a: Klefki|move: Taunt|Light Screen
+|
+|upkeep
+|turn|16
+|
+|move|p1a: Sableye|Night Shade|p2a: Klefki
+|-damage|p2a: Klefki|34\/100 par
+|move|p2a: Klefki|Foul Play|p1a: Sableye
+|-damage|p1a: Sableye|81\/100
+|
+|-heal|p1a: Sableye|88\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|switch|p2a: Tisaur|Venusaur, M|100\/100
+|move|p1a: Sableye|Night Shade|p2a: Tisaur
+|-damage|p2a: Tisaur|73\/100
+|
+|-heal|p1a: Sableye|94\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|-mega|p2a: Tisaur|Venusaur|Venusaurite
+|detailschange|p2a: Tisaur|Venusaur-Mega, M
+|move|p1a: Sableye|Will-O-Wisp|p2a: Tisaur
+|-status|p2a: Tisaur|brn
+|move|p2a: Tisaur|Sludge Bomb|p1a: Sableye
+|-resisted|p1a: Sableye
+|-damage|p1a: Sableye|76\/100
+|
+|-heal|p1a: Sableye|82\/100|[from] item: Leftovers
+|-damage|p2a: Tisaur|61\/100 brn|[from] brn
+|upkeep
+|turn|19
+|j| Desertgirasole
+|
+|move|p2a: Tisaur|Sludge Bomb|p1a: Sableye
+|-resisted|p1a: Sableye
+|-damage|p1a: Sableye|63\/100
+|-status|p1a: Sableye|psn
+|move|p1a: Sableye|Night Shade|p2a: Tisaur
+|-damage|p2a: Tisaur|33\/100 brn
+|
+|-heal|p1a: Sableye|69\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|21\/100 brn|[from] brn
+|-damage|p1a: Sableye|56\/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100\/100 psn
+|move|p2a: Tisaur|Synthesis|p2a: Tisaur
+|-heal|p2a: Tisaur|71\/100 brn
+|
+|-damage|p2a: Tisaur|58\/100 brn|[from] brn
+|-damage|p1a: Sableye|88\/100 psn|[from] psn
+|upkeep
+|turn|21
+|l| Desertgirasole
+|
+|switch|p1a: Jirachi|Jirachi, shiny|100\/100 brn
+|move|p2a: Tisaur|Synthesis|p2a: Tisaur
+|-heal|p2a: Tisaur|100\/100 brn
+|
+|-damage|p1a: Jirachi|88\/100 brn|[from] brn
+|-damage|p2a: Tisaur|88\/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Jirachi|Stealth Rock|p2a: Tisaur
+|-sidestart|p2: greensaur94|move: Stealth Rock
+|move|p2a: Tisaur|Hidden Power|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|67\/100 brn
+|
+|-heal|p1a: Jirachi|73\/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|60\/100 brn|[from] brn
+|-damage|p2a: Tisaur|76\/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|greensaur94 has 135 seconds left.
+|
+|move|p1a: Jirachi|U-turn|p2a: Tisaur
+|-damage|p2a: Tisaur|71\/100 brn
+|
+|switch|p1a: Gardevoir|Gardevoir-Mega, F, shiny|30\/100
+|move|p2a: Tisaur|Hidden Power|p1a: Gardevoir
+|-damage|p1a: Gardevoir|14\/100
+|
+|-damage|p2a: Tisaur|59\/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|greensaur94 has 135 seconds left.
+|
+|switch|p2a: Klefki|Klefki, M|34\/100 par
+|-damage|p2a: Klefki|28\/100 par|[from] Stealth Rock
+|move|p1a: Gardevoir|Psyshock|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|7\/100 par
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: greensaur94|move: Light Screen
+|move|p1a: Gardevoir|Taunt|p2a: Klefki
+|-start|p2a: Klefki|move: Taunt
+|
+|upkeep
+|turn|26
+|
+|switch|p1a: Sableye|Sableye, F|88\/100 psn
+|move|p2a: Klefki|Foul Play|p1a: Sableye
+|-damage|p1a: Sableye|70\/100 psn
+|
+|-heal|p1a: Sableye|76\/100 psn|[from] item: Leftovers
+|-damage|p1a: Sableye|64\/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|switch|p2a: Tisaur|Venusaur-Mega, M|59\/100 brn
+|-damage|p2a: Tisaur|47\/100 brn|[from] Stealth Rock
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100\/100 psn
+|
+|-damage|p2a: Tisaur|34\/100 brn|[from] brn
+|-damage|p1a: Sableye|88\/100 psn|[from] psn
+|upkeep
+|turn|28
+|
+|move|p2a: Tisaur|Synthesis|p2a: Tisaur
+|-heal|p2a: Tisaur|84\/100 brn
+|move|p1a: Sableye|Night Shade|p2a: Tisaur
+|-damage|p2a: Tisaur|57\/100 brn
+|
+|-heal|p1a: Sableye|94\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|44\/100 brn|[from] brn
+|-damage|p1a: Sableye|82\/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|move|p1a: Sableye|Taunt|p2a: Tisaur
+|-start|p2a: Tisaur|move: Taunt
+|move|p2a: Tisaur|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|50\/100 psn
+|-heal|p2a: Tisaur|58\/100 brn|[from] drain|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|56\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|45\/100 brn|[from] brn
+|-damage|p1a: Sableye|44\/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|94\/100 psn
+|move|p2a: Tisaur|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|60\/100 psn
+|-heal|p2a: Tisaur|60\/100 brn|[from] drain|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|66\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|47\/100 brn|[from] brn
+|-damage|p1a: Sableye|54\/100 psn|[from] psn
+|upkeep
+|turn|31
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100\/100 psn
+|move|p2a: Tisaur|Giga Drain|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|54\/100 psn
+|-heal|p2a: Tisaur|67\/100 brn|[from] drain|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|60\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|54\/100 brn|[from] brn
+|-damage|p1a: Sableye|48\/100 psn|[from] psn
+|-end|p2a: Tisaur|move: Taunt
+|upkeep
+|turn|32
+|
+|move|p1a: Sableye|Taunt|p2a: Tisaur
+|-start|p2a: Tisaur|move: Taunt
+|move|p2a: Tisaur|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|18\/100 psn
+|-heal|p2a: Tisaur|67\/100 brn|[from] drain|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|24\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|55\/100 brn|[from] brn
+|-damage|p1a: Sableye|11\/100 psn|[from] psn
+|-sideend|p2: greensaur94|move: Light Screen
+|upkeep
+|turn|33
+|
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|61\/100 psn
+|move|p2a: Tisaur|Giga Drain|p1a: Sableye
+|-damage|p1a: Sableye|28\/100 psn
+|-heal|p2a: Tisaur|69\/100 brn|[from] drain|[of] p1a: Sableye
+|
+|-heal|p1a: Sableye|34\/100 psn|[from] item: Leftovers
+|-damage|p2a: Tisaur|56\/100 brn|[from] brn
+|-damage|p1a: Sableye|22\/100 psn|[from] psn
+|upkeep
+|turn|34
+|
+|switch|p1a: Jirachi|Jirachi, shiny|60\/100 brn
+|move|p2a: Tisaur|Giga Drain|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|49\/100 brn
+|-heal|p2a: Tisaur|63\/100 brn|[from] drain|[of] p1a: Jirachi
+|
+|-heal|p1a: Jirachi|55\/100 brn|[from] item: Leftovers
+|-damage|p1a: Jirachi|43\/100 brn|[from] brn
+|-damage|p2a: Tisaur|50\/100 brn|[from] brn
+|-end|p2a: Tisaur|move: Taunt
+|upkeep
+|turn|35
+|inactive|greensaur94 has 135 seconds left.
+|
+|move|p1a: Jirachi|Healing Wish|p1a: Jirachi
+|faint|p1a: Jirachi
+|move|p2a: Tisaur|Synthesis|p2a: Tisaur
+|-heal|p2a: Tisaur|99\/100 brn
+|
+|-damage|p2a: Tisaur|88\/100 brn|[from] brn
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir-Mega, F, shiny|14\/100
+|-heal|p1a: Gardevoir|100\/100|[from] move: Healing Wish
+|turn|36
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Tisaur
+|-supereffective|p2a: Tisaur
+|-damage|p2a: Tisaur|32\/100 brn
+|move|p2a: Tisaur|Sludge Bomb|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|32\/100
+|
+|-damage|p2a: Tisaur|19\/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Tisaur
+|-supereffective|p2a: Tisaur
+|-damage|p2a: Tisaur|0 fnt
+|faint|p2a: Tisaur
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100\/100
+|-damage|p2a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|38
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|100\/100
+|move|p2a: Excadrill|Rapid Spin|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|96\/100
+|-sideend|p2: greensaur94|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|-heal|p1a: Mandibuzz|100\/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|greensaur94 has 135 seconds left.
+|inactive|greensaur94 has 120 seconds left.
+|
+|switch|p2a: Klefki|Klefki, M|7\/100 par
+|move|p1a: Mandibuzz|Foul Play|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|97\/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|40
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66\/100
+|cant|p1a: Mandibuzz|flinch
+|
+|-heal|p1a: Mandibuzz|72\/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|43\/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|93\/100
+|
+|-heal|p1a: Mandibuzz|99\/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|69\/100
+|cant|p1a: Mandibuzz|flinch
+|
+|-heal|p1a: Mandibuzz|75\/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|inactive|greensaur94 has 135 seconds left.
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|44\/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|31\/100
+|
+|-heal|p1a: Mandibuzz|50\/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|17\/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|67\/100
+|
+|-heal|p1a: Mandibuzz|73\/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|42\/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|92\/100
+|
+|-heal|p1a: Mandibuzz|98\/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|66\/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-heal|p1a: Mandibuzz|72\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|turn|47
+|
+|switch|p1a: Sableye|Sableye, F|22\/100 psn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Sableye|28\/100 psn|[from] item: Leftovers
+|-damage|p1a: Sableye|15\/100 psn|[from] psn
+|upkeep
+|turn|48
+|
+|move|p1a: Sableye|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn|[msg]
+|move|p2a: Dragonite|Dragon Claw|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir-Mega, F, shiny|32\/100
+|turn|49
+|c|☆greensaur94|gg
+|
+|move|p2a: Dragonite|Ice Punch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|switch|p1a: Mandibuzz|Mandibuzz, F|72\/100
+|turn|50
+|inactive|greensaur94 has 135 seconds left.
+|inactive|greensaur94 has 120 seconds left.
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragonite
+|-damage|p2a: Dragonite|42\/100
+|
+|-heal|p1a: Mandibuzz|78\/100|[from] item: Leftovers
+|upkeep
+|turn|51
+|inactive|Lukob96 has 135 seconds left.
+|
+|move|p2a: Dragonite|Ice Punch|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|8\/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Lukob96
+|raw|Lukob96's rating: 1256 &rarr; <strong>1288<\/strong><br \/>(+32 for winning)
+|raw|greensaur94's rating: 1357 &rarr; <strong>1331<\/strong><br \/>(-26 for losing)
+|c|☆Lukob96|gg

@@ -1,0 +1,269 @@
+|j|☆alfredo duroo
+|j|☆tohki
+|player|p1|alfredo duroo|167
+|player|p2|tohki|34
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Medicham, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Clefable, F|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latios, M|item
+|poke|p2|Garchomp, M|item
+|poke|p2|Cacturne, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Zapdos|item
+|poke|p2|Mew|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100\/100
+|switch|p2a: Mew|Mew|100\/100
+|turn|1
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Mew
+|-damage|p2a: Mew|77\/100
+|cant|p2a: Mew|flinch
+|
+|-heal|p2a: Mew|84\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, F|100\/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|
+|-heal|p2a: Mew|90\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|move|p2a: Mew|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|cant|p1a: Clefable|move: Taunt|Thunder Wave
+|
+|-heal|p2a: Mew|96\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p2a: Mew|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|86\/100 brn
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: Clefable|Moonblast|p2a: Mew
+|-damage|p2a: Mew|74\/100
+|-unboost|p2a: Mew|spa|1
+|
+|-heal|p2a: Mew|80\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|switch|p2a: Zapdos|Zapdos|100\/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Clefable|Moonblast|p2a: Zapdos
+|-damage|p2a: Zapdos|71\/100
+|
+|-heal|p2a: Zapdos|77\/100|[from] item: Leftovers
+|-end|p1a: Clefable|move: Taunt
+|upkeep
+|turn|6
+|
+|move|p2a: Zapdos|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|63\/100 brn
+|
+|switch|p2a: Garchomp|Garchomp, M|100\/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|7
+|
+|detailschange|p2a: Garchomp|Garchomp-Mega, M
+|-mega|p2a: Garchomp|Garchomp|Garchompite
+|move|p2a: Garchomp|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|3\/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|13\/100
+|-unboost|p2a: Garchomp|spa|1
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Latios|Latios, M|100\/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100\/100
+|turn|9
+|
+|switch|p2a: Mew|Mew|80\/100
+|move|p1a: Medicham|Fake Out|p2a: Mew
+|-damage|p2a: Mew|59\/100
+|
+|-heal|p2a: Mew|65\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p1a: Medicham|High Jump Kick|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|16\/100
+|move|p2a: Mew|Roost|p2a: Mew
+|-heal|p2a: Mew|66\/100
+|
+|-heal|p2a: Mew|72\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Clefable|Clefable, F|3\/100 brn
+|move|p2a: Mew|Will-O-Wisp|p1a: Clefable
+|-fail|p1a: Clefable|brn
+|
+|-heal|p2a: Mew|78\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|move|p2a: Mew|Taunt|p1a: Rotom
+|-start|p1a: Rotom|move: Taunt
+|
+|-heal|p2a: Mew|85\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|move|p1a: Rotom|Volt Switch|p2a: Mew
+|-damage|p2a: Mew|67\/100
+|
+|switch|p1a: Tyranitar|Tyranitar, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Mew|60\/100|[from] Sandstorm
+|-heal|p2a: Mew|67\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Tyranitar|Crunch|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|turn|15
+|
+|switch|p1a: Rotom|Rotom-Wash|100\/100 brn
+|move|p2a: Keldeo|Secret Sword|p1a: Rotom
+|-damage|p1a: Rotom|51\/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|94\/100|[from] Sandstorm
+|-damage|p1a: Rotom|45\/100 brn|[from] Sandstorm
+|-heal|p1a: Rotom|51\/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|38\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p1a: Clefable|Clefable, F|3\/100 brn
+|move|p2a: Keldeo|Secret Sword|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|88\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100\/100
+|turn|17
+|
+|switch|p2a: Zapdos|Zapdos|77\/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Medicham|High Jump Kick|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|32\/100
+|
+|-weather|none
+|-heal|p2a: Zapdos|38\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Medicham|Ice Punch|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|88\/100
+|turn|19
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|turn|20
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi|[miss]
+|-miss|p2a: Keldeo|p1a: Jirachi
+|move|p1a: Jirachi|Stealth Rock|p2a: Keldeo
+|-sidestart|p2: tohki|move: Stealth Rock
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Jirachi
+|-damage|p1a: Jirachi|40\/100
+|move|p1a: Jirachi|U-turn|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|78\/100
+|
+|switch|p1a: Rotom|Rotom-Wash|38\/100 brn
+|
+|-heal|p1a: Rotom|44\/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|32\/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p2a: Keldeo|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|-message|alfredo duroo forfeited.
+|
+|win|tohki
+|l|☆alfredo duroo
+|raw|alfredo duroo's rating: 1556 &rarr; <strong>1522<\/strong><br \/>(-34 for losing)
+|raw|tohki's rating: 1261 &rarr; <strong>1303<\/strong><br \/>(+42 for winning)

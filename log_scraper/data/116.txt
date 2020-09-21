@@ -1,0 +1,149 @@
+|j|☆alfredo duroo
+|j|☆Better Call Harvey
+|player|p1|alfredo duroo|167
+|player|p2|Better Call Harvey|162
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Lopunny, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Terrakion|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Gengar, M|item
+|poke|p2|Medicham, F|item
+|poke|p2|Charizard, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Gengar, M|item
+|poke|p2|Blissey, F|item
+|poke|p2|Skarmory, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|
+|start
+|switch|p1a: Lopunny|Lopunny, M|100\/100
+|switch|p2a: Natsu|Slowbro, M|100\/100
+|turn|1
+|
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|detailschange|p1a: Lopunny|Lopunny-Mega, M
+|move|p1a: Lopunny|Fake Out|p2a: Natsu
+|-damage|p2a: Natsu|86\/100
+|cant|p2a: Natsu|flinch
+|
+|-heal|p2a: Natsu|92\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Thundurus|Thundurus, M|100\/100
+|move|p2a: Natsu|Scald|p1a: Thundurus
+|-damage|p1a: Thundurus|60\/100
+|
+|-heal|p2a: Natsu|98\/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p1a: Terrakion|Terrakion|100\/100
+|move|p2a: Natsu|Ice Beam|p1a: Terrakion
+|-damage|p1a: Terrakion|74\/100
+|
+|-heal|p2a: Natsu|100\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|move|p1a: Terrakion|Stealth Rock|p2a: Natsu
+|-sidestart|p2: Better Call Harvey|move: Stealth Rock
+|move|p2a: Natsu|Scald|p1a: Terrakion
+|-supereffective|p1a: Terrakion
+|-damage|p1a: Terrakion|2\/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Terrakion|Stone Edge|p2a: Natsu|[miss]
+|-miss|p1a: Terrakion|p2a: Natsu
+|move|p2a: Natsu|Ice Beam|p1a: Terrakion
+|-damage|p1a: Terrakion|0 fnt
+|faint|p1a: Terrakion
+|
+|upkeep
+|
+|switch|p1a: Thundurus|Thundurus, M|60\/100
+|turn|6
+|
+|move|p1a: Thundurus|Thunderbolt|p2a: Natsu
+|-supereffective|p2a: Natsu
+|-damage|p2a: Natsu|0 fnt
+|-damage|p1a: Thundurus|51\/100|[from] item: Life Orb
+|faint|p2a: Natsu
+|
+|upkeep
+|
+|switch|p2a: Shiva|Medicham, F, shiny|100\/100
+|-damage|p2a: Shiva|94\/100|[from] Stealth Rock
+|turn|7
+|
+|switch|p1a: Gengar|Gengar, M|100\/100
+|move|p2a: Shiva|Trick|p1a: Gengar
+|-activate|p2a: Shiva|move: Trick|[of] p1a: Gengar
+|-item|p1a: Gengar|Choice Band|[from] move: Trick
+|-item|p2a: Shiva|Life Orb|[from] move: Trick
+|
+|upkeep
+|turn|8
+|
+|switch|p2a: Songbird|Skarmory, F|100\/100
+|-damage|p2a: Songbird|88\/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Songbird
+|-damage|p2a: Songbird|26\/100
+|
+|upkeep
+|turn|9
+|
+|switch|p2a: Joy|Blissey, F|100\/100
+|-damage|p2a: Joy|88\/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Joy
+|-immune|p2a: Joy|[msg]
+|
+|-heal|p2a: Joy|94\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|j| Gentle Berserker
+|c|☆alfredo duroo|are u trolling me or what
+|
+|switch|p1a: Bisharp|Bisharp, F|100\/100
+|move|p2a: Joy|Thunder Wave|p1a: Bisharp
+|-status|p1a: Bisharp|par
+|
+|-heal|p2a: Joy|99\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p2a: Igneel|Charizard, M|100\/100
+|-damage|p2a: Igneel|51\/100|[from] Stealth Rock
+|move|p1a: Bisharp|Knock Off|p2a: Igneel
+|-damage|p2a: Igneel|0 fnt
+|-damage|p1a: Bisharp|91\/100 par|[from] item: Life Orb
+|faint|p2a: Igneel
+|
+|upkeep
+|c|☆Better Call Harvey|gg
+|-message|Better Call Harvey forfeited.
+|
+|win|alfredo duroo
+|l|☆Better Call Harvey
+|l|☆alfredo duroo
+|raw|alfredo duroo's rating: 1385 &rarr; <strong>1401<\/strong><br \/>(+16 for winning)
+|raw|Better Call Harvey's rating: 1314 &rarr; <strong>1298<\/strong><br \/>(-16 for losing)

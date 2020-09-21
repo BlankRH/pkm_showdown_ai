@@ -1,0 +1,312 @@
+|j|☆alfredo duroo
+|j|☆Black Thunderbolt
+|player|p1|alfredo duroo|167
+|player|p2|Black Thunderbolt|218
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Medicham, M|item
+|poke|p1|Jirachi|item
+|poke|p1|Clefable, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Latios, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Ferrothorn, M|item
+|poke|p2|Gliscor, M|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Excadrill, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Medicham|Medicham, M|100\/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|turn|1
+|
+|detailschange|p1a: Medicham|Medicham-Mega, M
+|-mega|p1a: Medicham|Medicham|Medichamite
+|move|p1a: Medicham|Fake Out|p2a: Keldeo
+|-damage|p2a: Keldeo|73\/100
+|cant|p2a: Keldeo|flinch
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|move|p2a: Keldeo|Focus Blast|p1a: Rotom|[miss]
+|-miss|p2a: Keldeo|p1a: Rotom
+|
+|upkeep
+|turn|3
+|
+|switch|p1a: Clefable|Clefable, F|100\/100
+|move|p2a: Keldeo|Focus Blast|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|62\/100
+|
+|-heal|p1a: Clefable|68\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| novice初学者2523
+|j| Greensaur94
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100\/100
+|switch|p1a: Medicham|Medicham-Mega, M|100\/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|move|p1a: Medicham|High Jump Kick|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|11\/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Jirachi|Jirachi|100\/100
+|detailschange|p2a: Latios|Latios-Mega, M
+|-mega|p2a: Latios|Latios|Latiosite
+|move|p2a: Latios|Roost|p2a: Latios
+|-heal|p2a: Latios|61\/100
+|
+|upkeep
+|turn|7
+|
+|move|p2a: Latios|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|50\/100
+|move|p1a: Jirachi|Stealth Rock|p2a: Latios
+|-sidestart|p2: Black Thunderbolt|move: Stealth Rock
+|
+|-heal|p1a: Jirachi|56\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|j| PersephoneXIV
+|j| Prince DEv!T
+|
+|move|p2a: Latios|Earthquake|p1a: Jirachi
+|-supereffective|p1a: Jirachi
+|-damage|p1a: Jirachi|10\/100
+|move|p1a: Jirachi|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|23\/100
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|17\/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|73\/100
+|-damage|p2a: Keldeo|66\/100|[from] Stealth Rock
+|turn|10
+|
+|switch|p1a: Latios|Latios, M|100\/100
+|move|p2a: Keldeo|Focus Blast|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|54\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|48\/100|[from] Sandstorm
+|-damage|p2a: Keldeo|60\/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|switch|p2a: Tyranitar|Tyranitar, M|100\/100
+|-damage|p2a: Tyranitar|88\/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|95\/100|[from] Sandstorm
+|-heal|p1a: Rotom|100\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|l| Prince DEv!T
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Stealth Rock|p1a: Rotom
+|-sidestart|p1: alfredo duroo|move: Stealth Rock
+|
+|-weather|none
+|-damage|p2a: Tyranitar|76\/100 brn|[from] brn
+|upkeep
+|turn|13
+|j| Prince DEv!T
+|
+|switch|p2a: Ferrothorn|Ferrothorn, M|100\/100
+|-damage|p2a: Ferrothorn|94\/100|[from] Stealth Rock
+|move|p1a: Rotom|Hydro Pump|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|80\/100
+|
+|-heal|p2a: Ferrothorn|87\/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ferrothorn
+|-status|p2a: Ferrothorn|brn
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Rotom
+|-immune|p1a: Rotom|[msg]
+|
+|-heal|p2a: Ferrothorn|93\/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|80\/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|move|p1a: Rotom|Volt Switch|p2a: Ferrothorn
+|-resisted|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|71\/100 brn
+|
+|switch|p1a: Latios|Latios, M|48\/100
+|-damage|p1a: Latios|35\/100|[from] Stealth Rock
+|move|p2a: Ferrothorn|Thunder Wave|p1a: Latios
+|-status|p1a: Latios|par
+|
+|-heal|p2a: Ferrothorn|77\/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|65\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|move|p1a: Latios|Roost|p1a: Latios
+|-heal|p1a: Latios|86\/100 par
+|move|p2a: Ferrothorn|Spikes|p1a: Latios
+|-sidestart|p1: alfredo duroo|Spikes
+|
+|-heal|p2a: Ferrothorn|71\/100 brn|[from] item: Leftovers
+|-damage|p2a: Ferrothorn|58\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Latios|Hidden Power|p2a: Ferrothorn
+|-supereffective|p2a: Ferrothorn
+|-damage|p2a: Ferrothorn|0 fnt
+|-damage|p1a: Latios|76\/100 par|[from] item: Life Orb
+|faint|p2a: Ferrothorn
+|
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|100\/100
+|-damage|p2a: Excadrill|97\/100|[from] Stealth Rock
+|turn|18
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|60\/100
+|-damage|p2a: Keldeo|54\/100|[from] Stealth Rock
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|-damage|p1a: Rotom|88\/100|[from] Stealth Rock
+|
+|-heal|p1a: Rotom|94\/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|switch|p1a: Jirachi|Jirachi|10\/100
+|-damage|p1a: Jirachi|3\/100|[from] Stealth Rock
+|-damage|p1a: Jirachi|0 fnt|[from] Spikes
+|faint|p1a: Jirachi
+|move|p2a: Keldeo|Focus Blast|p1: Jirachi|[notarget]
+|-notarget
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|68\/100
+|turn|20
+|
+|switch|p1a: Rotom|Rotom-Wash|94\/100
+|-damage|p1a: Rotom|82\/100|[from] Stealth Rock
+|move|p2a: Keldeo|Focus Blast|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|switch|p1a: Medicham|Medicham-Mega, M|100\/100
+|-damage|p1a: Medicham|94\/100|[from] Stealth Rock
+|-damage|p1a: Medicham|82\/100|[from] Spikes
+|turn|21
+|
+|switch|p2a: Tyranitar|Tyranitar, M|76\/100 brn
+|-damage|p2a: Tyranitar|63\/100 brn|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Medicham|High Jump Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Medicham|76\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|97\/100
+|-damage|p2a: Excadrill|94\/100|[from] Stealth Rock
+|turn|22
+|
+|move|p2a: Excadrill|Iron Head|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100\/100
+|-damage|p1a: Tyranitar|88\/100|[from] Stealth Rock
+|-damage|p1a: Tyranitar|76\/100|[from] Spikes
+|turn|23
+|
+|move|p2a: Excadrill|Iron Head|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|76\/100 par
+|-damage|p1a: Latios|63\/100 par|[from] Stealth Rock
+|turn|24
+|
+|move|p2a: Excadrill|Iron Head|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, F|68\/100
+|turn|25
+|
+|move|p2a: Excadrill|Iron Head|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|win|Black Thunderbolt
+|raw|alfredo duroo's rating: 1491 &rarr; <strong>1470<\/strong><br \/>(-21 for losing)
+|raw|Black Thunderbolt's rating: 1470 &rarr; <strong>1491<\/strong><br \/>(+21 for winning)
+|c|☆alfredo duroo|gg
+|l|☆alfredo duroo

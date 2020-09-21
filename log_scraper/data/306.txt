@@ -1,0 +1,882 @@
+|j|☆PoliceSyron
+|j|☆ruzlan_123
+|player|p1|PoliceSyron|43
+|player|p2|ruzlan_123|266
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, M|item
+|poke|p1|Hippowdon, F|item
+|poke|p1|Excadrill, F|item
+|poke|p1|Rotom-Wash|item
+|poke|p1|Weavile, F|item
+|poke|p1|Clefable, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Charizard, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Excadrill, F|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆PoliceSyron|sorry i didnt read ur message yesterday
+|
+|start
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|c|☆PoliceSyron|ill give u my team
+|c|☆ruzlan_123|Cool :)
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Clefable
+|-status|p2a: Clefable|brn
+|
+|upkeep
+|turn|2
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|80\/100 brn
+|
+|switch|p1a: Excadrill|Excadrill, F|100\/100
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|86\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|74\/100
+|-damage|p1a: Excadrill|84\/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p1a: Excadrill|74\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|switch|p1a: Weavile|Weavile, F|100\/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Landorus|Stealth Rock|p1a: Weavile
+|-sidestart|p1: PoliceSyron|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|j| novice初学者2523
+|
+|switch|p2a: Charizard|Charizard, M|100\/100
+|move|p1a: Weavile|Icicle Crash|p2a: Charizard
+|-damage|p2a: Charizard|18\/100
+|
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Weavile|Icicle Crash|p2a: Tyranitar
+|-damage|p2a: Tyranitar|50\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|94\/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|switch|p2a: Clefable|Clefable, F|86\/100 brn
+|move|p1a: Weavile|Icicle Crash|p2a: Clefable|[miss]
+|-miss|p1a: Weavile|p2a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|88\/100|[from] Sandstorm
+|-heal|p2a: Clefable|92\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Clefable|Clefable, F|100\/100
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|85\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|91\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|98\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p2a: Excadrill|Excadrill, F|100\/100
+|move|p1a: Clefable|Moonblast|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|81\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Clefable|97\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Hippowdon|Hippowdon, F|100\/100
+|-damage|p1a: Hippowdon|94\/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|64\/100
+|-damage|p2a: Excadrill|71\/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1a: Hippowdon|70\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PoliceSyron)
+|
+|switch|p2a: Landorus|Landorus-Therian, M|74\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hippowdon|atk|1
+|move|p1a: Hippowdon|Stealth Rock|p2a: Landorus
+|-sidestart|p2: ruzlan_123|move: Stealth Rock
+|
+|-heal|p1a: Hippowdon|77\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆ruzlan_123|Did some calc, sorry
+|c|☆PoliceSyron|oh ok
+|inactive|PoliceSyron has 135 seconds left.
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|100\/100
+|-damage|p1a: Rotom|88\/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[msg]|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|94\/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, F|98\/100 brn
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable|[miss]
+|-miss|p1a: Rotom|p2a: Clefable
+|
+|-heal|p1a: Rotom|99\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|100\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|80\/100 brn
+|
+|switch|p1a: Clefable|Clefable, F|97\/100
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|80\/100
+|
+|-heal|p1a: Clefable|86\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|86\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|92\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|92\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|66\/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|72\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|98\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|73\/100 brn
+|
+|-heal|p1a: Clefable|78\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|79\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|54\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|85\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|60\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|45\/100 brn
+|
+|-heal|p1a: Clefable|91\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|51\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|59\/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|57\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|65\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100\/100
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|78\/100
+|
+|-heal|p2a: Clefable|63\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|84\/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|50\/100 brn
+|
+|-heal|p1a: Clefable|90\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|56\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|62\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|96\/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|65\/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|68\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|72\/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|l| novice初学者2523
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|50\/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|46\/100
+|
+|-heal|p2a: Clefable|56\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|53\/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|26\/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|38\/100 brn
+|
+|-heal|p2a: Clefable|44\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|32\/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|5\/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|55\/100
+|
+|-heal|p1a: Clefable|61\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|50\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|36\/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|42\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|57\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|92\/100
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|78\/100
+|
+|-heal|p1a: Clefable|85\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|63\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|46\/100 brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|0
+|
+|-heal|p1a: Clefable|91\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|52\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|34\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|84\/100 brn
+|
+|-heal|p1a: Clefable|97\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|90\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|72\/100 brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|0
+|
+|-heal|p1a: Clefable|100\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|75\/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|59\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|65\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|81\/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|45\/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|58\/100
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p1a: Clefable|64\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|51\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|36\/100 brn
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|86\/100 brn
+|
+|-heal|p2a: Clefable|92\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|71\/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|47\/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|79\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|85\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|54\/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|34\/100
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|84\/100
+|
+|-heal|p2a: Clefable|91\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|90\/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|71\/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|0
+|
+|-heal|p2a: Clefable|97\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|77\/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|0
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|83\/100 brn
+|
+|-heal|p1a: Clefable|83\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|89\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|72\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|0
+|
+|-heal|p1a: Clefable|89\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|67\/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|62\/100 brn
+|
+|-heal|p2a: Clefable|68\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|73\/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|51\/100 brn
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|56\/100
+|
+|-heal|p2a: Clefable|57\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|62\/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|100\/100 brn
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|84\/100 brn
+|
+|-heal|p1a: Clefable|68\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|90\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|0
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|75\/100 brn
+|
+|-heal|p1a: Clefable|74\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|81\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|54\/100
+|
+|-heal|p1a: Clefable|60\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|87\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|38\/100
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|67\/100 brn
+|
+|-heal|p1a: Clefable|44\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|73\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|47
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|24\/100
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|74\/100
+|
+|-heal|p1a: Clefable|80\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|79\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|48
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|58\/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|63\/100 brn
+|
+|-heal|p2a: Clefable|69\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|64\/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|0
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|41\/100
+|-unboost|p1a: Clefable|spa|1
+|
+|-heal|p2a: Clefable|75\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|47\/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|25\/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|75\/100
+|
+|-heal|p1a: Clefable|81\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|81\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|51
+|j| Tarnum
+|
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|0
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|68\/100
+|
+|-heal|p2a: Clefable|87\/100 brn|[from] item: Leftovers
+|-heal|p1a: Clefable|74\/100|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|71\/100 brn
+|move|p2a: Clefable|Flamethrower|p1a: Clefable
+|-damage|p1a: Clefable|60\/100
+|
+|-heal|p1a: Clefable|66\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|77\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|move|p1a: Clefable|Moonblast|p2a: Clefable
+|-damage|p2a: Clefable|61\/100 brn
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|46\/100
+|
+|-heal|p1a: Clefable|52\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|67\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|54
+|
+|move|p2a: Clefable|Moonblast|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Clefable|73\/100 brn|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, F|74\/100
+|-damage|p1a: Excadrill|71\/100|[from] Stealth Rock
+|turn|55
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|74\/100
+|-damage|p2a: Landorus|62\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Iron Head|p2a: Landorus
+|-damage|p2a: Landorus|37\/100
+|-damage|p1a: Excadrill|54\/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p1a: Excadrill|44\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|56
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|99\/100
+|-damage|p1a: Rotom|88\/100|[from] Stealth Rock
+|move|p2a: Landorus|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[msg]|[from] ability: Levitate
+|
+|-heal|p1a: Rotom|94\/100|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|76\/100
+|
+|switch|p2a: Clefable|Clefable, F|73\/100 brn
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|41\/100 brn
+|
+|-heal|p1a: Rotom|82\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|47\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|58
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|19\/100 brn
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|69\/100 brn
+|
+|-heal|p1a: Rotom|88\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|75\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|move|p1a: Rotom|Hydro Pump|p2a: Clefable
+|-damage|p2a: Clefable|44\/100 brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p1a: Rotom|94\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|50\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|60
+|
+|move|p1a: Rotom|Volt Switch|p2a: Clefable
+|-damage|p2a: Clefable|36\/100 brn
+|
+|switch|p1a: Excadrill|Excadrill, F|44\/100
+|-damage|p1a: Excadrill|41\/100|[from] Stealth Rock
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|86\/100 brn
+|
+|-heal|p2a: Clefable|92\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|61
+|
+|switch|p2a: Landorus|Landorus-Therian, M|37\/100
+|-damage|p2a: Landorus|25\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|upkeep
+|turn|62
+|
+|switch|p1a: Rotom|Rotom-Wash|94\/100
+|-damage|p1a: Rotom|82\/100|[from] Stealth Rock
+|move|p2a: Landorus|Stone Edge|p1a: Rotom|[miss]
+|-miss|p2a: Landorus|p1a: Rotom
+|
+|-heal|p1a: Rotom|88\/100|[from] item: Leftovers
+|upkeep
+|turn|63
+|
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|69\/100
+|
+|switch|p2a: Latias|Latias, F|100\/100
+|-damage|p2a: Latias|88\/100|[from] Stealth Rock
+|move|p1a: Rotom|Volt Switch|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|77\/100
+|
+|switch|p1a: Weavile|Weavile, F|88\/100
+|-damage|p1a: Weavile|63\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|
+|upkeep
+|turn|64
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|25\/100
+|-damage|p2a: Landorus|12\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|move|p1a: Weavile|Icicle Crash|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|switch|p2a: Tyranitar|Tyranitar, F|50\/100
+|-damage|p2a: Tyranitar|38\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|65
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|57\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p2a: Excadrill|Excadrill, F|71\/100
+|-damage|p2a: Excadrill|68\/100|[from] Stealth Rock
+|turn|66
+|
+|switch|p1a: Hippowdon|Hippowdon, F|77\/100
+|-damage|p1a: Hippowdon|70\/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Hippowdon
+|-damage|p1a: Hippowdon|37\/100
+|-damage|p2a: Excadrill|58\/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Hippowdon|43\/100|[from] item: Leftovers
+|upkeep
+|turn|67
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p1a: Rotom|Rotom-Wash|69\/100
+|-damage|p1a: Rotom|57\/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|46\/100
+|-damage|p2a: Excadrill|48\/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|40\/100|[from] Sandstorm
+|-heal|p1a: Rotom|46\/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|inactive|ruzlan_123 has 135 seconds left.
+|l| Tarnum
+|inactive|ruzlan_123 has 120 seconds left.
+|inactive|ruzlan_123 has 105 seconds left.
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|20\/100
+|-damage|p2a: Excadrill|38\/100|[from] item: Life Orb
+|cant|p1a: Rotom|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|14\/100|[from] Sandstorm
+|-heal|p1a: Rotom|20\/100|[from] item: Leftovers
+|upkeep
+|turn|69
+|
+|move|p2a: Excadrill|Rock Slide|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Excadrill|28\/100|[from] item: Life Orb
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|c|☆PoliceSyron|this sucks
+|
+|switch|p1a: Weavile|Weavile, F|57\/100
+|-damage|p1a: Weavile|33\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|70
+|inactive|ruzlan_123 has 135 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|92\/100 brn
+|move|p1a: Weavile|Icicle Crash|p2a: Clefable
+|-damage|p2a: Clefable|33\/100 brn
+|
+|-heal|p2a: Clefable|39\/100 brn|[from] item: Leftovers
+|upkeep
+|turn|71
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Latias|Latias, F|77\/100
+|-damage|p2a: Latias|65\/100|[from] Stealth Rock
+|turn|72
+|
+|move|p1a: Weavile|Icicle Crash|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|c|☆ruzlan_123|gg
+|c|☆PoliceSyron|gg
+|
+|switch|p2a: Charizard|Charizard, M|18\/100
+|-damage|p2a: Charizard|0 fnt|[from] Stealth Rock
+|faint|p2a: Charizard
+|
+|switch|p2a: Excadrill|Excadrill, F|28\/100
+|-damage|p2a: Excadrill|25\/100|[from] Stealth Rock
+|turn|73
+|
+|switch|p1a: Charizard|Charizard, M|100\/100
+|-damage|p1a: Charizard|51\/100|[from] Stealth Rock
+|move|p2a: Excadrill|Iron Head|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|10\/100
+|-damage|p2a: Excadrill|15\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|74
+|
+|detailschange|p1a: Charizard|Charizard-Mega-Y, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Excadrill|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-damage|p2a: Excadrill|5\/100|[from] item: Life Orb
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|switch|p1a: Weavile|Weavile, F|33\/100
+|-damage|p1a: Weavile|8\/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|75
+|
+|move|p1a: Weavile|Ice Shard|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|PoliceSyron
+|c|☆PoliceSyron|gg
+|raw|PoliceSyron's rating: 1593 &rarr; <strong>1600<\/strong><br \/>(+7 for winning)
+|raw|ruzlan_123's rating: 1309 &rarr; <strong>1302<\/strong><br \/>(-7 for losing)
+|l|☆PoliceSyron

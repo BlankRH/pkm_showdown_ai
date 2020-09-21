@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/browser.py", line 284, in switch
+    buttons[i].click()
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "showdown.py", line 325, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 297, in play_game
+    self.selenium.switch(move.switch_index, move.backup_switch)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/browser.py", line 287, in switch
+    assert len(buttons) > 0
+AssertionError

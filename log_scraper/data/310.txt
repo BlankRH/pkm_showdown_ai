@@ -1,0 +1,626 @@
+|j|☆yakomaster
+|j|☆Training OrAs
+|player|p1|yakomaster|2
+|player|p2|Training OrAs|238
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Pinsir, M|item
+|poke|p1|Starmie|item
+|poke|p1|Magnezone|item
+|poke|p1|Manaphy|item
+|poke|p1|Chansey, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Mew|item
+|poke|p2|Suicune|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Scizor, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|c|☆Training OrAs|gl hf
+|c|☆yakomaster|gl dude
+|
+|start
+|switch|p1a: Manaphy|Manaphy|100\/100
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Manaphy|atk|1
+|turn|1
+|
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|94\/100
+|-damage|p2a: Landorus|84\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|switch|p2a: Mew|Mew|100\/100
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|move|p2a: Mew|Will-O-Wisp|p1a: Starmie
+|-status|p1a: Starmie|brn
+|
+|-damage|p1a: Starmie|88\/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|move|p1a: Starmie|Toxic|p2a: Mew
+|-status|p2a: Mew|tox
+|-activate|p2a: Mew|ability: Synchronize
+|-fail|p1a: Starmie
+|move|p2a: Mew|Volt Switch|p1a: Starmie
+|-supereffective|p1a: Starmie
+|-damage|p1a: Starmie|53\/100 brn
+|
+|switch|p2a: Scizor|Scizor, M|100\/100
+|
+|-damage|p1a: Starmie|40\/100 brn|[from] brn
+|upkeep
+|turn|4
+|l|☆yakomaster
+|player|p1|
+|j|☆yakomaster
+|player|p1|yakomaster|2
+|
+|switch|p1a: Landorus|Landorus-Therian, M|94\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|86\/100
+|-damage|p2a: Scizor|84\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|
+|upkeep
+|turn|5
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|switch|p1a: Chansey|Chansey, F|100\/100
+|
+|upkeep
+|turn|6
+|
+|switch|p1a: Landorus|Landorus-Therian, M|86\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|70\/100
+|-damage|p2a: Landorus|67\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Landorus
+|
+|upkeep
+|turn|7
+|
+|switch|p2a: Mew|Mew|100\/100 tox
+|move|p1a: Landorus|Stealth Rock|p2a: Mew
+|-sidestart|p2: Training OrAs|move: Stealth Rock
+|
+|-damage|p2a: Mew|94\/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|switch|p1a: Manaphy|Manaphy|100\/100
+|move|p2a: Mew|Ice Beam|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|92\/100
+|
+|-heal|p1a: Manaphy|98\/100|[from] item: Leftovers
+|-heal|p2a: Mew|100\/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|88\/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|70\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|move|p2a: Mew|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus|[msg]
+|
+|-heal|p2a: Mew|94\/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|76\/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|switch|p1a: Magnezone|Magnezone|100\/100
+|move|p2a: Mew|Volt Switch|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|91\/100
+|
+|switch|p2a: Heatran|Heatran, F|100\/100
+|-damage|p2a: Heatran|88\/100|[from] Stealth Rock
+|
+|-heal|p2a: Heatran|94\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Starmie|Starmie|40\/100
+|move|p2a: Heatran|Stealth Rock|p1a: Starmie
+|-sidestart|p1: yakomaster|move: Stealth Rock
+|
+|-heal|p2a: Heatran|100\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p2a: Mew|Mew|76\/100 tox
+|-damage|p2a: Mew|63\/100 tox|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Mew
+|-damage|p2a: Mew|61\/100 tox
+|-sideend|p1: yakomaster|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-heal|p2a: Mew|67\/100 tox|[from] item: Leftovers
+|-damage|p2a: Mew|61\/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|91\/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100 tox
+|
+|-damage|p2a: Mew|88\/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|move|p1a: Starmie|Scald|p2a: Mew
+|-damage|p2a: Mew|65\/100 tox
+|move|p2a: Mew|Will-O-Wisp|p1a: Starmie
+|-status|p1a: Starmie|brn
+|
+|-heal|p2a: Mew|71\/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|78\/100 brn|[from] brn
+|-damage|p2a: Mew|52\/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|switch|p2a: Heatran|Heatran, F|100\/100
+|-damage|p2a: Heatran|88\/100|[from] Stealth Rock
+|move|p1a: Starmie|Recover|p1a: Starmie
+|-heal|p1a: Starmie|100\/100 brn
+|
+|-heal|p2a: Heatran|94\/100|[from] item: Leftovers
+|-damage|p1a: Starmie|88\/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|switch|p2a: Suicune|Suicune|100\/100
+|-damage|p2a: Suicune|88\/100|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Starmie|Scald|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|78\/100
+|
+|-heal|p2a: Suicune|84\/100|[from] item: Leftovers
+|-damage|p1a: Starmie|76\/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|move|p1a: Starmie|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|90\/100 tox|[from] item: Leftovers
+|-damage|p1a: Starmie|63\/100 brn|[from] brn
+|-damage|p2a: Suicune|84\/100 tox|[from] psn
+|upkeep
+|turn|18
+|c|☆yakomaster|mmm
+|
+|-curestatus|p1a: Starmie|brn|[from] ability: Natural Cure
+|switch|p1a: Manaphy|Manaphy|98\/100
+|move|p2a: Suicune|Scald|p1a: Manaphy
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|80\/100
+|
+|-heal|p1a: Manaphy|86\/100|[from] item: Leftovers
+|-heal|p2a: Suicune|90\/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|78\/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Manaphy|92\/100|[from] item: Leftovers
+|-heal|p2a: Suicune|84\/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|65\/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|14\/100 tox
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp
+|-heal|p2a: Suicune|100\/100 slp|[silent]
+|-status|p2a: Suicune|slp|[from] move: Rest
+|
+|-heal|p1a: Manaphy|98\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p1a: Manaphy|Ice Beam|p2a: Suicune
+|-resisted|p2a: Suicune
+|-damage|p2a: Suicune|89\/100 slp
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Scald|p1a: Manaphy|[from]Sleep Talk
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|75\/100
+|-status|p1a: Manaphy|brn
+|
+|-heal|p1a: Manaphy|81\/100 brn|[from] item: Leftovers
+|-heal|p2a: Suicune|95\/100 slp|[from] item: Leftovers
+|-damage|p1a: Manaphy|69\/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|43\/100 slp
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Calm Mind|p2a: Suicune|[from]Sleep Talk
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p1a: Manaphy|75\/100 brn|[from] item: Leftovers
+|-heal|p2a: Suicune|49\/100 slp|[from] item: Leftovers
+|-damage|p1a: Manaphy|63\/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|-curestatus|p2a: Suicune|slp|[msg]
+|move|p2a: Suicune|Rest|p2a: Suicune
+|-status|p2a: Suicune|slp
+|-heal|p2a: Suicune|100\/100 slp|[silent]
+|-status|p2a: Suicune|slp|[from] move: Rest
+|
+|-heal|p1a: Manaphy|69\/100 brn|[from] item: Leftovers
+|-damage|p1a: Manaphy|57\/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Suicune
+|-supereffective|p2a: Suicune
+|-damage|p2a: Suicune|41\/100 slp
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Rest|p2a: Suicune|[from]Sleep Talk
+|-fail|p2a: Suicune
+|
+|-heal|p1a: Manaphy|63\/100 brn|[from] item: Leftovers
+|-heal|p2a: Suicune|47\/100 slp|[from] item: Leftovers
+|-damage|p1a: Manaphy|50\/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|switch|p2a: Mew|Mew|52\/100 tox
+|-damage|p2a: Mew|40\/100 tox|[from] Stealth Rock
+|move|p1a: Manaphy|Energy Ball|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-heal|p1a: Manaphy|57\/100 brn|[from] item: Leftovers
+|-damage|p1a: Manaphy|44\/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|-damage|p2a: Latios|88\/100|[from] Stealth Rock
+|turn|26
+|
+|switch|p1a: Chansey|Chansey, F|100\/100
+|move|p2a: Latios|Psychic|p1a: Chansey
+|-damage|p1a: Chansey|81\/100
+|-unboost|p1a: Chansey|spd|1
+|-damage|p2a: Latios|78\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|
+|move|p2a: Latios|Draco Meteor|p1a: Chansey
+|-damage|p1a: Chansey|36\/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|69\/100|[from] item: Life Orb
+|move|p1a: Chansey|Thunder Wave|p2a: Latios
+|-status|p2a: Latios|par
+|
+|upkeep
+|turn|28
+|
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|86\/100
+|move|p2a: Latios|Defog|p1a: Chansey
+|-unboost|p1a: Chansey|evasion|1
+|-sideend|p2: Training OrAs|Stealth Rock|[from] move: Defog|[of] p2a: Latios
+|
+|upkeep
+|turn|29
+|
+|switch|p1a: Manaphy|Manaphy|44\/100 brn
+|switch|p2a: Landorus|Landorus-Therian, M|67\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Manaphy|atk|1
+|
+|-heal|p1a: Manaphy|50\/100 brn|[from] item: Leftovers
+|-damage|p1a: Manaphy|38\/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p2a: Landorus|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|
+|switch|p1a: Pinsir|Pinsir, M|100\/100
+|turn|31
+|
+|switch|p2a: Heatran|Heatran, F|94\/100
+|detailschange|p1a: Pinsir|Pinsir-Mega, M
+|-mega|p1a: Pinsir|Pinsir|Pinsirite
+|move|p1a: Pinsir|Swords Dance|p1a: Pinsir
+|-boost|p1a: Pinsir|atk|2
+|
+|-heal|p2a: Heatran|100\/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|c|☆Training OrAs|Mpinsir is so good
+|
+|move|p1a: Pinsir|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Pinsir|def|1
+|-unboost|p1a: Pinsir|spd|1
+|faint|p2a: Heatran
+|
+|upkeep
+|c|☆yakomaster|yeah
+|
+|switch|p2a: Landorus|Landorus-Therian, M|67\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pinsir|atk|1
+|turn|33
+|c|☆yakomaster|in my team works so well
+|c|☆Training OrAs|Would you like to help me with this team?
+|c|☆yakomaster|mmm it´s a solid balanced i think it´s week vs things like tornadus life orb
+|c|☆yakomaster|manaphy
+|c|☆yakomaster|etc
+|c|☆yakomaster|keldeo mas trap
+|c|☆yakomaster|plus surry
+|
+|switch|p1a: Landorus|Landorus-Therian, M|70\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|51\/100
+|
+|upkeep
+|turn|34
+|c|☆Training OrAs|Eres yako el de pokespain no??
+|c|☆yakomaster|siii
+|
+|switch|p2a: Scizor|Scizor-Mega, M|84\/100
+|move|p1a: Landorus|Stealth Rock|p2a: Scizor
+|-sidestart|p2: Training OrAs|move: Stealth Rock
+|
+|upkeep
+|turn|35
+|c|☆yakomaster|eres español wow
+|c|☆Training OrAs|Si xdxd
+|c|☆yakomaster|esto es un equipo cheese que me hice de aburrimiento
+|c|☆yakomaster|con pinsir jaja
+|c|☆Training OrAs|Ah jajaja
+|c|☆yakomaster|lo voy a usar en tour de facebook que juego contra latinos xdd
+|c|☆Training OrAs|Lol
+|c|☆yakomaster|el chansey es hw
+|c|☆yakomaster|el starmie colbur berry
+|c|☆Training OrAs|Yo este esoy viendo que tal funciona y tal
+|c|☆yakomaster|a ver para ser fat balanced es debil a sus cosas
+|c|☆yakomaster|pero bueno estar está bien
+|c|☆yakomaster|eso si tiense que tener cuidado con los match ups
+|c|☆yakomaster|y ver lo que usa la gente
+|c|☆yakomaster|antes de sacarlo
+|c|☆Training OrAs|Ya...
+|
+|switch|p1a: Magnezone|Magnezone|91\/100
+|move|p2a: Scizor|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|71\/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|67\/100
+|-damage|p2a: Landorus|55\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|
+|upkeep
+|turn|36
+|
+|switch|p1a: Landorus|Landorus-Therian, M|51\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|38\/100
+|c|☆Training OrAs|Una cosa, tu sabes cuando empieza la ruleta??
+|
+|switch|p2a: Latios|Latios, M|69\/100 par
+|-damage|p2a: Latios|56\/100 par|[from] Stealth Rock
+|
+|upkeep
+|turn|37
+|c|☆yakomaster|buah pues no se pero aun le quedan unos meses la verdad
+|
+|switch|p2a: Landorus|Landorus-Therian, M|55\/100
+|-damage|p2a: Landorus|43\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|34\/100
+|c|☆Training OrAs|Sad
+|c|☆yakomaster|yo voy a estar algo fuera de pokespain me desgasto mucho el ambiente competitivo
+|c|☆yakomaster|aun asi igual me hago un alt o algo
+|c|☆yakomaster|no l ose
+|c|☆yakomaster|si juego con este nick va ser en smogon
+|c|☆Training OrAs|Yo es que no me han elegido para ningun tour y estoy intentando mekorar xd
+|
+|switch|p1a: Pinsir|Pinsir-Mega, M|100\/100
+|
+|upkeep
+|turn|38
+|c|☆yakomaster|pues poco a poco tío, la ladder es como empece yo.
+|c|☆yakomaster|no me considero un mega crack pero ya jugue torneos importantes al menos alguna battle
+|c|☆yakomaster|en HPL solo jugue una y perdi
+|c|☆yakomaster|jugue sm vs der
+|c|☆Training OrAs|Der es nuv okno
+|c|☆yakomaster|haha der sweinsteiger
+|c|☆yakomaster|igual te confundes con dekr
+|c|☆yakomaster|derk jaja
+|c|☆yakomaster|a ver estaba en el equipo de trosko y tal
+|c|☆yakomaster|igual le ghostearon contra mi
+|c|☆Training OrAs|No no si le conozco
+|c|☆yakomaster|jaja
+|c|☆yakomaster|me hizo una predict que no esperaba
+|c|☆yakomaster|me tiro secret sword con kartana y estaba yo con un clef delante
+|c|☆Training OrAs|Lo mismo le ghostearon :thinking:
+|c|☆yakomaster|siii puede ser
+|
+|switch|p1a: Landorus|Landorus-Therian, M|38\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stone Edge|p1a: Landorus|[miss]
+|-miss|p2a: Landorus|p1a: Landorus
+|
+|upkeep
+|turn|39
+|c|☆yakomaster|sorry por el miss
+|
+|move|p2a: Landorus|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|19\/100
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|c|☆Training OrAs|Na si ya perdi
+|c|☆yakomaster|ya a ver gana pinsir
+|c|☆yakomaster|mas zone
+|
+|switch|p2a: Scizor|Scizor-Mega, M|84\/100
+|-damage|p2a: Scizor|72\/100|[from] Stealth Rock
+|turn|40
+|j| Alfredo_Rivero✘
+|
+|switch|p1a: Magnezone|Magnezone|71\/100
+|move|p2a: Scizor|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-crit|p1a: Magnezone
+|-damage|p1a: Magnezone|40\/100
+|c|☆Training OrAs|Alfredo vete a gsc o adv
+|c|☆Training OrAs|PD: soy riokl
+|c| Alfredo_Rivero✘|ruda
+|
+|switch|p2a: Latios|Latios, M|56\/100 par
+|-damage|p2a: Latios|44\/100 par|[from] Stealth Rock
+|
+|upkeep
+|turn|41
+|
+|switch|p1a: Landorus|Landorus-Therian, M|19\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Latios|atk|1
+|move|p2a: Latios|Draco Meteor|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|34\/100 par|[from] item: Life Orb
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Pinsir|Pinsir-Mega, M|100\/100
+|turn|42
+|
+|move|p1a: Pinsir|Return|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor-Mega, M|72\/100
+|-damage|p2a: Scizor|59\/100|[from] Stealth Rock
+|turn|43
+|
+|switch|p1a: Magnezone|Magnezone|40\/100
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100\/100
+|
+|upkeep
+|turn|44
+|c|☆Training OrAs|Bueno, pues gg
+|
+|move|p1a: Magnezone|Hidden Power|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|switch|p2a: Suicune|Suicune|47\/100 slp
+|-damage|p2a: Suicune|34\/100 slp|[from] Stealth Rock
+|-ability|p2a: Suicune|Pressure
+|turn|45
+|
+|switch|p1a: Pinsir|Pinsir-Mega, M|100\/100
+|cant|p2a: Suicune|slp
+|move|p2a: Suicune|Sleep Talk|p2a: Suicune
+|move|p2a: Suicune|Scald|p1a: Pinsir|[from]Sleep Talk
+|-damage|p1a: Pinsir|64\/100
+|
+|-heal|p2a: Suicune|41\/100 slp|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|move|p1a: Pinsir|Return|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|win|yakomaster
+|c|☆yakomaster|gg man
+|raw|yakomaster's rating: 1542 &rarr; <strong>1551<\/strong><br \/>(+9 for winning)
+|raw|Training OrAs's rating: 1327 &rarr; <strong>1318<\/strong><br \/>(-9 for losing)
+|l| Alfredo_Rivero✘
+|c|☆Training OrAs|GL en tus demas battles
+|c|☆yakomaster|gracias
+|l|☆Training OrAs

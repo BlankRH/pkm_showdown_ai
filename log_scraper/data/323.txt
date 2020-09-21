@@ -1,0 +1,342 @@
+|j|einfachbirne
+|j|thesisatest
+|player|p1|einfachbirne|2
+|teamsize|p1|6
+|player|p2|thesisatest|272
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|seed|38409,7222,60244,30681
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Gardevoir, F|item
+|poke|p1|Keldeo|item
+|poke|p1|Magnezone|item
+|poke|p1|Tyranitar, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latias, F|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Talonflame, M|
+|poke|p2|Keldeo|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|choice|team 3, team 2, team 1, team 4, team 5, team 6|team 2, team 1, team 3, team 4, team 5, team 6
+|
+|start
+|switch|p1a: Magnezone|Magnezone|281\/281
+|switch|p2a: Clefable|Clefable, F|394\/394
+|turn|1
+|choice|move flashcannon|move stealthrock
+|
+|move|p1a: Magnezone|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|64\/394
+|move|p2a: Clefable|Stealth Rock|p1a: Magnezone
+|-sidestart|p1: einfachbirne|move: Stealth Rock
+|
+|-heal|p2a: Clefable|88\/394|[from] item: Leftovers
+|upkeep
+|turn|2
+|choice|switch 2|switch 3
+|
+|switch|p1a: Keldeo|Keldeo|323\/323
+|-damage|p1a: Keldeo|303\/323|[from] Stealth Rock
+|switch|p2a: Heatran|Heatran, F|323\/323
+|-item|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|3
+|choice|move scald|switch 4
+|
+|switch|p2a: Latios|Latios, M|301\/301
+|move|p1a: Keldeo|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|208\/301
+|
+|upkeep
+|turn|4
+|choice|switch 4|switch 6
+|
+|switch|p2a: Keldeo|Keldeo|323\/323
+|switch|p1a: Tyranitar|Tyranitar, M|341\/341
+|-damage|p1a: Tyranitar|299\/341|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|303\/323|[from] sandstorm
+|upkeep
+|turn|5
+|choice|switch 6|move icywind
+|
+|switch|p1a: Latias|Latias, F|320\/320
+|-damage|p1a: Latias|280\/320|[from] Stealth Rock
+|move|p2a: Keldeo|Icy Wind|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|180\/320
+|-unboost|p1a: Latias|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|283\/323|[from] sandstorm
+|-damage|p1a: Latias|160\/320|[from] sandstorm
+|upkeep
+|turn|6
+|choice|switch 4|switch 2
+|
+|switch|p2a: Tyranitar|Tyranitar, F|404\/404
+|switch|p1a: Keldeo|Keldeo|303\/323
+|-damage|p1a: Keldeo|283\/323|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|263\/323|[from] sandstorm
+|upkeep
+|turn|7
+|choice|move scald|switch 6
+|
+|switch|p2a: Latios|Latios, M|208\/301
+|move|p1a: Keldeo|Scald|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|114\/301
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|96\/301|[from] sandstorm
+|-damage|p1a: Keldeo|243\/323|[from] sandstorm
+|upkeep
+|turn|8
+|choice|switch 6|move surf
+|
+|switch|p1a: Tyranitar|Tyranitar, M|299\/341
+|-damage|p1a: Tyranitar|257\/341|[from] Stealth Rock
+|move|p2a: Latios|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|43\/341
+|
+|-weather|none
+|upkeep
+|turn|9
+|choice|move pursuit|move surf
+|
+|move|p1a: Tyranitar|Pursuit|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|choice||switch 5
+|
+|switch|p2a: Talonflame|Talonflame, M|297\/297
+|turn|10
+|choice|switch 5|move swordsdance
+|
+|switch|p1a: Landorus|Landorus-Therian, M|381\/381
+|-damage|p1a: Landorus|334\/381|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|move|p2a: Talonflame|Swords Dance|p2a: Talonflame
+|-boost|p2a: Talonflame|atk|2
+|
+|upkeep
+|turn|11
+|choice|move stoneedge|switch 6
+|
+|switch|p2a: Tyranitar|Tyranitar, F|404\/404
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Landorus|Stone Edge|p2a: Tyranitar|[miss]
+|-miss|p1a: Landorus|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|choice|move stealthrock|move stoneedge
+|
+|move|p1a: Landorus|Stealth Rock|p2a: Tyranitar
+|-sidestart|p2: thesisatest|move: Stealth Rock
+|move|p2a: Tyranitar|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|172\/381
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|choice|move uturn|move pursuit
+|
+|move|p1a: Landorus|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|258\/404
+|choice|switch 5|
+|
+|-activate|p1a: Landorus|move: Pursuit
+|move|p2a: Tyranitar|Pursuit|p1a: Landorus|[from]Pursuit
+|-damage|p1a: Landorus|36\/381
+|-damage|p2a: Tyranitar|191\/404|[from] item: Rocky Helmet|[of] p1a: Landorus
+|switch|p1a: Tyranitar|Tyranitar, M|43\/341
+|-damage|p1a: Tyranitar|1\/341|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|14
+|choice|move stoneedge|switch 3
+|
+|switch|p2a: Clefable|Clefable, F|88\/394
+|move|p1a: Tyranitar|Stone Edge|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|choice||switch 2
+|
+|switch|p2a: Keldeo|Keldeo|283\/323
+|-damage|p2a: Keldeo|263\/323|[from] Stealth Rock
+|turn|15
+|choice|move stoneedge|move secretsword
+|
+|move|p2a: Keldeo|Secret Sword|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|choice|switch 3|
+|
+|switch|p1a: Gardevoir|Gardevoir, F|281\/281
+|-damage|p1a: Gardevoir|246\/281|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Justified|[from] ability: Trace|[of] p2a: Keldeo
+|turn|16
+|choice|move focusblast mega|switch 3
+|
+|switch|p2a: Tyranitar|Tyranitar, F|191\/404
+|-damage|p2a: Tyranitar|141\/404|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, F
+|move|p1a: Gardevoir|Focus Blast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|229\/281|[from] sandstorm
+|upkeep
+|choice||switch 4
+|
+|switch|p2a: Heatran|Heatran, F|323\/323
+|-damage|p2a: Heatran|283\/323|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by einfachbirne)
+|choice|move focusblast|move earthpower
+|
+|move|p1a: Gardevoir|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-enditem|p2a: Heatran|Air Balloon
+|faint|p2a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|212\/281|[from] sandstorm
+|upkeep
+|inactive|thesisatest has 135 seconds left.
+|choice||switch 3
+|
+|switch|p2a: Keldeo|Keldeo|263\/323
+|-damage|p2a: Keldeo|243\/323|[from] Stealth Rock
+|turn|18
+|choice|move hypervoice|move scald
+|
+|move|p2a: Keldeo|Scald|p1a: Gardevoir
+|-damage|p1a: Gardevoir|106\/281
+|-status|p1a: Gardevoir|brn
+|move|p1a: Gardevoir|Hyper Voice|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gardevoir|89\/281 brn|[from] sandstorm
+|-damage|p1a: Gardevoir|54\/281 brn|[from] brn
+|upkeep
+|choice||switch 6
+|
+|switch|p2a: Talonflame|Talonflame, M|297\/297
+|-damage|p2a: Talonflame|149\/297|[from] Stealth Rock
+|turn|19
+|choice|move psyshock|move acrobatics
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Talonflame|131\/297|[from] sandstorm
+|upkeep
+|choice|switch 2|
+|
+|switch|p1a: Magnezone|Magnezone|281\/281
+|-damage|p1a: Magnezone|264\/281|[from] Stealth Rock
+|turn|20
+|choice|move thunderbolt|move flareblitz
+|
+|move|p2a: Talonflame|Flare Blitz|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-damage|p2a: Talonflame|44\/297|[from] Recoil|[of] p1a: Magnezone
+|faint|p1a: Magnezone
+|
+|-weather|none
+|upkeep
+|choice|switch 6|
+|
+|switch|p1a: Keldeo|Keldeo|243\/323
+|-damage|p1a: Keldeo|223\/323|[from] Stealth Rock
+|turn|21
+|choice|switch 5|move acrobatics
+|
+|switch|p1a: Landorus|Landorus-Therian, M|36\/381
+|-damage|p1a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p1a: Landorus
+|move|p2a: Talonflame|Acrobatics|p1: Landorus|[notarget]
+|-notarget
+|
+|upkeep
+|choice|switch 5|
+|
+|switch|p1a: Keldeo|Keldeo|223\/323
+|-damage|p1a: Keldeo|203\/323|[from] Stealth Rock
+|turn|22
+|choice|move scald|move acrobatics
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|choice|switch 4|
+|
+|switch|p1a: Latias|Latias, F|160\/320
+|-damage|p1a: Latias|120\/320|[from] Stealth Rock
+|turn|23
+|choice|move psyshock|move acrobatics
+|
+|move|p2a: Talonflame|Acrobatics|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|win|thesisatest
+|c|☆thesisatest|gg
+|l|einfachbirne
+|raw|einfachbirne's rating: 1419 &rarr; <strong>1385<\/strong><br \/>(-34 for losing)
+|raw|thesisatest's rating: 1128 &rarr; <strong>1170<\/strong><br \/>(+42 for winning)

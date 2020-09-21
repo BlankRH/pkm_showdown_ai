@@ -1,0 +1,423 @@
+|j|☆goodnewsbears
+|j|☆Alola tm testing
+|player|p1|goodnewsbears|169
+|player|p2|Alola tm testing|1
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Gliscor, M|item
+|poke|p1|Talonflame, F|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Scizor, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Medicham, M|item
+|poke|p2|Talonflame, M|item
+|poke|p2|Latias, F|item
+|poke|p2|Heatran, F|item
+|poke|p2|Klefki, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100\/100
+|switch|p2a: Heatran|Heatran, F|100\/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|j| Facu587
+|
+|switch|p1a: Tentacruel|Tentacruel, F|100\/100
+|move|p2a: Heatran|Flash Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|89\/100
+|
+|-heal|p1a: Tentacruel|95\/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|move|p2a: Heatran|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|55\/100
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Heatran
+|-sidestart|p2: Alola tm testing|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|61\/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|switch|p2a: Latias|Latias, F|100\/100
+|move|p1a: Tentacruel|Scald|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|90\/100
+|
+|-heal|p1a: Tentacruel|67\/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|switch|p1a: Scizor|Scizor, F|100\/100
+|move|p2a: Latias|Defog|p1a: Scizor
+|-unboost|p1a: Scizor|evasion|1
+|-sideend|p2: Alola tm testing|Toxic Spikes|[from] move: Defog|[of] p2a: Latias
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Latias|Hidden Power|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-damage|p2a: Latias|80\/100|[from] item: Life Orb
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|turn|6
+|
+|switch|p2a: Heatran|Heatran, F|100\/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Clefable|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|
+|upkeep
+|turn|7
+|l| Facu587
+|
+|move|p1a: Clefable|Stealth Rock|p2a: Heatran
+|-sidestart|p2: Alola tm testing|move: Stealth Rock
+|cant|p2a: Heatran|par
+|
+|upkeep
+|turn|8
+|
+|switch|p1a: Tentacruel|Tentacruel, F|67\/100
+|cant|p2a: Heatran|par
+|
+|-heal|p1a: Tentacruel|73\/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|move|p2a: Heatran|Earth Power|p1a: Clefable
+|-damage|p1a: Clefable|72\/100
+|
+|-heal|p1a: Clefable|78\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|switch|p1a: Tentacruel|Tentacruel, F|73\/100
+|move|p2a: Heatran|Flash Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|60\/100
+|
+|-heal|p1a: Tentacruel|66\/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|move|p1a: Tentacruel|Scald|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|50\/100 par
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Earth Power|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|27\/100
+|
+|-heal|p1a: Tentacruel|33\/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|switch|p1a: Gliscor|Gliscor, M|100\/100
+|move|p2a: Heatran|Earth Power|p1a: Gliscor
+|-immune|p1a: Gliscor|[msg]
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76\/100 tox
+|move|p2a: Heatran|Hidden Power|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p2a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|63\/100 tox
+|
+|-heal|p1a: Gliscor|75\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|move|p2a: Landorus|Knock Off|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-heal|p1a: Gliscor|88\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|
+|move|p2a: Landorus|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|77\/100 tox
+|
+|switch|p2a: Latias|Latias, F|80\/100
+|-damage|p2a: Latias|67\/100|[from] Stealth Rock
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|52\/100 tox
+|
+|-heal|p1a: Gliscor|64\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|move|p2a: Latias|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|-damage|p2a: Latias|57\/100|[from] item: Life Orb
+|move|p1a: Gliscor|Facade|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-heal|p1a: Gliscor|77\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Medicham|Medicham, M|100\/100
+|-damage|p2a: Medicham|94\/100|[from] Stealth Rock
+|turn|18
+|inactive|goodnewsbears has 135 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|78\/100
+|-mega|p2a: Medicham|Medicham|Medichamite
+|detailschange|p2a: Medicham|Medicham-Mega, M
+|move|p2a: Medicham|Thunder Punch|p1a: Clefable
+|-damage|p1a: Clefable|43\/100
+|-status|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|49\/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|move|p2a: Medicham|Bullet Punch|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|15\/100 par
+|move|p1a: Clefable|Moonblast|p2a: Medicham
+|-supereffective|p2a: Medicham
+|-damage|p2a: Medicham|7\/100
+|-unboost|p2a: Medicham|spa|1
+|
+|-heal|p1a: Clefable|21\/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Medicham|Drain Punch|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-heal|p2a: Medicham|22\/100|[from] drain|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|switch|p1a: Alakazam|Alakazam, M|100\/100
+|turn|21
+|
+|switch|p2a: Heatran|Heatran, F|50\/100 par
+|-damage|p2a: Heatran|38\/100 par|[from] Stealth Rock
+|-mega|p1a: Alakazam|Alakazam|Alakazite
+|detailschange|p1a: Alakazam|Alakazam-Mega, M
+|-ability|p1a: Alakazam|Flash Fire|[from] ability: Trace|[of] p2a: Heatran
+|move|p1a: Alakazam|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|8\/100 par
+|
+|upkeep
+|turn|22
+|
+|move|p1a: Alakazam|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|inactive|Alola tm testing has 135 seconds left.
+|
+|switch|p2a: Talonflame|Talonflame, M|100\/100
+|-damage|p2a: Talonflame|51\/100|[from] Stealth Rock
+|turn|23
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Alakazam
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p2a: Talonflame|23\/100|[from] Recoil
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|switch|p1a: Gliscor|Gliscor, M|77\/100 tox
+|turn|24
+|
+|move|p2a: Talonflame|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|7\/100 tox
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p2a: Talonflame
+|move|p1a: Gliscor|Facade|p2: Talonflame|[notarget]
+|-notarget
+|
+|-heal|p1a: Gliscor|19\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|88\/100
+|-damage|p2a: Landorus|76\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|turn|25
+|
+|move|p2a: Landorus|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Landorus
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|turn|26
+|
+|switch|p2a: Klefki|Klefki, M|100\/100
+|-damage|p2a: Klefki|95\/100|[from] Stealth Rock
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Klefki
+|-status|p2a: Klefki|brn
+|
+|-damage|p2a: Klefki|82\/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|switch|p1a: Tentacruel|Tentacruel, F|33\/100
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Alola tm testing|Reflect
+|
+|-heal|p1a: Tentacruel|39\/100|[from] item: Black Sludge
+|-damage|p2a: Klefki|70\/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|switch|p2a: Medicham|Medicham-Mega, M|22\/100
+|-damage|p2a: Medicham|16\/100|[from] Stealth Rock
+|move|p1a: Tentacruel|Scald|p2a: Medicham
+|-damage|p2a: Medicham|0 fnt
+|faint|p2a: Medicham
+|
+|-heal|p1a: Tentacruel|45\/100|[from] item: Black Sludge
+|upkeep
+|inactive|Alola tm testing has 135 seconds left.
+|
+|switch|p2a: Landorus|Landorus-Therian, M|76\/100
+|-damage|p2a: Landorus|64\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tentacruel|atk|1
+|turn|29
+|
+|move|p2a: Landorus|Earthquake|p1a: Tentacruel
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|faint|p1a: Tentacruel
+|
+|upkeep
+|
+|switch|p1a: Talonflame|Talonflame, F|100\/100
+|turn|30
+|
+|switch|p2a: Klefki|Klefki, M|70\/100 brn
+|-damage|p2a: Klefki|64\/100 brn|[from] Stealth Rock
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Klefki
+|-fail|p2a: Klefki|brn
+|
+|-damage|p2a: Klefki|52\/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|move|p2a: Klefki|Thunder Wave|p1a: Talonflame
+|-status|p1a: Talonflame|par
+|move|p1a: Talonflame|Bulk Up|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|1
+|-boost|p1a: Talonflame|def|1
+|
+|-damage|p2a: Klefki|40\/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|move|p2a: Klefki|Torment|p1a: Talonflame
+|-start|p1a: Talonflame|Torment
+|move|p1a: Talonflame|Bulk Up|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|1
+|-boost|p1a: Talonflame|def|1
+|
+|-damage|p2a: Klefki|28\/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|switch|p2a: Landorus|Landorus-Therian, M|64\/100
+|-damage|p2a: Landorus|52\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Talonflame|atk|1
+|move|p1a: Talonflame|Brave Bird|p2a: Landorus
+|-damage|p2a: Landorus|21\/100
+|-damage|p1a: Talonflame|92\/100 par|[from] Recoil
+|
+|-heal|p1a: Talonflame|98\/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|move|p2a: Landorus|Rock Slide|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|29\/100 par
+|cant|p1a: Talonflame|flinch
+|
+|-heal|p1a: Talonflame|35\/100 par|[from] item: Leftovers
+|-sideend|p2: Alola tm testing|Reflect
+|upkeep
+|turn|35
+|
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|85\/100 par
+|move|p2a: Landorus|Rock Slide|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|51\/100 par
+|
+|-heal|p1a: Talonflame|58\/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|cant|p1a: Talonflame|par
+|move|p2a: Landorus|Rock Slide|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|win|Alola tm testing
+|l|☆goodnewsbears
+|raw|goodnewsbears's rating: 1483 &rarr; <strong>1451<\/strong><br \/>(-32 for losing)
+|raw|Alola tm testing's rating: 1260 &rarr; <strong>1300<\/strong><br \/>(+40 for winning)
+|l|☆Alola tm testing
+|j|☆Alola tm testing

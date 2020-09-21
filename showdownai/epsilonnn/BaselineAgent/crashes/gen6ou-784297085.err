@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 290, in play_game
+    gamestate = self.update_latest_turn(gamestate)
+  File "showdown.py", line 185, in update_latest_turn
+    self.simulator.append_log(gamestate, turns[-1], my_poke=my_poke_name, opp_poke=opp_poke_name)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 25, in append_log
+    self.handle_event(gamestate, event)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/simulator.py", line 65, in handle_event
+    poke_name = correct_mega(poke.name)
+AttributeError: 'NoneType' object has no attribute 'name'

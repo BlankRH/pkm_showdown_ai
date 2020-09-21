@@ -1,0 +1,12 @@
+('lib/',
+ 'lib',
+ [],
+ 'DATA',
+ [('lib/win64/chromedriver', 'lib/win64/chromedriver', 'DATA'),
+  ('lib/win64/phantomjs', 'lib/win64/phantomjs', 'DATA'),
+  ('lib/win32/chromedriver', 'lib/win32/chromedriver', 'DATA'),
+  ('lib/win32/phantomjs', 'lib/win32/phantomjs', 'DATA'),
+  ('lib/linux64/chromedriver', 'lib/linux64/chromedriver', 'DATA'),
+  ('lib/linux64/phantomjs', 'lib/linux64/phantomjs', 'DATA'),
+  ('lib/linux32/chromedriver', 'lib/linux32/chromedriver', 'DATA'),
+  ('lib/linux32/phantomjs', 'lib/linux32/phantomjs', 'DATA')])

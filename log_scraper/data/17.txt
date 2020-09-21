@@ -1,0 +1,353 @@
+|j|☆xX_Colour_Xx
+|j|☆alfredo duroo
+|player|p1|xX_Colour_Xx|265
+|player|p2|alfredo duroo|167
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Latios, M|item
+|poke|p1|Mamoswine, M|item
+|poke|p1|Froslass, F|item
+|poke|p1|Victini|item
+|poke|p2|Scizor, F|item
+|poke|p2|Latios, M|item
+|poke|p2|Clefable, F|item
+|poke|p2|Tyranitar, M|item
+|poke|p2|Manaphy|item
+|poke|p2|Tornadus-Therian, M|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|
+|start
+|switch|p1a: Froslass|Froslass, F|100\/100
+|switch|p2a: Tyranitar|Tyranitar, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|move|p2a: Tyranitar|Crunch|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1\/100
+|move|p1a: Froslass|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Froslass|0 fnt|[from] sandstorm
+|upkeep
+|faint|p1a: Froslass
+|
+|switch|p1a: Victini|Victini|100\/100
+|turn|2
+|
+|switch|p1a: Bisharp|Bisharp, M|100\/100
+|move|p2a: Tyranitar|Crunch|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|73\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|move|p1a: Bisharp|Swords Dance|p1a: Bisharp
+|-boost|p1a: Bisharp|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|-mega|p2a: Scizor|Scizor|Scizorite
+|detailschange|p2a: Scizor|Scizor-Mega, F
+|move|p1a: Bisharp|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|27\/100
+|move|p2a: Scizor|Bug Bite|p1a: Bisharp
+|-damage|p1a: Bisharp|10\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|switch|p1a: Victini|Victini|100\/100
+|move|p2a: Scizor|Bullet Punch|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|83\/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|switch|p2a: Tyranitar|Tyranitar, M|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Victini|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|21\/100
+|
+|switch|p1a: Bisharp|Bisharp, M|10\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100\/100
+|turn|8
+|
+|switch|p1a: Metagross|Metagross, shiny|100\/100
+|move|p2a: Tornadus|U-turn|p1a: Metagross
+|-damage|p1a: Metagross|81\/100
+|-damage|p2a: Tornadus|91\/100|[from] item: Life Orb
+|
+|switch|p2a: Manaphy|Manaphy|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Manaphy|94\/100|[from] sandstorm
+|upkeep
+|turn|9
+|
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|detailschange|p1a: Metagross|Metagross-Mega, shiny
+|move|p2a: Manaphy|Scald|p1a: Metagross
+|-damage|p1a: Metagross|38\/100
+|-status|p1a: Metagross|brn
+|move|p1a: Metagross|Thunder Punch|p2a: Manaphy
+|-supereffective|p2a: Manaphy
+|-damage|p2a: Manaphy|57\/100
+|-status|p2a: Manaphy|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Manaphy|51\/100 par|[from] sandstorm
+|-damage|p1a: Metagross|26\/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|move|p1a: Metagross|Thunder Punch|p2a: Manaphy
+|-supereffective|p2a: Manaphy
+|-damage|p2a: Manaphy|10\/100 par
+|move|p2a: Manaphy|Rain Dance|p2a: Manaphy
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|-activate|p2a: Manaphy|ability: Hydration
+|-curestatus|p2a: Manaphy|par|[msg]
+|-damage|p1a: Metagross|13\/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|move|p1a: Metagross|Thunder Punch|p2a: Manaphy
+|-supereffective|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Metagross|1\/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|turn|12
+|
+|switch|p1a: Victini|Victini|83\/100
+|move|p2a: Clefable|Stealth Rock|p1a: Victini
+|-sidestart|p1: xX_Colour_Xx|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|move|p1a: Victini|Trick|p2a: Clefable
+|-activate|p1a: Victini|move: Trick|[of] p2a: Clefable
+|-item|p2a: Clefable|Choice Band|[from] move: Trick
+|-item|p1a: Victini|Leftovers|[from] move: Trick
+|move|p2a: Clefable|Thunder Wave|p1a: Victini
+|-status|p1a: Victini|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Victini|89\/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|100\/100
+|cant|p1a: Victini|par
+|
+|-weather|none
+|-heal|p1a: Victini|95\/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|switch|p1a: Metagross|Metagross-Mega, shiny|1\/100 brn
+|-damage|p1a: Metagross|0 fnt|[from] Stealth Rock
+|faint|p1a: Metagross
+|move|p2a: Tornadus|Hurricane|p1: Metagross|[notarget]
+|-notarget
+|
+|upkeep
+|
+|switch|p1a: Mamoswine|Mamoswine, M|100\/100
+|-damage|p1a: Mamoswine|88\/100|[from] Stealth Rock
+|turn|16
+|
+|move|p1a: Mamoswine|Ice Shard|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|21\/100
+|-damage|p1a: Mamoswine|78\/100|[from] item: Life Orb
+|move|p2a: Tornadus|Heat Wave|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|20\/100
+|-damage|p2a: Tornadus|12\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Mamoswine|Ice Shard|p2a: Clefable
+|-damage|p2a: Clefable|76\/100
+|-damage|p1a: Mamoswine|10\/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|move|p1a: Mamoswine|Icicle Crash|p2a: Clefable
+|-damage|p2a: Clefable|26\/100
+|-damage|p1a: Mamoswine|0 fnt|[from] item: Life Orb
+|faint|p1a: Mamoswine
+|move|p2a: Clefable|Soft-Boiled|p2a: Clefable
+|-heal|p2a: Clefable|76\/100
+|
+|upkeep
+|
+|switch|p1a: Bisharp|Bisharp, M|10\/100
+|-damage|p1a: Bisharp|4\/100|[from] Stealth Rock
+|turn|19
+|
+|switch|p2a: Scizor|Scizor-Mega, F|27\/100
+|move|p1a: Bisharp|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|8\/100
+|
+|upkeep
+|turn|20
+|
+|move|p2a: Scizor|Bullet Punch|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|switch|p1a: Victini|Victini|95\/100 par
+|-damage|p1a: Victini|70\/100 par|[from] Stealth Rock
+|turn|21
+|
+|move|p2a: Scizor|Bug Bite|p1a: Victini
+|-damage|p1a: Victini|22\/100 par
+|move|p1a: Victini|Fusion Bolt|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-heal|p1a: Victini|29\/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|45\/100
+|turn|22
+|
+|move|p2a: Tornadus|U-turn|p1a: Victini
+|-damage|p1a: Victini|7\/100 par
+|-damage|p2a: Tornadus|35\/100|[from] item: Life Orb
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|move|p1a: Victini|Fusion Bolt|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|80\/100
+|
+|-heal|p1a: Victini|13\/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|c|☆xX_Colour_Xx|gg
+|c|☆alfredo duroo|gg
+|
+|move|p2a: Latios|Psyshock|p1a: Victini
+|-resisted|p1a: Victini
+|-damage|p1a: Victini|0 fnt
+|-damage|p2a: Latios|70\/100|[from] item: Life Orb
+|faint|p1a: Victini
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|100\/100
+|-damage|p1a: Latios|88\/100|[from] Stealth Rock
+|turn|24
+|
+|move|p1a: Latios|Ice Beam|p2a: Latios
+|-supereffective|p2a: Latios
+|-crit|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|switch|p2a: Tornadus|Tornadus-Therian, M|68\/100
+|turn|25
+|
+|move|p1a: Latios|Ice Beam|p2a: Tornadus
+|-supereffective|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, F|76\/100
+|turn|26
+|
+|move|p1a: Latios|Ice Beam|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|38\/100
+|move|p2a: Clefable|Moonblast|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|28\/100
+|
+|upkeep
+|turn|27
+|
+|move|p1a: Latios|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|14\/100
+|-status|p2a: Clefable|frz
+|cant|p2a: Clefable|frz
+|
+|upkeep
+|turn|28
+|c|☆xX_Colour_Xx|oof
+|c|☆alfredo duroo|xd
+|c|☆xX_Colour_Xx|the rng
+|
+|move|p1a: Latios|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|xX_Colour_Xx
+|c|☆xX_Colour_Xx|xP I should not have won that but okey
+|raw|xX_Colour_Xx's rating: 1263 &rarr; <strong>1295<\/strong><br \/>(+32 for winning)
+|raw|alfredo duroo's rating: 1357 &rarr; <strong>1332<\/strong><br \/>(-25 for losing)
+|c|☆alfredo duroo|terrible
+|c|☆alfredo duroo|terrible terrible
+|c|☆alfredo duroo|SIGH

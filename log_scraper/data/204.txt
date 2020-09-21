@@ -1,0 +1,277 @@
+|j|☆Art of Aggression
+|j|☆darkmagejedi
+|player|p1|Art of Aggression|288
+|player|p2|darkmagejedi|150
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Garchomp, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Skarmory, M|item
+|poke|p1|Gardevoir, F|item
+|poke|p1|Gengar, M|item
+|poke|p1|Talonflame, M|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Heatran, M|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Serperior, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Gyarados, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by darkmagejedi)
+|
+|start
+|switch|p1a: CONFIDENCE|Skarmory, M|100\/100
+|switch|p2a: Serperior|Serperior, F|100\/100
+|turn|1
+|
+|move|p2a: Serperior|Leaf Storm|p1a: CONFIDENCE
+|-resisted|p1a: CONFIDENCE
+|-damage|p1a: CONFIDENCE|84\/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: CONFIDENCE|Stealth Rock|p2a: Serperior
+|-sidestart|p2: darkmagejedi|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: INFILTRATION|Talonflame, M|100\/100
+|move|p2a: Serperior|Hidden Power|p1a: INFILTRATION
+|-resisted|p1a: INFILTRATION
+|-damage|p1a: INFILTRATION|77\/100
+|
+|upkeep
+|turn|3
+|inactive|darkmagejedi has 135 seconds left.
+|
+|switch|p2a: Gyarados|Gyarados, M|100\/100
+|-damage|p2a: Gyarados|75\/100|[from] Stealth Rock
+|move|p1a: INFILTRATION|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|59\/100
+|
+|switch|p1a: CONFIDENCE|Skarmory, M|84\/100
+|
+|upkeep
+|turn|4
+|
+|move|p1a: CONFIDENCE|Spikes|p2a: Gyarados
+|-sidestart|p2: darkmagejedi|Spikes
+|move|p2a: Gyarados|Waterfall|p1a: CONFIDENCE
+|-damage|p1a: CONFIDENCE|48\/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: CONFIDENCE|Spikes|p2a: Gyarados
+|-sidestart|p2: darkmagejedi|Spikes
+|move|p2a: Gyarados|Waterfall|p1a: CONFIDENCE
+|-damage|p1a: CONFIDENCE|14\/100
+|
+|upkeep
+|turn|6
+|-enditem|p1a: CONFIDENCE|Custap Berry|[eat]
+|-activate|p1a: CONFIDENCE|item: Custap Berry|[consumed]
+|
+|move|p1a: CONFIDENCE|Spikes|p2a: Gyarados
+|-sidestart|p2: darkmagejedi|Spikes
+|move|p2a: Gyarados|Waterfall|p1a: CONFIDENCE
+|-damage|p1a: CONFIDENCE|0 fnt
+|faint|p1a: CONFIDENCE
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|switch|p1a: INFILTRATION|Talonflame, M|77\/100
+|turn|7
+|
+|move|p1a: INFILTRATION|Brave Bird|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|-damage|p1a: INFILTRATION|56\/100|[from] Recoil
+|faint|p2a: Gyarados
+|
+|upkeep
+|inactive|darkmagejedi has 135 seconds left.
+|
+|switch|p2a: Weavile|Weavile, F|100\/100
+|-damage|p2a: Weavile|76\/100|[from] Stealth Rock
+|-damage|p2a: Weavile|51\/100|[from] Spikes
+|turn|8
+|
+|move|p2a: Weavile|Ice Shard|p1a: INFILTRATION
+|-damage|p1a: INFILTRATION|28\/100
+|move|p1a: INFILTRATION|Brave Bird|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: INFILTRATION|12\/100|[from] Recoil
+|faint|p2a: Weavile
+|
+|upkeep
+|inactive|darkmagejedi has 135 seconds left.
+|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|-damage|p2a: Dragonite|76\/100|[from] Stealth Rock
+|turn|9
+|inactive|darkmagejedi has 135 seconds left.
+|
+|switch|p1a: AMBUSH|Gengar, M|100\/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Dragonite|Ice Punch|p1a: AMBUSH
+|-damage|p1a: AMBUSH|19\/100
+|move|p1a: AMBUSH|Sludge Wave|p2a: Dragonite
+|-damage|p2a: Dragonite|21\/100
+|
+|upkeep
+|turn|11
+|
+|move|p2a: Dragonite|Ice Punch|p1a: AMBUSH
+|-damage|p1a: AMBUSH|0 fnt
+|faint|p1a: AMBUSH
+|
+|upkeep
+|
+|switch|p1a: HONOR|Garchomp, M|100\/100
+|turn|12
+|
+|move|p1a: HONOR|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|switch|p2a: Serperior|Serperior, F|100\/100
+|-damage|p2a: Serperior|76\/100|[from] Spikes
+|-damage|p2a: Serperior|63\/100|[from] Stealth Rock
+|turn|13
+|
+|switch|p1a: INFILTRATION|Talonflame, M|12\/100
+|move|p2a: Serperior|Leaf Storm|p1a: INFILTRATION
+|-resisted|p1a: INFILTRATION
+|-damage|p1a: INFILTRATION|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: INFILTRATION
+|
+|-heal|p2a: Serperior|70\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: HONOR|Garchomp, M|100\/100
+|turn|14
+|
+|move|p1a: HONOR|Outrage|p2a: Serperior
+|-damage|p2a: Serperior|4\/100
+|move|p2a: Serperior|Leaf Storm|p1a: HONOR|[miss]
+|-miss|p2a: Serperior|p1a: HONOR
+|
+|-heal|p2a: Serperior|10\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|darkmagejedi has 135 seconds left.
+|
+|move|p1a: HONOR|Outrage|p2a: Serperior|[from]lockedmove
+|-damage|p2a: Serperior|0 fnt
+|-start|p1a: HONOR|confusion|[fatigue]
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|switch|p2a: Heatran|Heatran, M|100\/100
+|-damage|p2a: Heatran|88\/100|[from] Stealth Rock
+|-item|p2a: Heatran|Air Balloon
+|turn|16
+|
+|-activate|p1a: HONOR|confusion
+|move|p1a: HONOR|Outrage|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|66\/100
+|-enditem|p2a: Heatran|Air Balloon
+|move|p2a: Heatran|Flash Cannon|p1a: HONOR
+|-damage|p1a: HONOR|56\/100
+|
+|upkeep
+|turn|17
+|
+|-end|p1a: HONOR|confusion
+|move|p1a: HONOR|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|42\/100
+|move|p2a: Heatran|Flash Cannon|p1a: HONOR
+|-damage|p1a: HONOR|11\/100
+|
+|upkeep
+|turn|18
+|inactive|Art of Aggression has 135 seconds left.
+|
+|move|p1a: HONOR|Outrage|p2a: Heatran|[from]lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|20\/100
+|-start|p1a: HONOR|confusion|[fatigue]
+|move|p2a: Heatran|Stealth Rock|p1a: HONOR
+|-sidestart|p1: Art of Aggression|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|-activate|p1a: HONOR|confusion
+|move|p1a: HONOR|Outrage|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p2a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: HONOR|atk|1
+|turn|20
+|
+|-activate|p1a: HONOR|confusion
+|move|p1a: HONOR|Outrage|p2a: Landorus|[from]lockedmove
+|-damage|p2a: Landorus|47\/100
+|move|p2a: Landorus|Earthquake|p1a: HONOR
+|-crit|p1a: HONOR
+|-damage|p1a: HONOR|0 fnt
+|faint|p1a: HONOR
+|
+|upkeep
+|
+|switch|p1a: ELEGANCE|Gardevoir, F|100\/100
+|-damage|p1a: ELEGANCE|88\/100|[from] Stealth Rock
+|-ability|p1a: ELEGANCE|Intimidate|[from] ability: Trace|[of] p2a: Landorus
+|-ability|p1a: ELEGANCE|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|21
+|
+|detailschange|p1a: ELEGANCE|Gardevoir-Mega, F
+|-mega|p1a: ELEGANCE|Gardevoir|Gardevoirite
+|move|p2a: Landorus|Earthquake|p1a: ELEGANCE
+|-damage|p1a: ELEGANCE|21\/100
+|move|p1a: ELEGANCE|Hyper Voice|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|Art of Aggression
+|raw|Art of Aggression's rating: 1456 &rarr; <strong>1465<\/strong><br \/>(+9 for winning)
+|raw|darkmagejedi's rating: 1247 &rarr; <strong>1236<\/strong><br \/>(-11 for losing)
+|c|☆darkmagejedi|gg
+|c|☆Art of Aggression|gg
+|l|☆Art of Aggression

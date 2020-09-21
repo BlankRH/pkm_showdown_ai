@@ -1,0 +1,143 @@
+|j|☆teometric
+|j|☆Moha Salah
+|player|p1|teometric|29
+|player|p2|Moha Salah|65
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Metagross|item
+|poke|p1|Latios, M|item
+|poke|p1|Kyurem-Black|item
+|poke|p1|Azumarill, F|item
+|poke|p1|Thundurus, M|item
+|poke|p1|Garchomp, F|item
+|poke|p2|Diancie|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Tornadus-Therian, M|item
+|poke|p2|Tangrowth, M|item
+|poke|p2|Garchomp, F|item
+|poke|p2|Skarmory, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Metagross|Metagross|100\/100
+|switch|p2a: Gaia|Tangrowth, M|100\/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moha Salah)
+|
+|switch|p1a: Latios|Latios, M|100\/100
+|move|p2a: Gaia|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-crit|p1a: Latios
+|-damage|p1a: Latios|6\/100
+|-enditem|p1a: Latios|Life Orb|[from] move: Knock Off|[of] p2a: Gaia
+|
+|upkeep
+|turn|2
+|
+|switch|p1a: Kyurem|Kyurem-Black|100\/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Gaia|Knock Off|p1a: Kyurem
+|-damage|p1a: Kyurem|80\/100
+|-enditem|p1a: Kyurem|Life Orb|[from] move: Knock Off|[of] p2a: Gaia
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Yuki|Keldeo-Resolute|100\/100
+|move|p1a: Kyurem|Ice Beam|p2a: Yuki
+|-resisted|p2a: Yuki
+|-damage|p2a: Yuki|72\/100
+|
+|upkeep
+|turn|4
+|
+|switch|p2a: Gaia|Tangrowth, M|100\/100
+|switch|p1a: Azumarill|Azumarill, F|100\/100
+|
+|upkeep
+|turn|5
+|
+|switch|p1a: Kyurem|Kyurem-Black|80\/100
+|-ability|p1a: Kyurem|Teravolt
+|move|p2a: Gaia|Giga Drain|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|66\/100
+|
+|upkeep
+|turn|6
+|
+|move|p1a: Kyurem|Fusion Bolt|p2a: Gaia
+|-resisted|p2a: Gaia
+|-damage|p2a: Gaia|88\/100
+|move|p2a: Gaia|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|44\/100
+|
+|upkeep
+|turn|7
+|inactive|Moha Salah has 135 seconds left.
+|
+|switch|p2a: Fujin|Tornadus-Therian, M, shiny|100\/100
+|move|p1a: Kyurem|Fusion Bolt|p2a: Fujin
+|-supereffective|p2a: Fujin
+|-damage|p2a: Fujin|7\/100
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Fujin|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|28\/100
+|
+|switch|p2a: Yuki|Keldeo-Resolute|72\/100
+|move|p1a: Kyurem|Roost|p1a: Kyurem
+|-heal|p1a: Kyurem|78\/100
+|
+|upkeep
+|turn|9
+|
+|move|p2a: Yuki|Secret Sword|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|switch|p1a: Latios|Latios, M|6\/100
+|turn|10
+|
+|switch|p2a: Armor|Skarmory, M|100\/100
+|move|p1a: Latios|Draco Meteor|p2a: Armor
+|-resisted|p2a: Armor
+|-crit|p2a: Armor
+|-damage|p2a: Armor|34\/100
+|-unboost|p1a: Latios|spa|2
+|
+|upkeep
+|turn|11
+|
+|move|p1a: Latios|Hidden Power|p2a: Armor
+|-supereffective|p2a: Armor
+|-damage|p2a: Armor|7\/100
+|move|p2a: Armor|Roost|p2a: Armor
+|-heal|p2a: Armor|57\/100
+|
+|upkeep
+|turn|12
+|-message|teometric forfeited.
+|
+|win|Moha Salah
+|raw|teometric's rating: 1353 &rarr; <strong>1332<\/strong><br \/>(-21 for losing)
+|raw|Moha Salah's rating: 1331 &rarr; <strong>1352<\/strong><br \/>(+21 for winning)
+|l|☆teometric

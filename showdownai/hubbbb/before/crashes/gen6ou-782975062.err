@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 282, in play_game
+    move = self.agent.get_action(gamestate, 0)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 50, in get_action
+    best_action, value, opp_action = self.minimax(state, self.depth, who, log=log)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 132, in minimax
+    new_action, state_value, _ = self.minimax(new_state, depth - 1, who)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 132, in minimax
+    new_action, state_value, _ = self.minimax(new_state, depth - 1, who)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 113, in minimax
+    return None, state.evaluate(who), None
+AttributeError: 'GameState' object has no attribute 'evaluate'

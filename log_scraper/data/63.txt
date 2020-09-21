@@ -1,0 +1,132 @@
+|j|☆goodnewsbears
+|j|☆Elite Dangerous
+|player|p1|goodnewsbears|266
+|player|p2|Elite Dangerous|23
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Alakazam, M|item
+|poke|p1|Clefable, M|item
+|poke|p1|Gliscor, F|item
+|poke|p1|Talonflame, M|item
+|poke|p1|Tentacruel, F|item
+|poke|p1|Scizor, M|item
+|poke|p2|Mew|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Metagross|item
+|poke|p2|Forretress, M|item
+|poke|p2|Scolipede, F|item
+|poke|p2|Keldeo-Resolute|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|inactive|Elite Dangerous also wants the timer to be on.
+|inactive|goodnewsbears has 135 seconds left.
+|inactive|Elite Dangerous has 135 seconds left.
+|inactive|goodnewsbears has 120 seconds left.
+|
+|start
+|switch|p1a: Gliscor|Gliscor, F|100\/100
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|turn|1
+|
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76\/100
+|move|p2a: Dragonite|Outrage|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|move|p2a: Dragonite|Outrage|p1a: Clefable|[from]lockedmove
+|-immune|p1a: Clefable|[msg]
+|
+|upkeep
+|turn|3
+|
+|switch|p2a: Forretress|Forretress, M|100\/100
+|move|p1a: Clefable|Stealth Rock|p2a: Forretress
+|-sidestart|p2: Elite Dangerous|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Forretress|Stealth Rock|p1a: Clefable
+|-sidestart|p1: goodnewsbears|move: Stealth Rock
+|move|p1a: Clefable|Flamethrower|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1\/100
+|
+|upkeep
+|turn|5
+|-enditem|p2a: Forretress|Custap Berry|[eat]
+|-activate|p2a: Forretress|item: Custap Berry|[consumed]
+|
+|move|p2a: Forretress|Rapid Spin|p1a: Clefable
+|-damage|p1a: Clefable|96\/100
+|-sideend|p2: Elite Dangerous|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|move|p1a: Clefable|Stealth Rock|p2a: Forretress
+|-sidestart|p2: Elite Dangerous|move: Stealth Rock
+|
+|-heal|p1a: Clefable|100\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p2a: Forretress|Explosion|p1a: Clefable
+|-damage|p1a: Clefable|42\/100
+|faint|p2a: Forretress
+|move|p1a: Clefable|Flamethrower|p2: Forretress|[notarget]
+|-notarget
+|
+|-heal|p1a: Clefable|48\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Mew|Mew|100\/100
+|-damage|p2a: Mew|88\/100|[from] Stealth Rock
+|turn|7
+|
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|move|p1a: Clefable|Thunder Wave|p2a: Mew
+|-status|p2a: Mew|par
+|-activate|p2a: Mew|ability: Synchronize
+|-status|p1a: Clefable|par
+|
+|-heal|p1a: Clefable|54\/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p1a: Scizor|Scizor, M|100\/100
+|-damage|p1a: Scizor|88\/100|[from] Stealth Rock
+|move|p2a: Mew|Swords Dance|p2a: Mew
+|-boost|p2a: Mew|atk|2
+|
+|upkeep
+|turn|9
+|
+|move|p1a: Scizor|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|-message|Elite Dangerous forfeited.
+|
+|win|goodnewsbears
+|l|☆Elite Dangerous
+|raw|goodnewsbears's rating: 1507 &rarr; <strong>1526<\/strong><br \/>(+19 for winning)
+|raw|Elite Dangerous's rating: 1487 &rarr; <strong>1468<\/strong><br \/>(-19 for losing)

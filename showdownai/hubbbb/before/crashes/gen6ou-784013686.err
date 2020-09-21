@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 282, in play_game
+    move = self.agent.get_action(gamestate, 0)
+  File "/Users/blankr/Desktop/pokemon/pokemon_ai/showdownai/agent.py", line 177, in get_action
+    best_action = action
+NameError: name 'action' is not defined

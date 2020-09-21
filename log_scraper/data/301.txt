@@ -1,0 +1,291 @@
+|j|☆lovely rayu
+|j|☆squinn
+|player|p1|lovely rayu|264
+|player|p2|squinn|137
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|Tournament battle
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Clefable, M|item
+|poke|p1|Starmie|item
+|poke|p1|Pinsir, F|item
+|poke|p1|Magnezone|item
+|poke|p1|Bisharp, F|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p2|Manectric, M|item
+|poke|p2|Tyranitar, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Jirachi|item
+|poke|p2|Keldeo-Resolute|item
+|poke|p2|Latios, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| rayu
+|j|+Emre Mor 9
+|j|@Hubriz ♥
+|c|☆squinn|hf
+|j| gs♥lure
+|j| AggressiveStall
+|j| Ultra Jiren ♔
+|c|☆lovely rayu|hf
+|j|+soTsoT
+|
+|start
+|switch|p1a: Clefable|Clefable, M|100\/100
+|switch|p2a: Manectric|Manectric, M|100\/100
+|turn|1
+|j| tralalalalaala
+|
+|-mega|p2a: Manectric|Manectric|Manectite
+|detailschange|p2a: Manectric|Manectric-Mega, M
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Clefable|atk|1
+|move|p2a: Manectric|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|65\/100
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Clefable|atk|1
+|move|p1a: Clefable|Stealth Rock|p2a: Landorus
+|-sidestart|p2: squinn|move: Stealth Rock
+|
+|-heal|p1a: Clefable|71\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|move|p2a: Landorus|Stealth Rock|p1a: Clefable
+|-sidestart|p1: lovely rayu|move: Stealth Rock
+|move|p1a: Clefable|Soft-Boiled|p1a: Clefable
+|-heal|p1a: Clefable|100\/100
+|
+|upkeep
+|turn|3
+|j| PicolloDBZ
+|
+|switch|p2a: Jirachi|Jirachi|100\/100
+|-damage|p2a: Jirachi|94\/100|[from] Stealth Rock
+|switch|p1a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p1a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|84\/100
+|-damage|p2a: Jirachi|78\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-damage|p2a: Landorus|88\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Hidden Power|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|27\/100
+|
+|upkeep
+|turn|5
+|
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|23\/100
+|-damage|p1a: Landorus|67\/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|move|p2a: Landorus|Stone Edge|p1a: Clefable|[miss]
+|-miss|p2a: Landorus|p1a: Clefable
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Landorus|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|64\/100
+|move|p1a: Clefable|Moonblast|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Clefable|70\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|100\/100
+|-damage|p2a: Keldeo|94\/100|[from] Stealth Rock
+|turn|7
+|n| QS soTsoT|sotsot
+|
+|switch|p1a: Starmie|Starmie|100\/100
+|-damage|p1a: Starmie|88\/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-damage|p1a: Starmie|32\/100
+|
+|-heal|p1a: Starmie|39\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|switch|p2a: Jirachi|Jirachi|78\/100
+|-damage|p2a: Jirachi|72\/100|[from] Stealth Rock
+|move|p1a: Starmie|Rapid Spin|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|70\/100
+|-sideend|p1: lovely rayu|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Starmie
+|
+|-heal|p1a: Starmie|45\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|switch|p1a: Landorus|Landorus-Therian, M|67\/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Jirachi|atk|1
+|move|p2a: Jirachi|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|62\/100
+|-damage|p2a: Jirachi|54\/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|94\/100
+|-damage|p2a: Keldeo|88\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|move|p2a: Keldeo|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100\/100
+|turn|11
+|
+|switch|p2a: Tyranitar|Tyranitar, F|100\/100
+|-damage|p2a: Tyranitar|88\/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Magnezone|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|63\/100
+|j|%Lovely Toucannon
+|
+|switch|p1a: Bisharp|Bisharp, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|move|p1a: Bisharp|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|88\/100
+|-damage|p2a: Keldeo|82\/100|[from] Stealth Rock
+|turn|13
+|j| Orkado
+|j|+Zangoose-Y
+|
+|switch|p1a: Starmie|Starmie|45\/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Starmie
+|-resisted|p1a: Starmie
+|-crit|p1a: Starmie
+|-damage|p1a: Starmie|0 fnt
+|faint|p1a: Starmie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Keldeo|76\/100|[from] Sandstorm
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100\/100
+|turn|14
+|
+|switch|p2a: Latios|Latios, M|100\/100
+|-damage|p2a: Latios|88\/100|[from] Stealth Rock
+|move|p1a: Magnezone|Volt Switch|p2a: Latios
+|-resisted|p2a: Latios
+|-damage|p2a: Latios|69\/100
+|
+|switch|p1a: Bisharp|Bisharp, F|100\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Latios|63\/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: Latios|Draco Meteor|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|34\/100
+|-unboost|p2a: Latios|spa|2
+|-damage|p2a: Latios|53\/100|[from] item: Life Orb
+|move|p1a: Bisharp|Knock Off|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-enditem|p2a: Latios|Life Orb|[from] move: Knock Off|[of] p1a: Bisharp
+|faint|p2a: Latios
+|
+|-weather|none
+|upkeep
+|
+|switch|p2a: Keldeo|Keldeo-Resolute|76\/100
+|-damage|p2a: Keldeo|70\/100|[from] Stealth Rock
+|turn|16
+|j|@captivity
+|
+|switch|p1a: Pinsir|Pinsir, F|100\/100
+|move|p2a: Keldeo|Hydro Pump|p1a: Pinsir
+|-damage|p1a: Pinsir|0 fnt
+|faint|p1a: Pinsir
+|
+|upkeep
+|
+|switch|p1a: Magnezone|Magnezone|100\/100
+|turn|17
+|
+|move|p1a: Magnezone|Volt Switch|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|switch|p1a: Bisharp|Bisharp, F|34\/100
+|
+|upkeep
+|l|+Zangoose-Y
+|c|☆squinn|rip
+|c|☆squinn|hätte
+|c|☆squinn|manec calcen sollen
+|j| Deco0de
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lovely rayu)
+|
+|switch|p2a: Manectric|Manectric-Mega, M|100\/100
+|-damage|p2a: Manectric|88\/100|[from] Stealth Rock
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Bisharp|atk|1
+|-ability|p1a: Bisharp|Defiant|boost
+|-boost|p1a: Bisharp|atk|2
+|turn|18
+|
+|move|p1a: Bisharp|Sucker Punch|p2a: Manectric
+|-damage|p2a: Manectric|0 fnt
+|faint|p2a: Manectric
+|
+|upkeep
+|c|☆squinn|gg
+|
+|switch|p2a: Jirachi|Jirachi|54\/100
+|-damage|p2a: Jirachi|48\/100|[from] Stealth Rock
+|turn|19
+|c|☆lovely rayu|gg
+|-message|squinn forfeited.
+|
+|win|lovely rayu

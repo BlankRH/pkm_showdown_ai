@@ -1,0 +1,296 @@
+|j|☆Greensaur94
+|j|☆Entendelostall
+|player|p1|Greensaur94|151
+|player|p2|Entendelostall|170
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, F|item
+|poke|p1|Suicune|item
+|poke|p1|Dragonite, M|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Klefki, M|item
+|poke|p2|Azelf|item
+|poke|p2|Gengar, M|item
+|poke|p2|Charizard, F|item
+|poke|p2|Dragonite, F|item
+|poke|p2|Weavile, F|item
+|poke|p2|Breloom, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Entendelostall)
+|
+|start
+|switch|p1a: Klefki|Klefki, M|100\/100
+|switch|p2a: Azelf|Azelf|100\/100
+|turn|1
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Azelf|Taunt|p1a: Klefki
+|-start|p1a: Klefki|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|move|p2a: Azelf|Stealth Rock|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Stealth Rock
+|move|p1a: Klefki|Foul Play|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|3\/100
+|
+|upkeep
+|turn|3
+|
+|move|p2a: Azelf|Knock Off|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|94\/100
+|-enditem|p1a: Klefki|Light Clay|[from] move: Knock Off|[of] p2a: Azelf
+|move|p1a: Klefki|Foul Play|p2a: Azelf
+|-supereffective|p2a: Azelf
+|-damage|p2a: Azelf|0 fnt
+|faint|p2a: Azelf
+|
+|upkeep
+|
+|switch|p2a: Charizard|Charizard, F|100\/100
+|turn|4
+|inactive|Greensaur94 has 135 seconds left.
+|
+|switch|p1a: Dragonite|Dragonite, M|100\/100
+|-damage|p1a: Dragonite|76\/100|[from] Stealth Rock
+|-mega|p2a: Charizard|Charizard|Charizardite X
+|detailschange|p2a: Charizard|Charizard-Mega-X, F
+|move|p2a: Charizard|Fire Punch|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|61\/100
+|
+|upkeep
+|turn|5
+|
+|move|p2a: Charizard|Dragon Dance|p2a: Charizard
+|-boost|p2a: Charizard|atk|1
+|-boost|p2a: Charizard|spe|1
+|move|p1a: Dragonite|Earthquake|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|11\/100
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Charizard|Dragon Claw|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|7
+|
+|move|p1a: Excadrill|Rapid Spin|p2a: Charizard
+|-damage|p2a: Charizard|3\/100
+|-sideend|p1: Greensaur94|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Excadrill
+|move|p2a: Charizard|Fire Punch|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|inactive|Greensaur94 has 135 seconds left.
+|
+|switch|p1a: Klefki|Klefki, M|94\/100
+|turn|8
+|
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|move|p2a: Charizard|Fire Punch|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|25\/100
+|
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|9
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Charizard|Fire Punch|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, F|100\/100
+|turn|10
+|
+|switch|p2a: Gengar|Gengar, M|100\/100
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|detailschange|p1a: Venusaur|Venusaur-Mega, F
+|move|p1a: Venusaur|Sludge Bomb|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|85\/100
+|
+|-heal|p2a: Gengar|91\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|switch|p1a: Suicune|Suicune|100\/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Gengar|Taunt|p1a: Suicune
+|-start|p1a: Suicune|move: Taunt
+|
+|-heal|p2a: Gengar|97\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|73\/100
+|move|p1a: Suicune|Scald|p2a: Gengar
+|-end|p2a: Gengar|Substitute
+|
+|-heal|p2a: Gengar|79\/100|[from] item: Leftovers
+|-sideend|p1: Greensaur94|move: Light Screen
+|upkeep
+|turn|13
+|
+|switch|p2a: Breloom|Breloom, M|100\/100
+|move|p1a: Suicune|Scald|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|75\/100
+|
+|-end|p1a: Suicune|move: Taunt
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|14
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100\/100
+|move|p2a: Breloom|Spore|p1a: Venusaur
+|-immune|p1a: Venusaur|[msg]
+|
+|upkeep
+|turn|15
+|
+|switch|p2a: Gengar|Gengar, M|79\/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Gengar
+|-resisted|p2a: Gengar
+|-damage|p2a: Gengar|64\/100
+|
+|-heal|p2a: Gengar|71\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|switch|p1a: Suicune|Suicune|100\/100
+|-ability|p1a: Suicune|Pressure
+|move|p2a: Gengar|Sludge Bomb|p1a: Suicune
+|-crit|p1a: Suicune
+|-damage|p1a: Suicune|43\/100
+|-status|p1a: Suicune|psn
+|
+|-heal|p2a: Gengar|77\/100|[from] item: Leftovers
+|-heal|p1a: Suicune|50\/100 psn|[from] item: Leftovers
+|-damage|p1a: Suicune|37\/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|move|p2a: Gengar|Taunt|p1a: Suicune
+|-start|p1a: Suicune|move: Taunt
+|move|p1a: Suicune|Scald|p2a: Gengar
+|-damage|p2a: Gengar|36\/100
+|
+|-heal|p2a: Gengar|42\/100|[from] item: Leftovers
+|-heal|p1a: Suicune|43\/100 psn|[from] item: Leftovers
+|-damage|p1a: Suicune|31\/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|move|p2a: Gengar|Sludge Bomb|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|faint|p1a: Suicune
+|
+|-heal|p2a: Gengar|48\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Volcarona|Volcarona, F|100\/100
+|turn|19
+|
+|move|p2a: Gengar|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|move|p1a: Volcarona|Fiery Dance|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-boost|p1a: Volcarona|spa|1
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|switch|p2a: Dragonite|Dragonite, F|100\/100
+|turn|20
+|
+|move|p1a: Volcarona|Fiery Dance|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|84\/100
+|-boost|p1a: Volcarona|spa|1
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|21
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur-Mega, F|100\/100
+|turn|22
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|59\/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Dragonite
+|-damage|p2a: Dragonite|48\/100
+|
+|upkeep
+|turn|23
+|
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Venusaur|Synthesis|p1a: Venusaur
+|-heal|p1a: Venusaur|100\/100
+|
+|upkeep
+|turn|24
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|43\/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Dragonite
+|-damage|p2a: Dragonite|9\/100
+|
+|upkeep
+|turn|25
+|
+|move|p2a: Dragonite|Dragon Claw|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|win|Entendelostall
+|l|☆Greensaur94
+|raw|Greensaur94's rating: 1390 &rarr; <strong>1359<\/strong><br \/>(-31 for losing)
+|raw|Entendelostall's rating: 1155 &rarr; <strong>1195<\/strong><br \/>(+40 for winning)

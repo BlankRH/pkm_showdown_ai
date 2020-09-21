@@ -1,0 +1,299 @@
+|j|☆VenuflibisTV
+|j|☆PersephoneXIV
+|player|p1|VenuflibisTV|36
+|player|p2|PersephoneXIV|98
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Charizard, F|item
+|poke|p1|Latias, F|item
+|poke|p1|Tyranitar, F|item
+|poke|p1|Clefable, M|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Skarmory, M|item
+|poke|p2|Latios, M|item
+|poke|p2|Excadrill, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Skarmory, F|item
+|poke|p2|Jellicent, F|item
+|poke|p2|Tyranitar, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|j| niuji
+|j| Roccstar7
+|j| Waddehaddeduddeda
+|j| FullLifeGames
+|j| FidgetSpinat
+|j| Serpi n_n
+|j| Metamonogatari
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VenuflibisTV)
+|inactive|PersephoneXIV has 285 seconds left.
+|inactive|PersephoneXIV has 270 seconds left.
+|
+|start
+|switch|p1a: Skarmory|Skarmory, M|100\/100
+|switch|p2a: Jeanne D'arc|Clefable, F|100\/100
+|turn|1
+|inactive|VenuflibisTV has 285 seconds left.
+|inactive|PersephoneXIV has 255 seconds left.
+|inactive|VenuflibisTV has 270 seconds left.
+|
+|switch|p2a: Jack The Ripper|Excadrill, F|100\/100
+|move|p1a: Skarmory|Spikes|p2a: Jack The Ripper
+|-sidestart|p2: PersephoneXIV|Spikes
+|
+|upkeep
+|turn|2
+|inactive|VenuflibisTV has 270 seconds left.
+|
+|move|p2a: Jack The Ripper|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: VenuflibisTV|move: Stealth Rock
+|move|p1a: Skarmory|Spikes|p2a: Jack The Ripper
+|-sidestart|p2: PersephoneXIV|Spikes
+|
+|upkeep
+|turn|3
+|inactive|VenuflibisTV has 270 seconds left.
+|
+|move|p2a: Jack The Ripper|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|99\/100
+|-damage|p2a: Jack The Ripper|84\/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-sideend|p2: PersephoneXIV|Spikes|[from] move: Rapid Spin|[of] p2a: Jack The Ripper
+|move|p1a: Skarmory|Spikes|p2a: Jack The Ripper
+|-sidestart|p2: PersephoneXIV|Spikes
+|
+|-heal|p2a: Jack The Ripper|90\/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|PersephoneXIV has 270 seconds left.
+|
+|switch|p2a: Semirames|Jellicent, F|100\/100
+|-damage|p2a: Semirames|88\/100|[from] Spikes
+|move|p1a: Skarmory|Defog|p2a: Semirames
+|-unboost|p2a: Semirames|evasion|1
+|-sideend|p2: PersephoneXIV|Spikes|[from] move: Defog|[of] p2a: Semirames
+|-sideend|p1: VenuflibisTV|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|
+|upkeep
+|turn|5
+|inactive|VenuflibisTV has 285 seconds left.
+|inactive|PersephoneXIV has 270 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|move|p2a: Semirames|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|
+|upkeep
+|turn|6
+|inactive|VenuflibisTV has 285 seconds left.
+|inactive|PersephoneXIV has 270 seconds left.
+|
+|switch|p2a: Jack The Ripper|Excadrill, F|90\/100
+|move|p1a: Clefable|Moonblast|p2a: Jack The Ripper
+|-resisted|p2a: Jack The Ripper
+|-damage|p2a: Jack The Ripper|71\/100
+|
+|-heal|p2a: Jack The Ripper|77\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|PersephoneXIV has 270 seconds left.
+|inactive|PersephoneXIV has 255 seconds left.
+|
+|switch|p1a: Skarmory|Skarmory, M|99\/100
+|move|p2a: Jack The Ripper|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: VenuflibisTV|move: Stealth Rock
+|
+|-heal|p2a: Jack The Ripper|83\/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|PersephoneXIV has 255 seconds left.
+|inactive|VenuflibisTV has 285 seconds left.
+|
+|switch|p2a: Jeanne D'arc|Clefable, F|100\/100
+|move|p1a: Skarmory|Spikes|p2a: Jeanne D'arc
+|-sidestart|p2: PersephoneXIV|Spikes
+|
+|upkeep
+|turn|9
+|j| Qetrix
+|inactive|VenuflibisTV has 285 seconds left.
+|inactive|PersephoneXIV has 255 seconds left.
+|inactive|VenuflibisTV has 270 seconds left.
+|inactive|VenuflibisTV has 255 seconds left.
+|
+|move|p1a: Skarmory|Defog|p2a: Jeanne D'arc
+|-unboost|p2a: Jeanne D'arc|evasion|1
+|-sideend|p2: PersephoneXIV|Spikes|[from] move: Defog|[of] p2a: Jeanne D'arc
+|-sideend|p1: VenuflibisTV|Stealth Rock|[from] move: Defog|[of] p1a: Skarmory
+|move|p2a: Jeanne D'arc|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|
+|upkeep
+|turn|10
+|inactive|PersephoneXIV has 255 seconds left.
+|inactive|VenuflibisTV has 240 seconds left.
+|
+|switch|p2a: Jack The Ripper|Excadrill, F|83\/100
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-item|p1a: Excadrill|Air Balloon
+|
+|-heal|p2a: Jack The Ripper|89\/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|inactive|VenuflibisTV has 240 seconds left.
+|inactive|PersephoneXIV has 240 seconds left.
+|
+|switch|p2a: Sieg|Latios, M|100\/100
+|switch|p1a: Charizard|Charizard, F|100\/100
+|
+|upkeep
+|turn|12
+|inactive|VenuflibisTV has 240 seconds left.
+|inactive|PersephoneXIV has 240 seconds left.
+|inactive|VenuflibisTV has 225 seconds left.
+|inactive|PersephoneXIV has 225 seconds left.
+|inactive|VenuflibisTV has 210 seconds left.
+|inactive|PersephoneXIV has 210 seconds left.
+|inactive|VenuflibisTV has 195 seconds left.
+|
+|switch|p1a: Clefable|Clefable, M|100\/100
+|-mega|p2a: Sieg|Latios|Latiosite
+|detailschange|p2a: Sieg|Latios-Mega, M
+|move|p2a: Sieg|Draco Meteor|p1a: Clefable
+|-immune|p1a: Clefable|[msg]
+|
+|upkeep
+|turn|13
+|inactive|VenuflibisTV has 180 seconds left.
+|
+|switch|p1a: Tyranitar|Tyranitar, F|100\/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Sieg|Psychic|p1a: Tyranitar
+|-immune|p1a: Tyranitar|[msg]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sieg|95\/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|VenuflibisTV has 180 seconds left.
+|inactive|PersephoneXIV has 195 seconds left.
+|j| drachenkeule
+|inactive|VenuflibisTV has 165 seconds left.
+|inactive|PersephoneXIV has 180 seconds left.
+|inactive|VenuflibisTV has 150 seconds left.
+|inactive|PersephoneXIV has 165 seconds left.
+|inactive|PersephoneXIV has 150 seconds left.
+|inactive|VenuflibisTV has 135 seconds left.
+|inactive|PersephoneXIV has 135 seconds left.
+|
+|move|p2a: Sieg|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48\/100
+|-unboost|p2a: Sieg|spa|2
+|move|p1a: Tyranitar|Pursuit|p2a: Sieg
+|-supereffective|p2a: Sieg
+|-damage|p2a: Sieg|17\/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sieg|11\/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|move|p2a: Sieg|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sieg|5\/100|[from] Sandstorm
+|upkeep
+|inactive|VenuflibisTV has 150 seconds left.
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|16
+|inactive|VenuflibisTV has 150 seconds left.
+|inactive|PersephoneXIV has 150 seconds left.
+|inactive|PersephoneXIV has 135 seconds left.
+|inactive|VenuflibisTV has 135 seconds left.
+|inactive|PersephoneXIV has 120 seconds left.
+|inactive|VenuflibisTV has 120 seconds left.
+|inactive|PersephoneXIV has 105 seconds left.
+|inactive|VenuflibisTV has 105 seconds left.
+|
+|switch|p2a: Jack The Ripper|Excadrill, F|89\/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Jack The Ripper|95\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|VenuflibisTV has 105 seconds left.
+|
+|switch|p2a: Shirou Emiya|Skarmory, F|100\/100
+|move|p1a: Excadrill|Earthquake|p2a: Shirou Emiya
+|-immune|p2a: Shirou Emiya|[msg]
+|
+|-weather|none
+|upkeep
+|turn|18
+|inactive|VenuflibisTV has 105 seconds left.
+|inactive|PersephoneXIV has 120 seconds left.
+|inactive|PersephoneXIV has 105 seconds left.
+|inactive|PersephoneXIV has 90 seconds left.
+|
+|switch|p2a: Sieg|Latios-Mega, M|5\/100
+|move|p1a: Excadrill|Rock Slide|p2a: Sieg
+|-damage|p2a: Sieg|0 fnt
+|faint|p2a: Sieg
+|
+|upkeep
+|
+|switch|p2a: Shirou Emiya|Skarmory, F|100\/100
+|turn|19
+|inactive|VenuflibisTV has 105 seconds left.
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Shirou Emiya
+|-damage|p2a: Shirou Emiya|57\/100
+|move|p2a: Shirou Emiya|Spikes|p1a: Excadrill
+|-sidestart|p1: VenuflibisTV|Spikes
+|
+|-heal|p2a: Shirou Emiya|63\/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|VenuflibisTV has 105 seconds left.
+|inactive|PersephoneXIV has 105 seconds left.
+|
+|move|p1a: Excadrill|Rock Slide|p2a: Shirou Emiya
+|-crit|p2a: Shirou Emiya
+|-damage|p2a: Shirou Emiya|1\/100
+|cant|p2a: Shirou Emiya|flinch
+|
+|-heal|p2a: Shirou Emiya|7\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|VenuflibisTV has 105 seconds left.
+|inactive|PersephoneXIV has 105 seconds left.
+|inactive|PersephoneXIV has 90 seconds left.
+|inactive|VenuflibisTV has 90 seconds left.
+|c|☆PersephoneXIV|aight
+|c|☆PersephoneXIV|gg
+|inactive|PersephoneXIV has 75 seconds left.
+|c|☆PersephoneXIV|ich war counter
+|c|☆VenuflibisTV|sorry
+|-message|PersephoneXIV forfeited.
+|
+|win|VenuflibisTV
+|l|☆PersephoneXIV
+|j| Energie Tobutz

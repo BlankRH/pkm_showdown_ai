@@ -1,0 +1,675 @@
+|j|☆Tota Konoe
+|j|☆potatobagel V2
+|player|p1|Tota Konoe|52
+|player|p2|potatobagel V2|230
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Breloom, F|item
+|poke|p1|Manectric, F|item
+|poke|p1|Milotic, F|item
+|poke|p1|Salamence, M|item
+|poke|p1|Gardevoir, M|item
+|poke|p1|Swampert, M|item
+|poke|p2|Chansey, F|item
+|poke|p2|Seismitoad, M|item
+|poke|p2|Slowbro, M|item
+|poke|p2|Zapdos|item
+|poke|p2|Scizor, M|item
+|poke|p2|Clefable, M|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|
+|start
+|switch|p1a: Swampert|Swampert, M|100\/100
+|switch|p2a: Scizor|Scizor, M|100\/100
+|turn|1
+|
+|detailschange|p2a: Scizor|Scizor-Mega, M
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2a: Scizor|U-turn|p1a: Swampert
+|-crit|p1a: Swampert
+|-damage|p1a: Swampert|57\/100
+|
+|switch|p2a: Seismitoad|Seismitoad, M|100\/100
+|move|p1a: Swampert|Stealth Rock|p2a: Seismitoad
+|-sidestart|p2: potatobagel V2|move: Stealth Rock
+|
+|-heal|p1a: Swampert|64\/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|switch|p1a: Breloom|Breloom, F|100\/100
+|move|p2a: Seismitoad|Stealth Rock|p1a: Breloom
+|-sidestart|p1: Tota Konoe|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|move|p1a: Breloom|Seed Bomb|p2a: Seismitoad
+|-supereffective|p2a: Seismitoad
+|-damage|p2a: Seismitoad|0 fnt
+|faint|p2a: Seismitoad
+|
+|upkeep
+|
+|switch|p2a: Zapdos|Zapdos|100\/100
+|-damage|p2a: Zapdos|75\/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|turn|4
+|
+|switch|p1a: Swampert|Swampert, M|64\/100
+|-damage|p1a: Swampert|57\/100|[from] Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Swampert
+|-resisted|p1a: Swampert
+|-damage|p1a: Swampert|45\/100
+|
+|-heal|p2a: Zapdos|82\/100|[from] item: Leftovers
+|-heal|p1a: Swampert|51\/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by potatobagel V2)
+|
+|switch|p2a: Slowbro|Slowbro, M|100\/100
+|-damage|p2a: Slowbro|88\/100|[from] Stealth Rock
+|move|p1a: Swampert|Ice Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|82\/100
+|
+|-heal|p1a: Swampert|57\/100|[from] item: Leftovers
+|-heal|p2a: Slowbro|88\/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|move|p1a: Swampert|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|62\/100
+|move|p2a: Slowbro|Scald|p1a: Swampert
+|-damage|p1a: Swampert|33\/100
+|-status|p1a: Swampert|brn
+|
+|-heal|p1a: Swampert|39\/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowbro|68\/100|[from] item: Leftovers
+|-damage|p1a: Swampert|26\/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|move|p1a: Swampert|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|54\/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|100\/100
+|
+|-heal|p1a: Swampert|33\/100 brn|[from] item: Leftovers
+|-damage|p1a: Swampert|20\/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|potatobagel V2 has 135 seconds left.
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|-damage|p2a: Clefable|88\/100|[from] Stealth Rock
+|move|p1a: Swampert|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|71\/100
+|
+|-heal|p1a: Swampert|26\/100 brn|[from] item: Leftovers
+|-heal|p2a: Clefable|77\/100|[from] item: Leftovers
+|-damage|p1a: Swampert|14\/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|Tota Konoe has 135 seconds left.
+|
+|switch|p1a: Salamence|Salamence, M|100\/100
+|-damage|p1a: Salamence|76\/100|[from] Stealth Rock
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|83\/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Salamence|Earthquake|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100\/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|11
+|
+|switch|p2a: Slowbro|Slowbro, M|100\/100
+|-damage|p2a: Slowbro|88\/100|[from] Stealth Rock
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|65\/100
+|
+|-heal|p2a: Slowbro|71\/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|switch|p1a: Swampert|Swampert, M|14\/100 brn
+|-damage|p1a: Swampert|8\/100 brn|[from] Stealth Rock
+|move|p2a: Slowbro|Thunder Wave|p1a: Swampert
+|-immune|p1a: Swampert|[msg]
+|
+|-heal|p1a: Swampert|14\/100 brn|[from] item: Leftovers
+|-heal|p2a: Slowbro|77\/100|[from] item: Leftovers
+|-damage|p1a: Swampert|2\/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|switch|p2a: Clefable|Clefable, M|100\/100
+|-damage|p2a: Clefable|88\/100|[from] Stealth Rock
+|move|p1a: Swampert|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|71\/100
+|
+|-heal|p2a: Clefable|77\/100|[from] item: Leftovers
+|-heal|p1a: Swampert|8\/100 brn|[from] item: Leftovers
+|-damage|p1a: Swampert|0 fnt|[from] brn
+|upkeep
+|faint|p1a: Swampert
+|inactive|Tota Konoe has 135 seconds left.
+|
+|switch|p1a: Gardevoir|Gardevoir, M|100\/100
+|-damage|p1a: Gardevoir|88\/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Unaware|[from] ability: Trace|[of] p2a: Clefable
+|turn|14
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|83\/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|potatobagel V2 has 135 seconds left.
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|move|p1a: Gardevoir|Psyshock|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|68\/100
+|
+|upkeep
+|turn|16
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|Tota Konoe has 120 seconds left.
+|inactive|Tota Konoe has 105 seconds left.
+|
+|switch|p1a: Milotic|Milotic, F|100\/100
+|-damage|p1a: Milotic|88\/100|[from] Stealth Rock
+|move|p2a: Scizor|Roost|p2a: Scizor
+|-heal|p2a: Scizor|100\/100
+|
+|-heal|p1a: Milotic|94\/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|move|p2a: Scizor|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|57\/100
+|
+|switch|p2a: Chansey|Chansey, F|100\/100
+|-damage|p2a: Chansey|88\/100|[from] Stealth Rock
+|move|p1a: Milotic|Scald|p2a: Chansey
+|-damage|p2a: Chansey|80\/100
+|
+|-heal|p1a: Milotic|64\/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|Tota Konoe has 120 seconds left.
+|
+|switch|p1a: Breloom|Breloom, F|100\/100
+|-damage|p1a: Breloom|94\/100|[from] Stealth Rock
+|move|p2a: Chansey|Toxic|p1a: Breloom
+|-status|p1a: Breloom|tox
+|
+|-damage|p1a: Breloom|88\/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|switch|p2a: Scizor|Scizor-Mega, M|100\/100
+|-damage|p2a: Scizor|88\/100|[from] Stealth Rock
+|move|p1a: Breloom|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|61\/100
+|-heal|p1a: Breloom|100\/100 tox|[from] drain|[of] p2a: Scizor
+|
+|-damage|p1a: Breloom|88\/100 tox|[from] psn
+|upkeep
+|turn|20
+|inactive|Tota Konoe has 135 seconds left.
+|
+|switch|p1a: Milotic|Milotic, F|64\/100
+|-damage|p1a: Milotic|51\/100|[from] Stealth Rock
+|move|p2a: Scizor|Bullet Punch|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|35\/100
+|
+|-heal|p1a: Milotic|41\/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|move|p2a: Scizor|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|3\/100
+|
+|switch|p2a: Zapdos|Zapdos|82\/100
+|-damage|p2a: Zapdos|57\/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|54\/100
+|
+|-heal|p2a: Zapdos|63\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|60\/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|potatobagel V2 has 135 seconds left.
+|
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|move|p2a: Zapdos|Heat Wave|p1a: Milotic
+|-activate|p1a: Milotic|move: Protect
+|
+|-heal|p2a: Zapdos|69\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|66\/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|move|p2a: Zapdos|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|-sideend|p1: Tota Konoe|Stealth Rock|[from] move: Defog|[of] p1a: Milotic
+|-sideend|p2: potatobagel V2|Stealth Rock|[from] move: Defog|[of] p2a: Zapdos
+|move|p1a: Milotic|Scald|p2a: Zapdos
+|-damage|p2a: Zapdos|11\/100
+|
+|-heal|p2a: Zapdos|17\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|72\/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|move|p2a: Zapdos|Discharge|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|19\/100
+|-status|p1a: Milotic|par
+|move|p1a: Milotic|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-heal|p1a: Milotic|25\/100 par|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Clefable|Clefable, M|83\/100
+|turn|25
+|inactive|Tota Konoe has 135 seconds left.
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|cant|p1a: Milotic|par
+|
+|-heal|p2a: Clefable|89\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|31\/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|move|p2a: Clefable|Wish|p2a: Clefable
+|cant|p1a: Milotic|par
+|
+|-heal|p2a: Clefable|95\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|38\/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|cant|p1a: Milotic|par
+|
+|-heal|p2a: Clefable|100\/100|[from] move: Wish|[wisher] Clefable
+|-heal|p1a: Milotic|44\/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|switch|p1a: Gardevoir|Gardevoir, M|88\/100
+|-ability|p1a: Gardevoir|Unaware|[from] ability: Trace|[of] p2a: Clefable
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|upkeep
+|turn|30
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|52\/100
+|move|p2a: Clefable|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|62\/100
+|
+|-heal|p2a: Clefable|58\/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|15\/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|21\/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|Tota Konoe has 120 seconds left.
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|71\/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|77\/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|31\/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|-heal|p2a: Clefable|38\/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|Tota Konoe has 120 seconds left.
+|
+|switch|p1a: Milotic|Milotic, F|44\/100 par
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-fail|p2a: Clefable
+|
+|-heal|p2a: Clefable|88\/100|[from] move: Wish|[wisher] Clefable
+|-heal|p2a: Clefable|94\/100|[from] item: Leftovers
+|-heal|p1a: Milotic|50\/100 par|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|move|p2a: Clefable|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-heal|p2a: Clefable|99\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Gardevoir|Gardevoir, M|62\/100
+|-ability|p1a: Gardevoir|Unaware|[from] ability: Trace|[of] p2a: Clefable
+|turn|36
+|
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Gardevoir|Moonblast|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|100\/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|switch|p2a: Scizor|Scizor-Mega, M|61\/100
+|move|p1a: Gardevoir|Moonblast|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|29\/100
+|
+|upkeep
+|turn|38
+|inactive|Tota Konoe has 135 seconds left.
+|inactive|potatobagel V2 has 135 seconds left.
+|
+|switch|p1a: Breloom|Breloom, F|88\/100 tox
+|move|p2a: Scizor|Bullet Punch|p1a: Breloom
+|-damage|p1a: Breloom|39\/100 tox
+|
+|-damage|p1a: Breloom|33\/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|switch|p2a: Slowbro|Slowbro, M|100\/100
+|move|p1a: Breloom|Mach Punch|p2a: Slowbro
+|-resisted|p2a: Slowbro
+|-damage|p2a: Slowbro|92\/100
+|
+|-heal|p2a: Slowbro|98\/100|[from] item: Leftovers
+|-damage|p1a: Breloom|21\/100 tox|[from] psn
+|upkeep
+|turn|40
+|inactive|potatobagel V2 has 135 seconds left.
+|inactive|potatobagel V2 has 120 seconds left.
+|
+|move|p1a: Breloom|Seed Bomb|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|50\/100
+|move|p2a: Slowbro|Psyshock|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|-heal|p2a: Slowbro|56\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p1a: Manectric|Manectric, F|100\/100
+|turn|41
+|
+|switch|p2a: Chansey|Chansey, F|80\/100
+|detailschange|p1a: Manectric|Manectric-Mega, F
+|-mega|p1a: Manectric|Manectric|Manectite
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|move|p1a: Manectric|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|67\/100
+|
+|upkeep
+|turn|42
+|
+|move|p1a: Manectric|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|57\/100
+|
+|switch|p1a: Salamence|Salamence, M|76\/100
+|move|p2a: Chansey|Toxic|p1a: Salamence
+|-status|p1a: Salamence|tox
+|
+|-damage|p1a: Salamence|70\/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|switch|p2a: Slowbro|Slowbro, M|90\/100
+|move|p1a: Salamence|Earthquake|p2a: Slowbro
+|-damage|p2a: Slowbro|68\/100
+|
+|-heal|p2a: Slowbro|74\/100|[from] item: Leftovers
+|-damage|p1a: Salamence|58\/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|switch|p1a: Manectric|Manectric-Mega, F|100\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|move|p2a: Slowbro|Psyshock|p1a: Manectric
+|-damage|p1a: Manectric|57\/100
+|
+|-heal|p2a: Slowbro|80\/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|switch|p2a: Chansey|Chansey, F|57\/100
+|move|p1a: Manectric|Volt Switch|p2a: Chansey
+|-damage|p2a: Chansey|48\/100
+|
+|switch|p1a: Gardevoir|Gardevoir, M|62\/100
+|-ability|p1a: Gardevoir|Natural Cure|[from] ability: Trace|[of] p2a: Chansey
+|
+|upkeep
+|turn|46
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|1\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|51\/100
+|
+|upkeep
+|turn|47
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|10\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|60\/100
+|
+|upkeep
+|turn|48
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|17\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|67\/100
+|
+|upkeep
+|turn|49
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|27\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|77\/100
+|
+|upkeep
+|turn|50
+|c|☆Tota Konoe|lmao this is the longest game i've had
+|inactive|Tota Konoe has 135 seconds left.
+|
+|move|p1a: Gardevoir|Psyshock|p2a: Chansey
+|-damage|p2a: Chansey|36\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|86\/100
+|
+|upkeep
+|turn|51
+|
+|switch|p1a: Salamence|Salamence, M|58\/100 tox
+|switch|p2a: Slowbro|Slowbro, M|100\/100
+|
+|-damage|p1a: Salamence|52\/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|move|p1a: Salamence|Outrage|p2a: Slowbro
+|-damage|p2a: Slowbro|64\/100
+|move|p2a: Slowbro|Psyshock|p1a: Salamence
+|-damage|p1a: Salamence|20\/100 tox
+|
+|-heal|p2a: Slowbro|71\/100|[from] item: Leftovers
+|-damage|p1a: Salamence|7\/100 tox|[from] psn
+|upkeep
+|turn|53
+|
+|move|p1a: Salamence|Outrage|p2a: Slowbro|[from]lockedmove
+|-damage|p2a: Slowbro|35\/100
+|move|p2a: Slowbro|Slack Off|p2a: Slowbro
+|-heal|p2a: Slowbro|85\/100
+|
+|-heal|p2a: Slowbro|91\/100|[from] item: Leftovers
+|-damage|p1a: Salamence|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Salamence
+|inactive|Tota Konoe has 135 seconds left.
+|
+|switch|p1a: Manectric|Manectric-Mega, F|57\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Slowbro|atk|1
+|turn|54
+|
+|move|p1a: Manectric|Volt Switch|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|15\/100
+|
+|switch|p1a: Gardevoir|Gardevoir, M|62\/100
+|-ability|p1a: Gardevoir|Regenerator|[from] ability: Trace|[of] p2a: Slowbro
+|move|p2a: Slowbro|Scald|p1a: Gardevoir
+|-damage|p1a: Gardevoir|37\/100
+|
+|-heal|p2a: Slowbro|21\/100|[from] item: Leftovers
+|upkeep
+|turn|55
+|
+|move|p1a: Gardevoir|Shadow Ball|p2a: Slowbro
+|-supereffective|p2a: Slowbro
+|-damage|p2a: Slowbro|0 fnt
+|faint|p2a: Slowbro
+|
+|upkeep
+|
+|switch|p2a: Chansey|Chansey, F|86\/100
+|turn|56
+|
+|switch|p1a: Manectric|Manectric-Mega, F|57\/100
+|-ability|p1a: Manectric|Intimidate|boost
+|-unboost|p2a: Chansey|atk|1
+|move|p2a: Chansey|Toxic|p1a: Manectric
+|-status|p1a: Manectric|tox
+|
+|-damage|p1a: Manectric|51\/100 tox|[from] psn
+|upkeep
+|turn|57
+|inactive|Tota Konoe has 135 seconds left.
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|72\/100
+|move|p2a: Chansey|Seismic Toss|p1a: Manectric
+|-damage|p1a: Manectric|15\/100 tox
+|
+|-damage|p1a: Manectric|3\/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|move|p1a: Manectric|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|59\/100
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100\/100
+|
+|-damage|p1a: Manectric|0 fnt|[from] psn
+|upkeep
+|faint|p1a: Manectric
+|
+|switch|p1a: Gardevoir|Gardevoir, M|70\/100
+|-ability|p1a: Gardevoir|Natural Cure|[from] ability: Trace|[of] p2a: Chansey
+|turn|59
+|c|☆potatobagel V2|gg
+|c|☆Tota Konoe|gg
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Chansey
+|-damage|p2a: Chansey|82\/100
+|move|p2a: Chansey|Seismic Toss|p1a: Gardevoir
+|-damage|p1a: Gardevoir|35\/100
+|
+|upkeep
+|turn|60
+|
+|move|p1a: Gardevoir|Moonblast|p2a: Chansey
+|-damage|p2a: Chansey|61\/100
+|move|p2a: Chansey|Seismic Toss|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|win|potatobagel V2
+|raw|Tota Konoe's rating: 1115 &rarr; <strong>1105<\/strong><br \/>(-10 for losing)
+|raw|potatobagel V2's rating: 1365 &rarr; <strong>1373<\/strong><br \/>(+8 for winning)
+|l|☆potatobagel V2

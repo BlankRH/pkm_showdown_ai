@@ -1,0 +1,246 @@
+|j|☆Greensaur94
+|j|☆goodnewsbears
+|player|p1|Greensaur94|151
+|player|p2|goodnewsbears|101
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Venusaur, M|item
+|poke|p1|Manaphy|item
+|poke|p1|Dragonite, F|item
+|poke|p1|Volcarona, F|item
+|poke|p1|Excadrill, M|item
+|poke|p1|Klefki, F|item
+|poke|p2|Alakazam, F|item
+|poke|p2|Clefable, F|item
+|poke|p2|Gliscor, F|item
+|poke|p2|Talonflame, F|item
+|poke|p2|Tentacruel, F|item
+|poke|p2|Scizor, F|item
+|rule|Swagger Clause: Swagger is banned
+|rule|Baton Pass Clause: Limit one Baton Passer, can't pass Spe and other stats simultaneously
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by goodnewsbears)
+|inactive|Greensaur94 has 135 seconds left.
+|
+|start
+|switch|p1a: Manaphy|Manaphy|100\/100
+|switch|p2a: Alakazam|Alakazam, F|100\/100
+|turn|1
+|
+|switch|p1a: Klefki|Klefki, F|100\/100
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|detailschange|p2a: Alakazam|Alakazam-Mega, F
+|-ability|p2a: Alakazam|Prankster|[from] ability: Trace|[of] p1a: Klefki
+|move|p2a: Alakazam|Energy Ball|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|77\/100
+|
+|upkeep
+|turn|2
+|
+|switch|p2a: Gliscor|Gliscor, F|100\/100
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: Greensaur94|move: Light Screen
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|upkeep
+|turn|4
+|
+|move|p2a: Gliscor|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|10\/100
+|move|p1a: Klefki|Foul Play|p2a: Gliscor
+|-damage|p2a: Gliscor|56\/100 tox
+|
+|-heal|p2a: Gliscor|68\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|switch|p1a: Dragonite|Dragonite, F|100\/100
+|move|p2a: Gliscor|Facade|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|40\/100
+|
+|-heal|p2a: Gliscor|81\/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|move|p2a: Gliscor|Facade|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Gliscor|93\/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|switch|p1a: Manaphy|Manaphy|100\/100
+|turn|7
+|
+|switch|p2a: Tentacruel|Tentacruel, F|100\/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|8
+|
+|move|p2a: Tentacruel|Acid Spray|p1a: Manaphy
+|-crit|p1a: Manaphy
+|-damage|p1a: Manaphy|86\/100
+|-unboost|p1a: Manaphy|spd|2
+|move|p1a: Manaphy|Energy Ball|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|46\/100
+|
+|-heal|p2a: Tentacruel|52\/100|[from] item: Black Sludge
+|-heal|p1a: Manaphy|93\/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Greensaur94 has 135 seconds left.
+|
+|switch|p2a: Clefable|Clefable, F|100\/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p1a: Manaphy|99\/100|[from] item: Leftovers
+|-sideend|p1: Greensaur94|move: Light Screen
+|upkeep
+|turn|10
+|
+|move|p1a: Manaphy|Scald|p2a: Clefable
+|-damage|p2a: Clefable|72\/100
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Stealth Rock|p1a: Manaphy
+|-sidestart|p1: Greensaur94|move: Stealth Rock
+|
+|-heal|p1a: Manaphy|100\/100|[from] item: Leftovers
+|-heal|p2a: Clefable|78\/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|66\/100 brn|[from] brn
+|-sideend|p1: Greensaur94|Reflect
+|upkeep
+|turn|11
+|
+|switch|p1a: Excadrill|Excadrill, M|100\/100
+|-damage|p1a: Excadrill|97\/100|[from] Stealth Rock
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Clefable|Flamethrower|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|46\/100
+|
+|-heal|p2a: Clefable|72\/100 brn|[from] item: Leftovers
+|-damage|p2a: Clefable|60\/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|move|p1a: Excadrill|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|switch|p2a: Scizor|Scizor, F|100\/100
+|turn|13
+|inactive|Greensaur94 has 135 seconds left.
+|
+|-activate|p1a: Excadrill|move: Pursuit
+|move|p2a: Scizor|Pursuit|p1a: Excadrill|[from]Pursuit
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|j| theoreve
+|
+|switch|p1a: Klefki|Klefki, F|10\/100
+|-damage|p1a: Klefki|4\/100|[from] Stealth Rock
+|turn|14
+|
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: Greensaur94|Reflect
+|move|p2a: Scizor|Pursuit|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|switch|p1a: Manaphy|Manaphy|100\/100
+|-damage|p1a: Manaphy|88\/100|[from] Stealth Rock
+|turn|15
+|
+|switch|p2a: Tentacruel|Tentacruel, F|52\/100
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p2a: Tentacruel|58\/100|[from] item: Black Sludge
+|-heal|p1a: Manaphy|94\/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|move|p2a: Tentacruel|Acid Spray|p1a: Manaphy
+|-damage|p1a: Manaphy|85\/100
+|-unboost|p1a: Manaphy|spd|2
+|move|p1a: Manaphy|Energy Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|25\/100
+|-unboost|p2a: Tentacruel|spd|1
+|
+|-heal|p1a: Manaphy|91\/100|[from] item: Leftovers
+|-heal|p2a: Tentacruel|32\/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|move|p1a: Manaphy|Energy Ball|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-heal|p1a: Manaphy|97\/100|[from] item: Leftovers
+|upkeep
+|
+|switch|p2a: Alakazam|Alakazam-Mega, F|100\/100
+|-ability|p2a: Alakazam|Hydration|[from] ability: Trace|[of] p1a: Manaphy
+|turn|18
+|
+|move|p2a: Alakazam|Energy Ball|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|
+|switch|p1a: Venusaur|Venusaur, M|100\/100
+|-damage|p1a: Venusaur|88\/100|[from] Stealth Rock
+|turn|19
+|
+|-mega|p1a: Venusaur|Venusaur|Venusaurite
+|detailschange|p1a: Venusaur|Venusaur-Mega, M
+|move|p2a: Alakazam|Psychic|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|upkeep
+|-message|Greensaur94 forfeited.
+|
+|win|goodnewsbears
+|l|☆Greensaur94
+|raw|Greensaur94's rating: 1460 &rarr; <strong>1446<\/strong><br \/>(-14 for losing)
+|raw|goodnewsbears's rating: 1569 &rarr; <strong>1583<\/strong><br \/>(+14 for winning)

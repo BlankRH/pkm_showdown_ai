@@ -1,0 +1,581 @@
+|j|☆Shiftteam
+|j|☆clown_spice
+|player|p1|Shiftteam|28
+|player|p2|clown_spice|160
+|teamsize|p1|6
+|teamsize|p2|6
+|gametype|singles
+|gen|6
+|tier|[Gen 6] OU
+|rated|
+|rule|Sleep Clause Mod: Limit one foe put to sleep
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Moody Clause: Moody is banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|HP Percentage Mod: HP is shown in percentages
+|clearpoke
+|poke|p1|Keldeo|item
+|poke|p1|Clefable, F|item
+|poke|p1|Gengar, F|item
+|poke|p1|Bisharp, M|item
+|poke|p1|Landorus-Therian, M|item
+|poke|p1|Latios, M|item
+|poke|p2|Whimsicott, M|item
+|poke|p2|Metagross|item
+|poke|p2|Hydreigon, F|item
+|poke|p2|Landorus-Therian, M|item
+|poke|p2|Heatran, F|item
+|poke|p2|Mew|item
+|rule|Swagger Clause: Swagger is banned
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shiftteam)
+|
+|start
+|switch|p1a: SCARLET WITCH|Gengar, F|100\/100
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: SCARLET WITCH|atk|1
+|turn|1
+|
+|move|p2a: Landorus|Knock Off|p1a: SCARLET WITCH
+|-supereffective|p1a: SCARLET WITCH
+|-damage|p1a: SCARLET WITCH|0 fnt
+|-enditem|p1a: SCARLET WITCH|Life Orb|[from] move: Knock Off|[of] p2a: Landorus
+|faint|p1a: SCARLET WITCH
+|
+|upkeep
+|
+|switch|p1a: IRON MAN|Bisharp, M|100\/100
+|turn|2
+|
+|move|p2a: Landorus|Knock Off|p1a: IRON MAN
+|-resisted|p1a: IRON MAN
+|-damage|p1a: IRON MAN|77\/100
+|-enditem|p1a: IRON MAN|Black Glasses|[from] move: Knock Off|[of] p2a: Landorus
+|move|p1a: IRON MAN|Swords Dance|p1a: IRON MAN
+|-boost|p1a: IRON MAN|atk|2
+|
+|upkeep
+|turn|3
+|inactive|clown_spice has 135 seconds left.
+|
+|switch|p2a: Hydreigon|Hydreigon, F|100\/100
+|move|p1a: IRON MAN|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|41\/100
+|-enditem|p2a: Hydreigon|Life Orb|[from] move: Knock Off|[of] p1a: IRON MAN
+|
+|upkeep
+|turn|4
+|
+|move|p1a: IRON MAN|Sucker Punch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|switch|p2a: Whimsicott|Whimsicott, M|100\/100
+|turn|5
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|100\/100
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|move|p2a: Whimsicott|Encore|p1a: HULKBUSTER
+|-fail|p2a: Whimsicott
+|
+|upkeep
+|turn|6
+|
+|move|p2a: Whimsicott|Stun Spore|p1a: HULKBUSTER
+|-status|p1a: HULKBUSTER|par
+|move|p1a: HULKBUSTER|U-turn|p2a: Whimsicott
+|-damage|p2a: Whimsicott|80\/100
+|
+|switch|p1a: IRON MAN|Bisharp, M|77\/100
+|
+|-heal|p2a: Whimsicott|86\/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|switch|p2a: Heatran|Heatran, F|100\/100
+|move|p1a: IRON MAN|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|51\/100
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: IRON MAN
+|
+|upkeep
+|turn|8
+|
+|move|p1a: IRON MAN|Swords Dance|p1a: IRON MAN
+|-boost|p1a: IRON MAN|atk|2
+|move|p2a: Heatran|Lava Plume|p1a: IRON MAN
+|-supereffective|p1a: IRON MAN
+|-damage|p1a: IRON MAN|0 fnt
+|faint|p1a: IRON MAN
+|
+|upkeep
+|inactive|Shiftteam has 135 seconds left.
+|
+|switch|p1a: VISION|Latios, M, shiny|100\/100
+|turn|9
+|
+|detailschange|p1a: VISION|Latios-Mega, M, shiny
+|-mega|p1a: VISION|Latios|Latiosite
+|move|p1a: VISION|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|switch|p2a: Mew|Mew|100\/100
+|turn|10
+|
+|move|p1a: VISION|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|49\/100
+|-unboost|p1a: VISION|spa|2
+|move|p2a: Mew|Will-O-Wisp|p1a: VISION
+|-status|p1a: VISION|brn
+|
+|-damage|p1a: VISION|88\/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Shiftteam has 135 seconds left.
+|inactive|clown_spice has 135 seconds left.
+|
+|switch|p1a: WAKANDA FOREVER|Clefable, F|100\/100
+|move|p2a: Mew|Will-O-Wisp|p1a: WAKANDA FOREVER
+|-status|p1a: WAKANDA FOREVER|brn
+|
+|upkeep
+|turn|12
+|
+|move|p2a: Mew|Taunt|p1a: WAKANDA FOREVER
+|-start|p1a: WAKANDA FOREVER|move: Taunt
+|cant|p1a: WAKANDA FOREVER|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|13
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|99\/100
+|move|p1a: WAKANDA FOREVER|Moonblast|p2a: Mew
+|-damage|p2a: Mew|78\/100
+|-unboost|p2a: Mew|spa|1
+|
+|upkeep
+|turn|14
+|
+|move|p2a: Mew|Knock Off|p1a: WAKANDA FOREVER
+|-resisted|p1a: WAKANDA FOREVER
+|-damage|p1a: WAKANDA FOREVER|92\/100 brn
+|-enditem|p1a: WAKANDA FOREVER|Leftovers|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: WAKANDA FOREVER|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|62\/100
+|
+|-end|p1a: WAKANDA FOREVER|move: Taunt
+|upkeep
+|turn|15
+|
+|move|p2a: Mew|Taunt|p1a: WAKANDA FOREVER
+|-start|p1a: WAKANDA FOREVER|move: Taunt
+|cant|p1a: WAKANDA FOREVER|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|16
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|move|p1a: WAKANDA FOREVER|Fire Blast|p2a: Mew
+|-damage|p2a: Mew|85\/100
+|
+|upkeep
+|turn|17
+|
+|move|p2a: Mew|Knock Off|p1a: WAKANDA FOREVER
+|-resisted|p1a: WAKANDA FOREVER
+|-damage|p1a: WAKANDA FOREVER|86\/100 brn
+|move|p1a: WAKANDA FOREVER|Moonblast|p2a: Mew
+|-damage|p2a: Mew|65\/100
+|
+|-end|p1a: WAKANDA FOREVER|move: Taunt
+|upkeep
+|turn|18
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|100\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|move|p2a: Mew|Taunt|p1a: HULKBUSTER
+|-start|p1a: HULKBUSTER|move: Taunt
+|
+|upkeep
+|turn|19
+|
+|switch|p2a: Whimsicott|Whimsicott, M|86\/100
+|cant|p1a: HULKBUSTER|par
+|
+|-heal|p2a: Whimsicott|92\/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|move|p2a: Whimsicott|U-turn|p1a: HULKBUSTER
+|-resisted|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|96\/100 par
+|-damage|p2a: Whimsicott|76\/100|[from] item: Rocky Helmet|[of] p1a: HULKBUSTER
+|
+|switch|p2a: Landorus|Landorus-Therian, M|100\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: HULKBUSTER|atk|1
+|move|p1a: HULKBUSTER|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|92\/100
+|
+|switch|p1a: CAPTAIN MARVEL|Keldeo|100\/100
+|
+|upkeep
+|turn|21
+|
+|switch|p2a: Whimsicott|Whimsicott, M|76\/100
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|50\/100
+|
+|-heal|p2a: Whimsicott|56\/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|96\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|move|p2a: Whimsicott|Moonblast|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|66\/100 par
+|-unboost|p1a: HULKBUSTER|spa|1
+|
+|-heal|p2a: Whimsicott|62\/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|switch|p2a: Landorus|Landorus-Therian, M|92\/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: HULKBUSTER|atk|1
+|move|p1a: HULKBUSTER|Stealth Rock|p2a: Landorus
+|-sidestart|p2: clown_spice|move: Stealth Rock
+|
+|upkeep
+|turn|24
+|inactive|clown_spice has 135 seconds left.
+|
+|move|p2a: Landorus|Earthquake|p1a: HULKBUSTER
+|-immune|p1a: HULKBUSTER|[msg]
+|move|p1a: HULKBUSTER|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|84\/100
+|
+|switch|p1a: CAPTAIN MARVEL|Keldeo|100\/100
+|
+|upkeep
+|turn|25
+|
+|switch|p2a: Mew|Mew|65\/100
+|-damage|p2a: Mew|53\/100|[from] Stealth Rock
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Mew
+|-damage|p2a: Mew|28\/100
+|
+|upkeep
+|turn|26
+|
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Mew
+|-damage|p2a: Mew|4\/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|54\/100
+|
+|upkeep
+|turn|27
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|66\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|
+|upkeep
+|turn|28
+|
+|move|p2a: Mew|Knock Off|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|55\/100 par
+|-damage|p2a: Mew|84\/100|[from] item: Rocky Helmet|[of] p1a: HULKBUSTER
+|-enditem|p1a: HULKBUSTER|Rocky Helmet|[from] move: Knock Off|[of] p2a: Mew
+|move|p1a: HULKBUSTER|Earthquake|p2a: Mew
+|-damage|p2a: Mew|41\/100
+|
+|upkeep
+|turn|29
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|91\/100
+|move|p1a: HULKBUSTER|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|56\/100
+|
+|switch|p1a: VISION|Latios-Mega, M, shiny|88\/100 brn
+|
+|-damage|p1a: VISION|76\/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|move|p1a: VISION|Draco Meteor|p2a: Mew
+|-damage|p2a: Mew|6\/100
+|-unboost|p1a: VISION|spa|2
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|56\/100
+|
+|-damage|p1a: VISION|64\/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|switch|p1a: WAKANDA FOREVER|Clefable, F|86\/100 brn
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|
+|upkeep
+|turn|32
+|
+|move|p2a: Mew|Taunt|p1a: WAKANDA FOREVER
+|-start|p1a: WAKANDA FOREVER|move: Taunt
+|move|p1a: WAKANDA FOREVER|Moonblast|p2a: Mew
+|-damage|p2a: Mew|79\/100
+|
+|upkeep
+|turn|33
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|55\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|move|p2a: Mew|Knock Off|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|50\/100 par
+|
+|upkeep
+|turn|34
+|
+|move|p2a: Mew|Knock Off|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|45\/100 par
+|move|p1a: HULKBUSTER|Earthquake|p2a: Mew
+|-damage|p2a: Mew|37\/100
+|
+|upkeep
+|turn|35
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|87\/100
+|move|p1a: HULKBUSTER|Earthquake|p2a: Mew
+|-damage|p2a: Mew|48\/100
+|
+|upkeep
+|turn|36
+|
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|98\/100
+|move|p1a: HULKBUSTER|Earthquake|p2a: Mew
+|-damage|p2a: Mew|60\/100
+|
+|upkeep
+|turn|37
+|
+|switch|p2a: Landorus|Landorus-Therian, M|84\/100
+|-damage|p2a: Landorus|72\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: HULKBUSTER|atk|1
+|move|p1a: HULKBUSTER|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus|[msg]
+|
+|upkeep
+|turn|38
+|
+|switch|p1a: CAPTAIN MARVEL|Keldeo|100\/100
+|move|p2a: Landorus|U-turn|p1a: CAPTAIN MARVEL
+|-resisted|p1a: CAPTAIN MARVEL
+|-damage|p1a: CAPTAIN MARVEL|85\/100
+|
+|switch|p2a: Mew|Mew|60\/100
+|-damage|p2a: Mew|47\/100|[from] Stealth Rock
+|
+|upkeep
+|turn|39
+|inactive|Shiftteam has 135 seconds left.
+|
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Mew
+|-damage|p2a: Mew|22\/100
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|72\/100
+|
+|upkeep
+|turn|40
+|
+|switch|p1a: WAKANDA FOREVER|Clefable, F|86\/100 brn
+|move|p2a: Mew|Soft-Boiled|p2a: Mew
+|-heal|p2a: Mew|100\/100
+|
+|upkeep
+|turn|41
+|
+|move|p2a: Mew|Taunt|p1a: WAKANDA FOREVER
+|-start|p1a: WAKANDA FOREVER|move: Taunt
+|cant|p1a: WAKANDA FOREVER|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|42
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: WAKANDA FOREVER|[miss]
+|-miss|p2a: Mew|p1a: WAKANDA FOREVER
+|move|p1a: WAKANDA FOREVER|Fire Blast|p2a: Mew|[miss]
+|-miss|p1a: WAKANDA FOREVER|p2a: Mew
+|
+|upkeep
+|turn|43
+|
+|move|p2a: Mew|Will-O-Wisp|p1a: WAKANDA FOREVER
+|-fail|p1a: WAKANDA FOREVER|brn
+|move|p1a: WAKANDA FOREVER|Moonblast|p2a: Mew
+|-damage|p2a: Mew|80\/100
+|
+|-end|p1a: WAKANDA FOREVER|move: Taunt
+|upkeep
+|turn|44
+|
+|move|p2a: Mew|Taunt|p1a: WAKANDA FOREVER
+|-start|p1a: WAKANDA FOREVER|move: Taunt
+|move|p1a: WAKANDA FOREVER|Moonblast|p2a: Mew
+|-damage|p2a: Mew|61\/100
+|-unboost|p2a: Mew|spa|1
+|
+|upkeep
+|turn|45
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|45\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Mew|atk|1
+|move|p2a: Mew|Will-O-Wisp|p1a: HULKBUSTER
+|-fail|p1a: HULKBUSTER
+|
+|upkeep
+|turn|46
+|inactive|clown_spice has 135 seconds left.
+|
+|move|p2a: Mew|Knock Off|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|38\/100 par
+|move|p1a: HULKBUSTER|U-turn|p2a: Mew
+|-supereffective|p2a: Mew
+|-damage|p2a: Mew|20\/100
+|inactive|Shiftteam has 135 seconds left.
+|
+|switch|p1a: CAPTAIN MARVEL|Keldeo|85\/100
+|
+|upkeep
+|turn|47
+|
+|switch|p2a: Whimsicott|Whimsicott, M|62\/100
+|-damage|p2a: Whimsicott|50\/100|[from] Stealth Rock
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|22\/100
+|
+|-heal|p2a: Whimsicott|29\/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|inactive|Shiftteam has 135 seconds left.
+|
+|move|p2a: Whimsicott|Stun Spore|p1a: CAPTAIN MARVEL
+|-status|p1a: CAPTAIN MARVEL|par
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|switch|p2a: Metagross|Metagross|100\/100
+|-damage|p2a: Metagross|95\/100|[from] Stealth Rock
+|turn|49
+|
+|detailschange|p2a: Metagross|Metagross-Mega
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Zen Headbutt|p1a: CAPTAIN MARVEL|[miss]
+|-miss|p2a: Metagross|p1a: CAPTAIN MARVEL
+|move|p1a: CAPTAIN MARVEL|Scald|p2a: Metagross
+|-crit|p2a: Metagross
+|-damage|p2a: Metagross|29\/100
+|
+|upkeep
+|turn|50
+|
+|switch|p1a: HULKBUSTER|Landorus-Therian, M|38\/100 par
+|-ability|p1a: HULKBUSTER|Intimidate|boost
+|-unboost|p2a: Metagross|atk|1
+|move|p2a: Metagross|Zen Headbutt|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|7\/100 par
+|
+|upkeep
+|turn|51
+|
+|move|p2a: Metagross|Ice Punch|p1a: HULKBUSTER
+|-supereffective|p1a: HULKBUSTER
+|-damage|p1a: HULKBUSTER|0 fnt
+|faint|p1a: HULKBUSTER
+|
+|upkeep
+|inactive|Shiftteam has 135 seconds left.
+|
+|switch|p1a: VISION|Latios-Mega, M, shiny|64\/100 brn
+|turn|52
+|
+|switch|p2a: Mew|Mew|20\/100
+|-damage|p2a: Mew|8\/100|[from] Stealth Rock
+|move|p1a: VISION|Earthquake|p2a: Mew
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|-damage|p1a: VISION|51\/100 brn|[from] brn
+|upkeep
+|
+|switch|p2a: Landorus|Landorus-Therian, M|72\/100
+|-damage|p2a: Landorus|59\/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: VISION|atk|1
+|turn|53
+|inactive|Shiftteam has 135 seconds left.
+|
+|move|p2a: Landorus|U-turn|p1a: VISION
+|-supereffective|p1a: VISION
+|-crit|p1a: VISION
+|-damage|p1a: VISION|0 fnt
+|faint|p1a: VISION
+|
+|switch|p2a: Metagross|Metagross-Mega|29\/100
+|-damage|p2a: Metagross|23\/100|[from] Stealth Rock
+|
+|upkeep
+|
+|switch|p1a: CAPTAIN MARVEL|Keldeo|85\/100 par
+|turn|54
+|
+|move|p2a: Metagross|Zen Headbutt|p1a: CAPTAIN MARVEL
+|-supereffective|p1a: CAPTAIN MARVEL
+|-damage|p1a: CAPTAIN MARVEL|0 fnt
+|faint|p1a: CAPTAIN MARVEL
+|
+|upkeep
+|
+|switch|p1a: WAKANDA FOREVER|Clefable, F|86\/100 brn
+|turn|55
+|
+|move|p2a: Metagross|Meteor Mash|p1a: WAKANDA FOREVER
+|-supereffective|p1a: WAKANDA FOREVER
+|-damage|p1a: WAKANDA FOREVER|0 fnt
+|faint|p1a: WAKANDA FOREVER
+|
+|win|clown_spice
+|raw|Shiftteam's rating: 1459 &rarr; <strong>1433<\/strong><br \/>(-26 for losing)
+|raw|clown_spice's rating: 1360 &rarr; <strong>1385<\/strong><br \/>(+25 for winning)
+|l|☆Shiftteam

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "showdown.py", line 315, in run
+    self.play_game(challenge=challenge)
+  File "showdown.py", line 271, in play_game
+    gamestate = self.create_initial_gamestate()
+  File "showdown.py", line 108, in create_initial_gamestate
+    moveset = [m for m in self.smogon_bw_data[poke_name].movesets if 'Overused' == m['tag'] or 'Underused' == m['tag'] or 'Rarelyused' == m['tag'] or 'Neverused' == m['tag'] or 'Unreleased' == m['tag'] or 'Ubers' == m['tag'] or 'PU' in m['tag']]
+KeyError: 'Volcanion'
